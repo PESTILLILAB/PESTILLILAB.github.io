@@ -8,6 +8,7 @@ twitter : https://twitter.com/soichih
 linkedin : https://www.linkedin.com/in/soichihayashi/
 resume : https://docs.google.com/document/d/17fKDYHgBalLlfEvJQfdrYhar5Er-d9D1ItTDSnG-lPs
 github : https://github.com/soichih
+type: team
 ---
 
 Soichi is senior software engineer and technical lead of the brainlife.io platform. 
