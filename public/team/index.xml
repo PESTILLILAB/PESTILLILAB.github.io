@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Teams on Pestilli Lab</title>
+    <link>http://plab.shipsme.com/team/</link>
+    <description>Recent content in Teams on Pestilli Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://plab.shipsme.com/team/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://plab.shipsme.com/team/team_example/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://plab.shipsme.com/team/team_example/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://plab.shipsme.com/team/bradleycaron/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://plab.shipsme.com/team/bradleycaron/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://plab.shipsme.com/team/francopestilli/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://plab.shipsme.com/team/francopestilli/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://plab.shipsme.com/team/ricardostuck/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://plab.shipsme.com/team/ricardostuck/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://plab.shipsme.com/team/sandrahanekamp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://plab.shipsme.com/team/sandrahanekamp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://plab.shipsme.com/team/sophiavinci-booher/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://plab.shipsme.com/team/sophiavinci-booher/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://plab.shipsme.com/team/vww_b6wjes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://plab.shipsme.com/team/vww_b6wjes/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

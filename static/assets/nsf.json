@@ -1,0 +1,68 @@
+{
+  "response" : {
+    "award" : [ {
+      "agency" : "NSF",
+      "awardeeName" : "Indiana University",
+      "coPDPI" : [ "Olaf  Sporns", "Andrew J Saykin", "Lei  Wang" ],
+      "id" : "1636893",
+      "piFirstName" : "Franco",
+      "piLastName" : "Pestilli",
+      "startDate" : "09/01/2016",
+      "expDate" : "08/31/2021",
+      "title" : "BD Spokes: SPOKE: MIDWEST: Collaborative: Advanced Computational Neuroscience Network (ACNN)",
+      "awardee" : "TRUSTEES OF INDIANA UNIVERSITY"
+    }, {
+      "agency" : "NSF",
+      "awardeeName" : "Indiana University",
+      "coPDPI" : [ "Eleftherios  Garyfallidis", "Ivo D Dinov", "Lei  Wang", "Robert  Henschel" ],
+      "id" : "1734853",
+      "piFirstName" : "Franco",
+      "piLastName" : "Pestilli",
+      "startDate" : "09/01/2017",
+      "expDate" : "08/31/2021",
+      "title" : "NCS-FO: Connectome mapping algorithms with application to community services for big data neuroscience",
+      "awardee" : "TRUSTEES OF INDIANA UNIVERSITY"
+    }, {
+      "agency" : "NSF",
+      "awardeeName" : "Stanford University",
+      "id" : "1228397",
+      "piFirstName" : "Brian",
+      "piLastName" : "Wandell",
+      "startDate" : "09/01/2012",
+      "expDate" : "08/31/2016",
+      "title" : "The Human Visual Pathways and Skilled Reading",
+      "awardee" : "LELAND STANFORD JUNIOR UNIVERSITY, THE"
+    }, {
+      "agency" : "NSF",
+      "awardeeName" : "Indiana University",
+      "coPDPI" : [ "Valentin  Pentchev", "Inna  Kouper" ],
+      "id" : "1916518",
+      "piFirstName" : "Franco",
+      "piLastName" : "Pestilli",
+      "startDate" : "06/01/2019",
+      "expDate" : "05/31/2023",
+      "title" : "BD Hubs: Collaborative Proposal: Midwest: Midwest Big Data Hub: Building Communities to Harness the Data Revolution",
+      "awardee" : "TRUSTEES OF INDIANA UNIVERSITY"
+    }, {
+      "agency" : "NSF",
+      "awardeeName" : "Indiana University",
+      "id" : "1912270",
+      "piFirstName" : "Franco",
+      "piLastName" : "Pestilli",
+      "startDate" : "12/01/2019",
+      "expDate" : "11/30/2022",
+      "title" : "Collaborative Proposal: CRCNS US-German Data Sharing Proposal: DataLad - a decentralized system for integrated discovery, management, and publication of digital objects of science",
+      "awardee" : "TRUSTEES OF INDIANA UNIVERSITY"
+    }, {
+      "agency" : "NSF",
+      "awardeeName" : "Vinci-Booher            Sophia",
+      "coPDPI" : [ "Franco  Pestilli" ],
+      "id" : "2004877",
+      "piFirstName" : "Sophia",
+      "piLastName" : "Vinci-Booher",
+      "startDate" : "09/15/2020",
+      "expDate" : "08/31/2022",
+      "title" : "Harnessing machine learning and cloud computing to test biological models of the role of white matter in human learning"
+    } ]
+  }
+}

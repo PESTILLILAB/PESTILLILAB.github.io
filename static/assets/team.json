@@ -1,0 +1,65 @@
+{
+    "Sophia Vinci-Booher":{
+        "type" : "active",
+        "ORCID" : "true",
+        "id" : "0000-0002-3626-146X",
+        "summary": "Postdoctoral Fellow",
+        "image" : "https://brainlife.io/images/avatar/sophia_cropped_750x750.jpg",
+        "externals" : {
+            "twitter" : "https://twitter.com/svincibo",
+            "github" : "https://github.com/svincibo",
+            "scholar" : "https://scholar.google.com/citations?user=xNYnb6wAAAAJ&hl=en"
+         }
+
+    },
+    "Franco Pestilli" : {
+        "type" : "active",
+        "ORCID":"true",
+        "image": "https://brainlife.io/images/avatar/franco.jpg",
+        "id": "0000-0002-2469-0494",
+        "summary": "A small description",
+        "externals" : {
+            "twitter" : "rrr",
+            "facebook" : "htttp",
+            "linkedin" : "rrr",
+            "resume" : "rr" ,
+            "github" : "ddd"      
+         }
+    },
+    "Bradley Caron" : {
+        "type" : "active",
+        "ORCID" : "true",
+        "image" : "https://brainlife.io/images/avatar/brad.jpg",
+        "id":"0000-0002-4486-1203",
+        "externals" : {
+            "twitter" : "https://twitter.com/bacaronIU",
+            "github" : "https://github.com/bacaron",
+            "scholar" : "https://scholar.google.com/citations?user=fU9K6GgAAAAJ&hl=en"
+         }
+        
+    },
+    "Sandra HaneKamp" : {
+        "type" : "active",
+        "ORCID" : "true",
+        "image" : "https://brainlife.io/images/avatar/sandra.jpg",
+        "id":"0000-0002-4486-1203",
+        "externals" : {
+            "twitter" : "https://twitter.com/sandrahanekamp",
+            "github" : "https://github.com/sandrahanekamp",
+            "scholar" : "http://scholar.google.com/citations?user=HpFvfUsAAAAJ&hl=nl"
+         }
+    },
+    "Ricardo Stuck" : {
+        "type" : "active",
+        "ORCID" : "true",
+        "image" : "https://lh3.googleusercontent.com/a-/AOh14GgBwy9LOFYaemp7Vdkug38Gnwz9Ssi4IP9hM0JBpg=s40",
+        "id":"0000-0001-7493-5413",
+        "externals" : {
+            "twitter" : "https://twitter.com/RicardoStuck",
+            "github" : "https://github.com/ricardostuck",
+            "scholar" : "https://scholar.google.com/citations?user=IFIa8vgAAAAJ&hl=en"
+         }
+    }
+    
+
+}

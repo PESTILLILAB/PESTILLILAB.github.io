@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>slider on Pestilli Lab</title>
+    <link>http://plab.shipsme.com/tags/slider/</link>
+    <description>Recent content in slider on Pestilli Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://plab.shipsme.com/tags/slider/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Example Slide</title>
+      <link>http://plab.shipsme.com/home/slider_example/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://plab.shipsme.com/home/slider_example/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

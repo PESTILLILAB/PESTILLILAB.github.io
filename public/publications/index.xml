@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications on Pestilli Lab</title>
+    <link>http://plab.shipsme.com/publications/</link>
+    <description>Recent content in Publications on Pestilli Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://plab.shipsme.com/publications/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Human Visual Pathways and Skilled Reading</title>
+      <link>http://plab.shipsme.com/publications/1228397-copy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://plab.shipsme.com/publications/1228397-copy/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
