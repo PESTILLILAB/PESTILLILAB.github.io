@@ -1,6 +1,6 @@
 ---
 title: TEAM
-description : Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. 
+description : Team description is here. suada magna mollis euismod. 
 image : img/group.svg
 url : '/team'
 tags : ['infobox']
