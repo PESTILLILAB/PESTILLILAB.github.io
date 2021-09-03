@@ -294,19 +294,27 @@ ul > li:nth-child(even) div.event_date {right: 0;}
 
 
 <main role="main">
-  
-    {{ with .Site.GetPage "/team" }}
-        {{range .Pages}}
-        {{if in .Params.tags "banner"}}
-        <div class="jumbotron jumbotron-fluid" style="background-image: url('{{.Params.image}}'); background-size: cover;">
-            <div class="container">
-                <h1 class="display-4">{{.Params.title}}</h1>
-                <p class="lead">{{.Params.description}}</p>
-            </div>
-        </div>        
-    {{end}}
-    {{end}}
-  {{end}}
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            {{ with .Site.GetPage "/team" }}
+                {{range .Pages}}
+                    {{if in .Params.tags "slider"}}
+                    <div class="carousel-item active" style="height:50vh">
+                        <img class="d-block w-100" src="{{.Params.image}}" style="height:50vh" alt="First slide">
+                    </div>
+                    {{ end }}
+                {{end}}
+            {{end}}
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+    </div>
 
   
     <!-- Marketing messaging and featurettes
