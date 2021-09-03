@@ -279,7 +279,7 @@ function generateAlumni(obj){
 function team_generator(){
     console.log("entered");
 
-    fetch('https://plab.shipsme.com/assets/team.json').then(res=>res.json()).then(insts=>{
+    fetch('https://pestillilab.github.io/assets/team.json').then(res=>res.json()).then(insts=>{
         
         console.log(insts);
         for(let name in insts) {
@@ -393,7 +393,7 @@ function generatePublication(title,date,authors,link,doi,journal,count) {
 }
 
 function pub_gen(){
-    axios.get('https://plab.shipsme.com/assets/pub.xml', { data: null }, axios.defaults.headers)
+    axios.get('https://pestillilab.github.io/assets/pub.xml', { data: null }, axios.defaults.headers)
             .then(response => {
                 console.log(response.data)
                 var jsonObj2 = parser.parse(response.data);

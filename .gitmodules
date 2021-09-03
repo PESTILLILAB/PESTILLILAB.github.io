@@ -1,0 +1,3 @@
+[submodule "themes/tacademia.hugo"]
+	path = themes/tacademia.hugo
+	url = https://github.com/PESTILLILAB/tacademia.hugo.git

@@ -1,0 +1,424 @@
+<!doctype html>
+{{ partial "head.html" .}}
+  <body onload="ready()">
+    <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+      <a class="navbar-brand" href="#"><img id="logo" class="d-inline-block mr-1" alt="Logo" src="{{ .Site.BaseURL }}img/logo.svg"> <span class="logo-name">PESTILLI <span class="orange-text">LAB</span></span></a>
+      <ul class="nav justify-content-end nav-pills">
+         <li class="nav-item">
+           <a class="nav-link" href="{{ .Site.BaseURL }}">HOME</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link active" href="{{ .Site.BaseURL }}research">RESEARCH</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="{{ .Site.BaseURL }}publications">PUBLICATIONS</a>
+         </li>
+         <li class="nav-item">
+             <a class="nav-link" href="{{ .Site.BaseURL }}team">TEAM</a>
+         </li>
+       </ul>
+  </nav>
+  <style>
+    
+.timeline {
+    position: relative;
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 15px 0;
+  }
+  
+  .timeline::after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    background: #006E51;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -1px;
+  }
+  
+  .timeline-item {
+    padding: 15px 30px;
+    position: relative;
+    background: inherit;
+    width: 50%;
+  }
+  
+  .timeline-item {
+    left: 0;
+  }
+  
+  .timeline-item.right {
+    left: 50%;
+  }
+  
+  /* .timeline-item::after {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: calc(50% - 8px);
+    right: -8px;
+    background: #ffffff;
+    border: 2px solid #006E51;
+    border-radius: 16px;
+    z-index: 1;
+  } */
+  
+  .timeline-item.right::after {
+    left: -26px;  }
+/*   
+  .timeline-item::before {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    top: calc(50% - 1px);
+    right: 8px;
+    background: #006E51;
+    z-index: 1;
+  } */
+  
+  .timeline-item.right::before {
+    left: 8px;
+  }
+  .timeline-item .date {
+    position: absolute;
+    display: inline-block;
+    top: calc(50% - 8px);
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #006E51;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    z-index: 1;
+  }
+  
+  .timeline-item .date {
+    right: -75px;
+  }
+  
+  .timeline-item.right .date {
+    left: -75px;
+  }
+  
+  .timeline-item .icon {
+    position: absolute;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    padding: 9px 0;
+    top: calc(50% - 20px);
+    background: #F6D155;
+    border: 2px solid #006E51;
+    border-radius: 40px;
+    text-align: center;
+    font-size: 18px;
+    color: #006E51;
+    z-index: 1;
+  }
+  
+  .timeline-item .icon {
+    right: 56px;
+  }
+  
+  .timeline-item.right .icon {
+    left: 56px;
+  }
+  
+  .timeline-item .content {
+    padding: 30px 90px 30px 30px;
+    background: #F6D155;
+    position: relative;
+    border-radius: 0 500px 500px 0;
+  }
+  
+  .timeline-item.right .content {
+    padding: 30px 30px 30px 90px;
+    border-radius: 500px 0 0 500px;
+  }
+  
+  .timeline-item .content h2 {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+    font-weight: normal;
+    color: #006E51;
+  }
+  
+  .timeline-item .content p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+  }
+  
+  @media (max-width: 767.98px) {
+    .timeline::after {
+      left: 90px;
+    }
+  
+    .timeline-item {
+      width: 100%;
+      padding-left: 120px;
+      padding-right: 30px;
+    }
+  
+    .timeline-item.right {
+      left: 0%;
+    }
+  
+    .timeline-item::after, 
+    .timeline-item.right::after {
+      left: 82px;
+    }
+  
+    .timeline-item::before,
+    .timeline-item.right::before {
+      left: 100px;
+      border-color: transparent #006E51 transparent transparent;
+    }
+  
+    .timeline-item .date,
+    .timeline-item.right .date {
+      right: auto;
+      left: 15px;
+    }
+  
+    .timeline-item .icon,
+    .timeline-item.right .icon {
+      right: auto;
+      left: 146px;
+    }
+  
+    .timeline-item .content,
+    .timeline-item.right .content {
+      padding: 30px 30px 30px 90px;
+      border-radius: 500px 0 0 500px;
+    }
+  }
+
+  ul li::marker {
+    font-size: 150%;
+    background: #ffffff;
+    border: 2px solid #006E51;
+    border-radius: 16px;
+  }
+.blue-text{
+    color: #2693ff !important;
+}
+
+.p-4 {
+    padding: 1.5rem!important;
+}
+
+
+/* li.timeline-item {
+  margin: 20px 0;
+} */
+.ml-3,
+.mx-3 {
+  margin-left: 1rem !important;
+}
+.shadow {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+#_awards p {
+  margin-top: -2px;
+}
+.bg-white {
+  background-color: #fff !important;
+}
+
+.timeline-item::after {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  right: 7px;
+  background-color: white;
+  border: 3px solid #FF9F55;
+  top: 25px;
+  border-radius: 50%;
+  z-index: 1;
+}
+ul {list-style:none;
+}
+.remove-space{
+  display: none; 
+}
+
+.li::before{
+  content: attr(dt-date);
+  color: black;
+}
+
+.event_date{
+  position: absolute;
+}
+
+.rect-bg{
+ background-color: #28a745!important ; 
+ padding : 3px 5px;
+ color:white;
+}
+
+ul > li:nth-child(odd) div.event_date {left: -8em;}
+ul > li:nth-child(even) div.event_date {right:-6em;}
+@media only screen and (max-width: 540px) {
+
+  ul > li:nth-child(odd) div.event_date {left: 0;}
+ul > li:nth-child(even) div.event_date {right: 0;}
+.timeline-item::after, .timeline-item.right::after {
+   left: -26px;
+;
+}
+.event_date{
+  position: relative;
+  margin-top: -1em !important;
+}
+.timeline::after {
+    left: 0;
+}
+.h5,p{
+  margin-top: 0 !important
+}
+}
+  </style>
+<main role="main">
+    {{ with .Site.GetPage "/research" }}
+        {{range .Pages}}
+        {{if in .Params.tags "banner"}}
+        <div class="jumbotron jumbotron-fluid" style="background-image: url('{{.Params.image}}'); background-size: cover;min-height: 35vh !important;
+        ">
+            <div class="container">
+              <h1 class="display-4">{{.Params.title}}</h1>
+              <p class="lead">{{.Params.description}}</p>
+            </div>
+          </div>        
+        {{end}}
+        {{end}}
+      {{end}}
+
+
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+      <!-- START THE FEATURETTES -->
+<div class="container">
+          {{ with .Site.GetPage "/research" }}
+          {{range .Pages}}
+          {{if in .Params.tags "feature"}}
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading margin-paragraph-left">{{.Params.title}}</h2>
+          <p class="black-text">{{.Params.subtitle}}</p>
+          <p class="margin-paragraph-left">{{.Content}} </p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-fluid mx-auto" src=" {{.Params.image}} " alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+            {{end}}
+          {{end}}
+
+      {{end}}
+
+
+      <div class="row text-center mb-5">
+        <div class="col-lg-8 mx-auto">
+            <h1>Random Headline</h1>
+            </div>
+        </div><!-- End -->
+
+
+        <div class="row">
+            <div class="col-lg-12 mx-auto">
+              <ul class="timeline" id = "_awards">
+                {{ range .Pages  }}
+                {{if isset .Params "agency"}}
+                <li class="timeline-item bg-white rounded ml-3 p-4" dt-date = {{.Params.startDate}} data-event-date= "{{.Params.startDate}} ">
+                  <div class="event_date blue-text">
+                    {{.Params.startDate}}
+                  </div>
+                  <h2 class="h5" style="margin-bottom:0.25rem">{{.Title}}</h2><p style="margin-bottom:0.25rem">{{.Params.piFirstName}} {{.Params.piLastName}} {{if .Params.coPDPI}} , {{delimit .Params.coPDPI ", "}} {{ end }}</p>
+                  <p class="journal bold" style="margin-bottom:0.15rem">FUNDING : 
+                    {{if eq .Params.agency "NSF"}}
+                        <img src="{{ .Site.BaseURL }}img/nsf.png" style="width:40px;height:40px">
+                    {{else}}
+                    <span class="rect-bg">{{.Params.agency}}</span>
+                    {{end}}
+                  </p>
+                  {{if .Params.external_url}}
+                  <a href="{{.Params.external_url}}" class="btn btn-gray btn-sm">More</a>
+                </li>
+                  {{end}}
+                  {{end}}
+                  {{end}}
+              </ul>
+        </div>
+
+        </div>
+      <!-- /END THE FEATURETTES -->
+
+    </div><!-- /.container -->
+    </main>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="{{ .Site.BaseURL }}js/parser.js"></script>
+    <script src='{{ .Site.BaseURL }}js/lab.js'> </script>
+    <script>
+      
+      var ready = (callback) => {
+  if (document.readyState != "loading") callback();
+  else document.addEventListener("DOMContentLoaded", callback);
+}
+      ready(() => { 
+  /* Do things after DOM has fully loaded */ 
+
+
+    var container = document.querySelector(".timeline");;
+    var items = document.querySelectorAll('.timeline-item');
+    
+    items.forEach(
+      item=> {
+        let BCDATE = item.getAttribute("dt-date");
+        var standardDate = new Date(BCDATE).getTime();
+        item.setAttribute("data-event-date", standardDate);
+       }
+    )
+
+    var ab = 0;
+    Array.from(items).sort( function(a,b){
+        a = parseFloat(a.getAttribute("data-event-date"));
+        b = parseFloat(b.getAttribute("data-event-date"));
+        return a>b ? -1 : a<b ? 1 : 0;
+    }).forEach(list =>{
+      if(ab %2 == 0){
+        ab+=1;
+        list.classList.add("right");
+        container.append(list);
+      }else{
+        ab+=1;
+        list.classList.add("left");
+        container.append(list);
+      }
+    });
+    
+});
+
+    </script>
+    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
