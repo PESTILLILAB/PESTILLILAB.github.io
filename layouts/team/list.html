@@ -474,37 +474,43 @@ ul > li:nth-child(even) div.event_date {right: 0;}
         </div>
         <div class="col-sm"></div>
       </div>
-      <div class="row" id='teampage-section-alumni'>
 
-        {{ range .Pages }}
-        {{ if in .Params.tags "alumni" }}
-        <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
-          <div class="text-center">
-            <img src="{{ .Site.BaseURL }}{{.Params.image}}" class="rounded-circle teamImage" alt="Generic placeholder image" width="140" height="140">
+      <div class="row">
+        <div class="col-lg-12 mx-auto" style="height:200px;overflow:auto;">
+          <ul class="timeline" id = "_awards">
+            {{ range .Pages  }}
+            {{if in .Params.tags "alumni"}}
+            <li class="timeline-item bg-white rounded ml-3 p-4" dt-date = {{.Params.startDate}} data-event-date= "{{.Params.startDate}} ">
+              <div class="event_date blue-text">
+                {{.Params.startDate}}
+              </div>
+              <div class="text-center">
+                <img src="{{.Params.image}}" class="rounded-circle teamImage" alt="Generic placeholder image" width="140" height="140">
+    
+                <div class="margin-5px"></div>
+                <h5 class="font-bold">{{.Params.name}}</h5>
+                <p class="position-team">{{.Params.position}}</p>
+                <p>
+                  {{if .Params.facebook}}
+                  <a href ="{{.Params.facebook}}"><i class="icons fab fa-facebook-square fa-lg"></i></a>&nbsp
+                  {{end}}
+                  <!-- {{if .Params.scholar}}
+                  <a href ="{{.Params.scholar}}"><i class="icons fa fa-graduation fa-lg"></i></a>&nbsp
+                  {{end}} -->
+                  {{if .Params.twitter}}
+                  <a href ="{{.Params.twitter}}"><i class="icons fab fa-twitter-square fa-lg"></i></a>&nbsp
+                  {{end}}
+                  {{if .Params.github}}
+                  <a href ="{{.Params.github}}"><i class="icons fab fa-github-square fa-lg"></i></a>&nbsp
+                  {{end}}
+                </p>
+              </div>
+            </li>
+              {{end}}
+              {{end}}
+          </ul>
+    </div>
 
-            <div class="margin-5px"></div>
-            <h5 class="font-bold">{{.Params.name}}</h5>
-            <p class="position-team">{{.Params.position}}</p>
-            <p>
-              {{if .Params.facebook}}
-              <a href ="{{.Params.facebook}}"><i class="icons fab fa-facebook-square fa-lg"></i></a>&nbsp
-              {{end}}
-              <!-- {{if .Params.scholar}}
-              <a href ="{{.Params.scholar}}"><i class="icons fa fa-graduation fa-lg"></i></a>&nbsp
-              {{end}} -->
-              {{if .Params.twitter}}
-              <a href ="{{.Params.twitter}}"><i class="icons fab fa-twitter-square fa-lg"></i></a>&nbsp
-              {{end}}
-              {{if .Params.github}}
-              <a href ="{{.Params.github}}"><i class="icons fab fa-github-square fa-lg"></i></a>&nbsp
-              {{end}}
-            </p>
-          </div>
-        </div><!-- /.col-lg-4 -->
-        {{end}}
-        {{end}}
-
-      </div>
 
       <!-- <div class="row">
         <div class="col-lg-7 mx-auto">
