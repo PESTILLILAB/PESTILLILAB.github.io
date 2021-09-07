@@ -64,22 +64,26 @@
       <!-- START THE FEATURETTES -->
       <hr class="featurette-divider">
 
-     
+    </div>
+
     {{ with .Site.GetPage "/home" }}
           {{range .Pages}}
           {{if in .Params.tags "feature"}}
 
-      <div class="row featurette">
+    <div style="background: {{.Params.backgroundColor}}">
+      <div class="container">
+        <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading margin-paragraph-left">{{.Params.title}}</h2>
-          <p class="black-text">{{.Params.subtitle}}</p>
-          <p class="margin-paragraph-left">{{.Content}} </p>
+          <h2 class="featurette-heading margin-paragraph-left" style="color: {{.Params.titleColor}}">{{.Params.title}}</h2>
+          <p class="" style="color: {{.Params.subtitleColor}}">{{.Params.subtitle}}</p>
+          <p class="margin-paragraph-left" style="color: {{.Params.textColor}}">{{.Content}} </p>
         </div>
         <div class="col-md-5">
           <img class="featurette-image img-fluid mx-auto" src=" {{.Params.image}} " alt="Generic placeholder image">
         </div>
       </div>
-
+    </div>
+    </div>
       <hr class="featurette-divider">
             {{end}}
           {{end}}
@@ -119,7 +123,6 @@
 
       <!-- /END THE FEATURETTES -->
 
-    </div><!-- /.container -->
     <!-- Optional JavaScript; choose one of the two! -->
     {{ partial "footer.html" .}}
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
