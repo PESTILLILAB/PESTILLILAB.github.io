@@ -3,7 +3,7 @@ name : Sample Name
 tags : ['alumni']
 ORCID : true
 position : Graduate Student at Some University
-startDate: 09/01/2012
+startDate: 09/01/2015
 image : /img/user.jpg
 twitter : https://twitter.com/bacaronIU
 github : https://github.com/bacaron
