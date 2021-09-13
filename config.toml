@@ -1,3 +1,31 @@
 baseURL = "https://PESTILLILAB.github.io/"
 languageCode = "en-us"
 title = "Pestilli Lab"
+[params.footer]
+    title= "PESTILLI LAB"
+    backgroundColor = "#FFFFFF"
+    textColor = "#646464"
+    boldTextColor = "#373737"
+    footerIcon = "https://brand.utexas.edu/wp-content/themes/texasbrand/images/logos/utexas-primary-horizontal-logo.svg"
+    address= [
+    "Department of Psychology",
+    "The University of Texas at Austin",
+    "SEA 4.208 108 E.",
+    "Dean Keeton Stop A8000 Austin, TX",
+    "78712-1043" 
+    ]
+    facebook = "link"
+    twitter = "link"
+    github = "link"
+[params.footer.relatedLinks.education]
+    "Psychology PHD" = "https://liberalarts.utexas.edu/psychology/graduate/phd.php"
+    "Neuroscience PHD" = "https://neuroscienceinstitute.utexas.edu/PhD%20Program"
+    "Computer Science PHD" = "https://www.cs.utexas.edu/graduate-program/phd-program"
+[params.footer.relatedLinks.research]
+    "brainlife.io" = "https://brainlife.io"
+    "TACC" = "IMAGING CENTER"
+    "Indiana University UITS" = "https://dcops.iu.edu/"
+    "NeuroscienceNetwork.org" = "https://NeuroscienceNetwork.org"
+[params.footer.Academic]
+    "Psychology Department" = "https://liberalarts.utexas.edu/psychology/"
+    "The University of Texas" = "The University of Texas" 
