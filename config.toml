@@ -1,13 +1,14 @@
 baseURL = "https://PESTILLILAB.github.io/"
 languageCode = "en-us"
 title = "Pestilli Lab"
+theme="tacademia.hugo"
 [params.footer]
     title= "PESTILLI LAB"
     backgroundColor = "#FFFFFF"
     textColor = "#646464"
     boldTextColor = "#373737"
     footerIcon = "https://brand.utexas.edu/wp-content/themes/texasbrand/images/logos/utexas-primary-horizontal-logo.svg"
-    address= [
+    address = [
     "Department of Psychology",
     "The University of Texas at Austin",
     "SEA 4.208 108 E.",
