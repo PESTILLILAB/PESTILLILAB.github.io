@@ -59,6 +59,17 @@
             "github" : "https://github.com/ricardostuck",
             "scholar" : "https://scholar.google.com/citations?user=IFIa8vgAAAAJ&hl=en"
          }
+    },
+    "Daniel Bullock" : {
+        "type" : "alumni",
+        "ORCID" : "true",
+        "image" : "https://brainlife.io/images/avatar/dan.jpg",
+        "id":"0000-0002-4321-2180",
+        "externals" : {
+            "twitter" : "https://twitter.com/Is_Dan_Bull",
+            "github" : "https://github.com/DanNBullock/",
+            "scholar" : "https://scholar.google.com/citations?user=PhaFy78AAAAJ"
+         }
     }
     
 
