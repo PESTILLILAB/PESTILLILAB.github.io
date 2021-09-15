@@ -4,7 +4,7 @@ title = "Pestilli Lab"
 theme="tacademia.hugo"
 [params.footer]
     title= "PESTILLI LAB"
-    backgroundColor = "#FFFFFF"
+    backgroundColor = "#F5F5F5"
     textColor = "#646464"
     boldTextColor = "#373737"
     footerIcon = "https://brand.utexas.edu/wp-content/themes/texasbrand/images/logos/utexas-primary-horizontal-logo.svg"
