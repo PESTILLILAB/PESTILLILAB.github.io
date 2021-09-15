@@ -13,7 +13,8 @@ theme="tacademia.hugo"
     "The University of Texas at Austin",
     "SEA 4.208 108 E.",
     "Dean Keeton Stop A8000 Austin, TX",
-    "78712-1043" 
+    "78712-1043",
+    "pestilli@utexas.edu"
     ]
     facebook = "link"
     twitter = "link"
