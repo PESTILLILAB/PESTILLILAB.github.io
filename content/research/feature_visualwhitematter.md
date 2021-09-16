@@ -2,7 +2,7 @@
 title: VISUAL WHITE MATTER and BRAIN NETWORKS
 subtitle : UNDERSTANDING VISION TO ADVANCE CURE AND IMPROVE OUR QUALITY OF LIFE
 draft : false
-image : /img/500x500.svg
+image : /img/fl-frost-museum-brain-exhibition-20171023-video.jpeg
 tags : ['feature']
 ---
 Most humans use vision to explore the world. Clarifying how vision works is critical to understanding the brain and making progress towards disease prevention and cure. Visual function requires coordinating the activity of multiple components; the eye, cortical and subcortical brain regions. In the brain, visual signals travel across long-range myelinated axonal pathways that form an extensive network of neurons and brain areas. This myelinated network of neurons and axons is generally referred to as the ‘white matter.’ As of today, we understand more about neurons and individual brain areas but less about how areas communicate with each other. Understanding both the anatomy and organization of the long-range communication network and individual neurons and maps is key to chart the ensemble behavior of the visual system.
