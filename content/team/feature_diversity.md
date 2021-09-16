@@ -1,6 +1,6 @@
 ---
 title: Diversity
-subtitle : The world is a village rich in people of different background.
+subtitle : It takes the world to understand the brain, and the world is a village rich with people of different backgrounds.
 image : https://github.com/PESTILLILAB/PESTILLILAB.github.io/blob/main/static/img/austin-diversity-pestilli.jpg
 tags : ['feature']
 ---
