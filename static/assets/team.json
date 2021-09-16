@@ -49,28 +49,6 @@
             "scholar" : "http://scholar.google.com/citations?user=HpFvfUsAAAAJ&hl=nl"
          }
     },
-    "Ricardo Stuck" : {
-        "type" : "active",
-        "ORCID" : "true",
-        "image" : "https://lh3.googleusercontent.com/a-/AOh14GgBwy9LOFYaemp7Vdkug38Gnwz9Ssi4IP9hM0JBpg=s40",
-        "id":"0000-0001-7493-5413",
-        "externals" : {
-            "twitter" : "https://twitter.com/RicardoStuck",
-            "github" : "https://github.com/ricardostuck",
-            "scholar" : "https://scholar.google.com/citations?user=IFIa8vgAAAAJ&hl=en"
-         }
-    },
-    "Daniel Bullock" : {
-        "type" : "alumni",
-        "ORCID" : "true",
-        "image" : "https://brainlife.io/images/avatar/dan.jpg",
-        "id":"0000-0002-4321-2180",
-        "externals" : {
-            "twitter" : "https://twitter.com/Is_Dan_Bull",
-            "github" : "https://github.com/DanNBullock/",
-            "scholar" : "https://scholar.google.com/citations?user=PhaFy78AAAAJ"
-         }
-    },
     "Anibal Solon": {
         "type" : "active",
         "ORCID" : "true",
