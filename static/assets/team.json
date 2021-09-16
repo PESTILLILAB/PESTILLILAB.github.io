@@ -70,7 +70,18 @@
             "github" : "https://github.com/DanNBullock/",
             "scholar" : "https://scholar.google.com/citations?user=PhaFy78AAAAJ"
          }
-    }
+    },
+    "Anibal Solon": {
+        "type" : "active",
+        "ORCID" : "true",
+        "image" : "https://github.com/anibalsolon.png",
+        "id" :"0000-0002-2050-0614",
+        "externals" : {
+            "twitter" : "https://twitter.com/anibalsolon",
+            "github" : "https://github.com/anibalsolon",
+            "scholar" : "https://scholar.google.com/citations?user=gQdfws4AAAAJ"
+         }
+    },
     
 
 }
