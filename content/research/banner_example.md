@@ -1,5 +1,5 @@
 ---
 title: Example Slide
-image : /img/frontera_banner4.jpeg
+image : /img/before_counties-2D-rural.png
 tags : ['slider']
 ---
