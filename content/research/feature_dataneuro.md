@@ -1,7 +1,7 @@
 ---
 title: DATA NEUROSCIENCE and MACHINE LEARNING
 subtitle : ADVANCING SCIENTIFIC UNDERSTANDING WITH BOTH THEORY AND DATA-DRIVEN METHODS
-image : /img/500x500.svg
+image : /img/code+glasses-kevin-ku-w7ZyuGYNpRQ-unsplash.jpeg
 tags : ['feature']
 ---
 It has been claimed that data is the new oil.  Today, a great potential for impact and a variety of applications exist for psychological science outside the traditional domain. Data about human behavior is collected routinely on cloud platforms around the nation, often for commerce sometimes for good other times for less clear purposes. Indeed, a majority of what is commonly referred to as Data Science can be specified as Psychological Data Science. Indeed, much of what data science is applied to is understanding, classifying, and predicting human behavior, emotions, and intentions.
