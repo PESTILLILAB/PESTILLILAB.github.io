@@ -36,7 +36,6 @@
             "github" : "https://github.com/bacaron",
             "scholar" : "https://scholar.google.com/citations?user=fU9K6GgAAAAJ&hl=en"
          }
-        
     },
     "Sandra HaneKamp" : {
         "type" : "active",
@@ -60,6 +59,49 @@
             "scholar" : "https://scholar.google.com/citations?user=gQdfws4AAAAJ"
          }
     },
-    
+    "Brent McPherson": {
+        "type" : "active",
+        "ORCID" : "true",
+        "image" : "https://github.com/anibalsolon.png",
+        "id" :"0000-0002-2050-0614",
+        "externals" : {
+            "twitter" : "https://twitter.com/anibalsolon",
+            "github" : "https://github.com/anibalsolon",
+            "scholar" : "https://scholar.google.com/citations?user=gQdfws4AAAAJ"
+         }
+    },
+    "Ricardo Stuck" : {
+        "type" : "alumni",
+        "ORCID" : "true",
+        "image" : "https://lh3.googleusercontent.com/a-/AOh14GgBwy9LOFYaemp7Vdkug38Gnwz9Ssi4IP9hM0JBpg=s40",
+        "id":"0000-0001-7493-5413",
+        "externals" : {
+            "twitter" : "https://twitter.com/RicardoStuck",
+            "github" : "https://github.com/ricardostuck",
+            "scholar" : "https://scholar.google.com/citations?user=IFIa8vgAAAAJ&hl=en"
+         }
+    },
+    "Daniel Bullock" : {
+        "type" : "alumni",
+        "ORCID" : "true",
+        "image" : "https://brainlife.io/images/avatar/dan.jpg",
+        "id":"0000-0002-4321-2180",
+        "externals" : {
+            "twitter" : "https://twitter.com/Is_Dan_Bull",
+            "github" : "https://github.com/DanNBullock/",
+            "scholar" : "https://scholar.google.com/citations?user=PhaFy78AAAAJ"
+         }
+     "Lindsey Kitchell" : {
+        "type" : "alumni",
+        "ORCID" : "true",
+        "image" : "https://www.linkedin.com/in/lindseykitchell/detail/photo/",
+        "id":"0000-0002-5498-5306",
+        "externals" : {
+            "twitter" : "https://twitter.com/lindseykitchell",
+            "github" : "https://github.com/kitchell",
+            "scholar" : "https://scholar.google.com/citations?user=TvYBSEkAAAAJ&hl=en&oi=ao"
+         }
+    },
+
 
 }
