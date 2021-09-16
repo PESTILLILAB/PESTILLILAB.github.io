@@ -1,7 +1,7 @@
 ---
 title: OPEN NEUROSCIENCE and CLOUD TECHNOLOGY
 subtitle : INNOVATION AND TECHNOLOGY FOR BETTER, FASTER, STRONGER SCIENCE
-image : /img/500x500.svg
+image : /img/cloud-engineers-science-in-hd-iPrjQEDnNEY-unsplash.jpeg
 tags : ['feature']
 ---
 We promote the application of cloud technology to psychological and brain science research. Why use cloud technology in neuroscience? “Isn’t that just for games or business?” Companies like Apple, Microsoft, Google, FaceBook and Amazon among thousands have benefited tremendously by developing products that use cloud services. A cloud service is software that runs for you via a remote computer. Software that does not sit inside a lab in an office building. It is software expertly safeguarded inside a secure data center. Cloud services allow proficient management of data records, allowing advanced visualization and the orchestration of compute resources to process large amounts of data efficiently. Cloud technology reduces the time spent by scientists on software and hardware maintenance while facilitating the tracking of data files, and data formats so reducing human errors, improving reproducibility and replicability of scientific results. We believe that just as companies have benefited from cloud services, scientific research can also benefit from the very same technology. 
