@@ -1,8 +1,8 @@
 ---
-name : Anibal Solon
+name : Anibal S. Heinsfeld
 tags : ['active']
 ORCID : true
-position : Graduate Student at Indiana University
+position : Ph.D. Student (Computer Science)
 image : https://github.com/anibalsolon.png
 twitter : https://twitter.com/anibalsolon
 github : https://github.com/anibalsolon
