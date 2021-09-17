@@ -9,4 +9,5 @@ twitter : url
 github : url
 weight: 100
 tags : ['active']
+draft : true
 ---
