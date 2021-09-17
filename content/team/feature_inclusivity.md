@@ -1,7 +1,7 @@
 ---
 title: Inclusivity
 subtitle : Inclusion means open access to resources and a safe place for all
-image : img/psychology-brain-art-pestilli.jpg
+image : /img/psychology-brain-art-pestilli.jpg
 backgroundColor : '#f9f9f9'
 tags : ['feature']
 ---
