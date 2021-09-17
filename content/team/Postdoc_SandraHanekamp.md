@@ -1,8 +1,8 @@
 ---
-name : Sandra HaneKamp
+name : Sandra Hanekamp
 tags : ['active']
 ORCID : true
-position : Graduate Student at Indiana University
+position : Postdocotral Researcher
 image : https://brainlife.io/images/avatar/sandra.jpg
 twitter : https://twitter.com/sandrahanekamp
 github : https://github.com/sandrahanekamp
