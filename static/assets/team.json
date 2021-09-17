@@ -73,6 +73,7 @@
     "Ricardo Stuck" : {
         "type" : "alumni",
         "ORCID" : "true",
+        "startDate" : "04/06/2018",
         "image" : "https://lh3.googleusercontent.com/a-/AOh14GgBwy9LOFYaemp7Vdkug38Gnwz9Ssi4IP9hM0JBpg=s40",
         "id":"0000-0001-7493-5413",
         "externals" : {
@@ -84,6 +85,7 @@
     "Daniel Bullock" : {
         "type" : "alumni",
         "ORCID" : "true",
+        "startDate" : "04/06/2017",
         "image" : "https://brainlife.io/images/avatar/dan.jpg",
         "id":"0000-0002-4321-2180",
         "externals" : {
@@ -91,9 +93,11 @@
             "github" : "https://github.com/DanNBullock/",
             "scholar" : "https://scholar.google.com/citations?user=PhaFy78AAAAJ"
          }
+    },
      "Lindsey Kitchell" : {
         "type" : "alumni",
         "ORCID" : "true",
+        "startDate" : "04/06/2018",
         "image" : "https://www.linkedin.com/in/lindseykitchell/detail/photo/",
         "id":"0000-0002-5498-5306",
         "externals" : {
@@ -101,7 +105,6 @@
             "github" : "https://github.com/kitchell",
             "scholar" : "https://scholar.google.com/citations?user=TvYBSEkAAAAJ&hl=en&oi=ao"
          }
-    },
-
+    }   
 
 }

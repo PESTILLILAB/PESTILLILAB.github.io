@@ -17,6 +17,9 @@ for x in obj:
         myfile.write('tags : [\''+obj[x]['type']+'\']')
         myfile.write('\n')
         myfile.write('ORCID : '+obj[x]['ORCID'])
+        startDate = obj[x].get("startDate",None)
+        if(startDate != None) : 
+            myfile.write('startDate :'+obj[x]['startDate'])
         myfile.write('\n')
         ORCID_gen = obj[x]['ORCID']
         if(ORCID_gen == 'true'):
@@ -26,11 +29,16 @@ for x in obj:
             r = requests.get(url = data_url,headers = headers_t)
             response = json.loads(r.text)
             # print(response)
-            role = response["activities-summary"]["employments"]["affiliation-group"][0]["summaries"][0]["employment-summary"]["role-title"]
-            location = response["activities-summary"]["employments"]["affiliation-group"][0]["summaries"][0]["employment-summary"]["organization"]["name"]
+            try :
+                role = response["activities-summary"]["employments"]["affiliation-group"][0]["summaries"][0]["employment-summary"]["role-title"]
+                location = response["activities-summary"]["employments"]["affiliation-group"][0]["summaries"][0]["employment-summary"]["organization"]["name"]
+            except: 
+                role = None
+                location = None 
             # print(location)
-            position = role + ' at '+location
-            print(position)
+            if(role and location) :
+                position = role + ' at '+location
+                print(position)
         myfile.write('position : '+position)
         myfile.write('\n')
 

@@ -1,5 +1,5 @@
 ---
-name : Brent McPherson
+name : Anibal Solon
 tags : ['active']
 ORCID : true
 position : Graduate Student at Indiana University

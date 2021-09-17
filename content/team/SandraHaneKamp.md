@@ -1,8 +1,8 @@
 ---
-name : Sandra Hanekamp
+name : Sandra HaneKamp
 tags : ['active']
 ORCID : true
-position : Research Fellow at The University of Texas
+position : Graduate Student at Indiana University
 image : https://brainlife.io/images/avatar/sandra.jpg
 twitter : https://twitter.com/sandrahanekamp
 github : https://github.com/sandrahanekamp
