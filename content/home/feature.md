@@ -1,5 +1,5 @@
 ---
-title: Research vision
+title: Vision statement 
 subtitle : It takes the world to understand the brain.
 image : img/Facebook_combined-4.png
 tags : ['feature']
