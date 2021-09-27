@@ -2,6 +2,38 @@ baseURL = "https://PESTILLILAB.github.io/"
 languageCode = "en-us"
 title = "Pestilli Lab"
 theme="tacademia.hugo"
+logoNav = "/img/logo.svg"
+[[menu.main]]
+    indentifier = 'home'
+    title= 'HOME'
+    name="HOME"
+    URL = '/'
+    weight = 10
+
+[[menu.main]]
+    indentifier = 'research'
+    name= 'RESEARCH'
+    URL = '/research'
+    weight = 20
+[[menu.main]]
+    indentifier = 'publications'
+    name= 'PUBLICATIONS'
+    URL = '/publications'
+    weight = 30
+[[menu.main]]
+    indentifier = 'team'
+    name= 'TEAM'
+    URL = '/team'
+    weight = 40
+# [[menu.main]]
+#     identifier = 'news'
+#     name = 'News Section'
+#     URL = '/news'
+# [[menu.main]]
+#     identifier = 'events'
+#     name= 'Events'
+#     URL = '/events'
+
 
 [params.team]
     description = "The excellent graduate and undergraduate students, postdocs, faculty and staff members of our core team, alumni and collaborators."
