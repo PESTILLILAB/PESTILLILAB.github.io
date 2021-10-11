@@ -1,19 +1,39 @@
-
-<section id="services">
-   <div class="content-section-a">
-
-      <div class="container">
-
-        <div class="row">
-          <div>
-            <hr class="section-heading-spacer">
-            <div class="clearfix"></div>
-            <h2 class="section-heading">{{ .Title }}</h2>
-            {{ .Content }}
+<!doctype html>
+{{ partial "head.html" .}}
+  <body>
+{{ partial "nav.html" .}}
+<style>
+.thumbnail {
+    height : 40vh;
+    background-image: url("{{.Site.BaseURL }}{{.Params.thumbnail}}");
+    background-size: 100%;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+}
+ h1{
+    font-weight: bold;
+ }
+</style>    
+<main>
+    <div class="thumbnail">
+        <div class="container">
+            <br>
+            <br>    
+            <h1 class="mx-auto" style="color: white;margin:auto">{{.Params.Title}}</h1>
         </div>
     </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <br>
+                {{ .Content }}
+            </div>
+        </div>
+    </div>
+    <br>
+</main>
 
-</div>
-</div>
-
-</section>
+{{ partial "footer.html" .}}
+</body>
+</html>
