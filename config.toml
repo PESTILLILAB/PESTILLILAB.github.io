@@ -25,10 +25,10 @@ logoNav = "/img/logo.svg"
     name= 'TEAM'
     URL = '/team'
     weight = 40
-# [[menu.main]]
-#     identifier = 'news'
-#     name = 'News Section'
-#     URL = '/news'
+[[menu.main]]
+    identifier = 'news'
+    name = 'NEWS'
+    URL = '/news'
 # [[menu.main]]
 #     identifier = 'events'
 #     name= 'Events'
