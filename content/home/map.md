@@ -1,6 +1,6 @@
 ---
 mapData : '/assets/institutions.json'
-width: 500
+width: 1000
 height : 500
 title: Map Title
 subtitle: subtitle
