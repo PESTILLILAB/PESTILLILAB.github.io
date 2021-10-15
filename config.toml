@@ -3,13 +3,14 @@ languageCode = "en-us"
 title = "Pestilli Lab"
 theme="tacademia.hugo"
 logoNav = "/img/logo.svg"
+mapData = '/assets/institutions.json'
 [[menu.main]]
     indentifier = 'home'
     title= 'HOME'
     name="HOME"
     URL = '/'
     weight = 10
-
+    map = true
 [[menu.main]]
     indentifier = 'research'
     name= 'RESEARCH'
@@ -34,6 +35,8 @@ logoNav = "/img/logo.svg"
 #     name= 'Events'
 #     URL = '/events'
 
+[params.keys]
+    googleMaps = "AIzaSyB9Subf33AurRjknRcHw7oqBP9cJw_2Xtc"
 
 [params.team]
     description = "The excellent graduate and undergraduate students, postdocs, faculty and staff members of our core team, alumni and collaborators."
