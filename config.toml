@@ -36,7 +36,7 @@ mapData = '/assets/institutions.json'
 #     URL = '/events'
 
 [params.keys]
-    googleMaps = "AIzaSyB9Subf33AurRjknRcHw7oqBP9cJw_2Xtc"
+    googleMaps = "AIzaSyD_DdEi4sKJWYq6zIxOtJ381CtzsB8hh5o"
 
 [params.team]
     description = "The excellent graduate and undergraduate students, postdocs, faculty and staff members of our core team, alumni and collaborators."
