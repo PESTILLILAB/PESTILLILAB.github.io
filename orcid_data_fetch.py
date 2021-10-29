@@ -21,13 +21,4 @@ def getFundings():
                         yml.write("external_url: '"+details['external-ids'][k][0]['external-id-url']['value']+"'")
                 yml.write('\n')
                 yml.write('---\n')
-                # print(details['external-ids'])
-                # if(details['external-ids']['external-id']['external-id-url']['value']):
-                #     yml.write("external_url: '"+details['external-ids']['external-id']['external-id-url']['value']+"'")
-                # print(yml)
-                # print(details)
-            # print(details['title'])
-        # with open('plab/PESTILLILAB.github.io/content/research/'+funding['type']+funding['put-code']+'.md','w+') as yml:
-        
-    # print(response.text)
 getFundings()
