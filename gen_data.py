@@ -14,7 +14,7 @@ def gen_md (filepath):
         # print(data)
         for i in data['response']['award']: 
             url = "https://www.nsf.gov/awardsearch/showAward?AWD_ID="+i['id'] 
-            with open('plab/plab.hugo/content/research/'+i['id']+'.md','w+') as yml:
+            with open('content/research/'+i['id']+'.md','w+') as yml:
                 yml.write('---\n')
                 yaml.dump(i, yml, allow_unicode=True)
                 yml.write('external_url : \''+url+'\'')
@@ -23,7 +23,7 @@ def gen_md (filepath):
 def myfn():
     # Insert your requests code here
     print('Hello')
-    filepath = 'plab/plab.hugo/static/assets/nsf.json'
+    filepath = 'static/assets/nsf.json'
     nsf_response = requests.get(nsf_data_link)
     # with open('/home/ubuntu/brainlife_lab/brainlife.hugo/themes/brainlife.hugo.theme/static/assets/outputfile.json', 'w') as outf:
     #     json.dump(response.json,outf)        

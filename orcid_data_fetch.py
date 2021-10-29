@@ -13,7 +13,18 @@ def getFundings():
             with open('content/research/'+str(details['put-code'])+str(details['type'])+'.md','w+') as yml:
                 yml.write('---\n')
                 yml.write("title : '"+details['title']['title']['value']+"'")
-                print(yml)
+                yml.write('\n')
+                yml.write("startDate : '"+details['start-date']['month']['value']+"/01/"+details['start-date']['month']['value']+"'")
+                yml.write('\n')
+                if(details['external-ids']):
+                    for k,y in details['external-ids'].items():
+                        yml.write("external_url: '"+details['external-ids'][k][0]['external-id-url']['value']+"'")
+                yml.write('\n')
+                yml.write('---\n')
+                # print(details['external-ids'])
+                # if(details['external-ids']['external-id']['external-id-url']['value']):
+                #     yml.write("external_url: '"+details['external-ids']['external-id']['external-id-url']['value']+"'")
+                # print(yml)
                 # print(details)
             # print(details['title'])
         # with open('plab/PESTILLILAB.github.io/content/research/'+funding['type']+funding['put-code']+'.md','w+') as yml:
