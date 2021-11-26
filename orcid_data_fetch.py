@@ -63,7 +63,7 @@ def getPublications():
                                 print(dateobj)
                                 try:
                                     if(dateobj and dateobj['month']['value'] and dateobj['year']['value'] and dateobj['day']['value']):
-                                        yml.write("publicationDate: '"+dateobj['month']['value']+"/"+dateobj['day']['value']+"/"+dateobj['year']['value']+"'")
+                                        yml.write("publicationDate: '"+dateobj['year']['value']+"/"+dateobj['month']['value']+"/"+dateobj['day']['value']+"'")
                                         yml.write('\n')
                                 except :
                                     print("datemissing")
@@ -108,5 +108,5 @@ def getPublications():
                     # yml.write('doi :'+workDetail['publication-date']['year']['value'])
 
 
-# getFundings()
+getFundings()
 getPublications()
