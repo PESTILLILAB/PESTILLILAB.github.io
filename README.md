@@ -118,6 +118,19 @@ Specify the following parameters
     ---
     Content or Description here
 
+## Adding Publication Data 
+
+`hugo new publications/sample_publication.md`
+
+	---
+		title : 'How do attention and adaptation affect contrast sensitivity?'
+		journal : 'Journal of Vision'
+		authors: ['F. Pestilli', 'G. Viera', 'M. Carrasco']
+		publicationDate: '2007/05/01'
+		doi: '10.1167/7.7.9'
+	---
+
+
 ## Configure PubMed Api and NSF data
 
 Edit the file `gen_data.py` 
@@ -205,7 +218,6 @@ Open the file and provide the following entries
     tags : ['active']
 
     ---
-
 
 
 
