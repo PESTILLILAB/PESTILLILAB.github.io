@@ -83,7 +83,7 @@ pre {
 
 ### Image Example 
 
-![NeuroDiversity Image](img/Neurodiversity.png)
+![UT AUSTIN Image](/img/footer_logo.svg)
 
 
 #### Header 4
