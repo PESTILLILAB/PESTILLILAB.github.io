@@ -2,7 +2,7 @@
 name : Soichi Hayashi
 tags : ['active']
 ORCID : https://orcid.org/0000-0003-3641-3491
-position : Software Engineer ([brainlife.io](https://brainlife.io))
+position : Software Engineer (https://brainlife.io)
 image : https://en.gravatar.com/userimage/11088201/402ad6c44c48147d0b1c3b164fcf9618.jpg?size=200
 twitter : https://twitter.com/soichih
 linkedin : https://www.linkedin.com/in/soichihayashi/
