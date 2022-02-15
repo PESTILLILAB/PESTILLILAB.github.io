@@ -3,7 +3,7 @@ name : Ricardo Stuck
 tags : ['alumni']
 ORCID : true
 startDate: 04/06/2019
-position : Ricardo was a undergraduate research assistant. After leaving the lab Ricardo started Graduate School.
+position : Ricardo was an undergraduate research assistant. After leaving the lab Ricardo started Graduate School.
 image : /img/RicardoStuck_RA_Small.jpg
 twitter : https://twitter.com/RicardoStuck
 github : https://github.com/ricardostuck
