@@ -2,8 +2,8 @@
 mapData : '/assets/institutions.json'
 width: 1000
 height : 500
-title: Map Title
-subtitle: subtitle
+title: Network of collaborators
+subtitle: Our research is developed in collaroation with many scientists and technologists working in many different countries
 tags : ['map']
 backgroundColor : '#FFFFFF'
 titleColor : '#000000'
