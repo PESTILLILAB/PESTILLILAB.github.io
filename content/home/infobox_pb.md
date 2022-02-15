@@ -1,6 +1,6 @@
 ---
-title: PUBLICATION
-description : Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. 
+title: PUBLICATIONS
+description : Read more about our scientific work. 
 image : img/paper.svg
 url : '/publications/'
 tags : ['infobox']
