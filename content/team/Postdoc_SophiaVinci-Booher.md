@@ -2,7 +2,7 @@
 name : Sophia Vinci-Booher
 tags : ['active']
 ORCID : true
-position : Postdoctoral Researcher
+position : NSF SBE Postdoctoral Researcher
 image : https://brainlife.io/images/avatar/sophia_cropped_750x750.jpg
 twitter : https://twitter.com/svincibo
 github : https://github.com/svincibo
