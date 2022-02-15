@@ -1,6 +1,6 @@
 ---
-title: Video Heading 
-subtitle : It takes the world to understand the brain.
+title: Dr. Pestilli presents in Detroit
+subtitle : Democratizing neuroscience understadning and education via technology.
 youtubeUrl : 'https://www.youtube.com/embed/XD9szOYI-7A'
 tags : ['feature']
 backgroundColor : '#FFFFFF'
