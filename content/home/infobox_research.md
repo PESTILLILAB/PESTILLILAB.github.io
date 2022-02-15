@@ -1,6 +1,6 @@
 ---
 title: RESEARCH
-description : Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. 
+description : Learn more about our projects. 
 image : img/chip.svg
 url : '/research'
 tags : ['infobox']
