@@ -2,7 +2,7 @@
 name : Bradley Caron
 tags : ['active']
 ORCID : true
-position : Ph.D. Student
+position : Postdoctoral Fellow (Vision Science, Neuroimformatics)
 image : /img/DSC_1994.jpg
 twitter : https://twitter.com/bacaronIU
 github : https://github.com/bacaron
