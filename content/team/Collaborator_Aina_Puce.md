@@ -1,5 +1,5 @@
 ---
-name : User Name
+name : Aina Puce
 image : /img/user.png
 position : Example Text
 facebook : url
