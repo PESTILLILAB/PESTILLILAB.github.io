@@ -1,6 +1,6 @@
 ---
 title: Lifespan Research
 align : text-left
-image : img/man-kid.jpg
+image : /img/man-kid.jpg
 tags : ['slider']
 ---
