@@ -1,6 +1,6 @@
 ---
 title: PEOPLE
-description : It takes the world to understand the brain. 
+description : Meet our scientists and developers. 
 image : img/group.svg
 url : '/team'
 tags : ['infobox']
