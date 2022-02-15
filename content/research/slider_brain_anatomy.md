@@ -1,6 +1,6 @@
 ---
-title: Brain Anatomy
+title: Human brain anatomy
 align : text-left
-image : img/cerebellum-pestilli-lab.jpeg
+image : /img/cerebellum-pestilli-lab.jpeg
 tags : ['slider']
 ---
