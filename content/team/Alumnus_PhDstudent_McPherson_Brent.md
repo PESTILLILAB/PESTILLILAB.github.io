@@ -2,7 +2,7 @@
 name : Brent C. McPherson
 tags : ['alumni']
 ORCID : true
-startDate : 04/06/2017
+startDate : 12/30/2021
 position : Postdoctoral Researcher (McGill University, Montreal)
 image : /img/brent-mpherson.jpeg
 twitter : https://twitter.com/bcmcpher
