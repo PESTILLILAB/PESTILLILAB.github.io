@@ -1,5 +1,5 @@
 ---
-title: Dr. Pestilli presents in Detroit
+title: Humans, Science and Technology
 subtitle : Democratizing neuroscience understadning and education via technology.
 youtubeUrl : 'https://www.youtube.com/embed/XD9szOYI-7A'
 tags : ['feature']
