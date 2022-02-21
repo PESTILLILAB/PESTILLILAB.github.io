@@ -1,0 +1,28 @@
+<!-- This is customised navigation bar  -->
+<nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center">
+    <!-- <a href="/" class="navbar-brand d-flex w-50 mr-auto">Navbar 3</a> -->
+    <a class="navbar-brand" href="/">
+        <img id="logo" class="d-inline-block mr-1" alt="{{.Site.Params.logoNav}}" src="{{ .Site.BaseURL }}img/logo.svg"> 
+        <span class="logo-name">PESTILLI <span class="orange-text">LAB</span></span>
+    </a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
+        <ul class="nav navbar-nav ml-auto w-100 justify-content-end nav-pills">
+            {{ $currentNode := . }}
+            <!-- apply active class to the current tab -->
+            {{- $firstUrlElement := print "/" (index (split .URL "/") 1) -}}
+            {{ range .Site.Menus.main }} 
+                <!-- Single level menus -->
+                <li class="nav-item"><a href="{{.URL}}" style="padding: 10px;" class="nav-link {{if or ($.IsMenuCurrent "main" .) (eq ($firstUrlElement|lower) (.URL|lower)) }}active{{end}}">{{ .Name }}</a></li>
+            {{ end }}
+        </ul>
+    </div>
+</nav>
+<style>
+    .nav-item {
+        padding : 5px;
+    }
+</style>
