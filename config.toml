@@ -51,7 +51,8 @@ mapData = '/assets/institutions.json'
     "Department of Psychology",
     "The University of Texas at Austin",
     "SEA 4.208 108 E.",
-    "Dean Keeton Stop A8000 Austin, TX",
+    "Dean Keeton Stop A8000",
+    "Austin, TX",
     "78712-1043",
     "pestilli@utexas.edu"
     ]
@@ -66,9 +67,10 @@ mapData = '/assets/institutions.json'
         "Computer Science PHD" = "https://www.cs.utexas.edu/graduate-program/phd-program"
     [params.Footer.RelatedLinks.Research]
         "brainlife.io" = "https://brainlife.io"
-        "TACC" = "IMAGING CENTER"
-        "Indiana University UITS" = "https://dcops.iu.edu/"
-        "NeuroscienceNetwork.org" = "https://NeuroscienceNetwork.org"
+
     [params.Footer.Institutional]
         "Psychology Department" = "https://liberalarts.utexas.edu/psychology/"
         "The University of Texas" = "The University of Texas" 
+        "TACC" = "IMAGING CENTER"
+        "Indiana University UITS" = "https://dcops.iu.edu/"
+        "NeuroscienceNetwork.org" = "https://NeuroscienceNetwork.org"
