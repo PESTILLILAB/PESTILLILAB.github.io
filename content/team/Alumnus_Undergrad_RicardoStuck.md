@@ -3,7 +3,8 @@ name : Ricardo Stuck
 tags : ['alumni']
 ORCID : true
 startDate: 04/06/2019
-position : Ricardo was an undergraduate research assistant. After leaving the lab Ricardo started Graduate School.
+position : Ricardo was an undergraduate research assistant. After leaving the lab Ricardo took on a prestigious Medical Student Scholarship at the F. Edward
+Hébert School of Medicine of the Uniformed Services University of the Health Sciences in Bethesda, Maryland.
 image : /img/RicardoStuck_RA_Small.jpg
 twitter : https://twitter.com/RicardoStuck
 github : https://github.com/ricardostuck
