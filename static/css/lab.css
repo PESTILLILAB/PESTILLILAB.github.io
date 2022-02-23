@@ -1,7 +1,6 @@
-img#logo{width:60px;
-} */
+img#logo{ width:60px; }
 
- .carousel-item {
+.carousel-item {
     height: 550px;
 }
 .carousel-item  >img {
@@ -266,3 +265,17 @@ Black           900
     }
   }
   
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 40vh;
+    position: relative;
+    height: 0;
+}
+
+.map-responsive > div {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
