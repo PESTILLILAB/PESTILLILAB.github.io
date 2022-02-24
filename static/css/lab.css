@@ -267,9 +267,8 @@ Black           900
   
 .map-responsive {
     overflow: hidden;
-    padding-bottom: 40vh;
+    height: 50vh;
     position: relative;
-    height: 0;
 }
 
 .map-responsive > div {
