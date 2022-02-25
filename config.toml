@@ -67,10 +67,10 @@ mapData = "/static/assets/institutions.json"
         "Computer Science PHD" = "https://www.cs.utexas.edu/graduate-program/phd-program"
     [params.Footer.RelatedLinks.Research]
         "brainlife.io" = "https://brainlife.io"
+        "NeuroscienceNetwork.org" = "https://neurosciencenetwork.org"
 
     [params.Footer.Institutional]
         "Psychology Department" = "https://liberalarts.utexas.edu/psychology/"
         "The University of Texas" = "The University of Texas" 
         "TACC" = "IMAGING CENTER"
         "Indiana University UITS" = "https://dcops.iu.edu/"
-        "NeuroscienceNetwork.org" = "https://NeuroscienceNetwork.org"
