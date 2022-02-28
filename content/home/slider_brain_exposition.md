@@ -1,5 +1,5 @@
 ---
-title: We promote understanding the human brain using technology 
+title: We advance scientific discovery and education to benefit of society 
 align : text-left
 image : img/fl-frost-museum-brain-exhibition-20171023-video.jpeg
 tags : ['slider']
