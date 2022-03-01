@@ -1,6 +1,5 @@
 ---
-title: Example Slide
-align : text-left
-image : /img/frontera-banner1.jpeg
+title: It takes the world to improve our society
+image : /img/texas-naturerainbow-pestilli.jpeg
 tags : ['slider']
 ---
