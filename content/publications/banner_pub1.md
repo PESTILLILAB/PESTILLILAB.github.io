@@ -1,5 +1,5 @@
 ---
 title: It takes the world to improve our society
-image : /img/texas-naturerainbow-pestilli.jpeg
+image : /img/neuroscience-building-pestilli.jpeg
 tags : ['slider']
 ---
