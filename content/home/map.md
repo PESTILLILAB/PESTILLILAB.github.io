@@ -2,7 +2,7 @@
 width: 1000
 height : 500
 title: Network of collaborators
-subtitle: We work in collaboration with scientists and technologists across the globe
+subtitle: Our collaboration network involves scientists and developers across the globe
 tags : ['map']
 backgroundColor : '#FFFFFF'
 titleColor : '#000000'
