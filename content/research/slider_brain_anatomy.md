@@ -1,6 +1,6 @@
 ---
-title: Besides being hundreds of years old, brain anatomy is still one of the frontiers of neuroscience. 
-align : text-left
+title: Besides being hundreds of years old, brain anatomy is still one of the frontiers of neuroscience research
+align : text-right
 image : /img/cerebellum-pestilli-lab.jpeg
 tags : ['slider']
 ---
