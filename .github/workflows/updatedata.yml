@@ -1,0 +1,21 @@
+# This is a basic workflow to help you get started with Actions
+
+name: ORCID DATA FETCH AND UPDATE
+
+# Controls when the workflow will run
+on:
+ schedule:
+        - cron: "0 10 * * sun" #runs at 10:00 A.M UTC on Sunday
+jobs:
+ build:
+        runs-on: ubuntu-latest
+        steps:
+          - name: checkout repo content
+            uses: actions/checkout@v2 # checkout the repository content to github runner.
+          - name: setup python
+            uses: actions/setup-python@v2
+            with:
+              python-version: 3.8 #install the python needed
+          - name: execute python script # run the orcid_data_fetch.py to get the latest data from the orcid profile
+            run: |
+                 python orcid_data_fetch.py
