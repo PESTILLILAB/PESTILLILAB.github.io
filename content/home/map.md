@@ -1,12 +1,17 @@
 ---
-mapData : '/assets/institutions.json'
 width: 1000
 height : 500
-title: Map Title
-subtitle: subtitle
+title: Network of collaborators
+subtitle: We work in collaboration with scientists and technologists across the globe
 tags : ['map']
 backgroundColor : '#FFFFFF'
 titleColor : '#000000'
 subtitleColor : 'grey'
 textColor : 'grey'
+mapData : "/static/assets/institutions.json"
+mapPrimaryColor: '#005981'
+mapSecondaryColor: '#CCCCCC'
+mapWaterColor: '#005981'
+mapMarker: '/img/map_marker.svg'
+mapHeight: 50vh
 ---

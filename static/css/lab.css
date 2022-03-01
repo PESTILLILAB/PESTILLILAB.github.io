@@ -1,7 +1,6 @@
-img#logo{width:60px;
-} */
+img#logo{ width:60px; }
 
- .carousel-item {
+.carousel-item {
     height: 550px;
 }
 .carousel-item  >img {
@@ -79,7 +78,7 @@ p{
   border-radius: 2px;
   justify-content: center;
   align-items: center;
-  background-color: #579D42 ;
+  background-color: #005981 ;
   }
   .rect > h1 {
     margin-left: 20px;
@@ -266,3 +265,16 @@ Black           900
     }
   }
   
+.map-responsive {
+    overflow: hidden;
+    height: 50vh;
+    position: relative;
+}
+
+.map-responsive > div {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
