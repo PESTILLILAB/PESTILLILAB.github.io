@@ -1,6 +1,6 @@
 ---
 title: Street Art in Austin, TX
-align : text-left
+align : text-right
 image : /img/austin-murales-pestilli.jpg
 tags : ['slider','active']
 ---
