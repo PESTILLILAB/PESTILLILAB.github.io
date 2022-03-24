@@ -35,6 +35,12 @@ mapData = "/static/assets/institutions.json"
 #     name= 'Events'
 #     URL = '/events'
 
+[params.sitecolors]
+    headingColor = "#005981"
+    textColor = "#373D3F"
+    headingFont = "'Source Sans Pro', sans-serif , Helvetica, Arial"
+    iconColor = "#005981"
+    btnColor = "#373D3F"
 [params.keys]
     googleMaps = "AIzaSyD_DdEi4sKJWYq6zIxOtJ381CtzsB8hh5o"
 
@@ -46,7 +52,7 @@ mapData = "/static/assets/institutions.json"
     title= "PESTILLI LAB"
     backgroundColor = "#F5F5F5"
     textColor = "#646464"
-    boldTextColor = "#373737"
+    boldTextColor = "#005981"
     address = [
     "Department of Psychology",
     "The University of Texas at Austin",
