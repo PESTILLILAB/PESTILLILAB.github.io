@@ -1,8 +1,11 @@
 ---
-title: OPEN NEUROSCIENCE and CLOUD TECHNOLOGY
-subtitle : INNOVATION AND TECHNOLOGY FOR BETTER, FASTER, STRONGER SCIENCE
+title: Open Neuroscience and Cloud Technology
+subtitle : Innovation and Technology for Better, Faster, Stronger Science
 image : /img/cloud-engineers-science-in-hd-iPrjQEDnNEY-unsplash.jpeg
 backgroundColor : '#f9f9f9'
+titleColor : '#005981'
+subtitleColor : '#476E80'
+textColor : '#646464;'
 tags : ['feature']
 align: right
 ---

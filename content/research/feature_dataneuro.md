@@ -1,6 +1,6 @@
 ---
-title: DATA NEUROSCIENCE and MACHINE LEARNING
-subtitle : ADVANCING SCIENTIFIC UNDERSTANDING WITH BOTH THEORY AND DATA-DRIVEN METHODS
+title: Data Neuroscience and Machine Learning
+subtitle : Advancing Scientific Understanding with both Theory and Data-Driven Methods
 image : /img/code+glasses-kevin-ku-w7ZyuGYNpRQ-unsplash.jpeg
 tags : ['feature']
 ---
