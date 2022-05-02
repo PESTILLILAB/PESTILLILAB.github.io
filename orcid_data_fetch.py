@@ -12,11 +12,13 @@ def getFundings():
         print(x)
         funding = x['funding-summary']
         for details in funding:
-            with open('content/research/'+str(details['put-code'])+str(details['type'])+'.md','w+') as yml:
+            with open('content/research/'+str(details['put-code']).replace('"',"")+str(details['type'])+'.md','w+') as yml:
                 yml.write('---\n')
+                details['title']['title']['value'] = details['title']['title']['value'].replace('"',"")
                 yml.write("title : '"+details['title']['title']['value']+"'")
                 yml.write('\n')
-                yml.write("startDate : '"+details['start-date']['month']['value']+"/01/"+details['start-date']['month']['value']+"'")
+                print("DATEEEEEEEEE"+str(details['start-date']))
+                yml.write("startDate : "+str(details['start-date']['year']['value'])+"-"+details['start-date']['month']['value']+"-01"+"T00:00:00-04:00")
                 yml.write('\n')
                 try:
                     print(details['contributors'])
@@ -36,7 +38,7 @@ def getPublications():
             if(str(details['put-code'])):
                 resp = requests.get('https://pub.orcid.org/v2.0/'+orcidID+'/works/'+str(details['put-code']),headers={'Accept': 'application/json'})
                 #will only proceed to write a publication if it has year month and day
-                pubtitle = details['title']['title']['value']
+                pubtitle = details['title']['title']['value'].replace('"',"")
                 dateobj = resp.json()['bulk'][0]['work']['publication-date']
                 try:
                     # print(dateobj)
@@ -46,7 +48,7 @@ def getPublications():
                         dateString = ""+dateobj['month']['value']+"/"+dateobj['day']['value']
                         print(dateString)
                         #Title1stWord_type.md
-                        with open('content/publications/'+str(pubtitle.split(" ")[0]+"_")+str(details['type'])+'.md','w+') as yml:
+                        with open('content/publications/'+str(pubtitle.replace('"',"").split(" ")[0]+"_")+str(details['type'])+'.md','w+') as yml:
                             for workDetail in resp.json()['bulk']:
                                 yml.write('---\n')
                                 yml.write("title : '"+details['title']['title']['value']+"'")
