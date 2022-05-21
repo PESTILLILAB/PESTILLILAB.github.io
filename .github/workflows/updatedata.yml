@@ -23,7 +23,7 @@ jobs:
           - name: Install dependencies
             run: |
                  pip install requests
-                 pip install yaml
+                 pip install pyaml
                  pip install json
                  pip install pathlib
                  pip install sys
