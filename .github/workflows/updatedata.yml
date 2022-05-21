@@ -18,4 +18,4 @@ jobs:
               python-version: 3.8 #install the python needed
           - name: execute python script # run the orcid_data_fetch.py to get the latest data from the orcid profile
             run: |
-                 python orcid_data_fetch.py
+                 python3 orcid_data_fetch.py
