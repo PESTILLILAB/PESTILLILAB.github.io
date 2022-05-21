@@ -20,6 +20,10 @@ jobs:
             uses: actions/setup-python@v2
             with:
               python-version: 3.8 #install the python needed
+          - name: Install dependencies
+            run: |
+                 pip install requests
+                 
           - name: execute python script # run the orcid_data_fetch.py to get the latest data from the orcid profile
             run: |
-                 python3 orcid_data_fetch.py
+                 python orcid_data_fetch.py
