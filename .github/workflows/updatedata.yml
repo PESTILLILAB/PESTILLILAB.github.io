@@ -24,7 +24,6 @@ jobs:
             run: |
                  pip install requests
                  pip install pyaml
-                 pip install json
                  pip install pathlib
                  pip install sys
           - name: execute python script # run the orcid_data_fetch.py to get the latest data from the orcid profile
