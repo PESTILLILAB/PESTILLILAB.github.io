@@ -3,9 +3,12 @@
 name: ORCID DATA FETCH AND UPDATE
 
 # Controls when the workflow will run
+# on:
+#  schedule:
+#         - cron: "0 10 * * sun" #runs at 10:00 A.M UTC on Sunday
 on:
- schedule:
-        - cron: "0 10 * * sun" #runs at 10:00 A.M UTC on Sunday
+ label:
+    types: [created, edited]
 jobs:
  build:
         runs-on: ubuntu-latest
