@@ -1,0 +1,75 @@
+baseURL = "https://brainlife.io/"
+languageCode = "en-us"
+theme = "raditian-free-hugo-theme"
+
+# Plugins
+[params.plugins]
+
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "css/main.css"
+  [[params.plugins.css]]
+  URL = "css/rad-icons.css"
+  [[params.plugins.css]]
+  URL = "css/custom.css"
+
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "js/rad-animations.js"
+  [[params.plugins.js]]
+  URL = "js/sticky-header.js"
+  [[params.plugins.js]]
+  URL = "js/library/fontfaceobserver.js"
+
+
+# navigation
+[menu]
+
+  [[menu.header]]
+  name = "Users"
+  URL = "/users"
+  weight = 2
+
+  [[menu.header]]
+  name = "Team"
+  URL = "/team"
+  weight = 3
+
+  [[menu.header]]
+  name = "Contact"
+  URL = "/#contact"
+  weight = 4
+
+
+  [[menu.footer]]
+  name = "Users"
+  URL = "/users"
+  weight = 2
+
+  [[menu.footer]]
+  name = "Team"
+  URL = "/team"
+  weight = 3
+
+  [[menu.footer]]
+  name = "Contact"
+  URL = "/#contact"
+  weight = 4
+
+
+[params]
+
+  sections = ["showcase", "about", "education", "experience", "client-and-work", "testimonial", "contact", "newsletter"]
+
+  googleTagManagerID = "GTM-TM7KT8B" # Google Analytics works with Google Tag Manager
+
+  [params.logo]
+    text1 = "brainlife"
+
+  [params.footer]
+      copyright = "© Pestillilab. All rights reserved."
+      [params.footer.lab_logo]
+        x = "img/general/lablogo.png"
+        alt = "Pestilli Lab"
+
+

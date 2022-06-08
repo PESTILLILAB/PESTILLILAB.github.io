@@ -1,0 +1,81 @@
+{{ if .Site.Data.homepage.showcase.enable }}
+
+<section id="users" class="section section--border-bottom rad-animation-group">
+<div class="container">
+  <div class="rad-fade-down">
+      <h2>{{ .Params.Title }}</h2>
+      <p class="lead">
+          {{ .Params.Description }}
+      </p>
+      <!--
+      <a href="{{ .Site.Data.homepage.experience.button.URL | absURL }}" class="btn btn-primary"
+          target="_blank">
+          <i class="{{ .Site.Data.homepage.experience.button.icon }}"></i>
+          {{ .Site.Data.homepage.experience.button.btnText }}
+          <i class="icon-arrow-right"></i></a>
+      <a href="{{ .Site.Data.homepage.experience.button2.URL | absURL }}" class="btn btn-frameless"
+          target="_blank">
+          <i class="{{ .Site.Data.homepage.experience.button2.icon }}"></i>
+          {{ .Site.Data.homepage.experience.button2.btnText }}
+      </a>
+    -->
+  </div>
+
+  <div class="row">
+    {{ range .Params.Items }}
+    <div class="col-sm">
+
+        <img style="width: 100%;" src="{{ .image | absURL }}" />
+
+        <h5 class="experience__Description" style="opacity: 0.7;">{{ .title }}</h5>
+        <p class="lead">{{ .content | safeHTML }}</p>
+      </div>
+
+    {{ end }}
+  </div>
+
+
+  <br>
+  <br>
+
+  <div class="rad-fade-down">
+    <h3>Global User base</h3>
+    <p class="lead"> ~1200 users across +400 institutions / universities. </p>
+    <div id="map" style="width: 100%; height: 600px"></div>
+    <br>
+    <br>
+    <br>
+  </div>
+
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_DdEi4sKJWYq6zIxOtJ381CtzsB8hh5o&callback=initMap"
+    type="text/javascript"></script>
+  <script>
+    var map;
+    function initMap() {
+      //fetch('assets/institutions.json').then(res=>res.json()).then(insts=>{
+      fetch('https://brainlife.io/api/auth/profile/userlocs').then(res => res.json()).then(insts => {
+        map = new google.maps.Map(document.getElementById("map"), {
+          center: { lat: 20, lng: 10 },
+          zoom: 2
+        });
+        insts.filter(inst=>inst.lat && inst.lng).map(inst=>{
+          //some inst.lat/lng are stored as string.. clean it up
+          return {
+            lat: parseInt(inst.lat),
+            lng: parseInt(inst.lng),
+          }
+        }).forEach(inst => {
+          new google.maps.Marker({
+            position: inst,
+            map: map,
+            title: inst.institution,
+          });
+        });
+      });
+    }
+  </script>
+
+</div>
+</section>
+{{ end }}
