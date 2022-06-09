@@ -1,12 +1,12 @@
 {{ if .Site.Data.homepage.showcase.enable }}
 <section class="rad-showcase rad-showcase--index rad-animation-group rad-fade-down">
-  <div class="rad-showcase__bg">
-    <img
-      class="lozad img-responsive"
-      src="{{ .Site.Data.homepage.showcase.image | absURL }}"
-    />
-  </div>
   <div class="container">
+    <div class="rad-showcase__bg">
+      <img
+        class="lozad img-responsive"
+        src="{{ .Site.Data.homepage.showcase.image | absURL }}"
+      />
+    </div>
     <div class="row">
       <div class="col-12 col-sm-12 col-md-8 col-lg-7 col-xl-6">
         <h1 class="display-1">
@@ -49,7 +49,7 @@
       data-src="{{ .Site.Data.homepage.showcase.imageMobile | absURL }}"
     />
   </div>
-</section>
+</section>:
 <br>
 <section class="rad-showcase rad-showcase--index rad-animation-group rad-fade-down">
     <div class="container">
@@ -60,4 +60,6 @@
         />
     </div>
 </section>
+<br clear="both">
+
 {{ end }}

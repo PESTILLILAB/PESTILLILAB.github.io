@@ -1,4 +1,5 @@
 ---
+layout: "users"
 title: "Brainlife is for you"
 description: "Brainlife reaches out beyond neuroscience experts. We've made sure that our UI and Apps can be used by non-neuroscentists by providing detailed information about each App with good default parameters that should work across a wide range of input datasets."
 items:

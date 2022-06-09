@@ -10,7 +10,7 @@ showcase:
   overview: "https://docs.google.com/drawings/d/e/2PACX-1vQuMtT7uTneEh5CseBYsG845SHekwuaEl7r1slCmKLqoXa7IuxDdubgy06AnC8AHdbCaiTzcXmI6BVq/pub?w=1920&h=1080"
   button:
     icon: "icon-arrow-right"
-    btnText: "Login"
+    btnText: "Open Portal"
     URL: "https://brainlife.io/auth"
 
   socialLinks:

@@ -1,0 +1,24 @@
+/* You can customize theme styles here */
+
+.header .navbar-brand span:first-child {
+    color: #3482e9;
+}
+.header .navbar-brand {
+    margin-top: -30px;
+}
+
+img.brainlife-border {
+    border-radius: 10px;
+    border: 3px solid black;
+}
+
+img.team-member {
+    filter: grayscale(100%);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+    display: block;
+}
+

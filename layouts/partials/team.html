@@ -1,0 +1,78 @@
+<section id="users" class="section">
+  <div class="container">
+    <div class="row rad-animation-group rad-fade-down">
+      <div class="col-12 col-md-5 mt-4 mt-md-0 my-md-auto">
+        <h3>{{ .Params.Title }}</h3>
+        <p class="lead">
+          {{ .Params.Description }}
+        </p>
+      </div>
+      <div class="col-12 col-md-7 pl-md-0 text-right">
+        <img src="{{ .Params.image | absURL }}" class="lozad img-responsive img-clip-left-backward"/>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--border-bottom rad-animation-group">
+<div class="container">
+   <div class="rad-animation-group rad-fade-down">
+      <h3>Current Members</h3>
+      <p class="lead">The following individuals are actively contributing to the brainlife.io project.</p>
+      <br>
+   </div>
+
+  {{ range .Params.activemembers }}
+    {{ partial "team_member.html" .}}
+  {{ end }}
+
+</div>
+</section>
+
+<section class="section section--border-bottom rad-animation-group">
+  <div class="container">
+   <div class="rad-animation-group rad-fade-down">
+      <h3>Collaborators</h3>
+      <p class="lead">The following individuals are actively collaborating to the brainlife.io projects.</p>
+      <br>
+   </div>
+
+   <div class="row">
+   {{ range .Params.collaborators }}
+    <div class="col-4">
+        {{ partial "person.html" .}}
+    </div>
+   {{ end }}
+  </div>
+</section>
+
+<section class="section section--border-bottom rad-animation-group">
+  <div class="container">
+
+   <div class="rad-animation-group rad-fade-down">
+      <h3>Contributors</h3>
+      <p class="lead">Many thanks to all brainlife.io Contributors!</p>
+      <br>
+   </div>
+
+   <div class="row">
+   {{ range .Params.contributors }}
+    <div class="col-4">
+      {{ partial "person.html" .}}
+    <br>
+    </div>
+   {{ end }}
+</div>
+</section>
+
+<section class="section section--border-bottom rad-animation-group">
+  <div class="container">
+   <div class="rad-animation-group rad-fade-down">
+      <h3>Alumni</h3>
+      <p class="lead"></p>
+   </div>
+   {{ range .Params.alumni }}
+     {{ partial "team_member.html" .}}
+   {{ end }}
+</div>
+</section>
