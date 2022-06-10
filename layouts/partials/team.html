@@ -14,7 +14,7 @@
   </div>
 </section>
 
-<section class="section section--border-bottom rad-animation-group">
+<section class="section">
 <div class="container">
    <div class="rad-animation-group rad-fade-down">
       <h3>Current Members</h3>
@@ -29,8 +29,8 @@
 </div>
 </section>
 
-<section class="section section--border-bottom rad-animation-group">
-  <div class="container">
+<section class="section section-collaborator">
+   <div class="container">
    <div class="rad-animation-group rad-fade-down">
       <h3>Collaborators</h3>
       <p class="lead">The following individuals are actively collaborating to the brainlife.io projects.</p>
@@ -46,9 +46,8 @@
   </div>
 </section>
 
-<section class="section section--border-bottom rad-animation-group">
-  <div class="container">
-
+<section class="section">
+    <div class="container">
    <div class="rad-animation-group rad-fade-down">
       <h3>Contributors</h3>
       <p class="lead">Many thanks to all brainlife.io Contributors!</p>
@@ -59,7 +58,6 @@
    {{ range .Params.contributors }}
     <div class="col-4">
       {{ partial "person.html" .}}
-    <br>
     </div>
    {{ end }}
 </div>

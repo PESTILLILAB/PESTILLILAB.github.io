@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "hugo -D server"
+    "dev": "hugo -D server",
+    "deploy": "rm -rf public && hugo -b https://test.brainlife.io && rsync -av --delete public/ ubuntu@test.brainlife.io:/usr/local/static/home"
   },
   "author": "",
   "license": "ISC"

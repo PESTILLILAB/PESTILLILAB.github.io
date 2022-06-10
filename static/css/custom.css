@@ -16,9 +16,19 @@ img.team-member {
     filter: grayscale(100%);
     width: 200px;
     height: 200px;
-    border-radius: 50%;
+    border-radius: 100px;
     border: 5px solid white;
     box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
-    display: block;
+    margin-bottom: 20px;
+    object-fit: cover;
 }
 
+section.section-collaborator {
+    background-color: #2693ff;
+}
+
+section.section-collaborator h3,
+section.section-collaborator h5,
+section.section-collaborator p.lead {
+    color: white;
+}
