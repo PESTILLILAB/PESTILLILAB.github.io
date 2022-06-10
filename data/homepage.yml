@@ -44,7 +44,6 @@ showcase:
     #- icon: "yelp"
     #  URL: "https://www.yelp.com/"
 
-# about
 about:
   enable: true
   title: "Developed for Neuroscientists"
@@ -72,7 +71,7 @@ education:
       year: "2009-2012"
       degree: "High School Diploma, Sciences, Math, Computer & Business Studies"
 
-# experience
+# turnkey
 experience:
   enable: true
   title: "A turnkey analysis platform"
@@ -102,7 +101,7 @@ experience:
       image: "img/saas/resources.png"
       url: "https://brainlife.io/docs/resources/register/"
 
-# sponsors
+# sponsors and features
 client_and_work:
   title: "Sponsors"
   content: "Brainlife is publicly funded by the NFS, DoD, Kavli Foundation and NIH awards. The public-funding model allows us to collaborate with other publicly funded projects and support unique resources at no cost. Brainlife’s mission is to serve the neuroscience community, support scientific reproducibility, and accelerate discovery." 
@@ -182,8 +181,8 @@ client_and_work:
         btnText: "Users"
         URL: "/users"
       image:
-        x: "img/works/swissfintech.jpg"
-        _2x: "img/works/swissfintech@2x.jpg"
+        x: "img/collaborate.png"
+        _2x: "img/collaborate.png"
       is_even: false
 
     - title: "Reproducible Analysis"
@@ -197,7 +196,17 @@ client_and_work:
         _2x: "img/provenance.png"
       is_even: true
 
-# testimonial
+    - title: "Visualization"
+      description: "Variety of visualization tools can be launched directly from your web browser."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Visualization Tools"
+        URL: "/docs/user/datatypes/#visualization-tools"
+      image:
+        x: "img/visualization.png"
+        _2x: "img/visualization.png"
+      is_even: false
+
 testimonial:
   enable: true
   title: "Testimonials"
@@ -223,7 +232,6 @@ testimonial:
         x: "img/testimonials/antonio-willis.jpg"
         _2x: "img/testimonials/antonio-willis@2x.jpg"
 
-# contact
 contact:
   enable: true
   title: "Contact"
@@ -245,7 +253,6 @@ contact:
     icon: "icon-mail-fill"
     btnText: "Send Message"
 
-# newsletter
 newsletter:
   enable: true
   title: "Newsletter subscription"

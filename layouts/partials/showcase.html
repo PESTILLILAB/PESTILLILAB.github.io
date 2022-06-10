@@ -49,17 +49,27 @@
       data-src="{{ .Site.Data.homepage.showcase.imageMobile | absURL }}"
     />
   </div>
-</section>:
-<br>
+</section>
+
 <section class="rad-showcase rad-showcase--index rad-animation-group rad-fade-down">
     <div class="container">
         <h1 class="display-1"><span>Feature Overview</span></h1>
         <img
-          class="lozad img-responsive" style="width: 100%"
+          class="lozad img-responsive" style="width: 100%; margin-bottom: 200px;"
           src="{{ .Site.Data.homepage.showcase.overview | absURL }}"
         />
     </div>
 </section>
+
+<section class="rad-showcase rad-showcase--index rad-animation-group rad-fade-down" style="background-color: #ddd; min-height: 600px">
+    <div class="container">
+        <center>
+            <iframe width="100%" height="500" src="https://www.youtube.com/embed/JXKPRWwcPx8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </center>
+    </div>
+</section>
+
+
 <br clear="both">
 
 {{ end }}
