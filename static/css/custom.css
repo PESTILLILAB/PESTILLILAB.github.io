@@ -2,9 +2,7 @@
 
 .header .navbar-brand span:first-child {
     color: #3482e9;
-}
-.header .navbar-brand {
-    margin-top: -30px;
+    font-size: 35px;
 }
 
 img.brainlife-border {
