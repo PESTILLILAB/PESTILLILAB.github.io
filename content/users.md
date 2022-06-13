@@ -1,17 +1,17 @@
 ---
 layout: "users"
-title: "Brainlife is for you"
-description: "Brainlife reaches out beyond neuroscience experts. We've made sure that our UI and Apps can be used by non-neuroscentists by providing detailed information about each App with good default parameters that should work across a wide range of input datasets."
+title: "Brainlife is developed for you, by people like you"
+description: "Brainlife's user interface and data processing Apps are simple to use and target both neuroimaging experts and non-experts. The user interface provides intuitive step-by-step workflows as well as detailed information about datasets, Apps and data analysis processes."
 items:
   - title: "Students"
-    content: "Students can quickly get started and learn about key concepts of brainimage data analysis. Brainlife can lower technical barriers that often impede an effective learning process."
+    content: "Students can quickly get started and learn about key concepts of neuroimaging data analysis. Brainlife aims at lowering the technical barriers that can impede access to brain data and analysis."
     image: "img/users/Startup.png"
 
   - title: "Computer Scientists"
-    content: "Computer scientists and engineers can focus on developing new algorithms and new computing methods without having to learn the entire neuroimaging preprocessing steps."
+    content: "Computer scientists and engineers can use Brainlife to develop and test new algorithms by simply deploying new data processing Apps. Brainlife Apps allows testing and benchmarking new algorithms using the open large-scale datasets avoiding the need to learn the entire neuroimaging software stack."
     image: "img/users/Work at home.png"
 
   - title: "Data Scientists"
-    content: "Statisticians and data scientists can use available datasets and data derivatives to gather new insights into individuality and variability in human populations."
+    content: "Statisticians and data scientists can use the open datasets and data derivatives and contribute to advance brain understanding by working with confidence using Jupyter Notebooks –R, Python, Octave or Julia."
     image: "img/users/Data analyse.png"
 ---
