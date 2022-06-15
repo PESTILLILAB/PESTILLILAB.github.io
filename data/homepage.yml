@@ -110,54 +110,63 @@ client_and_work:
   clients:
     - logo:
         x: "img/clients/ref.iu.png"
+        _2x: "img/clients/ref.iu.png"
         #_2x: "img/clients/asgardia@2x.png"
       alt: "Indiana University"
       url: "https://iu.edu"
 
     - logo:
         x: "img/clients/ref.jetstream.png"
+        _2x: "img/clients/ref.jetstream.png"
         #_2x: "img/clients/earth-2@2x.png"
       alt: "Jetstream"
       url: "https://jetstream-cloud.org/"
 
     - logo:
         x: "img/clients/ref.nsf.png"
+        _2x: "img/clients/ref.nsf.png"
         #_2x: "img/clients/goldline@2x.png"
       alt: "National Science Foundation"
       url: "https://www.nsf.gov/"
 
     - logo:
         x: "img/clients/ref.nih.png"
+        _2x: "img/clients/ref.nih.png"
         #_2x: "img/clients/kanba@2x.png"
       alt: "National Institutes of Health"
       url: "https://www.nih.gov/"
 
     - logo:
         x: "img/clients/ref.osiris.png"
+        _2x: "img/clients/ref.osiris.png"
         #_2x: "img/clients/zoo-tv@2x.png"
       alt: "OSiRIS"
       url: "https://www.osris.org/"
 
     - logo:
         x: "img/clients/ref.osg.png"
+        _2x: "img/clients/ref.osg.png"
         #_2x: "img/clients/ztos@2x.png"
       alt: "Open Science Grid"
       url: "https://opensciencegrid.org"
 
     - logo:
         x: "img/clients/ref.datacite.png"
+        _2x: "img/clients/ref.datacite.png"
         #_2x: "img/clients/ztos@2x.png"
       alt: "Datacite"
       url: "https://datacite.org/"
 
     - logo:
         x: "img/clients/ref.ut.png"
+        _2x: "img/clients/ref.ut.png"
         #_2x: "img/clients/ztos@2x.png"
       alt: "University of Texas"
       url: "https://www.utexas.edu/"
 
     - logo:
         x: "img/clients/ref.tacc.png"
+        _2x: "img/clients/ref.tacc.png"
         #_2x: "img/clients/ztos@2x.png"
       alt: "TACC"
       url: "https://www.tacc.utexas.edu/"

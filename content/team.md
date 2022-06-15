@@ -145,13 +145,13 @@ alumni:
     bio: "Dan was a Psychology and Neuroscience Ph.D. candidate at Indiana University. After working at University of Cincinnati, Duke University, and North Carolina State University, he joined the Pestilli Lab in 2015 focusing on methods for white matter anatomy characterization and automated segmentation. Dan has contributed multiple Apps to brainlife.io. He is passionate about student rights and an open science advocate. After working with brainlife.io, Dan joined the Laboratory of Sarah Heilbronner at the University of Minnesota as a Postdoctoral Fellow."
     url: "[Google Scholar](https://scholar.google.com/citations?user=PhaFy78AAAAJ&hl=en)"
     avatar: "img/team/dan.jpg"
-    
- - name: "Aurore Bussalb"
+
+  - name: "Aurore Bussalb"
     title: "Postdoctoral Research / Research Engineer, Institut du Cerveau et de la Moelle épinière (ICM), Sorbone University"
     bio: "Aurora was Postdoctoral Fellow and Research Engineer supported by a NIH NIBIB CRCNS collabroative award. After leaving brainlife.io Aurore took a position as software engineer at BioSerenity, a Franch startup in Paris."
     url: "[LinkedIn](https://www.linkedin.com/in/aurore-bussalb-170305b1/)"
     avatar: "img/team/Aurore_Bussalb.jpeg"
-    
+
   - name: "David Hunt"
     title: "Research Assistant"
     bio: "David developed brainlife.io Apps that allowed processing of functional neuroimaging data with application to vision science."
