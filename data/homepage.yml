@@ -10,8 +10,8 @@ showcase:
   overview: "https://docs.google.com/drawings/d/e/2PACX-1vQuMtT7uTneEh5CseBYsG845SHekwuaEl7r1slCmKLqoXa7IuxDdubgy06AnC8AHdbCaiTzcXmI6BVq/pub?w=1920&h=1080"
   button:
     icon: "icon-arrow-right"
-    btnText: "Open Portal"
-    URL: "https://brainlife.io/auth"
+    btnText: "Portal"
+    URL: "/projects"
 
   socialLinks:
     #- icon: "linkedin"
@@ -83,23 +83,23 @@ experience:
   button2:
     icon: "icon-profile-fill"
     btnText: "Brainlife Architecture"
-    URL: "https://brainlife.io/docs/technical/arthitecture/"
+    URL: "/docs/technical/arthitecture/"
 
   items:
     - title: "Apps"
       content: "Share your analyses by registering a GitHub repository as an <b>App</b>. Apps can be publicly shared and executed on the several cloud computing platforms."
       image: "img/saas/apps.png"
-      url: "https://brainlife.io/docs/user/process"
+      url: "/docs/user/process"
 
     - title: "Data"
       content: "Share your neuroimaging data publicly or privately. Data on brainlife.io is organized as <b>Datatypes</b> to allow interoperability between Apps."
       image: "img/saas/datasets.png"
-      url: "https://brainlife.io/docs/user/project/"
+      url: "/docs/user/project/"
 
     - title: "Computing"
       content: "Share your <b>Computing Resources</b> on brainlife.io to accelerate scientific discovery and increase resources utilization."
       image: "img/saas/resources.png"
-      url: "https://brainlife.io/docs/resources/register/"
+      url: "/docs/resources/register/"
 
 # sponsors and features
 client_and_work:
@@ -177,7 +177,7 @@ client_and_work:
       button:
         icon: "icon-arrow-right"
         btnText: "Resources"
-        URL: "https://brainlife.io/resources"
+        URL: "/resources"
       image:
         x: "img/stampede2.jpg"
         _2x: "img/stampede2.jpg"
@@ -199,7 +199,7 @@ client_and_work:
       button:
         icon: "icon-arrow-right"
         btnText: "Archiving"
-        URL: "https://brainlife.io/docs/user/started/#archiving"
+        URL: "/docs/user/started/#archiving"
       image:
         x: "img/provenance.png"
         _2x: "img/provenance.png"
@@ -224,22 +224,33 @@ testimonial:
       position: "Neurophysicist"
       content: "The Brainlife platform is phenomenal. A great idea, great execution. It reminds me of Wikipedia when it started… now it is essential to almost everyone."
       image:
-        x: "img/testimonials/daniel-jordan.jpg"
-        _2x: "img/testimonials/daniel-jordan@2x.jpg"
+        x: "img/testimonials/female.png"
+        _2x: "img/testimonials/female.png"
 
-    - name: "John Doe"
-      position: "Textic, CEO"
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    - name: "Yaroslav Halchenko"
+      position: "Research Associate Professor @ Darthmouth College"
+      content: "I have worked on software for data management, computation execution,
+archival, standards and do know first hands the difficulty of creating
+harmonious and visually appealing platform, such as BrainLife.io.  It is
+truly indistinguishable from magic in what it does!"
       image:
-        x: "img/testimonials/jonathan-peters.jpg"
-        _2x: "img/testimonials/jonathan-peters@2x.jpg"
+        x: "img/testimonials/yarik.webp"
+        _2x: "img/testimonials/yarik.webp"
 
-    - name: "John Doe"
-      position: "Cyberse, CEO"
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    - name: "psychopy.org"
+      position: "Nottingham, UK"
+      content: "Just discovered the very cool https://BrainLife.io project by @furranko Amazing the things they've built into this website for sharing, analyzing and visualizing neuroimaging data. So many beautiful tools."
       image:
-        x: "img/testimonials/antonio-willis.jpg"
-        _2x: "img/testimonials/antonio-willis@2x.jpg"
+        x: "img/testimonials/psychopy.png"
+        _2x: "img/testimonials/psychopy.png"
+
+#    - name: "Steven Meisler"
+#      position: "Neuroscience Grad Student @ Harvard/MIT"
+#      content: "....todo..."
+#      image:
+#        x: "img/testimonials/steven.png"
+#        _2x: "img/testimonials/steven.png"
+
 
 contact:
   enable: true
