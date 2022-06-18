@@ -19,7 +19,7 @@ activeMembers:
 
   - name: "Anibal Solon Heinsfeld"
     title: "Graduate Research Assistant"
-    bio: "Anibal is graduate research assistant working on machine learning methods applied to neuroscience data. He joined the University of Texas at Austin in 2019 and the brainlife.io team in 2021. Anibal is currently developing methods to improve the accuracy with whcih we can map brain networks. Anibal has contributed to several open-source projects (such as [C-PAC](https://fcp-indi.github.io/), [OpenNeuro](https://openneuro.org/), and [BrainBox](https://brainbox.pasteur.fr/)). Anibal loves working on computer systems and infrastructure and is programming geek."
+    bio: "Anibal is graduate research assistant working on machine learning methods applied to neuroscience data. He joined the University of Texas at Austin in 2019 and the brainlife.io team in 2021. Anibal is currently developing methods to improve the accuracy with which we can map brain networks. Anibal has contributed to several open-source projects, such as C-PAC (https://fcp-indi.github.io/), OpenNeuro (https://openneuro.org/), and BrainBox (https://brainbox.pasteur.fr/)."
     url: "[Google Scholar](https://scholar.google.com/citations?user=gQdfws4AAAAJ&hl=en&oi=ao)"
     avatar: "img/team/anibalsolon.jpg"
 
