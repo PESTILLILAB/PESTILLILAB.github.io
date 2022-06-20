@@ -220,12 +220,19 @@ testimonial:
   enable: true
   title: "Testimonials"
   items:
-    - name: "Tatiana Wolfe"
-      position: "Neurophysicist"
-      content: "The Brainlife platform is phenomenal. A great idea, great execution. It reminds me of Wikipedia when it started… now it is essential to almost everyone."
+    - name: "Steven Meisler"
+      position: "PhD Student"
+      content: "brainlife.io is an incredible infrastructure that is advancing open and collaborative science while making it easily accessible and intuitive. It is exciting to think of the possibilities when the scientific community can gather around a tool like this!"
       image:
-        x: "img/testimonials/female.png"
-        _2x: "img/testimonials/female.png"
+        x: "img/testimonials/steven.png"
+        _2x: "img/testimonials/steven.png"
+
+#    - name: "Tatiana Wolfe"
+#      position: "Neurophysicist"
+#      content: "The Brainlife platform is phenomenal. A great idea, great execution. It reminds me of Wikipedia when it started… now it is essential to almost everyone."
+#      image:
+#        x: "img/testimonials/female.png"
+#        _2x: "img/testimonials/female.png"
 
     - name: "Yaroslav Halchenko"
       position: "Research Associate Professor @ Darthmouth College"
@@ -239,7 +246,7 @@ truly indistinguishable from magic in what it does!"
 
     - name: "psychopy.org"
       position: "Nottingham, UK"
-      content: "Just discovered the very cool https://BrainLife.io project by @furranko Amazing the things they've built into this website for sharing, analyzing and visualizing neuroimaging data. So many beautiful tools."
+      content: "Just discovered the very cool BrainLife.io project by @furranko Amazing the things they've built into this website for sharing, analyzing and visualizing neuroimaging data. So many beautiful tools."
       image:
         x: "img/testimonials/psychopy.png"
         _2x: "img/testimonials/psychopy.png"
