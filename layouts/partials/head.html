@@ -215,3 +215,26 @@
 {{ range .Site.Params.plugins.css }}
 <link rel="stylesheet" href="{{ .URL | absURL }}"/>
 {{ end }}
+
+<script>
+console.log("keydown?");
+let autoscroll = false;
+window.addEventListener('keydown', e=>{
+    //a... for autoscroll
+    if(e.keyCode == 65) {
+        console.log("toggling autoscroll", autoscroll);
+        autoscroll = !autoscroll;
+    }
+});
+console.dir(window);
+setInterval(()=>{
+    if(autoscroll) {
+        if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
+            console.log("reached bottom");
+            window.scroll(0, 0);
+        }
+        window.scrollBy(0, 1);
+    }
+}, 100);
+
+</script>
