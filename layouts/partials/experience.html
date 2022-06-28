@@ -11,11 +11,13 @@
             <div class="row">
                 {{ range .Site.Data.homepage.experience.items }}
                 <div class="col" style="clear: both">
-                    <a href="{{ .url }}">
-                        <img style="width: 80%" src="{{ .image | absURL }}" alt="saas image" />
-                    </a>
+                    <p>
+                        <a href="{{ .url }}">
+                            <img style="width: 80%" src="{{ .image | absURL }}" alt="saas image" />
+                        </a>
+                    </p>
                     <h5 style="opacity: 0.7;">{{ .title }}</h5>
-                    <div >{{ .content | safeHTML }}</div>
+                    <p class="lead">{{ .content | safeHTML }}</p>
                 </div>
                 {{ end }}
             </div>
