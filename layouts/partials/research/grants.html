@@ -1,0 +1,39 @@
+{{ $Data := .Scratch.Get "PartialData" }}
+
+<div class="container rad-fade-down">
+  <div class="row d-flex flex-md-row justify-content-center">
+    <div class="grants">
+    {{ $CurYear := "" }}
+    {{ range sort $Data.grants "startDate" "desc" }}
+      {{ $Year := index (split .startDate "-") 0 }}
+      {{ if ne $CurYear $Year }}
+        {{ $CurYear = $Year }}
+        <h3>{{ $CurYear }}</h3>
+      {{ end }}
+      <div class="col-12 mt-4 grant">
+        <h4 class="title">
+          {{ .title }}
+        </h4>
+        <p class="investigators">
+          {{ range .investigators }}
+            <span>{{ . }}</span>
+          {{ end }}
+        </p>
+        <p class="grantor">
+          {{ if .grantor }}
+            <span>{{ .grantor }}</span>
+          {{ end }}
+          <span>
+            {{ if .startDate }}
+            {{ .startDate | dateFormat "Jan 2006" }}
+            {{ end }}
+            {{ if .endDate }}
+            to {{ .endDate | dateFormat "Jan 2006" }}
+            {{ end }}
+          </span>
+        </p>
+      </div>
+    {{ end }}
+    </div>
+  </div>
+</div>

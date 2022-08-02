@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {{ partial "head.html" . }}
+  {{ partial "head_custom.html" . }}
+</head>
+
+<body data-page="{{ block "page" . }}{{ end }}">
+  {{ partial "header.html" . }}
+  {{ partial "sections.html" . }}
+  {{ partial "footer.html" . }}
+  {{ partial "base-foot.html" . }}
+</body>
+
+</html>

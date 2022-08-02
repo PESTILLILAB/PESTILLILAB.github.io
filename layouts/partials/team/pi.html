@@ -1,0 +1,24 @@
+{{ $Data := .Scratch.Get "PartialData" }}
+
+<section class="rad-showcase rad-showcase--index rad-animation-group rad-fade-down">
+  <div class="container rad-fade-down">
+    <div class="row d-flex flex-column-reverse flex-md-row">
+      <div class="d-none d-md-block col-sm-3 col-md-5 col-lg-4 my-auto">
+        <figure class="team-member">
+          <img
+            class="lozad img-fluid"
+            src="{{ $Data.image | absURL }}"
+            alt="{{ $Data.name }}"
+          />
+        </figure>
+      </div>
+      <div class="col-12 col-md-7 col-lg-8 my-auto">
+        <h2>
+            {{ $Data.name }}
+        </h2>
+        <p class="lead">
+          {{ $Data.bio | markdownify }}
+        </p>
+    </div>
+  </div>
+</section>

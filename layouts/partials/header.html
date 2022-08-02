@@ -2,7 +2,11 @@
   <div class="container rad-fade-in">
     <nav class="navbar navbar-expand-lg navbar-light p-0">
       <a class="navbar-brand" href="{{ .Site.BaseURL | absURL }}">
-        <span>{{ .Site.Params.logo.text1 }}</span>
+        <img
+          class="img-responsive"
+          src="{{ .Site.Params.logo.img }}"
+          alt="{{ .Site.Params.logo.alt }}"
+        />
       </a>
       <button
         class="navbar-toggler"
@@ -17,9 +21,9 @@
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-lg-auto">
+        <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link" href="{{ .Site.BaseURL | absURL }}">ABOUT</a>
+            <a class="nav-link" href="{{ .Site.BaseURL | absURL }}">HOME</a>
           </li>
           {{ range .Site.Menus.header }}
           <li class="nav-item">

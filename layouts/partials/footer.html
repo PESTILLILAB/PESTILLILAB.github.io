@@ -1,31 +1,58 @@
-<footer class="footer">
-  <div class="container">
-    <div class="footer__left">
-      <div class="footer__copy">
-        {{ .Site.Params.footer.copyright }}
+<footer>
+  <div class="container pt-5 border-bottom">
+    <div class="row">
+      <div class="col-md-3 col-sm-12 mb-3 text-center">
+        <a href="{{.Site.Params.footer.logo.img}}">
+          <img src="{{.Site.Params.footer.logo.img}}" alt="{{.Site.Params.footer.logo.alt}}" class="img-fluid">
+        </a>
       </div>
+      <div class="col-md-9 col-sm-12 row">
+        <div class="col-md-4 col-sm-6 col-6 p-0 float-left mb-3">
+          <h5 class="text-uppercase"><strong>Contact Us</strong></h5>
+          <p><strong>{{ .Site.Params.footer.title }}</strong></p>
+          <p>
+            {{range .Site.Params.footer.address}}{{.}}<br>{{end}}
+          </p>
+          <p class="social">
+            {{if .Site.Params.footer.facebook}}
+            <a href="{{.Site.Params.footer.facebook}}"><i class="icons fab fa-facebook-square fa-2x"></i></a>
+            {{end}}
+            {{if .Site.Params.footer.twitter}}
+            <a href="{{.Site.Params.footer.twitter}}"><i class="icons fab fa-twitter-square fa-2x"></i></a>
+            {{end}}
+            {{if .Site.Params.footer.github}}
+            <a href="{{.Site.Params.footer.github}}"><i class="icons fab fa-github-square fa-2x"></i></a>
+            {{end}}
+          </p>
+        </div>
 
+        <div class="col-md-4 col-sm-6 col-6 p-0 mb-3 float-left">
+          <h5 class="font-weight-bold text-uppercase">Related links</h5>
 
-    </div>
-    <div class="footer__links">
-      <ul class="navbar-nav ">
-        <li class="nav-item">
-          <a class="nav-link" href="/">ABOUT</a>
-        </li>
-        {{ range .Site.Menus.footer }}
-        <li class="nav-item">
-          <a class="nav-link" href="{{ .URL | absURL }}">{{ .Name | upper }}</a>
-        </li>
-        {{ end }}
-      </ul>
-    </div>
-    <div class="footer__right">
-      <a href="https://radity.com/"
-        ><img
-          src="{{ .Site.Params.footer.radity_logo.x | absURL }}"
-          srcset="{{ .Site.Params.footer.radity_logo.x | absURL }} 1x, {{ .Site.Params.footer.radity_logo._2x | absURL }} 2x"
-          alt="{{ .Site.Params.footer.radity_logo.alt }}"
-      /></a>
+          {{range $section, $links := .Site.Params.footer.RelatedLinks}}
+          <h6 class="font-weight-bold text-uppercase">{{ $section }}</h6>
+          <ul class="list-group">
+            {{range $key, $value := $links}}
+            <li class="list-group-item bg-transparent border-0 p-0 mb-2 text-uppercase">
+              <a href="{{ $value }}">{{ $key }}</a>
+            </li>
+            {{end}}
+          </ul>
+          {{end}}
+        </div>
+
+        <div class="col-md-4 col-sm-6 col-6 mb-3 p-0 float-left">
+          <h5 class="font-weight-bold text-uppercase">Institutional</h5>
+          <ul class="list-group">
+            {{range $key, $value := .Site.Params.footer.Institutional}}
+            <li class="list-group-item bg-transparent border-0 p-0 mb-2 text-uppercase">
+              <a href="{{ $value }}">{{ $key }}</a>
+            </li>
+            {{end}}
+          </ul>
+        </div>
+
+      </div>
     </div>
   </div>
 </footer>

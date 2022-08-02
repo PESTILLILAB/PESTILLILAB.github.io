@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+  <defs>
+    <style>.b{fill:#f9c926;}.c{fill:#005981;}.d{fill:#e57536;}.e{fill:#a9262c;}</style>
+  </defs>
+  <rect class="c" x="0" y="0" width="4" height="16" />
+  <rect class="e" x="4" y="0" width="4" height="16" />
+  <rect class="d" x="8" y="0" width="4" height="16" />
+  <rect class="b" x="12" width="4" height="16" />
+</svg>

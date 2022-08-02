@@ -1,82 +1,239 @@
-{{ if .Site.Data.homepage.showcase.enable }}
-<section class="rad-showcase rad-showcase--index rad-animation-group rad-fade-down">
-  <div class="container">
-    <div class="rad-showcase__bg">
-      <img
-        class="lozad img-responsive"
-        src="{{ .Site.Data.homepage.showcase.image | absURL }}"
-      />
-    </div>
-    <div class="row">
-      <div class="col-12 col-sm-12 col-md-8 col-lg-7 col-xl-6">
-        <h1 class="display-1">
-            <!--
-          {{ .Site.Data.homepage.showcase.title }}
-          <br />
-            -->
-          <span
-            >{{ .Site.Data.homepage.showcase.subtitle }}</span
-          >
-        </h1>
-        <p class="lead">
-          {{ .Site.Data.homepage.showcase.description | safeHTML }}
-        </p>
-        <a
-          href="{{ .Site.Data.homepage.showcase.button.URL | absURL }}"
-          class="btn btn-primary"
-        >
-           <!--
-          <i class="{{ .Site.Data.homepage.showcase.button.icon }}"></i>
-            -->
-             › {{ .Site.Data.homepage.showcase.button.btnText }}
-        </a>
-      </div>
-    </div>
-    <div class="row platform-links">
-      <div class="col-12">
-        {{ range .Site.Data.homepage.showcase.socialLinks }}
-        <a href="{{ .URL | absURL }}" target="_blank"
-          ><i class="icon-{{ .icon }}-line"></i
-        ></a>
+{{ $Data := .Params.showcase }}
+{{ if $Data.enable }}
+<div class="rad-showcase rad-showcase--index rad-animation-group rad-fade-down container" id="container-showcase">
+  <canvas id="showcase-canvas"></canvas>
+  <div class="row">
+    <div class="col-12 col-sm-12 col-md-8 col-lg-7 col-xl-6">
+      <h1 class="display-1">
+        {{ if $Data.title }}
+          {{ $Data.title }}
         {{ end }}
-      </div>
+        {{ if $Data.subtitle }}
+        <span
+          >{{ $Data.subtitle }}</span
+        >
+        {{ end }}
+      </h1>
+      <p>
+        {{ $Data.description | safeHTML }}
+      </p>
+      {{ if $Data.button }}
+      <a
+        href="{{ $Data.button.URL | absURL }}"
+        class="btn btn-primary"
+      >
+        <i class="{{ $Data.button.icon }}"></i>
+        {{ $Data.button.btnText }}
+      </a>
+      {{ end }}
     </div>
   </div>
-  <div class="rad-showcase__bg rad-showcase__bg--mobile">
-    <img
-      class="lozad img-responsive"
-      src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-      data-src="{{ .Site.Data.homepage.showcase.imageMobile | absURL }}"
-    />
+  <div class="row platform-links">
+    <div class="col-12">
+      {{ range $Data.socialLinks }}
+      <a href="{{ .URL | absURL }}" target="_blank"
+        ><i class="icon-{{ .icon }}-line"></i
+      ></a>
+      {{ end }}
+    </div>
   </div>
-</section>
+</div>
 
-<br>
+<img src="./img/brain-full.svg" id="brain-full" style="display: none;" />
+<img src="./img/brain-border.svg" id="brain-border" style="display: none;" />
 
-<section class="rad-showcase rad-showcase--index rad-animation-group rad-fade-down">
-    <div class="container">
-        <h1 class="display-1"><span>Feature Overview</span></h1>
-        <img
-          class="lozad img-responsive" style="width: 100%; margin-bottom: 200px;"
-          src="{{ .Site.Data.homepage.showcase.overview | absURL }}"
-        />
-    </div>
-</section>
+<script>
 
-<section class="rad-showcase rad-showcase--index rad-animation-group rad-fade-down" style="background-color: #159957; min-height: 600px">
-    <div class="container">
-        <center>
-            <iframe width="100%" height="550" src="https://www.youtube.com/embed/JXKPRWwcPx8" 
-                title="YouTube video player" 
-                frameborder="0" 
-                style="box-shadow: 0 0 50px #fff6;"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-            </iframe>
-        </center>
-    </div>
-</section>
+function RNG(seed) {
+  var m_as_number = 2 ** 53 - 111;
+  var m = 2n ** 53n - 111n;
+  var a = 5667072534355537n;
+  var s = BigInt(seed) % m;
+  return function () {
+    return Number(s = s * a % m) / m_as_number;
+  };
+}
 
+let rng = RNG(31);
 
-<br clear="both">
+function baseRandom(lower, upper) {
+  return lower + Math.floor(rng() * (upper - lower + 1));
+}
+
+function random(lower, upper, floating) {
+  if (lower > upper) {
+    var temp = lower;
+    lower = upper;
+    upper = temp;
+  }
+  if (floating || lower % 1 || upper % 1) {
+    var rand = rng();
+    return Math.min(lower + rand * (upper - lower + Number.parseFloat('1e-' + ((rand + '').length - 1))), upper);
+  }
+  return baseRandom(lower, upper);
+}
+
+class Noise {
+  constructor(w, h, oct) {
+    this.width = w;
+    this.height = h;
+    this.octaves = oct;
+    this.canvas = Noise.compositeNoise(w, h, oct);
+    let ctx = this.canvas.getContext('2d');
+    this.data = ctx.getImageData(0, 0, w, h).data;
+  }
+
+  static noise(w, h) {
+    let cv = document.createElement('canvas');
+    let ctx = cv.getContext('2d');
+    cv.width = w;
+    cv.height = h;
+
+    let img = ctx.getImageData(0, 0, w, h),
+    data = img.data;
+    for (let i = 0, l = data.length; i < l; i += 4) {
+      data[i + 0] = random(0, 255);
+      data[i + 1] = random(0, 255);
+      data[i + 2] = random(0, 255);
+      data[i + 3] = 255;
+    }
+
+    ctx.putImageData(img, 0, 0);
+    return cv;
+  }
+
+  static compositeNoise(w, h, oct) {
+    let noisecv = document.createElement('canvas');
+    noisecv.width = w;
+    noisecv.height = h;
+
+    let ctx = noisecv.getContext('2d');
+    ctx.globalCompositeOperation = 'lighter';
+    ctx.globalAlpha = 1 / oct;
+    for (let i = 0; i < oct; i++) {
+      let noise = Noise.noise(noisecv.width >> i, noisecv.height >> i);
+      ctx.drawImage(noise, 0, 0, noisecv.width, noisecv.height);
+    }
+    ctx.globalCompositeOperation = 'source-over';
+    ctx.globalAlpha = 1;
+    
+    return noisecv;
+  }
+
+  getNoise(x, y, ch) {
+    let i = (~~x + ~~y * this.width) * 4;
+    return this.data[(i + ch) % this.data.length] / 127 - 1;
+  }
+}
+
+function init() {
+
+  console.log('init')
+
+  w = 2000;
+  h = 2000;
+
+  cv = document.getElementById('showcase-canvas');
+  cv.width = w;
+  cv.height = h;
+
+  ctx = cv.getContext('2d');
+  // ctx.imageSmoothingEnabled = true;
+  ctx.fillStyle = 'rgba(255, 255, 255, 1)';
+  ctx.fillRect(0, 0, w, h);
+
+  noise = new Noise(1000, 1000, 8);
+
+  const [bw, bh] = [1039/2, 895/2];
+  const [bx, by] = [~~(w / 2 - bw / 2), ~~(h / 2 - bh / 2)];
+  const [bxc, byc] = [~~(bw / 2), ~~(bh / 2)];
+
+  ctx.drawImage(brainImg, bx, by, bw, bh);
+
+  const temp = document.createElement("canvas");
+  temp.width = bw;
+  temp.height = bh;
+  const tempCtx = temp.getContext('2d');
+  tempCtx.fillStyle = 'rgba(255, 255, 255, 1)';
+  tempCtx.fillRect(0, 0, temp.width, temp.height);
+  tempCtx.drawImage(brainBorderImg, 0, 0);
+  const idata = tempCtx.getImageData(0, 0, temp.width, temp.height);
+
+  const coords = [];
+  for (let i = 0; i < idata.data.length; i += 4) {
+    if (idata.data[i] < 200) {
+      coords.push({
+        x: bx + ((i / 4) % idata.width),
+        y: by + Math.floor((i / 4) / idata.width),
+      });
+    }
+  }
+
+  particles = coords.length;
+  console.log('particles', particles);
+
+  particles_pos = new Float32Array(particles * 2);
+  particles_vel = new Float32Array(particles * 2);
+  for (let i = 0; i < particles; i++) {
+    particles_pos[i * 2 + 0] = coords[i].x;
+    particles_pos[i * 2 + 1] = coords[i].y;
+    particles_vel[i * 2 + 0] = ~(coords[i].x - bxc) * 0.0001;
+    particles_vel[i * 2 + 1] = ~(coords[i].y - byc) * 0.0001;
+  }
+
+  ctx.fillStyle = 'rgba(0, 0, 0, 0.05)';
+  // ctx.fillStyle = 'rgba(255, 0, 0, 1)';
+
+  animate();
+}
+
+function render() {
+  for (let i = 0; i < particles; i++) {
+    particles_pos[i * 2 + 0] += particles_vel[i * 2 + 0];
+    particles_pos[i * 2 + 1] += particles_vel[i * 2 + 1];
+
+    let x = particles_pos[i * 2 + 0];
+    let y = particles_pos[i * 2 + 1];
+    let dx = noise.getNoise(x, y, 0);
+    let dy = noise.getNoise(x, y, 1);
+
+    particles_vel[i * 2 + 0] += dx;
+    particles_vel[i * 2 + 1] += dy;
+    particles_vel[i * 2 + 0] *= 0.95;
+    particles_vel[i * 2 + 1] *= 0.95;
+    
+    ctx.fillRect(
+      particles_pos[i * 2 + 0],
+      particles_pos[i * 2 + 1],
+      2,
+      4
+    );
+  }
+}
+
+function animate() {
+  render();
+  rid = window.requestAnimationFrame(animate);
+}
+
+function generate() {
+  if (rid) {
+    window.cancelAnimationFrame(rid);
+    rid = 0;
+  } else {
+    init();
+  }
+}
+
+let rid, noise, w, h, cv, ctx;
+let particles = 5000, particles_pos, particles_vel;
+
+const brainImg = document.getElementById('brain-full');
+const brainBorderImg = document.getElementById('brain-border');
+brainImg.onload = function() {
+  setTimeout(init, 5000);
+}
+
+</script>
 
 {{ end }}

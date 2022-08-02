@@ -1,74 +1,89 @@
-baseURL = "https://brainlife.io/"
+baseURL = "https://pestillilab.github.io/"
 languageCode = "en-us"
 theme = "raditian-free-hugo-theme"
 
-# Plugins
+[module]
+[[module.imports]]
+path = "github.com/gohugoio/hugo-mod-bootstrap-scss/v5"
+
 [params.plugins]
 
   # CSS Plugins
   [[params.plugins.css]]
-  URL = "css/main.css"
-  [[params.plugins.css]]
   URL = "css/rad-icons.css"
-  [[params.plugins.css]]
-  URL = "css/custom.css"
 
   # JS Plugins
   [[params.plugins.js]]
   URL = "js/rad-animations.js"
   [[params.plugins.js]]
   URL = "js/sticky-header.js"
-  [[params.plugins.js]]
-  URL = "js/library/fontfaceobserver.js"
 
 
-# navigation
 [menu]
 
   [[menu.header]]
-  name = "Users"
-  URL = "/users"
+  name = "Research"
+  URL = "/research"
   weight = 2
+
+  [[menu.header]]
+  name = "Publications"
+  URL = "/publications"
+  weight = 3
 
   [[menu.header]]
   name = "Team"
   URL = "/team"
-  weight = 3
+  weight = 4
 
   [[menu.header]]
-  name = "Portal"
-  URL = "/projects"
-  weight = 4
-
-  [[menu.footer]]
-  name = "Users"
-  URL = "/users"
-  weight = 2
-
-  [[menu.footer]]
-  name = "Team"
-  URL = "/team"
-  weight = 3
-
-  [[menu.footer]]
-  name = "Portal"
-  URL = "/projects"
-  weight = 4
+  name = "News"
+  URL = "/news"
+  weight = 5
 
 
 [params]
 
-  sections = ["showcase", "about", "education", "experience", "client-and-work", "testimonial", "contact", "newsletter"]
-
-  googleTagManagerID = "GTM-TM7KT8B" # Google Analytics works with Google Tag Manager
+  googleMaps = "AIzaSyD_DdEi4sKJWYq6zIxOtJ381CtzsB8hh5o"
+  googleTagManagerID = ""
 
   [params.logo]
-    text1 = "brainlife"
+    img = "/img/pestillilab-01.svg"
+    alt = "Pestilli Lab"
 
   [params.footer]
-      copyright = "© Pestillilab. All rights reserved."
-      [params.footer.lab_logo]
-        x = "img/general/lablogo.png"
-        alt = "Pestilli Lab"
 
+    title = "Pestilli Lab"
+    address = [
+      "Department of Psychology",
+      "The University of Texas at Austin",
+      "SEA 4.208 108 E.",
+      "Dean Keeton Stop A8000",
+      "Austin, TX",
+      "78712-1043"
+    ]
 
+    backgroundColor = "#F8F8F8"
+    textColor = "#000"
+    sectionColor = "#333"
+    iconsColor = "#444"
+
+    [params.footer.logo]
+      img = "/img/pestillilab-02.svg"
+      alt = "Pestilli Lab"
+
+    [params.footer.RelatedLinks]
+
+      [params.footer.RelatedLinks.Education]
+          "Psychology PHD" = "https://liberalarts.utexas.edu/psychology/graduate/phd.php"
+          "Neuroscience PHD" = "https://neuroscienceinstitute.utexas.edu/PhD%20Program"
+          "Computer Science PHD" = "https://www.cs.utexas.edu/graduate-program/phd-program"
+      [params.footer.RelatedLinks.Research]
+          "brainlife.io" = "https://brainlife.io"
+          "NeuroscienceNetwork.org" = "https://neurosciencenetwork.org"
+
+      [params.footer.Institutional]
+          "Psychology Department" = "https://liberalarts.utexas.edu/psychology/"
+          "The University of Texas" = "The University of Texas" 
+          "TACC" = "IMAGING CENTER"
+          "Indiana University UITS" = "https://dcops.iu.edu/"

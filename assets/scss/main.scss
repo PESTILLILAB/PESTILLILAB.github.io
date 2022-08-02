@@ -1,0 +1,415 @@
+$fa-font-path: "node_modules/@fortawesome/fontawesome-free/webfonts";
+
+$theme-colors: (
+  primary: #005981,
+  secondary: #f9c926,
+);
+
+@import "bootstrap/bootstrap";
+@import "node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
+@import "../../static/css/custom";
+
+.b{fill:#f9c926;}
+.c{fill:#005981;}
+.e{fill:#e57536;}
+.f{fill:#ffffff;}
+.g{fill:#a9262c;}
+
+
+// Increase website on XXXL screens
+html {
+  transform-origin: 50% 0;
+}
+canvas#showcase-canvas {
+  transform-origin: 100% 0;
+}
+
+@include media-breakpoint-up(xxxl) {
+  html {
+    transform: scale(1);
+  }
+  // canvas#showcase-canvas {
+  //   transform: scale(0.8);
+  // }
+}
+@media screen and (min-width: 2100px) {
+  html {
+    transform: scale(1);
+  }
+  // canvas#showcase-canvas {
+  //   transform: scale(0.6);
+  // }
+}
+
+body > * {
+  z-index: 10000;
+}
+
+.fixed-top {
+  z-index: 20000;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 1.25rem;
+  font-weight: 300;
+
+  &.lead {
+    font-size: 1.5rem;
+  }
+}
+
+b, strong { font-weight: bold; }
+
+img.team-member, figure.team-member {
+  position: relative;
+  border-radius: 0;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+  margin-bottom: 20px;
+  padding: 10px;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    border: 0;
+    object-fit: cover;
+    filter: grayscale(100%);
+  }
+
+  &:before {
+    content: " ";
+    position: absolute;
+    width: 150%;
+    height: 150%;
+    top: -25%;
+    left: -25%;
+    z-index: -1;
+    background: url(/img/pestillilab-05.svg) no-repeat center center / cover;
+    transform: rotate(70deg);
+  }
+}
+
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+h1, .h1 {
+  font-size: calc(1.375rem + 1.5vw);
+}
+@media (min-width: 1200px) {
+  h1, .h1 {
+    font-size: 3.5rem;
+  }
+}
+
+h2, .h2 {
+  font-size: calc(1.325rem + 0.9vw);
+}
+@media (min-width: 1200px) {
+  h2, .h2 {
+    font-size: 3rem;
+  }
+}
+h3, .h3 {
+  font-size: calc(1.3rem + 0.6vw);
+}
+@media (min-width: 1200px) {
+  h3, .h3 {
+    font-size: 2.25rem;
+  }
+}
+h4, .h4 {
+  font-size: calc(1.275rem + 0.3vw);
+}
+@media (min-width: 1200px) {
+  h4, .h4 {
+    font-size: 1.75rem;
+  }
+}
+h5, .h5 {
+  font-size: 1.6rem;
+}
+
+h6, .h6 {
+  font-size: 1.3rem;
+}
+
+h2 {
+  position: relative;
+  font-size: 48px;
+  text-indent: 0.2em;
+
+  span:empty {
+    display: none;
+  }
+
+  // &:before {
+  //   content: "";
+  //   position: absolute;
+  //   top: 0;
+  //   left: -0.2em;
+  //   width: 2em
+  //   height: 1.2em;
+  //   background: url(/img/pestillilab-04.svg) no-repeat left top / contain;
+  //   transform: rotate(60deg);
+  //   transform-origin: 0px 0px;
+  // }
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -0.2em;
+    width: 0.75em;
+    height: 0.75em;
+    background: url(/img/pestillilab-05.svg) no-repeat left top / contain;
+    border: 2px solid #000;
+    border-radius: 1.2em;
+    transform: rotate(60deg);
+    transform-origin: 0px 0px;
+  }
+
+  span {
+    display: inline-block;
+    position: relative;
+    margin: 10px 0 10px 3px;
+    font-weight: 400;
+
+    font-size: 50%;
+    @include media-breakpoint-down(md) {
+      font-size: 75%;
+    }
+
+    &:before {
+      content: " ";
+      display: block;
+      height: 90%;
+      width: 100%;
+      margin-left: -3px;
+      margin-right: -3px;
+      position: absolute;
+      background: #f9c926;
+      opacity: 0.2;
+      left: -1px;
+      border-radius: 20% 25% 20% 24%;
+      padding: 10px 3px 3px 10px;
+    }
+  }
+}
+
+h4 {
+  span {
+    font-size: 80%;
+    @include media-breakpoint-down(md) {
+      font-size: 80%;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .section div[class*=col-] img.image-right-overflow {
+    margin-left: 100px;
+    width: auto;
+  }
+}
+
+.rad-showcase {
+  min-height: 90vh;
+}
+
+.header + .section#home {
+  margin-top: 0;
+}
+
+footer {
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  img {
+    margin: 0 4em;
+    @include media-breakpoint-down(lg) {
+      margin: 0 1em;
+    }
+  }
+
+  background-color: {{ .Site.Params.footer.backgroundColor }};
+
+  p,
+  a,
+  a:link,
+  a:visited {
+    color: {{ .Site.Params.footer.textColor }};
+  }
+
+  h5,
+  h6 {
+    color: {{ .Site.Params.footer.sectionColor }};
+  }
+
+  .icons {
+    color: {{ .Site.Params.footer.iconsColor }};
+  }
+}
+
+header {
+  background-color: #ffffffdd;
+}
+
+// #header {
+//   > div {
+//     margin-left: 0;
+//     padding-left: 0;
+//   }
+
+//   .navbar-brand {
+//     height: 6vw;
+//     margin-left: 6vw;
+//   }
+// }
+
+#container-showcase {
+  overflow: visible;
+}
+
+#container-showcase * {
+  z-index: 1;
+}
+
+#showcase-canvas {
+  position: absolute;
+  top: -35vw;
+  right: -40vw;
+  top: -35vw;
+  left: 15vh;
+  width: 100vw;
+  height: 100vw;
+  z-index: 0;
+}
+
+section#publications {
+  .publications {
+    h3 {
+      margin: 2em 0 0 0;
+    }
+  }
+
+  h3 {
+    position: relative;
+    padding-left: .5em;
+
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: -0.2em;
+      width: 2em;
+      height: 1.2em;
+      background: url(/img/pestillilab-04.svg) no-repeat left top / contain;
+      transform: rotate(60deg);
+      transform-origin: 0px 0px;
+    }
+  }
+
+  .publication {
+    border-left: 1px solid #000;
+    margin: 0;
+    margin-top: 0 !important;
+    padding: 1em;
+    margin-left: 0.5rem;
+
+    .authors span {
+      display: inline-block;
+      
+      &:after {
+        content: ", ";
+      }
+
+      &:last-child:after {
+        content: "";
+      }
+    }
+    .journal span {
+      display: inline-block;
+      
+      &:after {
+        content: ", ";
+      }
+
+      &:last-child:after {
+        content: "";
+      }
+    }
+  }
+}
+
+section#research {
+  h3 {
+    position: relative;
+    padding-left: .5em;
+
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: -0.2em;
+      width: 2em;
+      height: 1.2em;
+      background: url(/img/pestillilab-04.svg) no-repeat left top / contain;
+      transform: rotate(60deg);
+      transform-origin: 0px 0px;
+    }
+  }
+
+  .grants {
+    h3 {
+      margin: 2em 0 0 0;
+    }
+  }
+  .grant {
+    border-left: 1px solid #000;
+    margin: 0;
+    margin-top: 0 !important;
+    padding: 1em;
+    margin-left: 0.5rem;
+    .investigators span {
+      display: inline-block;
+      
+      &:after {
+        content: ", ";
+      }
+
+      &:last-child:after {
+        content: "";
+      }
+    }
+    .grantor span {
+      display: inline-block;
+      
+      &:after {
+        content: ", ";
+      }
+
+      &:last-child:after {
+        content: "";
+      }
+    }
+  }
+}
+
+body {
+  overflow: auto !important;
+  height: 100%;
+  position: relative;
+  display: block !important;
+}

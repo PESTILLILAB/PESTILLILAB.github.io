@@ -1,0 +1,197 @@
+{{ $Data := .Params.map }}
+{{ if $Data.enable }}
+<section class="section rad-animation-group pb-0" id="network">
+  <div class="container rad-fade-down">
+    <div class="row d-flex flex-column-reverse flex-md-row">
+      <div class="col-12">
+        <h2>
+            {{ $Data.title }}
+            <span>{{ $Data.subtitle }}</span>
+        </h2>
+        <p>
+          {{ $Data.content | safeHTML }}
+        </p>
+      </div>
+    </div>
+  </div>
+  <div id="map" style="width: 100%; height: 600px"></div>
+</section>
+
+<script async defer
+  src="https://maps.googleapis.com/maps/api/js?key={{ .Site.Params.googleMaps }}&callback=initMap"
+  type="text/javascript"></script>
+<script>
+
+  const insts = {{ os.ReadFile $Data.data | transform.Unmarshal }};
+
+  const colors = {
+    primary: "{{ $Data.primaryColor }}",
+    secondary: "{{ $Data.secondaryColor }}",
+    water: "{{ $Data.waterColor }}",
+  };
+
+  const mapStyle = [
+    {
+      "elementType": "geometry",
+      "stylers": [{ "color": colors.secondary }]
+    },
+    {
+      "featureType": "water",
+      "elementType": "geometry",
+      "stylers": [{ "color": colors.water }]
+    },
+    {
+      "featureType": "water",
+      "elementType": "labels",
+      "stylers": [{ "visibility": "off" }]
+    },
+    {
+      "elementType": "labels.icon",
+      "stylers": [{ "visibility": "off" }]
+    },
+    {
+      "elementType": "labels.text.fill",
+      "stylers": [{ "color": colors.primary }]
+    },
+    {
+      "elementType": "labels.text.stroke",
+      "stylers": [{ "color": colors.secondary }]
+    },
+    {
+      "featureType": "administrative",
+      "elementType": "geometry",
+      "stylers": [{ "color": colors.primary }]
+    },
+    {
+      "featureType": "administrative.country",
+      "elementType": "labels.text.fill",
+      "stylers": [{ "color": colors.primary }]
+    },
+    {
+      "featureType": "administrative.land_parcel",
+      "stylers": [{ "visibility": "off" }]
+    },
+    {
+      "featureType": "administrative.locality",
+      "elementType": "labels.text.fill",
+      "stylers": [{ "color": colors.primary }]
+    },
+    {
+      "featureType": "administrative.neighborhood",
+      "stylers": [{ "visibility": "off" }]
+    },
+    {
+      "featureType": "poi",
+      "stylers": [{ "visibility": "off" }]
+    },
+    {
+      "featureType": "poi",
+      "elementType": "labels.text.fill",
+      "stylers": [{ "color": colors.primary }]
+    },
+    {
+      "featureType": "poi.park",
+      "elementType": "geometry",
+      "stylers": [{ "color": colors.primary }]
+    },
+    {
+      "featureType": "poi.park",
+      "elementType": "labels",
+      "stylers": [{ "visibility": "off" }]
+    },
+    {
+      "featureType": "road",
+      "elementType": "geometry.fill",
+      "stylers": [{ "color": colors.primary }]
+    },
+    {
+      "featureType": "road",
+      "elementType": "labels",
+      "stylers": [{ "visibility": "off" }]
+    },
+    {
+      "featureType": "road",
+      "elementType": "labels.icon",
+      "stylers": [{ "visibility": "off" }]
+    },
+    {
+      "featureType": "road",
+      "elementType": "labels",
+      "stylers": [{ "visibility": "off" }]
+    },
+    {
+      "featureType": "road.arterial",
+      "stylers": [{ "visibility": "off" }]
+    },
+    {
+      "featureType": "road.arterial",
+      "elementType": "geometry",
+      "stylers": [{ "color": colors.primary }]
+    },
+    {
+      "featureType": "road.highway",
+      "elementType": "geometry",
+      "stylers": [{ "color": colors.primary }]
+    },
+    {
+      "featureType": "road.highway",
+      "elementType": "labels",
+      "stylers": [{ "visibility": "off" }]
+    },
+    {
+      "featureType": "road.local",
+      "stylers": [{ "visibility": "off" }]
+    },
+    {
+      "featureType": "transit",
+      "stylers": [{ "visibility": "off" }]
+    }
+  ];
+
+  let map;
+  function initMap() {
+    map = new google.maps.Map(document.getElementById("map"), {
+      zoom: 1,
+      disableDefaultUI: true,
+      zoomControl: false,
+      mapTypeControl: false,
+      scaleControl: false,
+      streetViewControl: false,
+      rotateControl: false,
+      fullscreenControl: false,
+      scrollwheel: false,
+      draggable: false,
+    });
+    const bounds = new google.maps.LatLngBounds();
+    const image = {
+      url: "{{ $Data.marker }}",
+      anchor: new google.maps.Point(25, 50),
+      scaledSize: new google.maps.Size(50, 50)
+    };
+    for (let name in insts) {
+      if (insts[name].lat && insts[name].lng) {
+        const marker = new google.maps.Marker({
+          position: {
+            lat: insts[name].lat,
+            lng: insts[name].lng
+          },
+          map: map,
+          title: name,
+          icon: image,
+        });
+        bounds.extend(
+          new google.maps.LatLng(
+            insts[name].lat,
+            insts[name].lng
+          )
+        );
+      }
+    }
+    map.fitBounds(bounds);
+    map.setOptions({ styles: mapStyle });
+    window.onresize = function() {
+      map.fitBounds(bounds);
+    };
+  }
+</script>
+{{ end }}

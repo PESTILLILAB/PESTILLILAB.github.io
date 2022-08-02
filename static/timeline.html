@@ -1,0 +1,170 @@
+{{ $Data := .Scratch.Get "PartialData" }}
+
+<section class="section rad-animation-group pb-0" id="research">
+  <div class="container rad-fade-down">
+    <div class="row d-flex flex-md-row justify-content-center">
+      <div class="col-12">
+        <h2>
+          {{ $Data.title }}
+          {{ if $Data.description }}
+            <span>{{ $Data.description | markdownify }}</span>
+          {{ end }}
+        </h2>
+      </div>
+      {{ range $Data.publications }}
+        <div class="col-12 mt-4 publication">
+          <h4 class="title">
+            <img src="https://twemoji.maxcdn.com/svg/{{ printf "%04X" .emoji }}.svg" /> {{ .title }}
+          </h4>
+          <p class="authors">
+            {{ range .authors }}
+              <span>{{ . }}</span>
+            {{ end }}
+          </p>
+        </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<div id="timeline" class="rad-fade-down">
+</div>
+
+<script>
+  const data = JSON.parse({{ $Data | jsonify }});
+  const today = new Date();
+
+  for (let g of data.grants) {
+    g.startDate = new Date(g.startDate);
+    g.endDate = g.endDate ? new Date(g.endDate) : today;
+    if (g.endDate > today) {
+      g.endDate = today;
+    }
+  }
+  data.grants.sort((g1, g2) => g1.startDate - g2.startDate);
+</script>
+
+{{ define "footer-scripts" }}
+
+<script src="https://d3js.org/d3.v6.min.js"></script>
+<script>
+
+  const width = 10;
+  const margin = 10;
+  const spacing = 2;
+
+  const svg = d3.select('#timeline')
+                .append('svg')
+                .attr('width', window.innerWidth * 0.2)
+                .attr('height', window.innerHeight);
+
+  const g = svg.append('g')
+                .attr('class', 'margin')
+                .attr('transform', `translate(${margin}, ${margin})`);
+
+  const min = d3.min(data.grants, (g) => g.startDate);
+  const max = d3.max(data.grants, (g) => g.endDate);
+
+  const scale = d3
+    .scaleUtc()
+    .domain([min, max])
+    .range([window.innerHeight - margin * 2, 0]);
+
+  const ticks = [
+    min,
+    ...d3.utcYear.range(min, max),
+    today,
+  ];
+  const xAxis = d3.axisRight()
+                  .scale(scale)
+                  .tickValues(ticks)
+                  .tickFormat(
+                    (t) =>
+                      t == today ? 'Present' : d3.utcFormat('%Y')(t)
+                  );
+
+  const xAxisG = g.append('g')
+    .attr('class', 'ticks')
+    .call(xAxis);
+
+  const tickAdjustScale = d3
+    .scaleLinear()
+    .domain([0, ticks.length - 1])
+    .range([-1, 1]);
+
+  xAxisG.selectAll('text')
+    .attr('transform', (d, i, ns) => `translate(5, ${tickAdjustScale(i) * (ns[i].getBoundingClientRect().height / 4)})`);
+
+  // const rectsG = g.append('g')
+  //   .attr('class', 'grants');
+  const rectsG = svg.append("clipPath")
+    .attr("id", "bars")
+
+  rectsG.selectAll('rect.grant')
+    .data(data.grants)
+    .enter()
+    .append('rect')
+    .attr('x', (g, i) => i * (width + spacing))
+    .attr('y', (g) => {
+      console.log(scale(g.endDate), g.endDate);
+      return scale(g.endDate)
+    })
+    .attr('width', width)
+    .attr('height', (g) => Math.abs(scale(g.startDate) - scale(g.endDate)))
+    .attr('fill', '#00CCFF')
+    .attr('class', 'grant');
+
+  const { width: rectsW, height: rectsH, x: rectsX, y: rectsY } = rectsG.node().getBBox();
+  const xAxisX = rectsG.node().getBBox().width + spacing + width;
+  xAxisG
+    .attr('transform', `translate(${xAxisX}, 0)`);
+
+  const angle = 30; Math.acos(rectsW / rectsH) * (180 / Math.PI);
+  const size = Math.sqrt(rectsW * rectsW + rectsH * rectsH);
+
+  const bg = g
+    .append('g')
+    .attr("clip-path", "url(#bars)")
+    .attr('x', rectsW / 2 - size / 2)
+    .attr('y', rectsH / 2 - size / 2)
+    .attr('class', 'bg');
+
+  const bgw = bg.append('g')
+    .attr('transform', `rotate(-${angle}, ${rectsX + rectsW / 2}, ${rectsY + rectsH / 2})`)
+
+  bgw.append('rect')
+    .attr('width', size)
+    .attr('height', size / 4)
+    .attr('x', rectsW / 2 - size / 2)
+    .attr('y', size / 4 * 0)
+    .attr('fill', '#005981');
+  bgw.append('rect')
+    .attr('width', size)
+    .attr('height', size / 4)
+    .attr('x', rectsW / 2 - size / 2)
+    .attr('y', size / 4 * 1)
+    .attr('fill', '#a9262c');
+  bgw.append('rect')
+    .attr('width', size)
+    .attr('height', size / 4)
+    .attr('x', rectsW / 2 - size / 2)
+    .attr('y', size / 4 * 2)
+    .attr('fill', '#e57536');
+  bgw.append('rect')
+    .attr('width', size)
+    .attr('height', size / 4)
+    .attr('x', rectsW / 2 - size / 2)
+    .attr('y', size / 4 * 3)
+    .attr('fill', '#f9c926');
+
+  $(document).ready(function() {
+    $(document.body).scroll(function() {
+      const timeline = document.getElementById('timeline');
+      const scrollTop = document.body.scrollTop;
+      timeline.style.top = `${scrollTop}px`;
+    });
+  });
+
+</script>
+
+{{ end }}

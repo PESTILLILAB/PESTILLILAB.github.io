@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  {{ partial "head.html" . }}
+  {{ partial "head_custom.html" . }}
 </head>
-<body>
-<script>
-    if(localStorage.getItem("jwt")) {
-        //if user is logged in, redirect to projects page
-        document.location = "/projects";
-    } else {
-        //if not, show about page
-        document.location = "/about";
-    }
-</script>
+
+<body data-page="{{ block "page" . }}{{ end }}">
+  {{ partial "header.html" . }}
+  {{ partial "sections.html" . }}
+  {{ partial "footer.html" . }}
+  {{ partial "base-foot.html" . }}
 </body>
+
 </html>
