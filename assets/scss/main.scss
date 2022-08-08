@@ -1,13 +1,80 @@
-$fa-font-path: "node_modules/@fortawesome/fontawesome-free/webfonts";
+@font-face {
+  font-family: AutumnMoon;
+  src: url(../fonts/autumn-moon/AutumnMoon.woff) format("woff"), url(../fonts/autumn-moon/AutumnMoon.woff2) format("woff2");
+  font-weight: 400;
+  font-style: normal
+}
+
+@font-face {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 300;
+  src: url(../fonts/inter/Inter-Light.woff2) format("woff2"), url(../fonts/inter/Inter-Light.woff) format("woff")
+}
+
+@font-face {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/inter/Inter-Regular.woff2) format("woff2"), url(../fonts/inter/Inter-Regular.woff) format("woff")
+}
+
+@font-face {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  src: url(../fonts/inter/Inter-Medium.woff2) format("woff2"), url(../fonts/inter/Inter-Medium.woff) format("woff")
+}
+
+@font-face {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  src: url(../fonts/inter/Inter-SemiBold.woff2) format("woff2"), url(../fonts/inter/Inter-SemiBold.woff) format("woff")
+}
+
+@font-face {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts/inter/Inter-Bold.woff2) format("woff2"), url(../fonts/inter/Inter-Bold.woff) format("woff")
+}
+
+@font-face {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 800;
+  src: url(../fonts/inter/Inter-ExtraBold.woff2) format("woff2"), url(../fonts/inter/Inter-ExtraBold.woff) format("woff")
+}
+
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/brands.min.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.2/css/academicons.min.css);
 
 $theme-colors: (
   primary: #005981,
   secondary: #f9c926,
 );
 
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+  xxxl: 2000px
+);
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px,
+  xxxl: 1400px
+);
+
 @import "bootstrap/bootstrap";
-@import "node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
-@import "node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
 @import "../../static/css/custom";
 
 .b{fill:#f9c926;}
@@ -27,19 +94,24 @@ canvas#showcase-canvas {
 
 @include media-breakpoint-up(xxxl) {
   html {
-    transform: scale(1);
+    // transform: scale(1.4);
+    font-size: 20px;
   }
   // canvas#showcase-canvas {
   //   transform: scale(0.8);
   // }
 }
-@media screen and (min-width: 2100px) {
-  html {
-    transform: scale(1);
-  }
-  // canvas#showcase-canvas {
-  //   transform: scale(0.6);
-  // }
+
+body {
+  overflow: auto !important;
+  height: 100%;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+}
+
+section {
+  flex-grow: 1;
 }
 
 body > * {
@@ -55,31 +127,40 @@ a {
 }
 
 p {
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   font-weight: 300;
 
   &.lead {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 }
 
 b, strong { font-weight: bold; }
 
+.fab, .ai {
+  font-size: 1.5em;
+}
+
 img.team-member, figure.team-member {
   position: relative;
-  border-radius: 0;
+  border-radius: 10px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
   margin-bottom: 20px;
   padding: 10px;
   overflow: hidden;
 
   img {
-    width: 100%;
-    height: 100%;
-    border-radius: 0;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
     border: 0;
     object-fit: cover;
     filter: grayscale(100%);
+  }
+
+  &.team-pi img {
+    width: 100%;
+    height: 100%;
   }
 
   &:before {
@@ -89,6 +170,7 @@ img.team-member, figure.team-member {
     height: 150%;
     top: -25%;
     left: -25%;
+    opacity: 0.75;
     z-index: -1;
     background: url(/img/pestillilab-05.svg) no-repeat center center / cover;
     transform: rotate(70deg);
@@ -98,43 +180,27 @@ img.team-member, figure.team-member {
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  font-weight: 500;
+  // font-weight: 500;
   line-height: 1.2;
 }
 
 h1, .h1 {
-  font-size: calc(1.375rem + 1.5vw);
-}
-@media (min-width: 1200px) {
-  h1, .h1 {
-    font-size: 3.5rem;
-  }
+  font-size: 2.6rem;
+  font-weight: lighter;
 }
 
 h2, .h2 {
-  font-size: calc(1.325rem + 0.9vw);
+  font-size: 2.25rem;
 }
-@media (min-width: 1200px) {
-  h2, .h2 {
-    font-size: 3rem;
-  }
-}
+
 h3, .h3 {
-  font-size: calc(1.3rem + 0.6vw);
+  font-size: 2rem;
 }
-@media (min-width: 1200px) {
-  h3, .h3 {
-    font-size: 2.25rem;
-  }
-}
+
 h4, .h4 {
-  font-size: calc(1.275rem + 0.3vw);
+  font-size: 1.75rem;
 }
-@media (min-width: 1200px) {
-  h4, .h4 {
-    font-size: 1.75rem;
-  }
-}
+
 h5, .h5 {
   font-size: 1.6rem;
 }
@@ -143,39 +209,41 @@ h6, .h6 {
   font-size: 1.3rem;
 }
 
-h2 {
+h1 {
   position: relative;
-  font-size: 48px;
-  text-indent: 0.2em;
-
-  span:empty {
-    display: none;
-  }
-
-  // &:before {
-  //   content: "";
-  //   position: absolute;
-  //   top: 0;
-  //   left: -0.2em;
-  //   width: 2em
-  //   height: 1.2em;
-  //   background: url(/img/pestillilab-04.svg) no-repeat left top / contain;
-  //   transform: rotate(60deg);
-  //   transform-origin: 0px 0px;
-  // }
+  padding-left: .1em;
 
   &:before {
     content: "";
     position: absolute;
     top: 0;
-    left: -0.2em;
+    left: -0.3em;
+    width: 2em;
+    height: 1.2em;
+    background: url(/img/pestillilab-04.svg) no-repeat left top / contain;
+    transform: rotate(60deg);
+    transform-origin: 0px 0px;
+  }
+}
+
+h2 {
+  position: relative;
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0.1em;
+    left: -0.4em;
     width: 0.75em;
     height: 0.75em;
     background: url(/img/pestillilab-05.svg) no-repeat left top / contain;
-    border: 2px solid #000;
     border-radius: 1.2em;
     transform: rotate(60deg);
     transform-origin: 0px 0px;
+  }
+
+  span:empty {
+    display: none;
   }
 
   span {
@@ -184,7 +252,7 @@ h2 {
     margin: 10px 0 10px 3px;
     font-weight: 400;
 
-    font-size: 50%;
+    font-size: 60%;
     @include media-breakpoint-down(md) {
       font-size: 75%;
     }
@@ -206,6 +274,23 @@ h2 {
   }
 }
 
+h3 {
+  position: relative;
+  padding-left: .5em;
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -0.1em;
+    width: 2em;
+    height: 1.2em;
+    background: url(/img/pestillilab-04.svg) no-repeat left top / contain;
+    transform: rotate(60deg);
+    transform-origin: 0px 0px;
+  }
+}
+
 h4 {
   span {
     font-size: 80%;
@@ -222,8 +307,14 @@ h4 {
   }
 }
 
+
+.header .navbar .nav-item .nav-link {
+  font-size: 1rem;
+}
+
+
 .rad-showcase {
-  min-height: 90vh;
+  min-height: 60vh;
 }
 
 .header + .section#home {
@@ -304,23 +395,6 @@ section#publications {
     }
   }
 
-  h3 {
-    position: relative;
-    padding-left: .5em;
-
-    &:before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: -0.2em;
-      width: 2em;
-      height: 1.2em;
-      background: url(/img/pestillilab-04.svg) no-repeat left top / contain;
-      transform: rotate(60deg);
-      transform-origin: 0px 0px;
-    }
-  }
-
   .publication {
     border-left: 1px solid #000;
     margin: 0;
@@ -354,23 +428,6 @@ section#publications {
 }
 
 section#research {
-  h3 {
-    position: relative;
-    padding-left: .5em;
-
-    &:before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: -0.2em;
-      width: 2em;
-      height: 1.2em;
-      background: url(/img/pestillilab-04.svg) no-repeat left top / contain;
-      transform: rotate(60deg);
-      transform-origin: 0px 0px;
-    }
-  }
-
   .grants {
     h3 {
       margin: 2em 0 0 0;
@@ -405,11 +462,4 @@ section#research {
       }
     }
   }
-}
-
-body {
-  overflow: auto !important;
-  height: 100%;
-  position: relative;
-  display: block !important;
 }

@@ -27,7 +27,7 @@ path = "github.com/gohugoio/hugo-mod-bootstrap-scss/v5"
   weight = 2
 
   [[menu.header]]
-  name = "Publications"
+  name = "Papers"
   URL = "/publications"
   weight = 3
 
@@ -46,6 +46,8 @@ path = "github.com/gohugoio/hugo-mod-bootstrap-scss/v5"
 
   googleMaps = "AIzaSyD_DdEi4sKJWYq6zIxOtJ381CtzsB8hh5o"
   googleTagManagerID = ""
+
+  title = "Pestilli Lab"
 
   [params.logo]
     img = "/img/pestillilab-01.svg"

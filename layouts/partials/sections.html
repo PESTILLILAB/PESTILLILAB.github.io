@@ -1,7 +1,8 @@
 {{ define "page" }}{{ if $.Params.id }}{{ $.Params.id }}{{ end }}{{ end }}
-<section class="section"{{ if $.Params.id }}id="{{ $.Params.id }}"{{ end }}>
+{{ define "title" }}{{ if $.Params.title }}{{ .Site.Params.title }} - {{ $.Params.title }}{{ else }}{{ .Site.Params.title }}{{ end }}{{ end }}
+<section class="section rad-animation-group"{{ if $.Params.id }}id="{{ $.Params.id }}"{{ end }}>
   {{ if or $.Params.title $.Params.description }}
-  <div class="container rad-animation-group rad-fade-down">
+  <div class="container rad-fade-down rad-animate pb-3">
     {{ if $.Params.title }}
       <h1 class="h1">{{ $.Params.title }}</h1>
     {{ end }}

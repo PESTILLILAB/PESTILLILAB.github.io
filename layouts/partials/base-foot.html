@@ -4,22 +4,32 @@
   window.addEventListener("load", function() {
     var observer = window.lozad(".lozad", {
       rootMargin: window.innerHeight / 2 + "px 0px",
-      threshold: 0.01
-    }); // lazy loads elements with default selector as '.lozad'
+      threshold: 0.001
+    });
     observer.observe();
   });
 </script>
 <script src='{{ "js/library/jquery-3.3.1.slim.min.js" | absURL }}'></script>
 <script src='{{ "js/library/bootstrap.min.js" | absURL }}'></script>
-<script src='{{ "js/sticky-header.js" | absURL }}'></script>
-<script src='{{ "js/library/smooth-scroll.polyfills.min.js" | absURL }}'></script>
+<script src='{{ "js/library/fontfaceobserver.js" | absURL }}'></script>
 <script>
-  const scroll = new SmoothScroll('a[href*="#"]');
-    $('a.nav-link').on('click', () => {
-      const navbar = $('.navbar-collapse');
-      if (navbar && navbar.hasClass('show')) {
-        $('.navbar-toggler').click();
-      }
-    })
+  (function(w) {
+    if (w.document.documentElement.className.indexOf("fonts-loaded") > -1) {
+      return;
+    }
+    var fontA = new w.FontFaceObserver("Inter", {
+      weight: 300
+    });
+    var fontC = new w.FontFaceObserver("Inter", {
+      weight: 500
+    });
+    var fontF = new w.FontFaceObserver("Inter", {
+      weight: 900
+    });
+    w.Promise.all([fontA.load(), fontC.load(), fontF.load()]).then(function() {
+      console.log('fonts loaded');
+      w.document.documentElement.className += " fonts-loaded";
+    });
+  })(this);
 </script>
 {{ block "footer-scripts" . }}{{ end }}

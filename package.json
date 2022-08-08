@@ -14,8 +14,5 @@
   },
   "hugo-bin": {
     "buildTags": "extended"
-  },
-  "dependencies": {
-    "@fortawesome/fontawesome-free": "^6.1.2"
   }
 }
