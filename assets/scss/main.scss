@@ -146,9 +146,10 @@ img.team-member, figure.team-member {
   position: relative;
   border-radius: 10px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
-  margin-bottom: 20px;
   padding: 10px;
   overflow: hidden;
+  max-width: 320px;
+  margin: 0 auto 20px auto;
 
   img {
     width: 300px;
@@ -325,7 +326,8 @@ h4 {
 
 @media (min-width: 1200px) {
   .section div[class*=col-] img.image-right-overflow {
-    margin-left: 100px;
+    margin-left: 50px;
+    margin-right: -150px;
     width: auto;
   }
 }

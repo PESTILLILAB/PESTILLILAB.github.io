@@ -21,7 +21,7 @@ ml:
   subtitle: Advancing Scientific Understanding with both Theory and Data-Driven Methods
   content: |
     It has been claimed that data is the new oil. Discovery and understanding in psychological and brain science depend on the ability to process large amounts of “good data” to extract meaningful insights. The PESTILLI LAB capitalizes on the recent opportunities for large-scale data analysis, data science and machine learning. The lab uses advanced data-driven methods to find unexplored associations between brain biomarkers and behavior, and to advance scientific theory and understanding.
-  image: img/ml.jpg
+  image: img/ml.svg
 
 open:
   enable: true
@@ -33,7 +33,7 @@ open:
     Cloud technology can help scientists address bigger scientific questions and reduce mistakes.
     Cloud services allow error-less data analysis and management.
     The PESTILLI LAB has developed and operates [brainlife.io](https://brainlife.io), an open-source, free cloud computing platform that supports thousands of students and researchers with reproducible neuroimaging data processing.
-  image: img/cloud.jpg
+  image: img/cloud.svg
 
 wm:
   enable: true
@@ -47,7 +47,7 @@ wm:
     As of today, we understand much about the function of individual neurons and brain areas but less about communication between brain areas.
     The PESTILLI LAB works on understanding how neurons and brain areas connect and form networks and how these networks support human behavior.
     The laboratory research combines multiple neuroimaging measurements to study how networks and the biological tissue support human vision during development and across the lifespan.
-  image: img/wm.jpg
+  image: img/network.svg
 
 grants:
   partial: research/grants
