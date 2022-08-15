@@ -275,7 +275,6 @@
 
 html {
   height: 100%;
-  overflow-x: hidden;
 }
 
 html body {
@@ -285,7 +284,6 @@ html body {
   -webkit-box-direction: normal;
   display: flex;
   flex-direction: column;
-  overflow: hidden;
   color: #000;
   letter-spacing: -0.2px;
   font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -775,7 +773,7 @@ textarea:focus {
 
 @media (min-width: 1200px) {
   .section div[class*="col-"] img.image-left-overflow {
-    margin-left: -120px;
+    margin-left: -80px;
   }
 }
 
@@ -978,7 +976,7 @@ textarea:focus {
   }
 
   .rad-showcase .container h1 {
-    font-size: 4rem;
+    font-size: 4em;
   }
 }
 

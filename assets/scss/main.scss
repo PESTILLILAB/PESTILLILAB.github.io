@@ -104,6 +104,7 @@ canvas#showcase-canvas {
 
 body {
   overflow: auto !important;
+  overflow-x: hidden !important;
   height: 100%;
   min-height: 100vh;
   position: relative;
@@ -127,11 +128,11 @@ a {
 }
 
 p {
-  font-size: 1.1rem;
+  font-size: 1.1em;
   font-weight: 300;
 
   &.lead {
-    font-size: 1.2rem;
+    font-size: 1.2em;
   }
 }
 
@@ -179,67 +180,87 @@ img.team-member, figure.team-member {
 
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.5em;
   // font-weight: 500;
   line-height: 1.2;
 }
 
 h1, .h1 {
-  font-size: 2.6rem;
+  font-size: 2.6em;
   font-weight: lighter;
 }
 
 h2, .h2 {
-  font-size: 2.25rem;
+  font-size: 2.25em;
 }
 
 h3, .h3 {
-  font-size: 2rem;
+  font-size: 2em;
 }
 
 h4, .h4 {
-  font-size: 1.75rem;
+  font-size: 1.75em;
 }
 
 h5, .h5 {
-  font-size: 1.6rem;
+  font-size: 1.6em;
 }
 
 h6, .h6 {
-  font-size: 1.3rem;
+  font-size: 1.3em;
 }
 
 h1 {
   position: relative;
   padding-left: .1em;
+  text-indent: 1em;
 
   &:before {
     content: "";
     position: absolute;
     top: 0;
-    left: -0.3em;
+    left: 0.75em;
     width: 2em;
     height: 1.2em;
     background: url(/img/pestillilab-04.svg) no-repeat left top / contain;
     transform: rotate(60deg);
     transform-origin: 0px 0px;
+
+    @include media-breakpoint-up(md) {
+      & {
+        left: -0.3em;
+      }
+    }
+  }
+
+  @include media-breakpoint-up(md) {
+    & {
+      text-indent: 0;
+    }
   }
 }
 
 h2 {
   position: relative;
+  text-indent: 1em;
 
   &:before {
     content: "";
     position: absolute;
     top: 0.1em;
-    left: -0.4em;
+    left: 0.6em;
     width: 0.75em;
     height: 0.75em;
     background: url(/img/pestillilab-05.svg) no-repeat left top / contain;
     border-radius: 1.2em;
     transform: rotate(60deg);
     transform-origin: 0px 0px;
+
+    @include media-breakpoint-up(md) {
+      & {
+        left: -0.3em;
+      }
+    }
   }
 
   span:empty {
@@ -247,10 +268,12 @@ h2 {
   }
 
   span {
+    clear: both;
     display: inline-block;
     position: relative;
     margin: 10px 0 10px 3px;
     font-weight: 400;
+    text-indent: 0;
 
     font-size: 60%;
     @include media-breakpoint-down(md) {
@@ -357,18 +380,6 @@ header {
   background-color: #ffffffdd;
 }
 
-// #header {
-//   > div {
-//     margin-left: 0;
-//     padding-left: 0;
-//   }
-
-//   .navbar-brand {
-//     height: 6vw;
-//     margin-left: 6vw;
-//   }
-// }
-
 #container-showcase {
   overflow: visible;
 }
@@ -379,13 +390,41 @@ header {
 
 #showcase-canvas {
   position: absolute;
-  top: -35vw;
-  right: -40vw;
-  top: -35vw;
-  left: 15vh;
-  width: 100vw;
-  height: 100vw;
+  top: -25vw;
+  left: -25vw;
+  width: 150vw;
+  height: 150vw;
+  max-width: 2500px;
+  max-height: 2500px;
   z-index: 0;
+
+  @include media-breakpoint-up(md) {
+    top: 15vw;
+    left: 25%;
+    width: 100vw;
+    height: 100vw;
+  }
+
+  @include media-breakpoint-up(lg) {
+    top: 0;
+    left: 25%;
+  }
+
+
+  @include media-breakpoint-up(xl) {
+    top: -35px;
+    left: 15vh;
+  }
+
+  @include media-breakpoint-up(xxl) {
+    top: -35px;
+    left: 25vw;
+  }
+
+  @include media-breakpoint-up(xxxl) {
+    top: -80px;
+    left: 10vh;
+  }
 }
 
 section#publications {

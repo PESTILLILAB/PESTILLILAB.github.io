@@ -145,7 +145,7 @@ function init() {
   noise = new Noise(1000, 1000, 8);
 
   const [bw, bh] = [1039/2, 895/2];
-  const [bx, by] = [~~(w / 2 - bw / 2), ~~(h / 2 - bh / 2)];
+  const [bx, by] = [~~(w / 2 - bw / 2), bh];
   const [bxc, byc] = [~~(bw / 2), ~~(bh / 2)];
 
   ctx.drawImage(brainImg, bx, by, bw, bh);
@@ -228,12 +228,15 @@ function generate() {
 let rid, noise, w, h, cv, ctx;
 let particles = 5000, particles_pos, particles_vel;
 
-const brainImg = document.getElementById('brain-full');
-const brainBorderImg = document.getElementById('brain-border');
-brainImg.onload = function() {
-  setTimeout(init, 5000);
+let brainImg = new Image();
+let brainBorderImg = new Image();
+brainImg.onload = function () {
+  brainBorderImg.onload = function() {
+    setTimeout(init, 3000);
+  }
+  brainBorderImg.src = "./img/brain-border.svg";
 }
-
+brainImg.src = "./img/brain-full.svg";
 </script>
 
 {{ end }}
