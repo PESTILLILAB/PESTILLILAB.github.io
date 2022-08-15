@@ -127,8 +127,7 @@ class Noise {
 }
 
 function init() {
-
-  console.log('init')
+  console.log('init');
 
   w = 2000;
   h = 2000;
@@ -156,7 +155,7 @@ function init() {
   const tempCtx = temp.getContext('2d');
   tempCtx.fillStyle = 'rgba(255, 255, 255, 1)';
   tempCtx.fillRect(0, 0, temp.width, temp.height);
-  tempCtx.drawImage(brainBorderImg, 0, 0);
+  tempCtx.drawImage(brainBorderImg, 0, 0, bw, bh);
   const idata = tempCtx.getImageData(0, 0, temp.width, temp.height);
 
   const coords = [];
@@ -230,12 +229,12 @@ let particles = 5000, particles_pos, particles_vel;
 
 let brainImg = new Image();
 let brainBorderImg = new Image();
-brainImg.onload = function () {
-  brainBorderImg.onload = function() {
-    setTimeout(init, 3000);
-  }
+brainImg.addEventListener('load', () => {
+  brainBorderImg.addEventListener('load', () => {
+    setTimeout(init, 100);
+  }, false);
   brainBorderImg.src = "./img/brain-border.svg";
-}
+}, false);
 brainImg.src = "./img/brain-full.svg";
 </script>
 
