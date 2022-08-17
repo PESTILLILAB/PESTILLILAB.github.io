@@ -59,7 +59,7 @@ vision:
     The PESTILLI LAB promotes progress in psychological and brain science via the democratization of scientific research, methods, data and infrastructure. We strive to advance societal good by accelerating neuroscientific discovery and education via data-science applications and innovative technology.
   '
   image: "img/science.svg"
-  size: 7
+  size: 6
 
 humanities:
   enable: true
@@ -70,7 +70,7 @@ humanities:
     The PESTILLI LAB promotes progress in psychological and brain science via the democratization of scientific research, methods, data and infrastructure. We strive to advance societal good by accelerating neuroscientific discovery and education via data-science applications and innovative technology.
   '
   image: "img/democratic.svg"
-  size: 7
+  size: 6
 
 map:
   enable: true
