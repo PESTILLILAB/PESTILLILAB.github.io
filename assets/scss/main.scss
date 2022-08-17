@@ -411,14 +411,14 @@ header {
   top: 0;
   right: 0;
   width: 50vw;
-  height: 100vw;
+  height: calc(min(100vw, 100vh));
   z-index: 0;
   overflow: hidden;
 
   canvas {
     position: absolute;
     width: 100vw;
-    height: 100vw;
+    height: calc(min(100vw, 100vh));
     margin-left: calc(max(-25vw, -500px));
     top: -5vh;
     max-width: 2000px;
@@ -429,7 +429,7 @@ header {
     width: 100vw;
     canvas {
       width: 120%;
-      height: 120%;
+      height: calc(min(120%, 100vh));
       margin-left: -10%;
     }
   }
