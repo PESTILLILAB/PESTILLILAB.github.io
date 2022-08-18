@@ -8,7 +8,7 @@
       {{ $Year := index (split .publicationDate "-") 0 }}
       {{ if ne $CurYear $Year }}
         {{ $CurYear = $Year }}
-        <h3>{{ $CurYear }}</h3>
+        <h3 class="year">{{ $CurYear }}</h3>
       {{ end }}
       <div class="col-12 mt-4 publication">
         <h4 class="title">

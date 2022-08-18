@@ -445,6 +445,12 @@ section#publications {
     h3 {
       margin: 2em 0 0 0;
     }
+    h3.year {
+      font-size: 1.3em;
+    }
+    h4.title {
+      font-size: 1.2em;
+    }
   }
 
   .publication {
@@ -483,6 +489,12 @@ section#research {
   .grants {
     h3 {
       margin: 2em 0 0 0;
+    }
+    h3.year {
+      font-size: 1.3em;
+    }
+    h4.title {
+      font-size: 1.2em;
     }
   }
   .grant {
