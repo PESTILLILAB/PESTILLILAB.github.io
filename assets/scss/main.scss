@@ -405,22 +405,27 @@ header {
 // xl: 1200px,
 // xxl: 1400px,
 // xxxl: 2000px
+.rad-showcase  {
+  @include media-breakpoint-up(xl) {
+    min-height: 50vh;
+  }
+}
 
 #showcase-canvas {
   position: absolute;
   top: 0;
   right: 0;
   width: 50vw;
-  height: calc(min(100vw, 100vh));
+  height: calc(min(100%, 60vh));
   z-index: 0;
   overflow: hidden;
 
   canvas {
     position: absolute;
-    width: 100vw;
-    height: calc(min(100vw, 100vh));
-    margin-left: calc(max(-25vw, -500px));
-    top: -5vh;
+    width: 80vh;
+    height: 80vh;
+    margin-left: -10vh;
+    top: -10vh;
     max-width: 2000px;
     max-height: 2000px;
   }

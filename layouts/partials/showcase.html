@@ -145,7 +145,7 @@ function init() {
   noise = new Noise(1000, 1000, 8);
 
   const [bw, bh] = [1039/2, 895/2];
-  const [bx, by] = [~~(w / 2 - bw / 2), bh];
+  const [bx, by] = [~~(w / 2 - bw / 2), ~~(h / 2 - bh / 2)];
   const [bxc, byc] = [~~(bw / 2), ~~(bh / 2)];
 
   ctx.drawImage(brainImg, bx, by, bw, bh);
