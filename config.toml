@@ -36,10 +36,10 @@ path = "github.com/gohugoio/hugo-mod-bootstrap-scss/v5"
   URL = "/team"
   weight = 4
 
-  [[menu.header]]
-  name = "News"
-  URL = "/news"
-  weight = 5
+  # [[menu.header]]
+  # name = "News"
+  # URL = "/news"
+  # weight = 5
 
 
 [params]
