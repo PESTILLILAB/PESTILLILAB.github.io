@@ -24,13 +24,16 @@
         </figure>
         <h4>
           {{ .name }}
-          <span>{{ .position }}</span>
         </h4>
+        <p>{{ .position }}</p>
+        <p>{{ .description }}</p>
+        {{ if or (.scholar) (.github) (.twitter) }}
         <p>
           {{ if .scholar }}<a href="{{ .scholar }}"><i class="ai ai-google-scholar-square"></i></a>&nbsp;{{ end }}
           {{ if .github }}<a href="{{ .github }}"><span class="fab fa-github-square"></span></a>&nbsp;{{ end }}
           {{ if .twitter }}<a href="{{ .twitter }}"><span class="fab fa-twitter"></span></a>&nbsp;{{ end }}
         </p>
+        {{ end }}
     </div>
     {{ end }}
   </div>

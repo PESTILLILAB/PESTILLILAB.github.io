@@ -8,3 +8,7 @@ https://pestillilab.github.io/
 * [Research/grants](content/research/_index.md)
 * [Publications](content/publications/_index.md)
 * [Team](content/team/_index.md)
+
+## Credits
+
+Theme based on [Radiant](https://github.com/radity/raditian-free-hugo-theme), from [Radity](https://github.com/radity).

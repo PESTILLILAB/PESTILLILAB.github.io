@@ -1,23 +1,13 @@
 baseURL = "https://pestillilab.github.io/"
 languageCode = "en-us"
-theme = "raditian-free-hugo-theme"
 
 [module]
 [[module.imports]]
 path = "github.com/gohugoio/hugo-mod-bootstrap-scss/v5"
 
 [params.plugins]
-
-  # CSS Plugins
-  [[params.plugins.css]]
-  URL = "css/rad-icons.css"
-
-  # JS Plugins
   [[params.plugins.js]]
   URL = "js/rad-animations.js"
-  [[params.plugins.js]]
-  URL = "js/sticky-header.js"
-
 
 [menu]
 

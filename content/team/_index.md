@@ -84,71 +84,81 @@ team:
       github: https://github.com/bhatiadheeraj
 
 collaborators:
-  partial: team/collaborators
+  partial: team/team
   title: Collaborators
   description:
   people:
     - name: Aina Puce
       image: /img/people/aina-puce.png
-      position: Eleanor Cox Riggs Professor, Psychological and Brain Sciences at Indiana University. Together we are integrating MEG and EEG data processing streams on brainlife.io
+      position: Eleanor Cox Riggs Professor, Psychological and Brain Sciences at Indiana University
+      description: Together we are integrating MEG and EEG data processing streams on brainlife.io.
       scholar: https://scholar.google.com/citations?user=F5KjJe0AAAAJ&hl=en 
       twitter: https://twitter.com/aina_puce
       github: https://github.com/ainapuce
 
     - name: Daniel J. McDonald
       image: /img/people/daniel-mcdonald.png
-      position: Associate Professor, Department of Statistics, The University of British Columbia. Together we are developing approaches to tractography methods optimization
+      position: Associate Professor, Department of Statistics, The University of British Columbia
+      description: Together we are developing approaches to tractography methods optimization.
       scholar: https://scholar.google.com/citations?user=qRmkt6wAAAAJ&hl=en&oi=ao 
       twitter: https://twitter.com/dajmcdon
       github: https://github.com/dajmcdonen
 
     - name: Michael Hanke
       image: /img/people/michael-hanke.png
-      position: Group Leader Jülich Brain Center (Germany). Together we are developing technology to connect data across the globe using DataLad.org and brainlife.io
+      position: Group Leader Jülich Brain Center (Germany)
+      description: Together we are developing technology to connect data across the globe using DataLad.org and brainlife.io.
       scholar: https://scholar.google.com/citations?user=3tT7QQ8AAAAJ&hl=en&oi=ao
       twitter: https://twitter.com/eknahm
       github: https://github.com/mih
 
     - name: Nathalie George
       image: /img/people/nathalie-george.png
-      position: Laboratory Director Paris Brain Institute. Together we are developing tools to lower the barriers of entry to processing electrophysiological data using brainlife.io
+      position: Laboratory Director Paris Brain Institute
+      description: Together we are developing tools to lower the barriers of entry to processing electrophysiological data using brainlife.io.
       scholar: https://scholar.google.com/citations?user=x5NORzMAAAAJ&hl=en&oi=ao
       twitter: https://twitter.com/nathgeorgeng
 
     - name: Nicholas Port
       image: /img/people/nicholas-port.png
-      position: Associate Professor of Vision Science and Neuroscience at Indiana University. Together we are trying to understand brain concussion using brainlife.io
+      position: Associate Professor of Vision Science and Neuroscience at Indiana University
+      description: Together we are trying to understand brain concussion using brainlife.io.
       scholar: https://scholar.google.com/citations?user=zKUEyiUAAAAJ&hl=en
 
     - name: Richard Betzel
       image: /img/people/richard-betzel.png
-      position: Assistant Professor Indiana University. Together we are developing tools to lower the barriers of entry to network neuroscience using brainlife.io
+      position: Assistant Professor Indiana University
+      description: Together we are developing tools to lower the barriers of entry to network neuroscience using brainlife.io
       scholar: https://scholar.google.com/citations?user=3j9gqsEAAAAJ&hl=en
       twitter: https://twitter.com/richardfbetzel
 
     - name: Sarah Heilbronner
       image: /img/people/sarah-heilbronner.png
-      position: Assistant professor University of Minnesota. Together we are working on understanding the connectivity of the Parietal cortex.
+      position: Assistant professor University of Minnesota
+      description: Together we are working on understanding the connectivity of the Parietal cortex.
       scholar: https://scholar.google.com/citations?user=xNLcH5MAAAAJ&hl=en&oi=ao
       twitter: https://twitter.com/SRHeilbronner
 
     - name: Wei Tang
       image: /img/people/wei-tang.png
-      position: Assistant Scientist, Department of Computer Science, Indiana University. Together we are developing approaches to tract the connectivity of the Parietal cortex using brainlife.io
+      position: Assistant Scientist, Department of Computer Science, Indiana University
+      description: Together we are developing approaches to tract the connectivity of the Parietal cortex using brainlife.io
       scholar: https://scholar.google.com/citations?user=pRhR63sAAAAJ&hl=en 
       twitter: https://twitter.com/anpopo
       github: https://github.com/tangwei
 
     - name: Yaroslav Halchenko
       image: /img/people/yaroslav-halchenko.png
-      position: Research Assistant Professor Dartmuth College. Together we are developing technology to connect data across the globe using DataLad.org and brainlife.io
+      position: Research Assistant Professor Dartmuth College
+      description: Together we are developing technology to connect data across the globe using DataLad.org and brainlife.io
       scholar: https://scholar.google.com/citations?user=EbtfZcwAAAAJ&hl=en&oi=ao
       twitter: https://twitter.com/yarikoptic
       github: https://github.com/yarikoptic
 
     - name: Daniel Levitas
       image: /img/people/dan-levitas.png
-      position: Dan is a graduate student at Indiana University. He collaborates with the lab to develop neuroinformatics tools.
+      position: Graduate student at Indiana University
+      description: He collaborates with the lab to develop neuroinformatics tools.
       github: https://github.com/dlevitas
 
     - name: Paolo Avesavi
@@ -157,21 +167,23 @@ collaborators:
       github: https://github.com/Paolopost
       
 alumni:
-  partial: team/alumni
+  partial: team/team
   title: Alumni
   description:
   people:
     - name: Brent C. McPherson
       startDate: 12/30/2021
-      position: Brent was Ph.D student. After graduating from the lab he took a Postdoctoral Researcher position at McGill University (Montreal).
+      position: Ph.D student
+      description: After graduating from the lab, Brent took a Postdoctoral Researcher position at McGill University (Montreal).
       image: /img/people/brent-mcpherson.png
       twitter: https://twitter.com/bcmcpher
       github: https://github.com/bcmcpher
       scholar: https://scholar.google.com/citatithub.ions?user=UTKS08kAAAAJ&hl=en&oi=ao
 
     - name: Daniel N. Bullock
-      startDate: 05/030/2021
-      position: Dan was Ph.D student. After graduating from the Lab Dan took on a position as Postdoctoral Researcher at the University of Minnesota
+      startDate: 05/03/2021
+      position: Ph.D student
+      description: After graduating from the lab, Dan took on a position as Postdoctoral Researcher at the University of Minnesota
       image: /img/people/daniel-bullock.png
       twitter: https://twitter.com/Is_Dan_Bull
       github: https://github.com/DanNBullock/
@@ -179,7 +191,8 @@ alumni:
 
     - name: Josiah Leong
       startDate: 06/30/2020
-      position: Josiah was Postdoc in the lab. After working in the lab Josiah started his own lab as Assitant Professor at the University of Arkansas.
+      position: Postdoc
+      description: After working in the lab, Josiah started his own lab as Assitant Professor at the University of Arkansas.
       image: /img/people/josiah-leong.png
       twitter: https://twitter.com/fullstackneuro
       github: https://github.com/fullstackneuro
@@ -187,14 +200,16 @@ alumni:
 
     - name: Ilaria Sani
       startDate: 05/20/2020
-      position: Ilaria was a visiting postdoc from the Laboratory of Winrich Freiwald at the Rockefeller University. After visiting the lab Ilaria took a Research Scientist position at the University of Geneva.
+      position: Visiting postdoc
+      description: Ilaria was visiting from the Laboratory of Winrich Freiwald at the Rockefeller University. After visiting the lab, Ilaria took a Research Scientist position at the University of Geneva.
       image: /img/people/ilaria-sani.png
       github: https://github.com/IlariaSani
       scholar: https://scholar.google.com/citations?user=yyhEfS8AAAAJ&hl=it
 
     - name: Ricardo Fabrega
       startDate: 04/06/2019
-      position: Ricardo was an undergraduate research assistant. After leaving the lab Ricardo took on a prestigious Medical Student Scholarship at the F. Edward Hébert School of Medicine of the Uniformed Services University of the Health Sciences in Bethesda, Maryland.
+      position: Undergraduate research assistant
+      description: After leaving the lab, Ricardo took on a prestigious Medical Student Scholarship at the F. Edward Hébert School of Medicine of the Uniformed Services University of the Health Sciences in Bethesda, Maryland.
       image: /img/people/ricardo-fabrega.png
       twitter: https://twitter.com/Fabregari
       github: https://github.com/ricardofebrega
@@ -202,14 +217,16 @@ alumni:
 
     - name: Yiming Qian
       startDate: 05/30/2018
-      position: Yiming was an undergraduate research assistant. After leaving the lab Yiming started Graduate School at Penn State University.
+      position: Undergraduate research assistant.
+      description: After leaving the lab, Yiming started Graduate School at Penn State University.
       image: /img/people/yiming-qian.png
       github: https://github.com/Qian-Yiming
       scholar: https://scholar.google.com/citations?user=TkXtUmsAAAAJ&hl=en&oi=ao
 
     - name: Lindsey Kitchell
       startDate: 04/06/2018
-      position: Lindsey was Ph.D. student. After leaving the Lab Lindsey took on a position as Senior Professional Scientist at Johns Hopkins University's Applied Physics Laboratory
+      position: Ph.D. student
+      description: After leaving the lab, Lindsey took on a position as Senior Professional Scientist at Johns Hopkins University's Applied Physics Laboratory
       image: https://github.com/kitchell.png
       twitter: https://twitter.com/lindseykitchell
       github: https://github.com/kitchell
@@ -217,7 +234,8 @@ alumni:
 
     - name: Shiloh Echevarria-Cooper
       startDate: 04/05/2018
-      position: Shiloh was a undergraduate research assistant. After leaving the lab Shiloh started Graduate School at Northwestern University.
+      position: Undergraduate research assistant
+      description: After leaving the lab, Shiloh started Graduate School at Northwestern University.
       image: /img/people/shiloh-cooper.png
       twitter: https://mobile.twitter.com/shiloh_ec
       github: https://github.com/ricardostuck
@@ -225,7 +243,8 @@ alumni:
 
     - name: Cesar F. Caiafa
       startDate: 05/30/2017
-      position: Cesar was visiting scientist. After working in the lab Cesar went back to Argentina to work as at the Argentinean Radioastronomy Institute (IAR) and as an Adjunct Professor at the Faculty of Engineering, University of Buenos Aires.
+      position: Visiting scientist
+      description: After working in the lab, Cesar went back to Argentina to work as at the Argentinean Radioastronomy Institute (IAR) and as an Adjunct Professor at the Faculty of Engineering, University of Buenos Aires.
       image: /img/people/cesar-caiafa.png
       twitter: https://twitter.com/ccaiafa
       github: https://github.com/ccaiafa
@@ -233,14 +252,16 @@ alumni:
 
     - name: Aman Arya
       startDate: 20/08/2017
-      position: Aman was a undergraduate research assistant, NSF Summer Intern for brainlife.io. After leaving the lab Aman took a job at Amazon.
+      position: Undergraduate research assistant, NSF Summer Intern for brainlife.io
+      description: After leaving the lab, Aman took a job at Amazon.
       image: /img/people/aman-arya.png
       github: https://github.com/aarya22
       scholar: https://scholar.google.com/citations?user=IFIa8vgAAAAJ&hl=en
 
     - name: Steven O’Riley
       startDate: 30/08/2016
-      position: Steven was first an high-school and then undergrad research assistant. After leaving the lab Steven took a data science job.
+      position: High-school and Undergrad research assistant
+      description: After leaving the lab, Steven took a data science job.
       image: /img/people/steven-oriley.png
       github: https://github.com/stevengeeky
 
