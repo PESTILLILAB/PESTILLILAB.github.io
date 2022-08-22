@@ -75,7 +75,7 @@ path = "github.com/gohugoio/hugo-mod-bootstrap-scss/v5"
           "NeuroscienceNetwork.org" = "https://neurosciencenetwork.org"
 
       [params.footer.Institutional]
-          "Psychology Department" = "https://liberalarts.utexas.edu/psychology/"
-          "The University of Texas" = "The University of Texas" 
-          "TACC" = "IMAGING CENTER"
-          "Indiana University UITS" = "https://dcops.iu.edu/"
+          "Psychology Department" = "https://liberalarts.utexas.edu/psychology"
+          "The University of Texas" = "https://www.utexas.edu" 
+          "TACC" = "https://www.tacc.utexas.edu"
+          "Indiana University UITS" = "https://dcops.iu.edu"
