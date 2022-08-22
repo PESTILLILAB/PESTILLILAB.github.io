@@ -76,7 +76,7 @@ map:
   enable: true
   title: Network of collaborators
   subtitle: Our collaboration network involves scientists and developers across the globe
-  data: "data/institutions.toml"
+  data: "data/map.toml"
   primaryColor: '#005981'
   secondaryColor: '#CCCCCC'
   waterColor: '#005981'
