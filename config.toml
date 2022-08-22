@@ -5,10 +5,6 @@ languageCode = "en-us"
 [[module.imports]]
 path = "github.com/gohugoio/hugo-mod-bootstrap-scss/v5"
 
-[params.plugins]
-  [[params.plugins.js]]
-  URL = "js/rad-animations.js"
-
 [menu]
 
   [[menu.header]]
@@ -70,12 +66,13 @@ path = "github.com/gohugoio/hugo-mod-bootstrap-scss/v5"
           "Psychology PHD" = "https://liberalarts.utexas.edu/psychology/graduate/phd.php"
           "Neuroscience PHD" = "https://neuroscienceinstitute.utexas.edu/PhD%20Program"
           "Computer Science PHD" = "https://www.cs.utexas.edu/graduate-program/phd-program"
+
       [params.footer.RelatedLinks.Research]
           "brainlife.io" = "https://brainlife.io"
           "NeuroscienceNetwork.org" = "https://neurosciencenetwork.org"
 
       [params.footer.Institutional]
           "Psychology Department" = "https://liberalarts.utexas.edu/psychology"
-          "The University of Texas" = "https://www.utexas.edu" 
+          "The University of Texas" = "https://www.utexas.edu"
           "TACC" = "https://www.tacc.utexas.edu"
           "Indiana University UITS" = "https://dcops.iu.edu"
