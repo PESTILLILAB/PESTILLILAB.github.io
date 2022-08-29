@@ -76,7 +76,7 @@ humanities:
 map:
   enable: true
   title: Network of collaborators
-  subtitle: We collaborate with scientists and technologiest across the globe
+  subtitle: We collaborate with scientists and developers across the globe
   data: "data/map.toml"
   primaryColor: '#005981'
   secondaryColor: '#CCCCCC'
