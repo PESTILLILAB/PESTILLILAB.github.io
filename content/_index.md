@@ -10,8 +10,8 @@ sections:
 showcase:
   enable: true
   title:
-  subtitle: "Free and secure reproducible neuroscience analysis platform."
-  desription: "You can start analyzing your data by <b>uploading your data</b> or import data from public archives. You can combine over 400+ pre-processing Apps to build your custom workflows</b>, and <b>easily submit thousands of jobs</b> on our shared HPC systems</b>. <b>Perform group-level analysis</b> on Jupyter notebooks and apply machine learning methods. <b>Publish your full workflow</b> using a single DOI"
+  subtitle: "Understanding brain and mental health via responsible technology."
+  desription: "The laboratory ... "
 
   image:
     url: "img/pestillilab-02.svg"
@@ -26,7 +26,7 @@ showcase:
     #   URL: "https://github.com/PESTILLILAB/"
 
     # - icon: "twitter"
-    #   URL: "https://twitter.com/brainlifeio"
+    #   URL: "https://twitter.com/furranko"
 
     #- icon: "dribbble"
     #  URL: "https://dribbble.com/radity"
