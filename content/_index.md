@@ -11,7 +11,7 @@ showcase:
   enable: true
   title:
   subtitle: "Understanding brain and mental health via responsible technology."
-  desription: "The laboratory ... "
+  desription: "HERE"
 
   image:
     url: "img/pestillilab-02.svg"
@@ -67,7 +67,8 @@ humanities:
   partial: t-text_image
   subtitle: "Democratizing neuroscience understanding and education via technology."
   content: '
-    The PESTILLI LAB promotes progress in psychological and brain science via the democratization of scientific research, methods, data and infrastructure. We strive to advance societal good by accelerating neuroscientific discovery and education via data-science applications and innovative technology.
+    We develop standards and technology for the management and processing of brain and health data. 
+    Simplifying the way data is stored, processed, analyzed and shared can improve scientific understanding and education.
   '
   image: "img/democratic.svg"
   size: 6
@@ -75,7 +76,7 @@ humanities:
 map:
   enable: true
   title: Network of collaborators
-  subtitle: Our collaboration network involves scientists and developers across the globe
+  subtitle: We collaborate with scientists and technologiest across the globe
   data: "data/map.toml"
   primaryColor: '#005981'
   secondaryColor: '#CCCCCC'
