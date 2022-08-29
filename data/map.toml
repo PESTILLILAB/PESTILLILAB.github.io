@@ -28,11 +28,11 @@ lng = 5.3698
 
 ["University of Michigan"]
 lat = 42.278
-lng = 83.7382
+lng = -83.7382
 
 ["University of Pennsylvania"]
 lat = 39.9522
-lng = 75.1932
+lng = -75.1932
 
 ["University of Trento"]
 lat = 46.0748
@@ -40,16 +40,16 @@ lng = 11.1217
 
 ["The University of Texas at Austin"]
 lat = 30.2672
-lng = 97.7431
+lng = -97.7431
 
 ["University of Minnesota"]
 lat = 44.974
-lng = 93.2277
+lng = -93.2277
 
 ["Stanford University"]
 lat = 37.4275
-lng = 122.1697
+lng = -122.1697
 
 ["University of Washington"]
 lat = 47.6553
-lng = 122.3035
+lng = -122.3035
