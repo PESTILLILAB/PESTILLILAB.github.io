@@ -82,7 +82,7 @@ grants:
     startDate: 2017-09-01
     endDate: 2021-12-31
     investigators: 
-    - Franco Pestilli
+    - Franco Pestilli, Ivo Dinov, Lei Wang, Eleftherios Garyfallidis
     title: |
       NCS-FO: Connectome mapping algorithms with application to community services for big data neuroscience 
 
@@ -91,7 +91,7 @@ grants:
     startDate: 2016-09-01
     endDate: 2021-10-31
     investigators: 
-    - Franco Pestilli
+    - Franco Pestilli, Ivo Dinov, Richard Gonzalez, DK Panda, Staya Sahoo
     title: |
       BD Spokes: SPOKE: MIDWEST: Collaborative: Advanced Computational Neuroscience Network (ACNN)
 
@@ -100,7 +100,7 @@ grants:
     startDate: 2021-11-01
     endDate: 2023-06-30
     investigators: 
-    - Franco Pestilli
+    - Franco Pestilli, Susanne Ressl
     title: |
       BD Spokes: SPOKE: MIDWEST: Collaborative: Advanced Computational Neuroscience Network (ACNN)
 
@@ -109,7 +109,7 @@ grants:
     startDate: 2021-08-01
     endDate: 2023-07-31
     investigators: 
-    - Franco Pestilli, Russ Poldrak, and Ariel Rokem
+    - Franco Pestilli, Russ Poldrack, and Ariel Rokem
     title: |
       A community-driven development of the brain imaging data standard (BIDS) to describe macroscopic brain connections
 
@@ -118,7 +118,7 @@ grants:
     startDate: 2021-10-01
     endDate: 2023-05-30
     investigators: 
-    - Aina Puce and Franco Pestilli
+    - Aina Puce, Franco Pestilli
     title: |
       CRCNS: US-France Data Sharing Proposal: Open science & cloud computing of MEEG
 
