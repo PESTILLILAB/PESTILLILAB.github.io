@@ -53,17 +53,17 @@ grants:
   partial: research/grants
   grants:
 
-  - grantor: The Indiana Clinical and Translational Sciences Institute (CTSI)
-    startDate: 2015-09-01
-    endDate: 2017-08-31
-    investigators: Franco Pestilli
-    title: 'Improved accuracy for anatomical mapping and network structure of the Alzheimer's brain'
-
   - grantor: Microsoft Corporation (Faculty Fellowship) 
     url: https://www.microsoft.com/en-us/research/academic-program/microsoft-investigator-fellowship/fellowship-recipients/
     startDate: 2020-08-01
     investigators: Franco Pestilli
     title: 'Advancing understanding of human aging via cloud computing'
+
+ - grantor: The Indiana Clinical and Translational Sciences Institute (CTSI)
+    startDate: 2015-09-01
+    endDate: 2017-08-31
+    investigators: Franco Pestilli
+    title: 'Improved accuracy for anatomical mapping and network structure of the Alzheimer's brain'
 
   - grantor: The Kavli Foundation
     url: https://kavlifoundation.org/news/connecting-neuroscience
