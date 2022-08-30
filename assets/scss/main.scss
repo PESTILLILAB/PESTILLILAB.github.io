@@ -858,12 +858,12 @@ textarea:focus {
   margin-top: 5vh;
 
   @include media-breakpoint-up(md) {
-    height: 60vh;
+    height: 90vh;
     margin-top: 0;
   }
 
   @include media-breakpoint-up(lg) {
-    height: 80vh;
+    height: 90vh;
   }
 }
 
