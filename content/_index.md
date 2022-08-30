@@ -10,8 +10,8 @@ sections:
 showcase:
   enable: true
   title:
-  subtitle: "Understanding brain and mental health via responsible technology."
-  desription: "HERE"
+  subtitle: "Understanding the brain and mental health via responsible technology."
+  desription: "none"
 
   image:
     url: "img/pestillilab-02.svg"
