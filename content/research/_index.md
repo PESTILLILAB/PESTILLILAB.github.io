@@ -58,13 +58,13 @@ grants:
     investigators:
     - Franco Pestilli
     title: 'Improved accuracy for anatomical mapping and network structure of the Alzheimer's brain'
-    granto: The Indiana Clinical and Translational Sciences Institute (CTSI)
+    grantor: The Indiana Clinical and Translational Sciences Institute (CTSI)
 
   - startDate: 2020-08-01
     investigators:
     - Franco Pestilli
     title: 'Advancing understanding of human aging via cloud computing'
-    granto: Microsoft Corporation (Faculty Fellowship) 
+    grantor: Microsoft Corporation (Faculty Fellowship) 
 
   - grantor: The Kavli Foundation
     startDate: 2022-03-01
