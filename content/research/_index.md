@@ -59,7 +59,7 @@ grants:
     investigators: Franco Pestilli
     title: 'Advancing understanding of human aging via cloud computing'
 
- - grantor: The Indiana Clinical and Translational Sciences Institute (CTSI)
+  - grantor: The Indiana Clinical and Translational Sciences Institute (CTSI)
     startDate: 2015-09-01
     endDate: 2017-08-31
     investigators: Franco Pestilli
