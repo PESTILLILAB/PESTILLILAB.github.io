@@ -32,7 +32,7 @@ open:
     We promote the application of cloud technology to support psychological and brain science science.
     Cloud technology can help scientists address bigger scientific questions and reduce mistakes.
     Cloud services allow error-less data analysis and management.
-    The PESTILLI LAB has developed and operates [brainlife.io](https://brainlife.io), an open-source, free cloud computing platform that supports thousands of students and researchers with reproducible neuroimaging data processing.
+    The PESTILLI LAB has developed and operates brainlife.io, an open-source, free-to-use cloud computing platform that supports thousands of students and researchers with reproducible neuroimaging data processing.
   image: img/cloud.svg
 
 wm:
