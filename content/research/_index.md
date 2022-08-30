@@ -53,20 +53,22 @@ grants:
   partial: research/grants
   grants:
 
-  - startDate: 2015-09-01
+  - grantor: The Indiana Clinical and Translational Sciences Institute (CTSI)
+    startDate: 2015-09-01
     endDate: 2017-08-31
     investigators:
     - Franco Pestilli
     title: 'Improved accuracy for anatomical mapping and network structure of the Alzheimer's brain'
-    grantor: The Indiana Clinical and Translational Sciences Institute (CTSI)
 
-  - startDate: 2020-08-01
+  - grantor: Microsoft Corporation (Faculty Fellowship) 
+    url: https://www.microsoft.com/en-us/research/academic-program/microsoft-investigator-fellowship/fellowship-recipients/
+    startDate: 2020-08-01
     investigators:
     - Franco Pestilli
     title: 'Advancing understanding of human aging via cloud computing'
-    grantor: Microsoft Corporation (Faculty Fellowship) 
 
   - grantor: The Kavli Foundation
+    url: https://kavlifoundation.org/news/connecting-neuroscience
     startDate: 2022-03-01
     investigators:
     - Franco Pestilli
@@ -80,61 +82,61 @@ grants:
     - Franco Pestilli
     title: 'NCS-FO: Connectome mapping algorithms with application to community services for big data neuroscience' 
 
-  - url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=1636893&HistoricalAwards=false
+  - grantor: The National Science Foundation (Special Program for Big Data)
+    url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=1636893&HistoricalAwards=false
     startDate: 2016-09-01
     endDate: 2021-10-31
     investigators:
     - Franco Pestilli
     title: 'BD Spokes: SPOKE: MIDWEST: Collaborative: Advanced Computational Neuroscience Network (ACNN)'
-    grantor: The National Science Foundation (Special Program for Big Data)
 
-  - url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2148729&HistoricalAwards=false
+  - grantor: The National Science Foundation (Special Program for Big Data)
+    url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2148729&HistoricalAwards=false
     startDate: 2021-11-01
     endDate: 2023-06-30
     investigators:
     - Franco Pestilli
     title: 'BD Spokes: SPOKE: MIDWEST: Collaborative: Advanced Computational Neuroscience Network (ACNN)'
-    granto: The National Science Foundation (Special Program for Big Data)
 
-  - url: https://projectreporter.nih.gov/project_info_description.cfm?aid=10253558
+  - grantor: The National Institutes of Health (Special Program for the BRAIN Initiative)
+    url: https://projectreporter.nih.gov/project_info_description.cfm?aid=10253558
     startDate: 2021-08-01
     endDate: 2023-07-31
     investigators:
     - Franco Pestilli, Russ Poldrak, and Ariel Rokem
     title: 'A community-driven development of the brain imaging data standard (BIDS) to describe macroscopic brain connections'
-    grantor: The National Institutes of Health (Special Program for the BRAIN Initiative)
 
-  - url: https://reporter.nih.gov/search/AdIqTfzGO0G5VCC_CQXdsw/project-details/10428625
+  - grantor: The National Science Foundation (Special Program for Big Data)
+    url: https://reporter.nih.gov/search/AdIqTfzGO0G5VCC_CQXdsw/project-details/10428625
     startDate: 2021-10-01
     endDate: 2023-05-30
     investigators:
     - Aina Puce and Franco Pestilli
     title: 'CRCNS: US-France Data Sharing Proposal: Open science & cloud computing of MEEG'
-    granto: The National Science Foundation (Special Program for Big Data)
 
-  - url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=1916518&HistoricalAwards=false
+  - grantor: The National Institute of Mental Health (Special Program CRCNS)
+    url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=1916518&HistoricalAwards=false
     startDate: 2019-06-01
     endDate: 2023-05-31
     investigators:
     - Franco Pestilli
     title: 'BD Hubs: Collaborative Proposal: Midwest: Midwest Big Data Hub: Building Communities to Harness the Data Revolution'
-    grantor: The National Institute of Mental Health (Special Program CRCNS)
 
-  - url: https://projectreporter.nih.gov/project_info_description.cfm?aid=10262925
+  - grantor: The National Institute of Mental Health (Special Program CRCNS)
+    url: https://projectreporter.nih.gov/project_info_description.cfm?aid=10262925
     startDate: 2019-09-01
     endDate: 2023-06-30
     investigators:
     - Rick Betzel, Franco Pestilli and Danielle Bassett
     title: 'CRCNS: US-France Data Sharing Proposal: Lowering the barrier of entry to network neuroscience'
-    grantor: The National Institute of Mental Health (Special Program CRCNS)
 
-  - url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2004877&HistoricalAwards=false
+  - grantor: The National Scienece Foundation (Special SBE Postdoctoral Fellowship)
+    url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2004877&HistoricalAwards=false
     startDate: 2020-09-01
     endDate: 2022-08-31
     investigators:
     - Sophia Vinci-Booher (postdoc)
     title: Harnessing machine learning and cloud computing to test biological models of the role of white matter in human learning
-    grantor: The National Scienece Foundation (Special SBE Postdoctoral Fellowship)
 
   - url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2148700&HistoricalAwards=false
     startDate: 2021-10-01
