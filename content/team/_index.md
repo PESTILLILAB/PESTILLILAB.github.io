@@ -13,7 +13,7 @@ sections:
 pi:
   partial: team/pi
   name: Franco Pestilli
-  position: Associate Professor, Department of Psychology, The University of Texas, Austin
+  position: Associate Professor, Department of Psychology, The University of Texas at Austin
   image: /img/people/franco-pestilli.png
   twitter: https://twitter.com/furranko
   linkedin: https://www.linkedin.com/in/francopestilli/
@@ -21,7 +21,7 @@ pi:
   github: https://github.com/francopestilli
   scholar: https://scholar.google.com/citations?user=gh_KorwAAAAJ
   bio: |
-    **Associate Professor of Psychology at the University of Texas, Austin**, Franco holds a Ph.D. from New York University and a B.A. from the University of Rome La Sapienza. Before that, he was Postdoctoral Researcher at Columbia University, Research Associate at Stanford University and faculty at Indiana University. Franco's research spans across psychology, computer science and neuroscience. He is a Fellow of the Association for Psychological Science and Psychonomics Society and has received a Microsoft Investigator Fellowship and Janet Taylor Spence Award. Franco is Director and Founder of [brainlife.io](https://brainlife.io/).
+    **Associate Professor of Psychology at the University of Texas, Austin**, Franco holds a Ph.D. from New York University and a B.A. from the University of Rome La Sapienza. Before that, he was Postdoctoral Researcher at Columbia University, Research Associate at Stanford University and faculty at Indiana University. At the University of Texas at austin Franco Teaches Neuroscience and Data Science. Franco's research spans across psychology, computer science and neuroscience. He is a [Fellow of the Association for Psychological Science](https://member.psychologicalscience.org/directories/fellows) and [Psychonomics Society](https://www.psychonomic.org/page/2017springnewfellows). Franco has received the [Microsoft Investigator Fellowship](https://www.microsoft.com/en-us/research/academic-program/microsoft-investigator-fellowship/fellowship-recipients/), a [gift by the Kavli Foundation to study international data governance](https://kavlifoundation.org/news/connecting-neuroscience) and the [APS Janet Taylor Spence Award for Transformative Early Career Contributions](https://www.psychologicalscience.org/members/awards-and-honors/spence-recipients/pestilli). Franco is Director and Founder of [brainlife.io](https://brainlife.io/) and Chair Elect of the [International Brain Initiative](https://internationalbraininitiative.org/) Data Governance and Sharing Working Group. At The University of Texas Franco is affiliated with the [Center For Perceptual Systems](https://liberalarts.utexas.edu/cps/), and member of the executive board of [The Center for Theoretical and Computational Neuroscience](https://ctcn.utexas.edu/).
 
 team:
   partial: team/team
