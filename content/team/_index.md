@@ -26,7 +26,7 @@ pi:
 team:
   partial: team/team
   title: Team
-  description: The excellent graduate and undergraduate students, postdocs, faculty and staff members of our core team, alumni and collaborators.
+  description: Below are the wonderful students, postdocs, staff members and faculty colleagues that make our science possible.
   people:
     - name: Anibal S. Heinsfeld
       position: Ph.D. Student (Computer Science, Machine Learning, Tractography)
