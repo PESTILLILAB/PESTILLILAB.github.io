@@ -171,6 +171,16 @@ alumni:
   title: Alumni
   description:
   people:
+
+    - name: Sophia Vinci-Booher
+      startDate: 12/30/2021
+      position: Postdoctoral Researcher
+      description: After working in the lab, Sophia started her own lab at the Vanderbilt University.
+      image: /img/people/sophia-vinci-booher.png
+      twitter: https://twitter.com/svincibo
+      github: https://github.com/svincibo
+      scholar: https://scholar.google.com/citations?user=xNYnb6wAAAAJ&hl=en
+
     - name: Brent C. McPherson
       startDate: 12/30/2021
       position: Ph.D student
