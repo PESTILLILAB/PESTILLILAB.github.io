@@ -35,6 +35,10 @@ path = "github.com/gohugoio/hugo-mod-bootstrap-scss/v5"
 
   title = "Pestilli Lab"
 
+  [params.color]
+  primary = #005981
+  secondary = #f9c926
+
   [params.logo]
     img = "/img/pestillilab-01.svg"
     alt = "Pestilli Lab"

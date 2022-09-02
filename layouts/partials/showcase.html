@@ -124,8 +124,6 @@ class Noise {
 }
 
 function init() {
-  console.log('init');
-
   w = 2000;
   h = 2000;
 
@@ -138,7 +136,6 @@ function init() {
   cv.height = h;
 
   ctx = cv.getContext('2d');
-  // ctx.imageSmoothingEnabled = true;
   ctx.fillStyle = 'rgba(255, 255, 255, 1)';
   ctx.fillRect(0, 0, w, h);
 

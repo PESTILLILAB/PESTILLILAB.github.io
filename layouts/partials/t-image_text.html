@@ -14,13 +14,19 @@
       />
     </div>
     <div class="col-12 order-first col-md-{{ $OppCol }} order-md-last my-auto">
+      {{ if $Data.title }}
       <h2>
         {{ $Data.title }}
+        {{ if $Data.subtitle }}
         <span>{{ $Data.subtitle }}</span>
+        {{ end }}
       </h2>
+      {{ end }}
+      {{ if $Data.content }}
       <p>
         {{ $Data.content | safeHTML }}
       </p>
+      {{ end }}
 
       {{ if $Data.button }}
       <a
