@@ -92,7 +92,7 @@ collaborators:
       image: /img/people/aina-puce.png
       position: Eleanor Cox Riggs Professor, Psychological and Brain Sciences at Indiana University
       description: Together we are integrating MEG and EEG data processing streams on brainlife.io.
-      scholar: https://scholar.google.com/citations?user=F5KjJe0AAAAJ&hl=en 
+      scholar: https://scholar.google.com/citations?user=F5KjJe0AAAAJ
       twitter: https://twitter.com/aina_puce
       github: https://github.com/ainapuce
 
@@ -100,7 +100,7 @@ collaborators:
       image: /img/people/daniel-mcdonald.png
       position: Associate Professor, Department of Statistics, The University of British Columbia
       description: Together we are developing approaches to tractography methods optimization.
-      scholar: https://scholar.google.com/citations?user=qRmkt6wAAAAJ&hl=en&oi=ao 
+      scholar: https://scholar.google.com/citations?user=qRmkt6wAAAAJ
       twitter: https://twitter.com/dajmcdon
       github: https://github.com/dajmcdonen
 
@@ -108,7 +108,7 @@ collaborators:
       image: /img/people/michael-hanke.png
       position: Group Leader Jülich Brain Center (Germany)
       description: Together we are developing technology to connect data across the globe using DataLad.org and brainlife.io.
-      scholar: https://scholar.google.com/citations?user=3tT7QQ8AAAAJ&hl=en&oi=ao
+      scholar: https://scholar.google.com/citations?user=3tT7QQ8AAAAJ
       twitter: https://twitter.com/eknahm
       github: https://github.com/mih
 
@@ -116,34 +116,34 @@ collaborators:
       image: /img/people/nathalie-george.png
       position: Laboratory Director Paris Brain Institute
       description: Together we are developing tools to lower the barriers of entry to processing electrophysiological data using brainlife.io.
-      scholar: https://scholar.google.com/citations?user=x5NORzMAAAAJ&hl=en&oi=ao
+      scholar: https://scholar.google.com/citations?user=x5NORzMAAAAJ
       twitter: https://twitter.com/nathgeorgeng
 
     - name: Nicholas Port
       image: /img/people/nicholas-port.png
       position: Associate Professor of Vision Science and Neuroscience at Indiana University
       description: Together we are trying to understand brain concussion using brainlife.io.
-      scholar: https://scholar.google.com/citations?user=zKUEyiUAAAAJ&hl=en
+      scholar: https://scholar.google.com/citations?user=zKUEyiUAAAAJ
 
     - name: Richard Betzel
       image: /img/people/richard-betzel.png
       position: Assistant Professor Indiana University
       description: Together we are developing tools to lower the barriers of entry to network neuroscience using brainlife.io
-      scholar: https://scholar.google.com/citations?user=3j9gqsEAAAAJ&hl=en
+      scholar: https://scholar.google.com/citations?user=3j9gqsEAAAAJ
       twitter: https://twitter.com/richardfbetzel
 
     - name: Sarah Heilbronner
       image: /img/people/sarah-heilbronner.png
       position: Assistant professor University of Minnesota
       description: Together we are working on understanding the connectivity of the Parietal cortex.
-      scholar: https://scholar.google.com/citations?user=xNLcH5MAAAAJ&hl=en&oi=ao
+      scholar: https://scholar.google.com/citations?user=xNLcH5MAAAAJ
       twitter: https://twitter.com/SRHeilbronner
 
     - name: Wei Tang
       image: /img/people/wei-tang.png
       position: Assistant Scientist, Department of Computer Science, Indiana University
       description: Together we are developing approaches to tract the connectivity of the Parietal cortex using brainlife.io
-      scholar: https://scholar.google.com/citations?user=pRhR63sAAAAJ&hl=en 
+      scholar: https://scholar.google.com/citations?user=pRhR63sAAAAJ
       twitter: https://twitter.com/anpopo
       github: https://github.com/tangwei
 
@@ -151,7 +151,7 @@ collaborators:
       image: /img/people/yaroslav-halchenko.png
       position: Research Assistant Professor Dartmuth College
       description: Together we are developing technology to connect data across the globe using DataLad.org and brainlife.io
-      scholar: https://scholar.google.com/citations?user=EbtfZcwAAAAJ&hl=en&oi=ao
+      scholar: https://scholar.google.com/citations?user=EbtfZcwAAAAJ
       twitter: https://twitter.com/yarikoptic
       github: https://github.com/yarikoptic
 
@@ -173,13 +173,13 @@ alumni:
   people:
 
     - name: Sophia Vinci-Booher
-      startDate: 12/30/2021
+      startDate: 01/01/2016
       position: Postdoctoral Researcher
       description: After working in the lab, Sophia started her own lab at the Vanderbilt University.
       image: /img/people/sophia-vinci-booher.png
       twitter: https://twitter.com/svincibo
       github: https://github.com/svincibo
-      scholar: https://scholar.google.com/citations?user=xNYnb6wAAAAJ&hl=en
+      scholar: https://scholar.google.com/citations?user=xNYnb6wAAAAJ
 
     - name: Brent C. McPherson
       startDate: 12/30/2021
@@ -188,12 +188,12 @@ alumni:
       image: /img/people/brent-mcpherson.png
       twitter: https://twitter.com/bcmcpher
       github: https://github.com/bcmcpher
-      scholar: https://scholar.google.com/citatithub.ions?user=UTKS08kAAAAJ&hl=en&oi=ao
+      scholar: https://scholar.google.com/citations?user=UTKS08kAAAAJ
 
     - name: Daniel N. Bullock
       startDate: 05/03/2021
       position: Ph.D student
-      description: After graduating from the lab, Dan took on a position as Postdoctoral Researcher at the University of Minnesota
+      description: After graduating from the lab, Dan took on a position as Postdoctoral Researcher at the University of Minnesota.
       image: /img/people/daniel-bullock.png
       twitter: https://twitter.com/Is_Dan_Bull
       github: https://github.com/DanNBullock/
@@ -206,7 +206,7 @@ alumni:
       image: /img/people/josiah-leong.png
       twitter: https://twitter.com/fullstackneuro
       github: https://github.com/fullstackneuro
-      scholar: https://scholar.google.com/citations?user=EqjIJIUAAAAJ&hl=en&oi=ao
+      scholar: https://scholar.google.com/citations?user=EqjIJIUAAAAJ
 
     - name: Ilaria Sani
       startDate: 05/20/2020
@@ -214,7 +214,7 @@ alumni:
       description: Ilaria was visiting from the Laboratory of Winrich Freiwald at the Rockefeller University. After visiting the lab, Ilaria took a Research Scientist position at the University of Geneva.
       image: /img/people/ilaria-sani.png
       github: https://github.com/IlariaSani
-      scholar: https://scholar.google.com/citations?user=yyhEfS8AAAAJ&hl=it
+      scholar: https://scholar.google.com/citations?user=yyhEfS8AAAAJ
 
     - name: Ricardo Fabrega
       startDate: 04/06/2019
@@ -223,7 +223,7 @@ alumni:
       image: /img/people/ricardo-fabrega.png
       twitter: https://twitter.com/Fabregari
       github: https://github.com/ricardofebrega
-      scholar: https://scholar.google.com/citations?user=IFIa8vgAAAAJ&hl=en
+      scholar: https://scholar.google.com/citations?user=IFIa8vgAAAAJ
 
     - name: Yiming Qian
       startDate: 05/30/2018
@@ -231,16 +231,16 @@ alumni:
       description: After leaving the lab, Yiming started Graduate School at Penn State University.
       image: /img/people/yiming-qian.png
       github: https://github.com/Qian-Yiming
-      scholar: https://scholar.google.com/citations?user=TkXtUmsAAAAJ&hl=en&oi=ao
+      scholar: https://scholar.google.com/citations?user=TkXtUmsAAAAJ
 
     - name: Lindsey Kitchell
       startDate: 04/06/2018
       position: Ph.D. student
-      description: After leaving the lab, Lindsey took on a position as Senior Professional Scientist at Johns Hopkins University's Applied Physics Laboratory
+      description: After leaving the lab, Lindsey took on a position as Senior Professional Scientist at Johns Hopkins University's Applied Physics Laboratory.
       image: https://github.com/kitchell.png
       twitter: https://twitter.com/lindseykitchell
       github: https://github.com/kitchell
-      scholar: https://scholar.google.com/citations?user=TvYBSEkAAAAJ&hl=en&oi=ao
+      scholar: https://scholar.google.com/citations?user=TvYBSEkAAAAJ
 
     - name: Shiloh Echevarria-Cooper
       startDate: 04/05/2018
@@ -249,7 +249,7 @@ alumni:
       image: /img/people/shiloh-cooper.png
       twitter: https://mobile.twitter.com/shiloh_ec
       github: https://github.com/ricardostuck
-      scholar: https://scholar.google.com/citations?user=YUhVZFsAAAAJ&hl=en&oi=ao
+      scholar: https://scholar.google.com/citations?user=YUhVZFsAAAAJ
 
     - name: Cesar F. Caiafa
       startDate: 05/30/2017
@@ -258,7 +258,7 @@ alumni:
       image: /img/people/cesar-caiafa.png
       twitter: https://twitter.com/ccaiafa
       github: https://github.com/ccaiafa
-      scholar: https://scholar.google.com/citations?user=yAUJHFYAAAAJ&hl=en&oi=ao
+      scholar: https://scholar.google.com/citations?user=yAUJHFYAAAAJ
 
     - name: Aman Arya
       startDate: 20/08/2017
@@ -266,7 +266,7 @@ alumni:
       description: After leaving the lab, Aman took a job at Amazon.
       image: /img/people/aman-arya.png
       github: https://github.com/aarya22
-      scholar: https://scholar.google.com/citations?user=IFIa8vgAAAAJ&hl=en
+      scholar: https://scholar.google.com/citations?user=IFIa8vgAAAAJ
 
     - name: Steven O’Riley
       startDate: 30/08/2016
