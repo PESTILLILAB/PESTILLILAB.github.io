@@ -37,7 +37,7 @@ team:
       resume: https://docs.google.com/document/d/17fKDYHgBalLlfEvJQfdrYhar5Er-d9D1ItTDSnG-lPs
       github: https://github.com/soichih
       
-         - name: Bradley Caron
+    - name: Bradley Caron
       position: Postdoctoral Fellow (Vision Science, Neuroinformatics)
       image: /img/people/bradley-caron.png
       twitter: https://twitter.com/bacaronIU
@@ -73,17 +73,17 @@ team:
       scholar: https://scholar.google.com/citations?user=gQdfws4AAAAJ
 
     - name: Sihang (Suna) Guo
-      position: Ph.D. Student (Institute for Neuroscience, Vision Science, Machine Learning, Cognitive Neuroscience)
+      position: Ph.D. Student (Vision Science, Machine Learning, Cognitive Neuroscience)
       image: /img/people/suna-guo.png
       github: https://github.com/SunaGuo
       scholar: https://scholar.google.com/citations?user=f572K_4AAAAJ
       
     - name: Dan Levitas
       position: Visiting Graduate Student
-      image: img/people/DanLevitas.png
+      image: /img/people/DanLevitas.png
       github: https://github.com/dlevitas
 
-     - name: Dheeraj Bhatia
+    - name: Dheeraj Bhatia
       position: Undergraduate Research Assistant (Software Developer)
       image: /img/people/dheeraj-bhatia.png
       github: https://github.com/bhatiadheeraj
