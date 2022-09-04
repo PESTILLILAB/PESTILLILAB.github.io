@@ -28,20 +28,16 @@ team:
   title: Team
   description: Below are the wonderful students, postdocs, staff members and faculty colleagues that make our science possible.
   people:
-    - name: Anibal S. Heinsfeld
-      position: Ph.D. Student (Computer Science, Machine Learning, Tractography)
-      image: https://github.com/anibalsolon.png
-      twitter: https://twitter.com/anibalsolon
-      github: https://github.com/anibalsolon
-      scholar: https://scholar.google.com/citations?user=gQdfws4AAAAJ
-
-    - name: Sihang (Suna) Guo
-      position: Ph.D. Student (Institute for Neuroscience, Vision Science, Machine Learning, Cognitive Neuroscience)
-      image: /img/people/suna-guo.png
-      github: https://github.com/SunaGuo
-      scholar: https://scholar.google.com/citations?user=f572K_4AAAAJ
-
-    - name: Bradley Caron
+  
+    - name: Soichi Hayashi
+      position: Software Engineer (https://brainlife.io)
+      image: https://en.gravatar.com/userimage/11088201/402ad6c44c48147d0b1c3b164fcf9618.jpg?size=200
+      twitter: https://twitter.com/soichih
+      linkedin: https://www.linkedin.com/in/soichihayashi/
+      resume: https://docs.google.com/document/d/17fKDYHgBalLlfEvJQfdrYhar5Er-d9D1ItTDSnG-lPs
+      github: https://github.com/soichih
+      
+         - name: Bradley Caron
       position: Postdoctoral Fellow (Vision Science, Neuroinformatics)
       image: /img/people/bradley-caron.png
       twitter: https://twitter.com/bacaronIU
@@ -55,9 +51,8 @@ team:
       github: https://github.com/giulia-berto
       scholar: https://scholar.google.com/citations?user=T2CydDUAAAAJ&oi=ao
 
-
     - name: Sandra Hanekamp
-      position: Postdocotral Researcher (Vision Science and white matter)
+      position: Postdoctoral Researcher (Vision Science and white matter)
       image: /img/people/sandra-hanekamp.png
       twitter: https://twitter.com/sandrahanekamp
       github: https://github.com/sandrahanekamp
@@ -70,15 +65,25 @@ team:
       github: https://github.com/guiomar
       scholar: https://scholar.google.com/citations?user=xqxSCSkAAAAJ
 
-    - name: Soichi Hayashi
-      position: Software Engineer (https://brainlife.io)
-      image: https://en.gravatar.com/userimage/11088201/402ad6c44c48147d0b1c3b164fcf9618.jpg?size=200
-      twitter: https://twitter.com/soichih
-      linkedin: https://www.linkedin.com/in/soichihayashi/
-      resume: https://docs.google.com/document/d/17fKDYHgBalLlfEvJQfdrYhar5Er-d9D1ItTDSnG-lPs
-      github: https://github.com/soichih
+    - name: Anibal S. Heinsfeld
+      position: Ph.D. Student (Computer Science, Machine Learning, Tractography)
+      image: https://github.com/anibalsolon.png
+      twitter: https://twitter.com/anibalsolon
+      github: https://github.com/anibalsolon
+      scholar: https://scholar.google.com/citations?user=gQdfws4AAAAJ
 
-    - name: Dheeraj Bhatia
+    - name: Sihang (Suna) Guo
+      position: Ph.D. Student (Institute for Neuroscience, Vision Science, Machine Learning, Cognitive Neuroscience)
+      image: /img/people/suna-guo.png
+      github: https://github.com/SunaGuo
+      scholar: https://scholar.google.com/citations?user=f572K_4AAAAJ
+      
+    - name: Dan Levitas
+      position: Visiting Graduate Student
+      image: img/people/DanLevitas.png
+      github: https://github.com/dlevitas
+
+     - name: Dheeraj Bhatia
       position: Undergraduate Research Assistant (Software Developer)
       image: /img/people/dheeraj-bhatia.png
       github: https://github.com/bhatiadheeraj
@@ -174,8 +179,8 @@ alumni:
 
     - name: Sophia Vinci-Booher
       startDate: 01/01/2016
-      position: Postdoctoral Researcher
-      description: After working in the lab, Sophia started her own lab at the Vanderbilt University.
+      position: NSF SBE Postdoctoral Researcher
+      description: After graduating from the lab, Sophia started her own lab at the Vanderbilt University.
       image: /img/people/sophia-vinci-booher.png
       twitter: https://twitter.com/svincibo
       github: https://github.com/svincibo
