@@ -77,11 +77,6 @@ team:
       image: /img/people/suna-guo.png
       github: https://github.com/SunaGuo
       scholar: https://scholar.google.com/citations?user=f572K_4AAAAJ
-      
-    - name: Dan Levitas
-      position: Visiting Graduate Student
-      image: /img/people/DanLevitas.png
-      github: https://github.com/dlevitas
 
     - name: Dheeraj Bhatia
       position: Undergraduate Research Assistant (Software Developer)
