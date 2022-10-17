@@ -55,8 +55,8 @@ team:
       position: Postdoctoral Fellow (Brain Imaging and Computational Neuroscience)
       image: /img/people/antonio-fernandez.png
       github: https://github.com/antoniofs23
-      scholar: [https://scholar.google.com/citations?user=T2CydDUAAAAJ&oi=ao](https://scholar.google.com/citations?user=k9hmsb0AAAAJ&hl=en&oi=sra)
-
+      scholar: https://scholar.google.com/citations?user=k9hmsb0AAAAJ&hl=en&oi=sra
+      
     - name: Julia Guiomar (Guio) Niso Galán
       position: Research Scientist (MEG, EEG, Neuroinformatics)
       image: /img/people/guiomar-niso.png
@@ -87,6 +87,7 @@ collaborators:
   title: Collaborators
   description:
   people:
+  
     - name: Aina Puce
       image: /img/people/aina-puce.png
       position: Eleanor Cox Riggs Professor, Psychological and Brain Sciences at Indiana University
