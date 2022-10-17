@@ -48,15 +48,14 @@ team:
       position: Postdoctoral Fellow (Machine Learning and Sports Concussion)
       image: /img/people/giulia-berto.png
       twitter: https://twitter.com/GiuliaBert1
-      github: https://github.com/giulia-berto
+      github: https://twitter.com/GiuliaBert1 
       scholar: https://scholar.google.com/citations?user=T2CydDUAAAAJ&oi=ao
 
-    - name: Sandra Hanekamp
-      position: Postdoctoral Researcher (Vision Science and white matter)
-      image: /img/people/sandra-hanekamp.png
-      twitter: https://twitter.com/sandrahanekamp
-      github: https://github.com/sandrahanekamp
-      scholar: http://scholar.google.com/citations?user=HpFvfUsAAAAJ
+    - name: Antonio Fernandez
+      position: Postdoctoral Fellow (Brain Imaging and Computational Neuroscience)
+      image: /img/people/antonio-fernandez.png
+      github: https://github.com/antoniofs23
+      scholar: [https://scholar.google.com/citations?user=T2CydDUAAAAJ&oi=ao](https://scholar.google.com/citations?user=k9hmsb0AAAAJ&hl=en&oi=sra)
 
     - name: Julia Guiomar (Guio) Niso Galán
       position: Research Scientist (MEG, EEG, Neuroinformatics)
@@ -180,6 +179,14 @@ alumni:
       twitter: https://twitter.com/svincibo
       github: https://github.com/svincibo
       scholar: https://scholar.google.com/citations?user=xNYnb6wAAAAJ
+  
+    - name: Sandra Hanekamp
+      position: Postdoctoral Researcher (Vision Science and white matter)
+      description: After graduating from the lab, Sandra will start a position at [NordicNeuroLab](https://www.nordicneurolab.com/).
+      image: /img/people/sandra-hanekamp.png
+      twitter: https://twitter.com/sandrahanekamp
+      github: https://github.com/sandrahanekamp
+      scholar: http://scholar.google.com/citations?user=HpFvfUsAAAAJ
 
     - name: Brent C. McPherson
       startDate: 12/30/2021
