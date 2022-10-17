@@ -37,6 +37,13 @@ team:
       resume: https://docs.google.com/document/d/17fKDYHgBalLlfEvJQfdrYhar5Er-d9D1ItTDSnG-lPs
       github: https://github.com/soichih
       
+    - name: Kimberly Ray
+      position: Research Assistant Professor (NeuroImaging, Network Neuroscience, Neuroinformatics)
+      image: /img/people/KimRay.png
+      twitter: https://twitter.com/TheKimRay
+      github: https://github.com/kimberlylray
+      scholar: https://scholar.google.com/citations?user=Qt6OuAkAAAAJ&hl=en
+      
     - name: Bradley Caron
       position: Postdoctoral Fellow (Vision Science, Neuroinformatics)
       image: /img/people/bradley-caron.png
