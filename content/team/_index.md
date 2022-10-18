@@ -59,7 +59,7 @@ team:
       scholar: https://scholar.google.com/citations?user=T2CydDUAAAAJ&oi=ao
 
     - name: Antonio Fernandez
-      position: Postdoctoral Fellow (Brain Imaging and Computational Neuroscience)
+      position: Postdoctoral Fellow (Brain Imaging, TMS and Computational Neuroscience)
       image: /img/people/antonio-fernandez.png
       github: https://github.com/antoniofs23
       scholar: https://scholar.google.com/citations?user=k9hmsb0AAAAJ&hl=en&oi=sra
