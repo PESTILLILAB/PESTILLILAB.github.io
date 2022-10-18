@@ -190,7 +190,7 @@ alumni:
   
     - name: Sandra Hanekamp
       position: Postdoctoral Researcher (Vision Science and white matter)
-      description: After graduating from the lab, Sandra will start a position at [NordicNeuroLab](https://www.nordicneurolab.com/).
+      description: After graduating from the lab, Sandra will start a position at NordicNeuroLab.
       image: /img/people/sandra-hanekamp.png
       twitter: https://twitter.com/sandrahanekamp
       github: https://github.com/sandrahanekamp
