@@ -85,9 +85,32 @@ team:
       scholar: https://scholar.google.com/citations?user=f572K_4AAAAJ
 
     - name: Dheeraj Bhatia
-      position: Undergraduate Research Assistant (Software Developer)
+      position:  Software Developer
       image: /img/people/dheeraj-bhatia.png
       github: https://github.com/bhatiadheeraj
+    
+    - name: Annie Mackenzie
+      position: Lab Manager
+      image: /img/people/annie-mackenzie.png
+      description: Lab manager and project manager on a newly-funded project for developing an international data governance framework for neuroscience and health data
+    
+    - name: Jedsada Thavornfung
+      position: Undergraduate Research Assistant
+      github: https://github.com/jedsadatha
+      description: I am currently helping Kim working on the different tracts of brain.
+    
+    - name: Sangmin (Alden) Yi
+      position: Graduate Research Assistant
+      github: https://github.com/aldensyi
+      description: Joined the Pestilli Lab in 2023 with a focus on data analysis and processing fMRI datasets on brainlife.io. Worked with multiple Postdoctoral Researchers on organizing and analyzing datasets for their projects.
+
+    - name: Cat Leal
+      position: Undergraduate Research Assistant
+      description: I work on various neuroimaging and data science projects, including building ML models for dMRI images.
+
+    - name: Alisha Flexwala
+      position: Undergraduate Research Assistant
+      description: I am an undergraduate psychology student at UT Austin who is working with Dr. Ray this summer on laterality literature search. I am also in the process to be working with Brad on creating deep learning models.
 
 collaborators:
   partial: team/team
