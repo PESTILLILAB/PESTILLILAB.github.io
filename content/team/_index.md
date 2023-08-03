@@ -84,8 +84,9 @@ team:
       github: https://github.com/SunaGuo
       scholar: https://scholar.google.com/citations?user=f572K_4AAAAJ
 
-    - name: Dheeraj Bhatia
-      position:  Software Developer
+    - name: Dheeraj Engineer
+      position:  Software Engineer (https://brainlife.io)
+      description: I began as a undegraduate research assistant in the Pestilli Lab in 2020 and joined full-time after graduating in 2023.
       image: /img/people/dheeraj-bhatia.png
       github: https://github.com/bhatiadheeraj
     
@@ -96,13 +97,14 @@ team:
     
     - name: Jedsada Thavornfung
       position: Undergraduate Research Assistant
+      image: /img/people/dollar-mcmoney.jpg
       github: https://github.com/jedsadatha
       description: I am currently helping Kim working on the different tracts of brain.
     
     - name: Sangmin (Alden) Yi
       position: Graduate Research Assistant
       github: https://github.com/aldensyi
-      image: /img/people/sangmin-yi.png
+      image: /img/people/sangmin-yi.jpeg
       description: Joined the Pestilli Lab in 2023 with a focus on data analysis and processing fMRI datasets on brainlife.io. Worked with multiple Postdoctoral Researchers on organizing and analyzing datasets for their projects.
 
     - name: Cat Leal
