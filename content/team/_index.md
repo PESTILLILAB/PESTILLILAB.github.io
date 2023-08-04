@@ -29,20 +29,23 @@ team:
   description: Below are the wonderful students, postdocs, staff members and faculty colleagues that make our science possible.
   people:
   
-    - name: Soichi Hayashi
-      position: Software Engineer (https://brainlife.io)
-      image: https://en.gravatar.com/userimage/11088201/402ad6c44c48147d0b1c3b164fcf9618.jpg?size=200
-      twitter: https://twitter.com/soichih
-      linkedin: https://www.linkedin.com/in/soichihayashi/
-      resume: https://docs.google.com/document/d/17fKDYHgBalLlfEvJQfdrYhar5Er-d9D1ItTDSnG-lPs
-      github: https://github.com/soichih
-      
     - name: Kimberly Ray
       position: Research Assistant Professor (NeuroImaging, Network Neuroscience, Neuroinformatics)
       image: /img/people/KimRay.png
       twitter: https://twitter.com/TheKimRay
       github: https://github.com/kimberlylray
       scholar: https://scholar.google.com/citations?user=Qt6OuAkAAAAJ&hl=en
+
+    - name: Annie Mackenzie
+      position: Project Manager (International Data Governance, Lab Management)
+      image: /img/people/annie-m-mackenzie.jpg
+      github: https://github.com/a1mackenzie
+      scholar: https://scholar.google.com//citations?user=Un9KZyQAAAAJ&hl=en
+
+    - name: Dheeraj Engineer
+      position:  Software Engineer (https://brainlife.io)
+      image: /img/people/dheeraj-bhatia.png
+      github: https://github.com/bhatiadheeraj
       
     - name: Bradley Caron
       position: Postdoctoral Fellow (Vision Science, Neuroinformatics)
@@ -51,25 +54,11 @@ team:
       github: https://github.com/bacaron
       scholar: https://scholar.google.com/citations?user=fU9K6GgAAAAJ
 
-    - name: Giulia Berto
-      position: Postdoctoral Fellow (Machine Learning and Sports Concussion)
-      image: /img/people/giulia-berto.png
-      twitter: https://twitter.com/GiuliaBert1
-      github: https://twitter.com/GiuliaBert1 
-      scholar: https://scholar.google.com/citations?user=T2CydDUAAAAJ&oi=ao
-
     - name: Antonio Fernandez
       position: Postdoctoral Fellow (Brain Imaging, TMS and Computational Neuroscience)
       image: /img/people/antonio-fernandez-new.png
       github: https://github.com/antoniofs23
       scholar: https://scholar.google.com/citations?user=k9hmsb0AAAAJ&hl=en&oi=sra
-      
-    - name: Julia Guiomar (Guio) Niso Galán
-      position: Research Scientist (MEG, EEG, Neuroinformatics)
-      image: /img/people/guiomar-niso.png
-      twitter: https://twitter.com/guiomarniso
-      github: https://github.com/guiomar
-      scholar: https://scholar.google.com/citations?user=xqxSCSkAAAAJ
 
     - name: Anibal S. Heinsfeld
       position: Ph.D. Student (Computer Science, Machine Learning, Tractography)
@@ -83,40 +72,25 @@ team:
       image: /img/people/suna-guo.png
       github: https://github.com/SunaGuo
       scholar: https://scholar.google.com/citations?user=f572K_4AAAAJ
-
-    - name: Dheeraj Engineer
-      position:  Software Engineer (https://brainlife.io)
-      description: I began as a undegraduate research assistant in the Pestilli Lab in 2020 and joined full-time after graduating in 2023.
-      image: /img/people/dheeraj-bhatia.png
-      github: https://github.com/bhatiadheeraj
-    
-    - name: Annie Mackenzie
-      position: Lab Manager
-      image: /img/people/annie-m-mackenzie.jpg
-      description: Lab manager and project manager on a newly-funded project for developing an international data governance framework for neuroscience and health data
     
     - name: Jedsada Thavornfung
-      position: Undergraduate Research Assistant
+      position: Undergraduate Research Assistant (NeuroImaging, Tractography)
       image: /img/people/dollar-mcmoney.jpg
       github: https://github.com/jedsadatha
-      description: I am currently helping Kim working on the different tracts of brain.
-    
-    - name: Sangmin (Alden) Yi
-      position: Graduate Research Assistant
-      github: https://github.com/aldensyi
-      image: /img/people/sangmin-yi.jpeg
-      description: Joined the Pestilli Lab in 2023 with a focus on data analysis and processing fMRI datasets on brainlife.io. Worked with multiple Postdoctoral Researchers on organizing and analyzing datasets for their projects.
 
     - name: Cat Leal
-      position: Undergraduate Research Assistant
+      position: Undergraduate Research Assistant (NeuroImaging, Machine Learning, Tractography)
       image: /img/people/cat-leal.jpg
-      description: I work on various neuroimaging and data science projects, including building ML models for dMRI images.
 
     - name: Alisha Flexwala
-      position: Undergraduate Research Assistant
+      position: Undergraduate Research Assistant (Literature Review, Deep Learning Models)
       image: /img/people/alisha-flexwala.jpg
-      description: I am an undergraduate psychology student at UT Austin who is working with Dr. Ray this summer on laterality literature search. I am also in the process to be working with Brad on creating deep learning models.
 
+    - name: Sangmin (Alden) Yi
+      position: Graduate Research Assistant (Computational Neuroscience, fMRI Data Analysis)
+      image: /img/people/sangmin-yi.jpeg
+      github: https://github.com/aldensyi
+      
 collaborators:
   partial: team/team
   title: Collaborators
@@ -138,6 +112,13 @@ collaborators:
       scholar: https://scholar.google.com/citations?user=qRmkt6wAAAAJ
       twitter: https://twitter.com/dajmcdon
       github: https://github.com/dajmcdonen
+
+    - name: Julia Guiomar (Guio) Niso Galán
+      position: Research Scientist (MEG, EEG, Neuroinformatics)
+      image: /img/people/guiomar-niso.png
+      twitter: https://twitter.com/guiomarniso
+      github: https://github.com/guiomar
+      scholar: https://scholar.google.com/citations?user=xqxSCSkAAAAJ
 
     - name: Michael Hanke
       image: /img/people/michael-hanke.png
@@ -207,6 +188,14 @@ alumni:
   description:
   people:
 
+    - name: Soichi Hayashi
+      position: Software Engineer (https://brainlife.io)
+      image: https://en.gravatar.com/userimage/11088201/402ad6c44c48147d0b1c3b164fcf9618.jpg?size=200
+      twitter: https://twitter.com/soichih
+      linkedin: https://www.linkedin.com/in/soichihayashi/
+      resume: https://docs.google.com/document/d/17fKDYHgBalLlfEvJQfdrYhar5Er-d9D1ItTDSnG-lPs
+      github: https://github.com/soichih
+      
     - name: Sophia Vinci-Booher
       startDate: 01/01/2016
       position: NSF SBE Postdoctoral Researcher
@@ -268,6 +257,13 @@ alumni:
       github: https://github.com/ricardofebrega
       scholar: https://scholar.google.com/citations?user=IFIa8vgAAAAJ
 
+    - name: Giulia Berto
+      position: Postdoctoral Fellow (Machine Learning and Sports Concussion)
+      image: /img/people/giulia-berto.png
+      twitter: https://twitter.com/GiuliaBert1
+      github: https://twitter.com/GiuliaBert1 
+      scholar: https://scholar.google.com/citations?user=T2CydDUAAAAJ&oi=ao
+      
     - name: Yiming Qian
       startDate: 05/30/2018
       position: Undergraduate research assistant.
