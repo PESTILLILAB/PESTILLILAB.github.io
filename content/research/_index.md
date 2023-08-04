@@ -68,6 +68,28 @@ grants:
     - Franco Pestilli
     title: |
       Improved accuracy for anatomical mapping and network structure of the Alzheimer's brain
+  
+  - grantor: The Wellcome Trust
+    url: https://liberalarts.utexas.edu/psychology/news/wellcome-trust-awards-funding-to-develop-international-governance-framework-for-neuroscience-data-sharing
+    startDate: 2023-07-01
+    investigators: 
+    - Franco Pestilli, Damian Eke, Ricardo Chavarriaga, Thomas Nichols, Fernanda Tovar Moll, Amadi Ihunwo
+    title: |
+      BRIDGE:  Brain Research International Data Governance Exchange  
+
+  - grantor: The National Institute of Health
+    startDate: 2023-10-01
+    investigators: 
+    - Sarah Heilbronner, Franco Pestilli
+    title: |
+      Center for Mesoscale Connectomics: A multimodal, cross-species approach
+  
+  - grantor: The National Institute of Mental Health BRAIN Initiative 
+    startDate: 2023-10-01
+    investigators: 
+    - Chris Rorden, Franco Pestilli
+    title: |
+      Extending ezBIDS, NiiVue and dcm2niix for user-friendly cloud-based integration and visualization
 
   - grantor: The Kavli Foundation
     url: https://kavlifoundation.org/news/connecting-neuroscience
