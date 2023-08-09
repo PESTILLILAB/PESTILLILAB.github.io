@@ -42,8 +42,9 @@ team:
       github: https://github.com/a1mackenzie
       scholar: https://scholar.google.com//citations?user=Un9KZyQAAAAJ&hl=en
 
-    - name: Dheeraj Engineer
+    - name: Dheeraj Bhatia
       position:  Software Engineer (https://brainlife.io)
+      # description: Dheeraj began as a undegraduate research assistant in 2020 and has joined full time as a software engineer in 2023.
       image: /img/people/dheeraj-bhatia.png
       github: https://github.com/bhatiadheeraj
       
@@ -53,12 +54,6 @@ team:
       twitter: https://twitter.com/bacaronIU
       github: https://github.com/bacaron
       scholar: https://scholar.google.com/citations?user=fU9K6GgAAAAJ
-
-    - name: Antonio Fernandez
-      position: Postdoctoral Fellow (Brain Imaging, TMS and Computational Neuroscience)
-      image: /img/people/antonio-fernandez-new.png
-      github: https://github.com/antoniofs23
-      scholar: https://scholar.google.com/citations?user=k9hmsb0AAAAJ&hl=en&oi=sra
 
     - name: Anibal S. Heinsfeld
       position: Ph.D. Student (Computer Science, Machine Learning, Tractography)
@@ -189,7 +184,7 @@ alumni:
   people:
 
     - name: Soichi Hayashi
-      position: Software Engineer (https://brainlife.io)
+      position: Software Engineer at Acadian Asset Management
       image: https://en.gravatar.com/userimage/11088201/402ad6c44c48147d0b1c3b164fcf9618.jpg?size=200
       twitter: https://twitter.com/soichih
       linkedin: https://www.linkedin.com/in/soichihayashi/
@@ -258,11 +253,18 @@ alumni:
       scholar: https://scholar.google.com/citations?user=IFIa8vgAAAAJ
 
     - name: Giulia Berto
-      position: Postdoctoral Fellow (Machine Learning and Sports Concussion)
+      position: Giulia was a Postdoctoral Fellow (Machine Learning and Sports Concussion)
       image: /img/people/giulia-berto.png
       twitter: https://twitter.com/GiuliaBert1
       github: https://twitter.com/GiuliaBert1 
       scholar: https://scholar.google.com/citations?user=T2CydDUAAAAJ&oi=ao
+
+    - name: Antonio Fernandez
+      position: NIH Postdoctoral Fellow.
+      description: After leaving the lab, Dr. Fernandez started working as UI/UX Researcher in the industry.
+      image: /img/people/antonio-fernandez-new.png
+      github: https://github.com/antoniofs23
+      scholar: https://scholar.google.com/citations?user=k9hmsb0AAAAJ&hl=en&oi=sra
       
     - name: Yiming Qian
       startDate: 05/30/2018
