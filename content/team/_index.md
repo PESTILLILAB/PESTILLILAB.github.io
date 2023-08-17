@@ -68,6 +68,12 @@ team:
       github: https://github.com/SunaGuo
       scholar: https://scholar.google.com/citations?user=f572K_4AAAAJ
     
+    - name: Zhen Wei
+      position: Graduate Student (Visual neuroscience, visual psychophysics, computational modeling)
+      image: /img/people/zhen_wei.jpg
+      twitter: https://twitter.com/zhenweiccn
+      github: https://github.com/zhenweiccn
+    
     - name: Jedsada Thavornfung
       position: Undergraduate Research Assistant (NeuroImaging, Tractography)
       image: /img/people/dollar-mcmoney.jpg
