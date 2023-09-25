@@ -22,7 +22,9 @@ post_doc:
     title: Post Doc
     subtitle: Join Our Innovative Project at UT Austin!
     content: |
-        We’re seeking an enthusiastic postdoc or data scientist with expertise in neuroimaging or computer science to join the Pestilli Lab on a Wellcome Trust-funded project. The role involves developing an International Data Governance Framework (IDGF) for brain & health data and leading related scientific publications <a href='https://bridge.incf.org/'>Learn more</a>.
+        We’re seeking an enthusiastic postdoc or data scientist to join the Pestilli Lab at UT Austin for a project focused on developing an International Data Governance Framework (IDGF) for brain & health data, in collaboration with BRIDGE. The role involves interacting with diverse datasets, implementing data workflows, and leading scientific publications. <a href='{{ "/static/files/post_doc_bridge.pdf" | relURL }}'>Learn more</a>.
+        
+        Please visit the BRIDGE  website at <a href='https://bridge.incf.org'>bridge.incf.org</a> to learn more about the project.
 
         To apply, please send an email to  Dr. Pestilli (pestilli[at]utexas[dot]edu) and Dr. Mackenzie (annie[dot]mackenzie[at]utexas[dot]edu), using the subject line "International Data Governance Framework (IDGF)". Include a cover letter expressing your interest in the project, your CV, and a research statement.
 ---
