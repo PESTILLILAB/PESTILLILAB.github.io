@@ -14,11 +14,9 @@
       </h2>
       {{ end }}
       {{ if $Data.content }}
-      <p>
-        {{ $Data.content | safeHTML }}
-      </p>
+      {{ $Data.content | replaceRE "\n" "<br />" | safeHTML }}
       {{ end }}
-
+      
       {{ if $Data.button }}
       <a
         href="{{ $Data.button.URL | absURL }}"
