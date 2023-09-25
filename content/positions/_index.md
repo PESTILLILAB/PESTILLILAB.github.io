@@ -22,7 +22,7 @@ post_doc:
     title: Post Doc
     subtitle: Join Our Innovative Project at UT Austin!
     content: |
-        We’re seeking an enthusiastic postdoc or data scientist to join the Pestilli Lab at UT Austin for a project focused on developing an International Data Governance Framework (IDGF) for brain & health data, in collaboration with BRIDGE. The role involves interacting with diverse datasets, implementing data workflows, and leading scientific publications. <a href='{{ "/static/files/post_doc_bridge.pdf" | relURL }}'>Learn more</a>.
+        We’re seeking an enthusiastic postdoc or data scientist to join the Pestilli Lab at UT Austin for a project focused on developing an International Data Governance Framework (IDGF) for brain & health data, in collaboration with BRIDGE. The role involves interacting with diverse datasets, implementing data workflows, and leading scientific publications. <a href="/files/post_doc_bridge.pdf">Learn more</a>.
         
         Please visit the BRIDGE  website at <a href='https://bridge.incf.org'>bridge.incf.org</a> to learn more about the project.
 
