@@ -62,6 +62,11 @@ team:
       github: https://github.com/anibalsolon
       scholar: https://scholar.google.com/citations?user=gQdfws4AAAAJ
 
+    - name: Nicholas Lee
+      position: Software Engineer (brainlife)
+      image: /img/people/nick_lee.jpeg
+      github: https://github.com/nicoalee
+
     - name: Sihang (Suna) Guo
       position: Ph.D. Student (Vision Science, Machine Learning, Cognitive Neuroscience)
       image: /img/people/suna-guo.png
