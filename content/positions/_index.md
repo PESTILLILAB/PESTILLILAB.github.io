@@ -14,7 +14,7 @@ phd_student:
     title: PhD Student Position - Fall 2024 Intake
     subtitle: Join our dedicated team as a PhD student and embark on a journey of exploration, innovation, and groundbreaking research.
     content: |
-         Interested candidates should send their CV and cover letter to Dr. Pestilli (pestilli[at]utexas[dot]edu) and Dr. Mackenzie (annie[dot]mackenzie[at]utexas[dot]edu)
+         Interested candidates should send their CV and cover letter to Dr. Pestilli (pestilli[at]utexas[dot]edu) and Amanda Nelson (amandanelson89@utexas.edu)
 
 post_doc:
     enable: true
@@ -24,5 +24,5 @@ post_doc:
     content: |
         We’re seeking an enthusiastic postdoc or data scientist with expertise in neuroimaging or computer science to join the Pestilli Lab on a Wellcome Trust-funded project. The role involves developing an International Data Governance Framework (IDGF) for brain & health data and leading related scientific publications <a href='https://bridge.incf.org/'>Learn more</a>.
 
-        To apply, please send an email to  Dr. Pestilli (pestilli[at]utexas[dot]edu) and Dr. Mackenzie (annie[dot]mackenzie[at]utexas[dot]edu), using the subject line "International Data Governance Framework (IDGF)". Include a cover letter expressing your interest in the project, your CV, and a research statement.
+        To apply, please send an email to  Dr. Pestilli (pestilli[at]utexas[dot]edu) and Amanda Nelson (amandanelson89@utexas.edu), using the subject line "International Data Governance Framework (IDGF)". Include a cover letter expressing your interest in the project, your CV, and a research statement.
 ---
