@@ -96,6 +96,10 @@ team:
       position: Graduate Research Assistant (Computational Neuroscience, fMRI Data Analysis)
       image: /img/people/sangmin-yi.jpeg
       github: https://github.com/aldensyi
+
+    - name: Sohmee Kim
+      position: Undergraduate Research Assistant (NeuroImaging, Meta-Analysis, Tractography)
+      image: /img/people/sohmee-kim.jpg
       
 collaborators:
   partial: team/team
