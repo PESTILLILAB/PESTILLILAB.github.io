@@ -21,12 +21,12 @@ pi:
   github: https://github.com/francopestilli
   scholar: https://scholar.google.com/citations?user=gh_KorwAAAAJ
   bio: |
-    **Associate Professor of Psychology at the University of Texas at Austin**, Franco holds a Ph.D. from New York University and a B.A. from the University of Rome La Sapienza. Before that, he was Postdoctoral Researcher at Columbia University, Research Associate at Stanford University, and faculty at Indiana University. Franco's research spans multiple disciplines such as psychology, computer science, engineering and neuroscience. At the University of Texas at Austin, Franco teaches Neuroscience and Data Science. He is affiliated member of the [Center For Perceptual Systems](https://liberalarts.utexas.edu/cps/), and Executive Board Member of [The Center for Theoretical and Computational Neuroscience](https://ctcn.utexas.edu/). He is [Fellow of the Association for Psychological Science](https://member.psychologicalscience.org/directories/fellows) and [Psychonomics Society](https://www.psychonomic.org/page/2017springnewfellows) and editorial board member of the Spring Nature Journals [Scientific Data](https://www.nature.com/sdata/), and [Scientific Reports](https://www.nature.com/srep/). Franco has received the [Microsoft Investigator Fellowship](https://www.microsoft.com/en-us/research/academic-program/microsoft-investigator-fellowship/fellowship-recipients/), [gifts from the Kavli Foundation](https://kavlifoundation.org/news/connecting-neuroscience) and the [APS Janet Taylor Spence Award for Transformative Early Career Contributions](https://www.psychologicalscience.org/members/awards-and-honors/spence-recipients/pestilli). Franco is founder and director of the [Advanced Computational Neuroscience Network](https://neurosciencenetwork.org/) and [brainlife.io](https://brainlife.io/). He is currently, Chair-Elect of the [International Brain Initiative](https://internationalbraininitiative.org/) Data Governance and Sharing Working Group. 
+    **Associate Professor of Psychology at the University of Texas at Austin**, Franco holds a Ph.D. from New York University and a B.A. from the University of Rome La Sapienza. Before that, he was Postdoctoral Researcher at Columbia University, Research Associate at Stanford University, and Faculty at Indiana University. Franco's research spans multiple disciplines such as psychology, computer science, engineering, and neuroscience. At the University of Texas at Austin, Franco teaches Neuroscience and Data Science. He is affiliated member of the [Center For Perceptual Systems](https://liberalarts.utexas.edu/cps/), and Executive Board Member of [The Center for Theoretical and Computational Neuroscience](https://ctcn.utexas.edu/). He is [Fellow of the Association for Psychological Science](https://member.psychologicalscience.org/directories/fellows) and [Psychonomics Society](https://www.psychonomic.org/page/2017springnewfellows) and editorial board member of the Spring Nature Journals [Scientific Data](https://www.nature.com/sdata/), and [Scientific Reports](https://www.nature.com/srep/). Franco has received the [Microsoft Investigator Fellowship](https://www.microsoft.com/en-us/research/academic-program/microsoft-investigator-fellowship/fellowship-recipients/), [gifts from the Kavli Foundation](https://kavlifoundation.org/news/connecting-neuroscience) and the [APS Janet Taylor Spence Award for Transformative Early Career Contributions](https://www.psychologicalscience.org/members/awards-and-honors/spence-recipients/pestilli). Franco is founder and director of the Brain Research International Data Governance & Exchange (BRIDGE; [braindatagovernance.org](braindatagovernance.org)) [Advanced Computational Neuroscience Network](https://neurosciencenetwork.org/), the Brain Imaging Data Structure ([BIDS](https://bids.neuroimaging.io/)) [Connectivity Project](https://pestillilab.github.io/bids-connectivity), ([ezBIDS](https://brainlife.io/ezbids), and [brainlife.io](https://brainlife.io/). He is currently Chair of the Infrastructure Committee of the [International Neuroinformatics Coordinating Facility](https://incf.org), and past Chair of the [International Brain Initiative](https://internationalbraininitiative.org/) Data Standards and Sharing Working Group. 
 
 team:
   partial: team/team
   title: Team
-  description: Below are the wonderful students, postdocs, staff members and faculty colleagues that make our science possible.
+  description: Below are the wonderful students, postdocs, staff members, and faculty colleagues who make our science possible.
   people:
   
     - name: Kimberly Ray
@@ -117,18 +117,10 @@ collaborators:
       github: https://github.com/guiomar
       scholar: https://scholar.google.com/citations?user=xqxSCSkAAAAJ
 
-    - name: Michael Hanke
-      image: /img/people/michael-hanke.png
-      position: Group Leader Jülich Brain Center (Germany)
-      description: Together we are developing technology to connect data across the globe using DataLad.org and brainlife.io.
-      scholar: https://scholar.google.com/citations?user=3tT7QQ8AAAAJ
-      twitter: https://twitter.com/eknahm
-      github: https://github.com/mih
-
     - name: Nathalie George
       image: /img/people/nathalie-george.png
       position: Laboratory Director Paris Brain Institute
-      description: Together we are developing tools to lower the barriers of entry to processing electrophysiological data using brainlife.io.
+      description: Together we are developing tools to lower entry barriers to processing electrophysiological data using brainlife.io.
       scholar: https://scholar.google.com/citations?user=x5NORzMAAAAJ
       twitter: https://twitter.com/nathgeorgeng
 
@@ -137,13 +129,6 @@ collaborators:
       position: Associate Professor of Vision Science and Neuroscience at Indiana University
       description: Together we are trying to understand brain concussion using brainlife.io.
       scholar: https://scholar.google.com/citations?user=zKUEyiUAAAAJ
-
-    - name: Richard Betzel
-      image: /img/people/richard-betzel.png
-      position: Assistant Professor Indiana University
-      description: Together we are developing tools to lower the barriers of entry to network neuroscience using brainlife.io
-      scholar: https://scholar.google.com/citations?user=3j9gqsEAAAAJ
-      twitter: https://twitter.com/richardfbetzel
 
     - name: Sarah Heilbronner
       image: /img/people/sarah-heilbronner.png
@@ -168,12 +153,6 @@ collaborators:
       twitter: https://twitter.com/yarikoptic
       github: https://github.com/yarikoptic
 
-    - name: Daniel Levitas
-      image: /img/people/dan-levitas.png
-      position: Graduate student at Indiana University
-      description: He collaborates with the lab to develop neuroinformatics tools.
-      github: https://github.com/dlevitas
-
     - name: Paolo Avesavi
       image: /img/people/paolo-avesavi.png
       position: Director of the Neuroinformatics Laboratory) at the Fondazione Bruno Kessler and Centro Interdipartimental Mente e Cervello of the University of Trento (ITALY).
@@ -185,6 +164,13 @@ alumni:
   description:
   people:
 
+
+    - name: Daniel Levitas
+      image: /img/people/dan-levitas.png
+      position: Software Developer
+      description: Dan developed components of [brainlife.io/ezBIDS](https://brainlife.io/ezbids), after leaving our team Dan took on a Data Analyst position in North Carolina.
+      github: https://github.com/dlevitas
+      
     - name: Bradley Caron
       position: Postdoctoral Fellow (Vision Science, Neuroinformatics)
       image: /img/people/bradley-caron.png
@@ -209,7 +195,7 @@ alumni:
     - name: Sophia Vinci-Booher
       startDate: 01/01/2016
       position: NSF SBE Postdoctoral Researcher
-      description: After graduating from the lab, Sophia started her own lab at the Vanderbilt University.
+      description: After graduating from the lab, Sophia started her lab at Vanderbilt University.
       image: /img/people/sophia-vinci-booher.png
       twitter: https://twitter.com/svincibo
       github: https://github.com/svincibo
@@ -226,7 +212,7 @@ alumni:
     - name: Brent C. McPherson
       startDate: 12/30/2021
       position: Ph.D student
-      description: After graduating from the lab, Brent took a Postdoctoral Researcher position at McGill University (Montreal).
+      description: After graduating from the lab, Brent took a Postdoctoral Researcher position at McGill University.
       image: /img/people/brent-mcpherson.png
       twitter: https://twitter.com/bcmcpher
       github: https://github.com/bcmcpher
