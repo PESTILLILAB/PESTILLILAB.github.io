@@ -30,44 +30,72 @@ team:
   people:
   
     - name: Kimberly Ray
-      position: Research Assistant Professor (NeuroImaging, Network Neuroscience, Neuroinformatics)
+      position: Research Assistant Professor (Data Standards and Sharing, NeuroImaging, Metanalysis)
       image: /img/people/KimRay.png
       twitter: https://twitter.com/TheKimRay
       github: https://github.com/kimberlylray
       scholar: https://scholar.google.com/citations?user=Qt6OuAkAAAAJ&hl=en
 
+    - name: Steven G. Hershman 
+      position: Associate Professor of Practice (Informatics, Data Science, Data Standards and Sharing)
+      image: /img/people/cccc.png
+      twitter: https://twitter.com/ccc
+      github: https://github.com/cccc
+      scholar: 
+
+    - name: Melanie Collier
+      position: Manager
+      image: /img/people/<IMAGE>.png
+      twitter: https://twitter.com/xxx
+      github: https://github.com/xxxx
+      scholar: URL
+
+    - name: Ashley Stewart
+      position: Postdoctoral Researcher (NeuroImaging, Neuroinformatics)
+      image: /img/people/xxxx.png
+      twitter: https://twitter.com/xxxx
+      github: https://github.com/xxxx
+      scholar: https://scholar.google.com/citations?user=AbPtesgAAAAJ&hl=en&oi=sra
+
+    - name: Gabriele Amorosino
+      position: Postdoctoral Researcher (NeuroAI, Neuroimaging pipelines)
+      image: /img/people/<IMAGE>.png
+      twitter: https://twitter.com/xxx
+      github: https://github.com/xxx
+      scholar: https://scholar.google.com/citations?user=Qt6OuAkAAAAJ&hl=en
+
     - name: Anibal S. Heinsfeld
-      position: Ph.D. Student (Computer Science, Machine Learning, Tractography)
+      position: Ph.D. Student (Computer Science, Informatics, NeuroAI)
       image: https://github.com/anibalsolon.png
       twitter: https://twitter.com/anibalsolon
       github: https://github.com/anibalsolon
       scholar: https://scholar.google.com/citations?user=gQdfws4AAAAJ
     
     - name: Junbeom Kwon
-      position: Graduate Student (Visual neuroscience, Neuroimgaging, NeuroAI)
+      position: Graduate Student (Psychology, Neuroimaging, NeuroAI)
       image: /img/people/xxxx.jpg
       twitter: https://twitter.com/xxxx
       github: https://github.com/xxxx
     
     - name: Sihang (Suna) Guo
-      position: Ph.D. Student (Vision Science, Machine Learning, Cognitive Neuroscience)
+      position: Ph.D. Student (Neuroscience, Machine Learning, Cognitive Neuroscience)
       image: /img/people/suna-guo.png
       github: https://github.com/SunaGuo
       scholar: https://scholar.google.com/citations?user=f572K_4AAAAJ
 
     - name: Dheeraj Bhatia
-      position:  Software Engineer (https://brainlife.io)
+      position: Software Engineer (https://brainlife.io)
       # description: Dheeraj began as an undergraduate research assistant in 2020 and joined full-time as a software engineer in 2023.
       image: /img/people/dheeraj-bhatia.png
       github: https://github.com/bhatiadheeraj
  
     - name: Nicholas Lee
-      position: Software Engineer (brainlife)
+      position: Software Engineer (https://brainlife.io)
       image: /img/people/nick_lee.jpeg
       github: https://github.com/nicoalee
 
     - name: Daniela Reyes
-      position: Undergraduate Research Assistant (Behavioral Data Science Intern, 2024)
+      position: Undergraduate Research Assistant (2024 Behavioral Data Science Intern)
       image: /img/people/dollar-mcmoney.jpg
       github: https://github.com/jedsadatha
 
@@ -83,6 +111,7 @@ team:
     - name: Sohmee Kim
       position: Undergraduate Research Assistant (Meta-Analysis, Tractography, 2024 Women In Neuroscience Fellow)
       image: /img/people/sohmee-kim.jpg
+       github: https://github.com/xxxx
       
 collaborators:
   partial: team/team
@@ -105,14 +134,7 @@ collaborators:
       scholar: https://scholar.google.com/citations?user=qRmkt6wAAAAJ
       twitter: https://twitter.com/dajmcdon
       github: https://github.com/dajmcdonen
-
-    - name: Julia Guiomar (Guio) Niso Galán
-      position: Research Scientist (MEG, EEG, Neuroinformatics)
-      image: /img/people/guiomar-niso.png
-      twitter: https://twitter.com/guiomarniso
-      github: https://github.com/guiomar
-      scholar: https://scholar.google.com/citations?user=xqxSCSkAAAAJ
-
+      
     - name: Nathalie George
       image: /img/people/nathalie-george.png
       position: Laboratory Director Paris Brain Institute
@@ -161,7 +183,7 @@ alumni:
   people:
 
     - name: Cat Leal
-      position: Undergraduate Research Assistant (Behavioral Data Science Intern, 2023)
+      position: Undergraduate Research Assistant (2023 Behavioral Data Science Intern)
       description: After graduating from the lab Cat started a Master's in Data Science at The University of Texas at Austin.
       image: /img/people/cat-leal.jpg
 
@@ -203,10 +225,18 @@ alumni:
       twitter: https://twitter.com/svincibo
       github: https://github.com/svincibo
       scholar: https://scholar.google.com/citations?user=xNYnb6wAAAAJ
+
+    - name: Julia Guiomar (Guio) Niso Galán
+      position: CRCNS Research Scientist (MEG, EEG, Neuroinformatics)
+      description: After leaving the lab Guio started his group at Cajal Institute in Madrid.
+      image: /img/people/guiomar-niso.png
+      twitter: https://twitter.com/guiomarniso
+      github: https://github.com/guiomar
+      scholar: https://scholar.google.com/citations?user=xqxSCSkAAAAJ
   
     - name: Sandra Hanekamp
       position: Postdoctoral Researcher (Vision Science and white matter)
-      description: After graduating from the lab, Sandra will start a position at NordicNeuroLab.
+      description: After graduating from the lab, Sandra started a position at NordicNeuroLab.
       image: /img/people/sandra-hanekamp.png
       twitter: https://twitter.com/sandrahanekamp
       github: https://github.com/sandrahanekamp
@@ -242,7 +272,7 @@ alumni:
     - name: Ilaria Sani
       startDate: 05/20/2020
       position: Visiting postdoc
-      description: Ilaria was visiting from the Laboratory of Winrich Freiwald at the Rockefeller University. After visiting the lab, Ilaria took a Research Scientist position at the University of Geneva.
+      description: Ilaria was visiting from the Laboratory of Winrich Freiwald at Rockefeller University. After visiting the lab, Ilaria took a Research Scientist position at the University of Geneva.
       image: /img/people/ilaria-sani.png
       github: https://github.com/IlariaSani
       scholar: https://scholar.google.com/citations?user=yyhEfS8AAAAJ
@@ -327,7 +357,7 @@ diversity:
   subtitle: |
     It takes the world to understand the brain, and the world is a village rich with people of different backgrounds.
   content: |
-    We believe that a good lab can only flourish if it embraces the ideas and backgrounds of a truly diverse set of talented people — of every background, race, ethnicity and life experience. We like to joke that our work has Italian design, Japanese technology and is made in America. Our PI is originally from Italy and we have a software engineer from Japan, but the rest of our lab is a diverse group of scientists as well. Our lab is a mix of genders, identities, ages, nationalities, and ethnicities, all working together to advance the understanding of the brain. Lab members and collaborators hail from the USA, Europe, South America and Asia.
+    A good lab can flourish, if it embraces diverse ideas, cultures, and life experiences. Our PI is originally from Italy and we have software engineers from Asia, Latin America, and North America. Our lab is a positive mix of humans working together to advance the understanding of the brain and improve the work of scientists.
   image: "img/diversity.svg"
 
 inclusivity:
@@ -335,9 +365,9 @@ inclusivity:
   title: Inclusivity
   partial: t-image_text
   subtitle: |
-    Inclusion means open access to resources and a safe place for all
+    Inclusion means open to and safe for all
   content: |
-    We are committed to make educational and computational resources available to everyone that is interested in neuroscience, including communities that would otherwise not have access to these resources. Using data, analyses, and tutorials available on brainlife.io, we can teach neuroscience at institutions that do not have a neuroscience program. For instance, our brainlife.io team is developing a project in collaboration with Lawrence Technological University (LTU) to connect minority-serving institutions with neuroscience data and advanced computing resources. This project will leverage brainlife.io to democratize neuroscience education bringing brain understanding closer to individuals with less privileged access to data, tools and knowledge.
+    We are committed to making educational and computational resources available to everyone interested in neuroscience, including communities that would otherwise not have access to these resources. Using data, analyses, and tutorials available on brainlife.io, we can teach neuroscience at institutions that do not have a neuroscience program. For instance, our brainlife.io has been used in smaller U.S. Colleges, Africa, and Latin America to teach Neuroscience and neuroimaging to under-resourced communities.
   image: "img/inclusivity.svg"
 
 ---
