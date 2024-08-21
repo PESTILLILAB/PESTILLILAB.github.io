@@ -36,44 +36,40 @@ team:
       github: https://github.com/kimberlylray
       scholar: https://scholar.google.com/citations?user=Qt6OuAkAAAAJ&hl=en
 
-    - name: Dheeraj Bhatia
-      position:  Software Engineer (https://brainlife.io)
-      # description: Dheeraj began as an undergraduate research assistant in 2020 and joined full-time as a software engineer in 2023.
-      image: /img/people/dheeraj-bhatia.png
-      github: https://github.com/bhatiadheeraj
- 
     - name: Anibal S. Heinsfeld
       position: Ph.D. Student (Computer Science, Machine Learning, Tractography)
       image: https://github.com/anibalsolon.png
       twitter: https://twitter.com/anibalsolon
       github: https://github.com/anibalsolon
       scholar: https://scholar.google.com/citations?user=gQdfws4AAAAJ
-
-    - name: Nicholas Lee
-      position: Software Engineer (brainlife)
-      image: /img/people/nick_lee.jpeg
-      github: https://github.com/nicoalee
-
+    
+    - name: Junbeom Kwon
+      position: Graduate Student (Visual neuroscience, Neuroimgaging, NeuroAI)
+      image: /img/people/xxxx.jpg
+      twitter: https://twitter.com/xxxx
+      github: https://github.com/xxxx
+    
     - name: Sihang (Suna) Guo
       position: Ph.D. Student (Vision Science, Machine Learning, Cognitive Neuroscience)
       image: /img/people/suna-guo.png
       github: https://github.com/SunaGuo
       scholar: https://scholar.google.com/citations?user=f572K_4AAAAJ
-    
-    - name: Zhen Wei
-      position: Graduate Student (Visual neuroscience, visual psychophysics, computational modeling)
-      image: /img/people/zhen_wei.jpg
-      twitter: https://twitter.com/zhenweiccn
-      github: https://github.com/zhenweiccn
-    
-    - name: Jedsada Thavornfung
-      position: Undergraduate Research Assistant (NeuroImaging, Tractography)
+
+    - name: Dheeraj Bhatia
+      position:  Software Engineer (https://brainlife.io)
+      # description: Dheeraj began as an undergraduate research assistant in 2020 and joined full-time as a software engineer in 2023.
+      image: /img/people/dheeraj-bhatia.png
+      github: https://github.com/bhatiadheeraj
+ 
+    - name: Nicholas Lee
+      position: Software Engineer (brainlife)
+      image: /img/people/nick_lee.jpeg
+      github: https://github.com/nicoalee
+
+    - name: Daniela Reyes
+      position: Undergraduate Research Assistant (Behavioral Data Science Intern, 2024)
       image: /img/people/dollar-mcmoney.jpg
       github: https://github.com/jedsadatha
-
-    - name: Cat Leal
-      position: Undergraduate Research Assistant (NeuroImaging, Machine Learning, Tractography)
-      image: /img/people/cat-leal.jpg
 
     - name: Alisha Flexwala
       position: Undergraduate Research Assistant (Literature Review, Deep Learning Models)
@@ -85,7 +81,7 @@ team:
       github: https://github.com/aldensyi
 
     - name: Sohmee Kim
-      position: Undergraduate Research Assistant (NeuroImaging, Meta-Analysis, Tractography)
+      position: Undergraduate Research Assistant (Meta-Analysis, Tractography, 2024 Women In Neuroscience Fellow)
       image: /img/people/sohmee-kim.jpg
       
 collaborators:
@@ -164,6 +160,10 @@ alumni:
   description:
   people:
 
+    - name: Cat Leal
+      position: Undergraduate Research Assistant (Behavioral Data Science Intern, 2023)
+      description: After graduating from the lab Cat started a Master's in Data Science at The University of Texas at Austin.
+      image: /img/people/cat-leal.jpg
 
     - name: Daniel Levitas
       image: /img/people/dan-levitas.png
@@ -174,6 +174,7 @@ alumni:
     - name: Bradley Caron
       position: Postdoctoral Fellow (Vision Science, Neuroinformatics)
       image: /img/people/bradley-caron.png
+      description: After graduating from the lab Brad took on a position as a Machine Learning Engineer at Novartis (Boston, MA).
       twitter: https://twitter.com/bacaronIU
       github: https://github.com/bacaron
       scholar: https://scholar.google.com/citations?user=fU9K6GgAAAAJ
@@ -181,12 +182,14 @@ alumni:
     - name: Annie Mackenzie
       position: Project Manager (International Data Governance, Lab Management)
       image: /img/people/annie-m-mackenzie.jpg
+      description: After leaving the lab Annie took on a position as Global Regulatory Writer.
       github: https://github.com/a1mackenzie
       scholar: https://scholar.google.com//citations?user=Un9KZyQAAAAJ&hl=en
 
     - name: Soichi Hayashi
       position: Software Engineer at Acadian Asset Management
       image: https://en.gravatar.com/userimage/11088201/402ad6c44c48147d0b1c3b164fcf9618.jpg?size=200
+      description: After leaving the lab Soichi took on a position as a Software Developer in a Fintech Company.
       twitter: https://twitter.com/soichih
       linkedin: https://www.linkedin.com/in/soichihayashi/
       resume: https://docs.google.com/document/d/17fKDYHgBalLlfEvJQfdrYhar5Er-d9D1ItTDSnG-lPs
