@@ -9,7 +9,7 @@ sections:
 - inclusivity
 - collaborators
 - alumni
-
+ 
 pi:
   partial: team/pi
   name: Franco Pestilli
