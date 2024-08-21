@@ -21,7 +21,7 @@ pi:
   github: https://github.com/francopestilli
   scholar: https://scholar.google.com/citations?user=gh_KorwAAAAJ
   bio: |
-    **Associate Professor of Psychology at the University of Texas at Austin**, Franco holds a Ph.D. from New York University and a B.A. from the University of Rome La Sapienza. Before that, he was Postdoctoral Researcher at Columbia University, Research Associate at Stanford University and faculty at Indiana University. Franco's research spans multiple disciplines such as psychology, computer science, engineering and neuroscience. At the University of Texas at Austin, Franco teaches Neuroscience and Data Science. He is affiliated member of the [Center For Perceptual Systems](https://liberalarts.utexas.edu/cps/), and Executive Board Member of [The Center for Theoretical and Computational Neuroscience](https://ctcn.utexas.edu/). He is [Fellow of the Association for Psychological Science](https://member.psychologicalscience.org/directories/fellows) and [Psychonomics Society](https://www.psychonomic.org/page/2017springnewfellows) and editorial board member of the Spring Nature Journals [Scientific Data](https://www.nature.com/sdata/), and [Scientific Reports](https://www.nature.com/srep/). Franco has received the [Microsoft Investigator Fellowship](https://www.microsoft.com/en-us/research/academic-program/microsoft-investigator-fellowship/fellowship-recipients/), [gifts from the Kavli Foundation](https://kavlifoundation.org/news/connecting-neuroscience) and the [APS Janet Taylor Spence Award for Transformative Early Career Contributions](https://www.psychologicalscience.org/members/awards-and-honors/spence-recipients/pestilli). Franco is founder and director of the [Advanced Computational Neuroscience Network](https://neurosciencenetwork.org/) and [brainlife.io](https://brainlife.io/). He is currently, Chair Elect of the [International Brain Initiative](https://internationalbraininitiative.org/) Data Governance and Sharing Working Group. 
+    **Associate Professor of Psychology at the University of Texas at Austin**, Franco holds a Ph.D. from New York University and a B.A. from the University of Rome La Sapienza. Before that, he was Postdoctoral Researcher at Columbia University, Research Associate at Stanford University, and faculty at Indiana University. Franco's research spans multiple disciplines such as psychology, computer science, engineering and neuroscience. At the University of Texas at Austin, Franco teaches Neuroscience and Data Science. He is affiliated member of the [Center For Perceptual Systems](https://liberalarts.utexas.edu/cps/), and Executive Board Member of [The Center for Theoretical and Computational Neuroscience](https://ctcn.utexas.edu/). He is [Fellow of the Association for Psychological Science](https://member.psychologicalscience.org/directories/fellows) and [Psychonomics Society](https://www.psychonomic.org/page/2017springnewfellows) and editorial board member of the Spring Nature Journals [Scientific Data](https://www.nature.com/sdata/), and [Scientific Reports](https://www.nature.com/srep/). Franco has received the [Microsoft Investigator Fellowship](https://www.microsoft.com/en-us/research/academic-program/microsoft-investigator-fellowship/fellowship-recipients/), [gifts from the Kavli Foundation](https://kavlifoundation.org/news/connecting-neuroscience) and the [APS Janet Taylor Spence Award for Transformative Early Career Contributions](https://www.psychologicalscience.org/members/awards-and-honors/spence-recipients/pestilli). Franco is founder and director of the [Advanced Computational Neuroscience Network](https://neurosciencenetwork.org/) and [brainlife.io](https://brainlife.io/). He is currently, Chair-Elect of the [International Brain Initiative](https://internationalbraininitiative.org/) Data Governance and Sharing Working Group. 
 
 team:
   partial: team/team
@@ -36,25 +36,12 @@ team:
       github: https://github.com/kimberlylray
       scholar: https://scholar.google.com/citations?user=Qt6OuAkAAAAJ&hl=en
 
-    - name: Annie Mackenzie
-      position: Project Manager (International Data Governance, Lab Management)
-      image: /img/people/annie-m-mackenzie.jpg
-      github: https://github.com/a1mackenzie
-      scholar: https://scholar.google.com//citations?user=Un9KZyQAAAAJ&hl=en
-
     - name: Dheeraj Bhatia
       position:  Software Engineer (https://brainlife.io)
-      # description: Dheeraj began as a undegraduate research assistant in 2020 and has joined full time as a software engineer in 2023.
+      # description: Dheeraj began as an undergraduate research assistant in 2020 and joined full-time as a software engineer in 2023.
       image: /img/people/dheeraj-bhatia.png
       github: https://github.com/bhatiadheeraj
-      
-    - name: Bradley Caron
-      position: Postdoctoral Fellow (Vision Science, Neuroinformatics)
-      image: /img/people/bradley-caron.png
-      twitter: https://twitter.com/bacaronIU
-      github: https://github.com/bacaron
-      scholar: https://scholar.google.com/citations?user=fU9K6GgAAAAJ
-
+ 
     - name: Anibal S. Heinsfeld
       position: Ph.D. Student (Computer Science, Machine Learning, Tractography)
       image: https://github.com/anibalsolon.png
@@ -197,6 +184,19 @@ alumni:
   title: Alumni
   description:
   people:
+
+    - name: Bradley Caron
+      position: Postdoctoral Fellow (Vision Science, Neuroinformatics)
+      image: /img/people/bradley-caron.png
+      twitter: https://twitter.com/bacaronIU
+      github: https://github.com/bacaron
+      scholar: https://scholar.google.com/citations?user=fU9K6GgAAAAJ
+
+    - name: Annie Mackenzie
+      position: Project Manager (International Data Governance, Lab Management)
+      image: /img/people/annie-m-mackenzie.jpg
+      github: https://github.com/a1mackenzie
+      scholar: https://scholar.google.com//citations?user=Un9KZyQAAAAJ&hl=en
 
     - name: Soichi Hayashi
       position: Software Engineer at Acadian Asset Management
