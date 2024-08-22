@@ -45,10 +45,9 @@ team:
 
     - name: Melanie Collier
       position: Manager
-      image: /img/people/<IMAGE>.png
-      twitter: https://twitter.com/xxx
-      github: https://github.com/xxxx
-      scholar: URL
+      image: /img/people/melanie_collier.png
+      github: https://github.com/Mcollie127
+      scholar: https://scholar.google.com/citations?user=IomAkw8AAAAJ&hl=en
 
     - name: Ashley Stewart
       position: Postdoctoral Researcher (NeuroImaging, Neuroinformatics)
@@ -96,8 +95,8 @@ team:
 
     - name: Daniela Reyes
       position: Undergraduate Research Assistant (2024 Behavioral Data Science Intern)
-      image: /img/people/dollar-mcmoney.jpg
-      github: https://github.com/jedsadatha
+      image: /img/people/daniella_reyes.jpg
+      github: https://github.com/yreyes03
 
     - name: Alisha Flexwala
       position: Undergraduate Research Assistant (Literature Review, Deep Learning Models)
