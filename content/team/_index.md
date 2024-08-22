@@ -3,12 +3,12 @@ id: team
 draft: false
 
 sections:
-- pi
-- team
-- diversity
-- inclusivity
-- collaborators
-- alumni
+  - pi
+  - team
+  - diversity
+  - inclusivity
+  - collaborators
+  - alumni
  
 pi:
   partial: team/pi
@@ -20,14 +20,14 @@ pi:
   resume: https://minio.la.utexas.edu/colaweb-prod/person_files/0/9023/Pestilli_CV_WEB_2021_08_25.pdf
   github: https://github.com/francopestilli
   scholar: https://scholar.google.com/citations?user=gh_KorwAAAAJ
-  bio: | **Associate Professor of Psychology at the University of Texas at Austin**, Franco holds a Ph.D. from New York University and a B.A. from the University of Rome La Sapienza. Before that, he was Postdoctoral Researcher at Columbia University, Research Associate at Stanford University, and Faculty at Indiana University. Franco's research spans multiple disciplines such as psychology, computer science, engineering, and neuroscience. At the University of Texas at Austin, Franco teaches Neuroscience and Data Science. He is affiliated member of the [Center For Perceptual Systems](https://liberalarts.utexas.edu/cps/), and Executive Board Member of [The Center for Theoretical and Computational Neuroscience](https://ctcn.utexas.edu/). He is [Fellow of the Association for Psychological Science](https://member.psychologicalscience.org/directories/fellows) and [Psychonomics Society](https://www.psychonomic.org/page/2017springnewfellows) and editorial board member of the Spring Nature Journals [Scientific Data](https://www.nature.com/sdata/), and [Scientific Reports](https://www.nature.com/srep/). Franco has received the [Microsoft Investigator Fellowship](https://www.microsoft.com/en-us/research/academic-program/microsoft-investigator-fellowship/fellowship-recipients/), [gifts from the Kavli Foundation](https://kavlifoundation.org/news/connecting-neuroscience) and the [APS Janet Taylor Spence Award for Transformative Early Career Contributions](https://www.psychologicalscience.org/members/awards-and-honors/spence-recipients/pestilli). Franco is founder and director of the Brain Research International Data Governance & Exchange (BRIDGE; [braindatagovernance.org](braindatagovernance.org)) [Advanced Computational Neuroscience Network](https://neurosciencenetwork.org/), the Brain Imaging Data Structure ([BIDS](https://bids.neuroimaging.io/)) [Connectivity Project](https://pestillilab.github.io/bids-connectivity), ([ezBIDS](https://brainlife.io/ezbids), and [brainlife.io](https://brainlife.io/). He is currently Chair of the Infrastructure Committee of the [International Neuroinformatics Coordinating Facility](https://incf.org), and past Chair of the [International Brain Initiative](https://internationalbraininitiative.org/) Data Standards and Sharing Working Group. At The University of Texas, Franco Teaches Data Science and Cognitive Neuroscience.
+  bio: |
+    **Associate Professor of Psychology at the University of Texas at Austin**, Franco holds a Ph.D. from New York University and a B.A. from the University of Rome La Sapienza. Before that, he was Postdoctoral Researcher at Columbia University, Research Associate at Stanford University, and Faculty at Indiana University. Franco's research spans multiple disciplines such as psychology, computer science, engineering, and neuroscience. At the University of Texas at Austin, Franco teaches Neuroscience and Data Science. He is affiliated member of the [Center For Perceptual Systems](https://liberalarts.utexas.edu/cps/), and Executive Board Member of [The Center for Theoretical and Computational Neuroscience](https://ctcn.utexas.edu/). He is [Fellow of the Association for Psychological Science](https://member.psychologicalscience.org/directories/fellows) and [Psychonomics Society](https://www.psychonomic.org/page/2017springnewfellows) and editorial board member of the Spring Nature Journals [Scientific Data](https://www.nature.com/sdata/), and [Scientific Reports](https://www.nature.com/srep/). Franco has received the [Microsoft Investigator Fellowship](https://www.microsoft.com/en-us/research/academic-program/microsoft-investigator-fellowship/fellowship-recipients/), [gifts from the Kavli Foundation](https://kavlifoundation.org/news/connecting-neuroscience) and the [APS Janet Taylor Spence Award for Transformative Early Career Contributions](https://www.psychologicalscience.org/members/awards-and-honors/spence-recipients/pestilli). Franco is founder and director of the Brain Research International Data Governance & Exchange (BRIDGE; [braindatagovernance.org](braindatagovernance.org)) [Advanced Computational Neuroscience Network](https://neurosciencenetwork.org/), the Brain Imaging Data Structure ([BIDS](https://bids.neuroimaging.io/)) [Connectivity Project](https://pestillilab.github.io/bids-connectivity), ([ezBIDS](https://brainlife.io/ezbids), and [brainlife.io](https://brainlife.io/). He is currently Chair of the Infrastructure Committee of the [International Neuroinformatics Coordinating Facility](https://incf.org), and past Chair of the [International Brain Initiative](https://internationalbraininitiative.org/) Data Standards and Sharing Working Group. At The University of Texas, Franco Teaches Data Science and Cognitive Neuroscience.
 
 team:
   partial: team/team
   title: Team
   description: Below are the wonderful students, postdocs, staff members, and faculty colleagues who make our science possible.
   people:
-  
     - name: Kimberly Ray
       position: Research Assistant Professor (Data Standards and Sharing, NeuroImaging, Metanalysis)
       image: /img/people/KimRay.png
@@ -110,14 +110,13 @@ team:
     - name: Sohmee Kim
       position: Undergraduate Research Assistant (Meta-Analysis, Tractography, 2024 Women In Neuroscience Fellow)
       image: /img/people/sohmee-kim.jpg
-       github: https://github.com/xxxx
+      github: https://github.com/xxxx
       
 collaborators:
   partial: team/team
   title: Collaborators
-  description:
+  description: 
   people:
-  
     - name: Aina Puce
       image: /img/people/aina-puce.png
       position: Eleanor Cox Riggs Professor, Psychological and Brain Sciences at Indiana University
@@ -180,7 +179,6 @@ alumni:
   title: Alumni
   description:
   people:
-
     - name: Cat Leal
       position: Undergraduate Research Assistant (2023 Behavioral Data Science Intern)
       description: After graduating from the lab Cat started a Master's in Data Science at The University of Texas at Austin.
@@ -356,7 +354,7 @@ diversity:
   subtitle: |
     It takes the world to understand the brain, and the world is a village rich with people of different backgrounds.
   content: |
-  A good lab can flourish, if it embraces diverse ideas, cultures, and life experiences. Our PI is originally from Italy and we have software engineers from Asia, Latin America, and North America. Our lab is a positive mix of humans working together to advance the understanding of the brain and improve the work of scientists.
+    A good lab can flourish, if it embraces diverse ideas, cultures, and life experiences. Our PI is originally from Italy and we have software engineers from Asia, Latin America, and North America. Our lab is a positive mix of humans working together to advance the understanding of the brain and improve the work of scientists.
   image: "img/diversity.svg"
 
 inclusivity:
