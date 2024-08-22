@@ -45,7 +45,7 @@ team:
 
     - name: Melanie Collier
       position: Manager
-      image: /img/people/melanie_collier.png
+      image: /img/people/melanie_collier.jpg
       github: https://github.com/Mcollie127
       scholar: https://scholar.google.com/citations?user=IomAkw8AAAAJ&hl=en
 
