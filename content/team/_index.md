@@ -186,18 +186,23 @@ alumni:
   description:
   people:
 
-    - name: Cat Leal
-      position: Undergraduate Research Assistant (2023 Behavioral Data Science Intern)
-      description: After graduating from the lab Cat started a Master's in Data Science at The University of Texas at Austin.
-      image: /img/people/cat-leal.jpg
-
     - name: Daniel Levitas
+      startDate: 08/01/2024
       image: /img/people/dan-levitas.png
       position: Software Developer
       description: Dan developed components of brainlife.io/ezBIDS, after leaving our team Dan took on a Data Analyst position in North Carolina.
       github: https://github.com/dlevitas
+
+    - name: Annie Mackenzie
+      startDate: 03/01/2024
+      position: Project Manager (International Data Governance, Lab Management)
+      image: /img/people/annie-m-mackenzie.jpg
+      description: After leaving the lab Annie took on a position as Global Regulatory Writer.
+      github: https://github.com/a1mackenzie
+      scholar: https://scholar.google.com//citations?user=Un9KZyQAAAAJ&hl=en
       
     - name: Bradley Caron
+      startDate: 02/01/2024
       position: Postdoctoral Fellow (Vision Science, Neuroinformatics)
       image: /img/people/bradley-caron.png
       description: After graduating from the lab Brad took on a position as a Translational Imaging Data Scientist at Novartis (Boston, MA).
@@ -205,14 +210,23 @@ alumni:
       github: https://github.com/bacaron
       scholar: https://scholar.google.com/citations?user=fU9K6GgAAAAJ
 
-    - name: Annie Mackenzie
-      position: Project Manager (International Data Governance, Lab Management)
-      image: /img/people/annie-m-mackenzie.jpg
-      description: After leaving the lab Annie took on a position as Global Regulatory Writer.
-      github: https://github.com/a1mackenzie
-      scholar: https://scholar.google.com//citations?user=Un9KZyQAAAAJ&hl=en
+    - name: Cat Leal
+      startDate: 08/01/2023
+      position: Undergraduate Research Assistant (2023 Behavioral Data Science Intern)
+      description: After graduating from the lab Cat started a Master's in Data Science at The University of Texas at Austin.
+      image: /img/people/cat-leal.jpg
+
+    - name: Julia Guiomar (Guio) Niso Galán
+      startDate: 06/01/2023
+      position: CRCNS Research Scientist (MEG, EEG, Neuroinformatics)
+      description: After leaving the lab Guio started his group at Cajal Institute in Madrid.
+      image: /img/people/guiomar-niso.png
+      twitter: https://twitter.com/guiomarniso
+      github: https://github.com/guiomar
+      scholar: https://scholar.google.com/citations?user=xqxSCSkAAAAJ
 
     - name: Soichi Hayashi
+      startDate: 10/01/2022
       position: Software Engineer at Acadian Asset Management
       image: https://en.gravatar.com/userimage/11088201/402ad6c44c48147d0b1c3b164fcf9618.jpg?size=200
       description: After leaving the lab Soichi took on a position as a Software Developer in a Fintech Company.
@@ -222,29 +236,30 @@ alumni:
       github: https://github.com/soichih
       
     - name: Sophia Vinci-Booher
-      startDate: 01/01/2016
+      startDate: 08/01/2022
       position: NSF SBE Postdoctoral Researcher
       description: After graduating from the lab, Sophia started her lab at Vanderbilt University.
       image: /img/people/sophia-vinci-booher.png
       twitter: https://twitter.com/svincibo
       github: https://github.com/svincibo
       scholar: https://scholar.google.com/citations?user=xNYnb6wAAAAJ
-
-    - name: Julia Guiomar (Guio) Niso Galán
-      position: CRCNS Research Scientist (MEG, EEG, Neuroinformatics)
-      description: After leaving the lab Guio started his group at Cajal Institute in Madrid.
-      image: /img/people/guiomar-niso.png
-      twitter: https://twitter.com/guiomarniso
-      github: https://github.com/guiomar
-      scholar: https://scholar.google.com/citations?user=xqxSCSkAAAAJ
   
     - name: Sandra Hanekamp
+      startDate: 06/01/2022
       position: Postdoctoral Researcher (Vision Science and white matter)
       description: After graduating from the lab, Sandra started a position at NordicNeuroLab.
       image: /img/people/sandra-hanekamp.png
       twitter: https://twitter.com/sandrahanekamp
       github: https://github.com/sandrahanekamp
       scholar: http://scholar.google.com/citations?user=HpFvfUsAAAAJ
+
+    - name: Antonio Fernandez
+      startDate: 08/01/2022
+      position: NIH Postdoctoral Fellow.
+      description: After leaving the lab, Dr. Fernandez started working as UI/UX Researcher in the industry.
+      image: /img/people/antonio-fernandez-new.png
+      github: https://github.com/antoniofs23
+      scholar: https://scholar.google.com/citations?user=k9hmsb0AAAAJ&hl=en&oi=sra
 
     - name: Brent C. McPherson
       startDate: 12/30/2021
@@ -265,7 +280,7 @@ alumni:
       scholar: https://scholar.google.com/citations?user=PhaFy78AAAAJ
 
     - name: Josiah Leong
-      startDate: 06/30/2020
+      startDate: 04/30/2020
       position: Postdoc
       description: After working in the lab, Josiah started his own lab as Assitant Professor at the University of Arkansas.
       image: /img/people/josiah-leong.png
@@ -281,6 +296,14 @@ alumni:
       github: https://github.com/IlariaSani
       scholar: https://scholar.google.com/citations?user=yyhEfS8AAAAJ
 
+    - name: Giulia Berto
+      startDate: 06/01/2020
+      position: Giulia was a Postdoctoral Fellow (Machine Learning and Sports Concussion)
+      image: /img/people/giulia-berto.png
+      twitter: https://twitter.com/GiuliaBert1
+      github: https://twitter.com/GiuliaBert1 
+      scholar: https://scholar.google.com/citations?user=T2CydDUAAAAJ&oi=ao
+    
     - name: Ricardo Fabrega
       startDate: 04/06/2019
       position: Undergraduate research assistant
@@ -289,20 +312,6 @@ alumni:
       twitter: https://twitter.com/Fabregari
       github: https://github.com/ricardofebrega
       scholar: https://scholar.google.com/citations?user=IFIa8vgAAAAJ
-
-    - name: Giulia Berto
-      position: Giulia was a Postdoctoral Fellow (Machine Learning and Sports Concussion)
-      image: /img/people/giulia-berto.png
-      twitter: https://twitter.com/GiuliaBert1
-      github: https://twitter.com/GiuliaBert1 
-      scholar: https://scholar.google.com/citations?user=T2CydDUAAAAJ&oi=ao
-
-    - name: Antonio Fernandez
-      position: NIH Postdoctoral Fellow.
-      description: After leaving the lab, Dr. Fernandez started working as UI/UX Researcher in the industry.
-      image: /img/people/antonio-fernandez-new.png
-      github: https://github.com/antoniofs23
-      scholar: https://scholar.google.com/citations?user=k9hmsb0AAAAJ&hl=en&oi=sra
       
     - name: Yiming Qian
       startDate: 05/30/2018
