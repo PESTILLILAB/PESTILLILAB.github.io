@@ -1,4 +1,15 @@
 {{ $Data := .Scratch.Get "PartialData" }}
+{{ .Scratch.Set "sortedPeople" (slice) }}
+
+{{ range $person := $Data.people }}
+  {{ if $person.startDate }}
+    {{ $dateParts := split $person.startDate "/" }}
+    {{ $sortableDate := printf "%s-%s-%s" (index $dateParts 2) (index $dateParts 0) (index $dateParts 1) }}
+    {{ .Scratch.Add "sortedPeople" (dict "person" $person "sortableDate" $sortableDate) }}
+  {{ end }}
+{{ end }}
+
+{{ $sortedPeople := sort (.Scratch.Get "sortedPeople") "sortableDate" "asc" }}
 
 <div class="container rad-animation-group pb-5">
   <div class="row d-flex flex-md-row justify-content-center">
@@ -10,31 +21,33 @@
         {{ end }}
       </h2>
     </div>
-    {{ range $Data.people }}
+
+    {{ range $entry := $sortedPeople }}
+      {{ $person := $entry.person }}
       <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2 text-center rad-fade-down">
         <figure class="team-member">
           <img
             class="lozad img-fluid"
             src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-            data-src="{{ .image | absURL }}"
-            data-srcset="{{ .image | absURL }} 1x"
-            alt="{{ .name }}"
+            data-src="{{ $person.image | absURL }}"
+            data-srcset="{{ $person.image | absURL }} 1x"
+            alt="{{ $person.name }}"
             height="500" width="500"
           />
         </figure>
         <h4>
-          {{ .name }}
+          {{ $person.name }}
         </h4>
-        <p>{{ .position }}</p>
-        <p>{{ .description }}</p>
-        {{ if or (.scholar) (.github) (.twitter) }}
+        <p>{{ $person.position }}</p>
+        <p>{{ $person.description }}</p>
+        {{ if or ($person.scholar) ($person.github) ($person.twitter) }}
         <p>
-          {{ if .scholar }}<a href="{{ .scholar }}"><i class="ai ai-google-scholar-square"></i></a>&nbsp;{{ end }}
-          {{ if .github }}<a href="{{ .github }}"><span class="fab fa-github-square"></span></a>&nbsp;{{ end }}
-          {{ if .twitter }}<a href="{{ .twitter }}"><span class="fab fa-twitter"></span></a>&nbsp;{{ end }}
+          {{ if $person.scholar }}<a href="{{ $person.scholar }}"><i class="ai ai-google-scholar-square"></i></a>&nbsp;{{ end }}
+          {{ if $person.github }}<a href="{{ $person.github }}"><span class="fab fa-github-square"></span></a>&nbsp;{{ end }}
+          {{ if $person.twitter }}<a href="{{ $person.twitter }}"><span class="fab fa-twitter"></span></a>&nbsp;{{ end }}
         </p>
         {{ end }}
-    </div>
+      </div>
     {{ end }}
   </div>
 </div>

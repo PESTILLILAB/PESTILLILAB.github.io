@@ -343,7 +343,7 @@ alumni:
       scholar: https://scholar.google.com/citations?user=yAUJHFYAAAAJ
 
     - name: Aman Arya
-      startDate: 20/08/2017
+      startDate: 08/20/2017
       position: Undergraduate research assistant, NSF Summer Intern for brainlife.io
       description: After leaving the lab, Aman took a job at Amazon.
       image: /img/people/aman-arya.png
@@ -351,7 +351,7 @@ alumni:
       scholar: https://scholar.google.com/citations?user=IFIa8vgAAAAJ
 
     - name: Steven O’Riley
-      startDate: 30/08/2016
+      startDate: 08/30/2016
       position: High-school and Undergraduate research assistant
       description: After leaving the lab, Steven took a data science job.
       image: /img/people/steven-oriley.png
