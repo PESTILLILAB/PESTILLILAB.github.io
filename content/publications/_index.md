@@ -24,7 +24,25 @@ publications:
     journal: PLOS Computational Biology
     publicationDate: 2016-02-04
     title: Ensemble Tractography
-  
+
+- authors:
+    - Emily J Allen
+    - Ghislain St-Yves
+    - Yihan Wu
+    - Jesse L Breedlove
+    - Jacob S Prince
+    - Logan T Dowdle
+    - Matthias Nau
+    - Brad Caron
+    - Franco Pestilli
+    - Ian Charest
+    - J Benjamin Hutchinson
+    - Thomas Naselaris
+    - Kendrick Kay
+    doi: doi.org/10.1038/s41593-021-00962-x
+    journal: Nat Neurosci
+    publicationDate: 2022-01
+    title: A massive 7T fMRI dataset to bridge cognitive neuroscience and artificial intelligence
 
   - authors:
     - Shiloh L. Echevarria-Cooper
