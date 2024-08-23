@@ -282,7 +282,7 @@ alumni:
     - name: Josiah Leong
       startDate: 04/30/2020
       position: Postdoc
-      description: After working in the lab, Josiah started his own lab as Assitant Professor at the University of Arkansas.
+      description: After working in the lab, Josiah started his lab and became Assistant Professor in Psychology at the University of Arkansas.
       image: /img/people/josiah-leong.png
       twitter: https://twitter.com/fullstackneuro
       github: https://github.com/fullstackneuro
@@ -307,7 +307,7 @@ alumni:
     - name: Ricardo Fabrega
       startDate: 04/06/2019
       position: Undergraduate research assistant
-      description: After leaving the lab, Ricardo took on a prestigious Medical Student Scholarship at the F. Edward Hébert School of Medicine of the Uniformed Services University of the Health Sciences in Bethesda, Maryland.
+      description: After leaving the lab, Ricardo won a prestigious Medical Student Scholarship at the F. Edward Hébert School of Medicine of the Uniformed Services University of the Health Sciences in Bethesda, Maryland.
       image: /img/people/ricardo-fabrega.png
       twitter: https://twitter.com/Fabregari
       github: https://github.com/ricardofebrega
@@ -342,7 +342,7 @@ alumni:
     - name: Cesar F. Caiafa
       startDate: 05/30/2017
       position: Visiting scientist
-      description: After working in the lab, Cesar went back to Argentina to work as at the Argentinean Radioastronomy Institute (IAR) and as an Adjunct Professor at the Faculty of Engineering, University of Buenos Aires.
+      description: After working in the lab, Cesar returned to Argentina to work as at the Argentinean Radioastronomy Institute (IAR) and as an Adjunct Professor at the Faculty of Engineering, University of Buenos Aires.
       image: /img/people/cesar-caiafa.png
       twitter: https://twitter.com/ccaiafa
       github: https://github.com/ccaiafa
@@ -358,7 +358,7 @@ alumni:
 
     - name: Steven O’Riley
       startDate: 30/08/2016
-      position: High-school and Undergrad research assistant
+      position: High-school and Undergraduate research assistant
       description: After leaving the lab, Steven took a data science job.
       image: /img/people/steven-oriley.png
       github: https://github.com/stevengeeky
