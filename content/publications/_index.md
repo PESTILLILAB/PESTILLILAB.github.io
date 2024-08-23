@@ -24,6 +24,18 @@ publications:
     journal: PLOS Computational Biology
     publicationDate: 2016-02-04
     title: Ensemble Tractography
+  
+  - authors:
+    - Shiloh L Echevarria-Cooper
+    - Guangyu Zhou
+    - Christina Zelano 
+    - Franco Pestilli
+    - Todd B Parrish
+    - Thorsten Kahnt
+    doi: 10.1523/JNEUROSCI.1552-21.2021
+    journal: Journal of Neuroscience
+    publicationDate: 2022-01-05
+    title: Mapping the microstructure and striae of the human olfactory tract with diffusion MRI
 
   - authors:
     - Shiloh L. Echevarria-Cooper
