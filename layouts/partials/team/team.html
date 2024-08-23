@@ -1,15 +1,4 @@
 {{ $Data := .Scratch.Get "PartialData" }}
-{{ .Scratch.Set "sortedPeople" (slice) }}
-
-{{ range $person := $Data.people }}
-  {{ if $person.startDate }}
-    {{ $dateParts := split $person.startDate "/" }}
-    {{ $sortableDate := printf "%s-%s-%s" (index $dateParts 2) (index $dateParts 0) (index $dateParts 1) }}
-    {{ .Scratch.Add "sortedPeople" (dict "person" $person "sortableDate" $sortableDate) }}
-  {{ end }}
-{{ end }}
-
-{{ $sortedPeople := sort (.Scratch.Get "sortedPeople") "sortableDate" "asc" }}
 
 <div class="container rad-animation-group pb-5">
   <div class="row d-flex flex-md-row justify-content-center">
@@ -22,8 +11,30 @@
       </h2>
     </div>
 
-    {{ range $entry := $sortedPeople }}
-      {{ $person := $entry.person }}
+    <!-- Create a slice to hold people with parsed dates -->
+    {{ $peopleWithParsedDates := slice }}
+
+    <!-- Loop through people and parse the dates -->
+    {{ range $Data.people }}
+      {{ $startDate := .startDate }}
+      {{ if $startDate }}
+        {{ $month := substr $startDate 0 2 }}
+        {{ $day := substr $startDate 3 2 }}
+        {{ $year := substr $startDate 6 4 }}
+        {{ $formattedDate := printf "%s-%s-%s" $year $month $day }}
+        {{ $parsedDate := time $formattedDate }}
+        {{ $peopleWithParsedDates = $peopleWithParsedDates | append (dict "person" . "parsedDate" $parsedDate) }}
+      {{ else }}
+        <!-- Handle case where startDate is missing or improperly formatted -->
+        {{ $peopleWithParsedDates = $peopleWithParsedDates | append (dict "person" . "parsedDate" (time "0001-01-01")) }}
+      {{ end }}
+    {{ end }}
+
+    <!-- Sort people by the parsed date -->
+    {{ $sortedPeople := sort $peopleWithParsedDates "parsedDate" "asc" }}
+
+    {{ range $sortedPeople }}
+      {{ $person := .person }}
       <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2 text-center rad-fade-down">
         <figure class="team-member">
           <img
