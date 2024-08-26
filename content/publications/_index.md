@@ -1,7 +1,6 @@
 ---
 id: publications
 draft: false
-
 title: Publications
 description: |
   Scientific publications by the PESTILLI LAB have appeared in multiple journals, reaching various scientific communities, such as, neuroscience, psychology, computer science, and engineering. Papers published by the lab are relevant to understanding normative as well as clinical populations. The papers comprise both the development of methods to understand brain and behavior as well as the application of the methods.   
@@ -24,7 +23,25 @@ publications:
     journal: PLOS Computational Biology
     publicationDate: 2016-02-04
     title: Ensemble Tractography
-  
+
+  - authors:
+    - Emily J Allen
+    - Ghislain St-Yves
+    - Yihan Wu
+    - Jesse L Breedlove
+    - Jacob S Prince
+    - Logan T Dowdle
+    - Matthias Nau
+    - Brad Caron
+    - Franco Pestilli
+    - Ian Charest
+    - J Benjamin Hutchinson
+    - Thomas Naselaris
+    - Kendrick Kay
+    doi: doi.org/10.1038/s41593-021-00962-x
+    journal: Nat Neurosci
+    publicationDate: 2022-01
+    title: A massive 7T fMRI dataset to bridge cognitive neuroscience and artificial intelligence
 
   - authors:
     - Shiloh L. Echevarria-Cooper
