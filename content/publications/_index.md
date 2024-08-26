@@ -40,7 +40,7 @@ publications:
     - Kendrick Kay
     doi: doi.org/10.1038/s41593-021-00962-x
     journal: Nat Neurosci
-    publicationDate: 2022-01
+    publicationDate: 2022-01-01
     title: A massive 7T fMRI dataset to bridge cognitive neuroscience and artificial intelligence
 
   - authors:
