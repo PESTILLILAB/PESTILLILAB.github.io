@@ -72,7 +72,7 @@ team:
     
     - name: Junbeom Kwon
       position: Graduate Student (Psychology, Neuroimaging, NeuroAI)
-      image: /img/people/xxxx.jpg
+      image: /img/people/junbeom_kim.jpg
       twitter: https://twitter.com/xxxx
       github: https://github.com/xxxx
     
