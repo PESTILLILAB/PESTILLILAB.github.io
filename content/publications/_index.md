@@ -24,7 +24,7 @@ publications:
     publicationDate: 2016-02-04
     title: Ensemble Tractography
 
-- authors:
+  - authors:
     - Daniel N Bullock
     - Elena A Hayday
     - Mark D Grier
