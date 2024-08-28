@@ -25,6 +25,15 @@ publications:
     title: Ensemble Tractography
 
   - authors:
+    - Sophia Vinci-Booher
+    - Elizabeth Berquist
+    - Franco Pestilli
+    doi: doi:https://doi.org/10.1167/jov.22.14.4258
+    journal: Journal of Vision
+    publicationDate: 2016-12-05
+    title: White matter tracts traveling between cortical regions associated with the dorsal and ventral visual streams predict learning a perceptual-motor task
+
+  - authors:
     - Guiomar Niso
     - Rotem Botvinik-Nezer
     - Stefan Appelhoff
