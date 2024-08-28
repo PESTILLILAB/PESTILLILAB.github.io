@@ -54,7 +54,7 @@ team:
 
     - name: Gabriele Amorosino
       position: Postdoctoral Researcher (NeuroAI, Neuroimaging pipelines)
-      image: /img/people/gabriele.png
+      image: /img/people/gabriele.jpeg
       scholar: https://scholar.google.com/citations?user=Qt6OuAkAAAAJ&hl=en
 
     - name: Anibal S. Heinsfeld
