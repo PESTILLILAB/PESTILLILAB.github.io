@@ -25,6 +25,17 @@ publications:
     title: Ensemble Tractography
 
   - authors:
+    - Varsha Sreenivasan
+    - Sawan Kumar
+    - Franco Pestilli
+    - Partha Talukdar
+    - Devarajan Sridharan
+    doi: doi.org/10.1038/s43588-022-00250-z
+    journal: Nature Computational Science
+    publicationDate: 2022-05-01
+    title: GPU-accelerated connectome discovery at scale
+
+  - authors:
     - S Vinci-Booher
     - B Caron
     - D Bullock
