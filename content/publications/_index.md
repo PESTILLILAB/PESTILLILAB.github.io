@@ -26,7 +26,8 @@ publications:
 
 - authors:
     - Mariana Babo-Rebelo
-    - Aina Puce, D Bullock
+    - Aina Puce
+    - D Bullock
     - Laurent Hugueville
     - Franco Pestilli
     - C Adam
