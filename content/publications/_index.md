@@ -25,6 +25,17 @@ publications:
     title: Ensemble Tractography
 
   - authors:
+    - S Vinci-Booher
+    - B Caron
+    - D Bullock
+    - K James
+    - Franco Pestilli
+    doi: doi.org/10.1007/s00429-021-02414-5
+    journal: Brain Structure and Function
+    publicationDate: 2022-05-01
+    title: Development of white matter tracts between and within the dorsal and ventral streams
+
+  - authors:
     - Mariana Babo-Rebelo
     - Aina Puce
     - D Bullock
