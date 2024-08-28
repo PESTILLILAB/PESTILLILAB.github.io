@@ -34,7 +34,7 @@ publications:
     doi: doi.org/10.1093/cercor/bhab500
     journal: Cerebral Cortex
     publicationDate: 2016-10-15
-    title: A taxonomy of the brain’s white matter: twenty-one major tracts for the 21st century
+    title: A taxonomy of the brain’s white matter twenty-one major tracts for the 21st century
 
   - authors:
     - Hu Cheng
