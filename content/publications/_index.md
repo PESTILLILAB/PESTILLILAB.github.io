@@ -24,6 +24,18 @@ publications:
     publicationDate: 2016-02-04
     title: Ensemble Tractography
 
+- authors:
+    - Daniel N Bullock
+    - Elena A Hayday
+    - Mark D Grier
+    - Wei Tang
+    - Franco Pestilli
+    - Sarah R Heilbronner
+    doi: doi.org/10.1093/cercor/bhab500
+    journal: Cerebral Cortex
+    publicationDate: 2016-10-15
+    title: A taxonomy of the brain’s white matter: twenty-one major tracts for the 21st century
+
   - authors:
     - Hu Cheng
     - Sophia Vinci-Booher
