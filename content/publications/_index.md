@@ -51,7 +51,7 @@ publications:
     doi: doi.org/10.1016/j.neuroimage.2022.119623
     journal: NeuroImage
     publicationDate: 2016-11-01
-    title: Open and reproducible neuroimaging: From study inception to publication
+    title: Open and reproducible neuroimaging From study inception to publication
 
   - authors:
     - Daniel N Bullock
