@@ -38,9 +38,7 @@ team:
 
     - name: Steven G. Hershman 
       position: Associate Professor of Practice (Informatics, Data Science, Data Standards and Sharing)
-      image: /img/people/cccc.png
-      twitter: https://twitter.com/ccc
-      github: https://github.com/cccc
+      image: /img/people/steve.jpeg
       scholar: 
 
     - name: Melanie Collier
@@ -51,16 +49,12 @@ team:
 
     - name: Ashley Stewart
       position: Postdoctoral Researcher (NeuroImaging, Neuroinformatics)
-      image: /img/people/xxxx.png
-      twitter: https://twitter.com/xxxx
-      github: https://github.com/xxxx
+      image: /img/people/ashley.jpeg
       scholar: https://scholar.google.com/citations?user=AbPtesgAAAAJ&hl=en&oi=sra
 
     - name: Gabriele Amorosino
       position: Postdoctoral Researcher (NeuroAI, Neuroimaging pipelines)
-      image: /img/people/<IMAGE>.png
-      twitter: https://twitter.com/xxx
-      github: https://github.com/xxx
+      image: /img/people/gabriele.png
       scholar: https://scholar.google.com/citations?user=Qt6OuAkAAAAJ&hl=en
 
     - name: Anibal S. Heinsfeld
