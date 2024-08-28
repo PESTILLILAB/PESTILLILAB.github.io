@@ -24,6 +24,21 @@ publications:
     publicationDate: 2016-02-04
     title: Ensemble Tractography
 
+- authors:
+    - Mariana Babo-Rebelo
+    - Aina Puce, D Bullock
+    - Laurent Hugueville
+    - Franco Pestilli
+    - C Adam
+    - Katia Lehongre
+    - Virginie Lambrecq
+    - Vera Dinkelacker
+    - Nathalie George
+    doi: doi.org/10.1093/cercor/bhab212
+    journal: Cerebral Cortex
+    publicationDate: 2022-01-15
+    title: Visual information routes in the posterior dorsal and ventral face network studied with intracranial neurophysiology and white matter tract endpoints
+
   - authors:
     - Emily J Allen
     - Ghislain St-Yves
