@@ -25,6 +25,35 @@ publications:
     title: Ensemble Tractography
 
   - authors:
+    - Guiomar Niso
+    - Rotem Botvinik-Nezer
+    - Stefan Appelhoff
+    - Alejandro De La Vega
+    - Oscar Esteban
+    - Joset A Etzel
+    - Karolina Finc
+    - Melanie Ganz
+    - Remi Gau
+    - Yaroslav O Halchenko
+    - Peer Herholz
+    - Agah Karakuzu
+    - David B Keator
+    - Christopher J Markiewicz
+    - Camille Maumet
+    - Cyril R Pernet
+    - Franco Pestilli
+    - Nazek Queder
+    - Tina Schmitt
+    - Weronika Sójka
+    - Adina S Wagner
+    - Kirstie J Whitaker
+    - Jochem W Rieger
+    doi: doi.org/10.1016/j.neuroimage.2022.119623
+    journal: NeuroImage
+    publicationDate: 2016-11-01
+    title: Open and reproducible neuroimaging: From study inception to publication
+
+  - authors:
     - Daniel N Bullock
     - Elena A Hayday
     - Mark D Grier
