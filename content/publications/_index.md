@@ -36,6 +36,17 @@ publications:
     title: GPU-accelerated connectome discovery at scale
 
   - authors:
+    - Xiaoxuan Liang
+    - Aaron Cohen
+    - Anibal Solón Heinsfeld
+    - Franco Pestilli
+    - Daniel J McDonald
+    doi: doi.org/10.48550/arXiv.2208.02942
+    journal: arXiv preprint arXiv:2208.02942
+    publicationDate: 2022-08-05
+    title: sparsegl: An r package for estimating sparse group lasso
+
+  - authors:
     - S Vinci-Booher
     - B Caron
     - D Bullock
