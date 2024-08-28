@@ -25,6 +25,19 @@ publications:
     title: Ensemble Tractography
 
   - authors:
+    - Hu Cheng
+    - Sophia Vinci-Booher
+    - Jian Wang
+    - Bradley Caron
+    - Qiuting Wen
+    - Sharlene Newman
+    - Franco Pestilli
+    doi: doi.org/10.1371/journal.pone.0274396
+    journal: Plos one
+    publicationDate: 2016-09-15
+    title: Denoising diffusion weighted imaging data using convolutional neural networks
+
+  - authors:
     - Varsha Sreenivasan
     - Sawan Kumar
     - Franco Pestilli
