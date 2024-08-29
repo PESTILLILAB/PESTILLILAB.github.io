@@ -24,7 +24,7 @@ publications:
     publicationDate: 2016-02-04
     title: Ensemble Tractography
 
-- authors:
+  - authors:
     - S Vinci-Booher
     - DJ McDonald
     - E Berquist
