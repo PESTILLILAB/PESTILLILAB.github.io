@@ -25,6 +25,15 @@ publications:
     title: Ensemble Tractography
 
   - authors:
+    - Chris Parker
+    - Jorge Mejia
+    - Franco Pestilli
+    doi: doi.org/10.2139/ssrn.4714781
+    journal: SSRN 4714781
+    publicationDate: 2016-07-04
+    title: The Growth Rate of COVID-19 Cases in Spring 2020 Was Associated With Individual Mobility and County-level Political Leaning
+
+  - authors:
     - Sophia Vinci-Booher
     - Elizabeth Berquist
     - Franco Pestilli
