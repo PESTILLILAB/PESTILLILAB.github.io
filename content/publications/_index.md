@@ -41,7 +41,7 @@ publications:
     - Dimitri Yatsenko
     doi: doi.org/10.48550/arXiv.2401.00077
     journal: arXiv preprint arXiv 2401.00077
-    publicationDate: 2016-12-29
+    publicationDate: 2023-12-29
     title: A Maturity Model for Operations in Neuroscience Research
 
   - authors:
@@ -60,7 +60,7 @@ publications:
     - Franco Pestilli
     doi: PMID 37986723
     journal: Arxiv
-    publicationDate: 2016-11-08
+    publicationDate: 2023-11-08
     title: A labeled Clinical-MRI dataset of Nigerian brains
 
   - authors:
@@ -69,7 +69,7 @@ publications:
     - Franco Pestilli
     doi: doi.org/10.2139/ssrn.4714781
     journal: SSRN 4714781
-    publicationDate: 2016-07-04
+    publicationDate: 2023-07-04
     title: The Growth Rate of COVID-19 Cases in Spring 2020 Was Associated With Individual Mobility and County-level Political Leaning
 
   - authors:
@@ -79,7 +79,7 @@ publications:
     - Franco Pestilli
     doi: doi.org/10.1093/cercor/bhad276
     journal: Cerebral Cortex
-    publicationDate: 2016-09-15
+    publicationDate: 2023-09-15
     title: Development of human hippocampal subfield microstructure and relation to associative inference
 
   - authors:
@@ -88,7 +88,7 @@ publications:
     - Franco Pestilli
     doi: doi:https://doi.org/10.1167/jov.22.14.4258
     journal: Journal of Vision
-    publicationDate: 2016-12-05
+    publicationDate: 2022-12-05
     title: White matter tracts traveling between cortical regions associated with the dorsal and ventral visual streams predict learning a perceptual-motor task
 
   - authors:
@@ -117,7 +117,7 @@ publications:
     - Jochem W Rieger
     doi: doi.org/10.1016/j.neuroimage.2022.119623
     journal: NeuroImage
-    publicationDate: 2016-11-01
+    publicationDate: 2022-11-01
     title: Open and reproducible neuroimaging From study inception to publication
 
   - authors:
@@ -129,7 +129,7 @@ publications:
     - Sarah R Heilbronner
     doi: doi.org/10.1093/cercor/bhab500
     journal: Cerebral Cortex
-    publicationDate: 2016-10-15
+    publicationDate: 2022-10-15
     title: A taxonomy of the brain’s white matter twenty-one major tracts for the 21st century
 
   - authors:
@@ -142,7 +142,7 @@ publications:
     - Franco Pestilli
     doi: doi.org/10.1371/journal.pone.0274396
     journal: Plos one
-    publicationDate: 2016-09-15
+    publicationDate: 2022-09-15
     title: Denoising diffusion weighted imaging data using convolutional neural networks
 
   - authors:
