@@ -24,6 +24,16 @@ publications:
     publicationDate: 2016-02-04
     title: Ensemble Tractography
 
+- authors:
+    - S Vinci-Booher
+    - DJ McDonald
+    - E Berquist
+    - F Pestilli
+    doi: doi.org/10.1038/s42003-024-06420-1
+    journal: Nature Publishing Group
+    publicationDate: 2024-06-22
+    title: Associative white matter tracts selectively predict sensorimotor learning
+
   - authors:
     - Soichi Hayashi
     - Bradley A Caron
