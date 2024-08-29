@@ -11,7 +11,7 @@ showcase:
   enable: true
   title:
   subtitle: "Responsible technology to understand brain health."
-  description: "none"
+   # - description: "none"
 
   image:
     url: "img/pestillilab-02.svg"
@@ -19,7 +19,7 @@ showcase:
     url: "img/pestillilab-02.svg"
 
   socialLinks:
-    #- icon: "linkedin"
+    # - icon: "linkedin"
     #  URL: "[brainlife.io](https://www.linkedin.com/company/65546483/)"
 
     # - icon: "github"
