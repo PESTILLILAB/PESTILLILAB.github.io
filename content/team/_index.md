@@ -38,11 +38,10 @@ team:
 
     - name: Steven G. Hershman 
       position: Associate Professor of Practice (Informatics, Data Science, Data Standards and Sharing)
-      image: /img/people/steve.jpeg
-      scholar: 
+      image: /img/people/steve_hershmann.jpg
 
     - name: Melanie Collier
-      position: Manager
+      position: Lab Manager
       image: /img/people/melanie_collier.jpg
       github: https://github.com/Mcollie127
       scholar: https://scholar.google.com/citations?user=IomAkw8AAAAJ&hl=en
@@ -54,7 +53,7 @@ team:
 
     - name: Gabriele Amorosino
       position: Postdoctoral Researcher (NeuroAI, Neuroimaging pipelines)
-      image: /img/people/gabriele.jpeg
+      image: /img/people/gabriele_amorosino.png
       scholar: https://scholar.google.com/citations?user=Qt6OuAkAAAAJ&hl=en
 
     - name: Anibal S. Heinsfeld
@@ -119,6 +118,38 @@ collaborators:
       twitter: https://twitter.com/aina_puce
       github: https://github.com/ainapuce
 
+    - name: Anastasia Yendiki
+      image: /img/people/anastasia_yendiki.jpg
+      position: Associate Professor in Radiology, Harvard Medical School; Associate Investigator, Massachusetts General Hospital
+
+    - name: Alexander Huth
+      image: /img/people/alexander_huth.jpg
+      position: Assistant Professor of Neuroscience and Computer Science, University of Texas
+
+    - name: Ariel Rokem
+      image: /img/people/ariel_rokem.png
+      position: Research Associate Professor, Department of Psychology, University of Washington
+
+    - name: Elizabeth Lippard
+      image: /img/people/elizabeth_lippard.jpg
+      position: Assistant Professor, Department of Psychiatry and Behavioral Sciences, Dell Medical Center University of Texas
+
+    - name: Dan Stanzione
+      image: /img/people/dan_stanzione.jpg
+      position: Associate Vice President for Research Executive Director, TACC
+
+    - name: Sarah Heilbronner
+      image: /img/people/sarah_heilbronner.png
+      position: Associate Professor, Neurosurgery, Baylor College of Medicine
+
+    - name: Chris Rorden
+      image: /img/people/chris_rorden.jpg
+      position: Professor and Endowed Chair of Neuroscience, Department of Psychology, University of South Carolina
+      
+    - name: Russell Poldrack
+      image: /img/people/russell_poldrack.jpg
+      position: Professor of Psychology, Department of Psychology, School of Humanities and Sciences, Stanford University
+
     - name: Daniel J. McDonald
       image: /img/people/daniel-mcdonald.png
       position: Associate Professor, Department of Statistics, The University of British Columbia
@@ -180,6 +211,12 @@ alumni:
       position: Software Developer
       description: Dan developed components of brainlife.io/ezBIDS, after leaving our team Dan took on a Data Analyst position in North Carolina.
       github: https://github.com/dlevitas
+
+    - name: Mohammed Mehboob
+      startDate: 08/01/2023
+      image: /img/people/mohammed_mehboob
+      position: Developer
+      description: After leaving the lab, Mohammed took a position as an Associate Consultant within Consulting at Adobe..
 
     - name: Annie Mackenzie
       startDate: 03/01/2024
