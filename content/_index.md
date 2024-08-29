@@ -10,8 +10,8 @@ sections:
 showcase:
   enable: true
   title:
-  subtitle: "Understanding the brain and mental health via responsible technology."
-  desription: "none"
+  subtitle: "Responsible technology to understand brain health."
+  description: "none"
 
   image:
     url: "img/pestillilab-02.svg"
@@ -20,7 +20,7 @@ showcase:
 
   socialLinks:
     #- icon: "linkedin"
-    #  URL: "https://www.linkedin.com/company/radity/"
+    #  URL: "[brainlife.io](https://www.linkedin.com/company/65546483/)"
 
     # - icon: "github"
     #   URL: "https://github.com/PESTILLILAB/"
@@ -56,7 +56,7 @@ vision:
   partial: t-image_text
   subtitle: "It takes the world to understand the brain."
   content: '
-    The PESTILLI LAB promotes progress in psychological and brain science via the democratization of scientific research, methods, data and infrastructure. We strive to advance societal good by accelerating neuroscientific discovery and education via data-science applications and innovative technology.
+    The PESTILLI LAB is dedicated to advancing psychological and brain science through the democratization of scientific research, methods, data, and infrastructure. Our mission is to contribute to societal well-being by accelerating neuroscientific discovery and education through the application of data science and the development of innovative technologies.
   '
   image: "img/science.svg"
   size: 6
@@ -67,8 +67,7 @@ humanities:
   partial: t-text_image
   subtitle: "Democratizing neuroscience understanding and education via technology."
   content: '
-    We develop standards and technology for the management and processing of brain and health data. 
-    Simplifying the way data is stored, processed, analyzed and shared can improve scientific understanding and education.
+  We focus on developing standards and technologies for the management and processing of brain and health data. By simplifying how data is stored, processed, analyzed, and shared, we aim to enhance scientific understanding and education.
   '
   image: "img/democratic.svg"
   size: 6
@@ -76,7 +75,7 @@ humanities:
 map:
   enable: true
   title: Network of collaborators
-  subtitle: We collaborate with scientists and developers across the globe
+  subtitle: We collaborate with scientists and developers across the globe.
   data: "data/map.toml"
   primaryColor: '#005981'
   secondaryColor: '#CCCCCC'
