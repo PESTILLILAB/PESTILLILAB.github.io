@@ -25,6 +25,56 @@ publications:
     title: Ensemble Tractography
 
   - authors:
+    - Saori C Tanaka
+    - Kiyoto Kasai
+    - Yasumasa Okamoto
+    - Shinsuke Koike
+    - Takuya Hayashi
+    - Ayumu Yamashita
+    - Okito Yamashita
+    - Tom Johnstone
+    - Franco Pestilli
+    - Kenji Doya
+    - Go Okada
+    - Hotaka Shinzato
+    - Eri Itai
+    - Yuji Takahara
+    - Akihiro Takamiya
+    - Motoaki Nakamura
+    - Takashi Itahashi
+    - Ryuta Aoki
+    - Yukiaki Koizumi
+    - Masaaki Shimizu
+    - Jun Miyata
+    - Shuraku Son
+    - Morio Aki
+    - Naohiro Okada
+    - Susumu Morita
+    - Nobukatsu Sawamoto
+    - Mitsunari Abe
+    - Yuki Oi
+    - Kazuaki Sajima
+    - Koji Kamagata
+    - Masakazu Hirose
+    - Yohei Aoshima
+    - Sayo Hamatani
+    - Nobuhiro Nohara
+    - Misako Funaba
+    - Tomomi Noda
+    - Kana Inoue
+    - Jinichi Hirano
+    - Masaru Mimura
+    - Hidehiko Takahashi
+    - Nobutaka Hattori
+    - Atsushi Sekiguchi
+    - Mitsuo Kawato
+    - Takashi Hanakawa
+    doi: doi.org/10.1111/pcn.13717
+    journal: Psychiatry and Clinical Neurosciences
+    publicationDate: 2024-08-20
+    title: The status of MRI databases across the world focused on psychiatric and neurological disorders
+
+  - authors:
     - S Vinci-Booher
     - DJ McDonald
     - E Berquist
