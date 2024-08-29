@@ -41,7 +41,7 @@ publications:
     - Nicholas L Port
     - Franco Pestilli
     doi: doi.org/10.1016/j.nicl.2024.103646
-    journal: Neuroimage: clinical
+    journal: Neuroimage clinical
     publicationDate: 2024-01-01
     title: Diffusion tensor analysis of white matter tracts is prognostic of persisting post-concussion symptoms in collegiate athletes
 
