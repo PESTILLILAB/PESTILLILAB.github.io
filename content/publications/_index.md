@@ -25,6 +25,26 @@ publications:
     title: Ensemble Tractography
 
   - authors:
+    - Erik C Johnson
+    - Thinh T Nguyen
+    - Benjamin K Dichter
+    - Frank Zappulla
+    - Montgomery Kosma
+    - Kabilar Gunalan
+    - Yaroslav O Halchenko
+    - Shay Q Neufeld
+    - Michael Schirner
+    - Petra Ritter
+    - Maryann E Martone
+    - Brock Wester
+    - Franco Pestilli
+    - Dimitri Yatsenko
+    doi: doi.org/10.48550/arXiv.2401.00077
+    journal: arXiv preprint arXiv 2401.00077
+    publicationDate: 2016-12-29
+    title: A Maturity Model for Operations in Neuroscience Research
+
+  - authors:
     - Eberechi Wogu
     - Patrick Filima
     - Bradley Caron
