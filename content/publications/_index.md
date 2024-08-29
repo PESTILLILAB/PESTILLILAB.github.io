@@ -25,6 +25,27 @@ publications:
     title: Ensemble Tractography
 
   - authors:
+    - Giulia Bertò
+    - Lauren T Rooks
+    - Steven P Broglio
+    - Thomas A McAllister
+    - Michael A McCrea
+    - Paul F Pasquina
+    - Christopher Giza
+    - Alison Brooks
+    - Jason Mihalik
+    - Kevin Guskiewicz
+    - Josh Goldman
+    - Stefan Duma
+    - Steven Rowson
+    - Nicholas L Port
+    - Franco Pestilli
+    doi: doi.org/10.1016/j.nicl.2024.103646
+    journal: Neuroimage: clinical
+    publicationDate: 2024-01-01
+    title: Diffusion tensor analysis of white matter tracts is prognostic of persisting post-concussion symptoms in collegiate athletes
+
+  - authors:
     - Erik C Johnson
     - Thinh T Nguyen
     - Benjamin K Dichter
