@@ -24,6 +24,25 @@ publications:
     publicationDate: 2016-02-04
     title: Ensemble Tractography
 
+- authors:
+    - Eberechi Wogu
+    - Patrick Filima
+    - Bradley Caron
+    - Daniel Levitas
+    - Peer Herholz
+    - Catherine Leal
+    - Mohammed F Mehboob
+    - Soichi Hayashi
+    - Simisola Akintoye
+    - George Ogoh
+    - Tawe Godwin
+    - Damian Eke
+    - Franco Pestilli
+    doi: PMID 37986723
+    journal: Arxiv
+    publicationDate: 2016-11-08
+    title: A labeled Clinical-MRI dataset of Nigerian brains
+
   - authors:
     - Chris Parker
     - Jorge Mejia
