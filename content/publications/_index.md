@@ -25,6 +25,21 @@ publications:
     title: Ensemble Tractography
 
   - authors:
+    - Daniel Levitas
+    - Soichi Hayashi
+    - Sophia Vinci-Booher
+    - Anibal Heinsfeld
+    - Dheeraj Bhatia
+    - Nicholas Lee
+    - Anthony Galassi
+    - Guiomar Niso
+    - Franco Pestilli
+    doi: doi.org/10.1038/s41597-024-02959-0
+    journal: Scientific data
+    publicationDate: 2024-02-08
+    title: ezBIDS Guided standardization of neuroimaging data interoperable with major data archives and platforms
+
+  - authors:
     - Giulia Bertò
     - Lauren T Rooks
     - Steven P Broglio
