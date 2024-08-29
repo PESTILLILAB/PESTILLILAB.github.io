@@ -25,6 +25,76 @@ publications:
     title: Ensemble Tractography
 
   - authors:
+    - Soichi Hayashi
+    - Bradley A Caron
+    - Anibal Sólon Heinsfeld
+    - Sophia Vinci-Booher
+    - Brent McPherson
+    - Daniel N Bullock
+    - Giulia Bertò
+    - Guiomar Niso
+    - Sandra Hanekamp
+    - Daniel Levitas
+    - Kimberly Ray
+    - Anne MacKenzie
+    - Paolo Avesani
+    - Lindsey Kitchell
+    - Josiah K Leong
+    - Filipi Nascimento-Silva
+    - Serge Koudoro
+    - Hanna Willis
+    - Jasleen K Jolly
+    - Derek Pisner
+    - Taylor R Zuidema
+    - Jan W Kurzawski
+    - Kyriaki Mikellidou
+    - Aurore Bussalb
+    - Maximilien Chaumon
+    - Nathalie George
+    - Christopher Rorden
+    - Conner Victory
+    - Dheeraj Bhatia
+    - Dogu Baran Aydogan
+    - Fang-Cheng F Yeh
+    - Franco Delogu
+    - Javier Guaje
+    - Jelle Veraart
+    - Jeremy Fischer
+    - Joshua Faskowitz
+    - Ricardo Fabrega
+    - David Hunt
+    - Shawn McKee
+    - Shawn T Brown
+    - Stephanie Heyman
+    - Vittorio Iacovella
+    - Amanda F Mejia
+    - Daniele Marinazzo
+    - R Cameron Craddock
+    - Emanuale Olivetti
+    - Jamie L Hanson
+    - Eleftherios Garyfallidis
+    - Dan Stanzione
+    - James Carson
+    - Robert Henschel
+    - David Y Hancock
+    - Craig A Stewart
+    - David Schnyer
+    - Damian O Eke
+    - Russell A Poldrack
+    - Steffen Bollmann
+    - Ashley Stewart
+    - Holly Bridge
+    - Ilaria Sani
+    - Winrich A Freiwald
+    - Aina Puce
+    - Nicholas L Port
+    - Franco Pestilli
+    doi: doi.org/10.1038/s41592-024-02237-2
+    journal: Nature Methods
+    publicationDate: 2024-05-01
+    title: brainlife. io a decentralized and open-source cloud platform to support neuroscience research
+
+  - authors:
     - Angela I Renton
     - Thuy T Dao
     - Tom Johnstone
