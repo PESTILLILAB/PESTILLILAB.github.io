@@ -35,6 +35,16 @@ publications:
 
   - authors:
     - Sophia Vinci-Booher
+    - Margaret L Schlichting
+    - Alison R Preston
+    - Franco Pestilli
+    doi: doi.org/10.1093/cercor/bhad276
+    journal: Cerebral Cortex
+    publicationDate: 2016-09-15
+    title: Development of human hippocampal subfield microstructure and relation to associative inference
+
+  - authors:
+    - Sophia Vinci-Booher
     - Elizabeth Berquist
     - Franco Pestilli
     doi: doi:https://doi.org/10.1167/jov.22.14.4258
