@@ -214,7 +214,7 @@ alumni:
 
     - name: Mohammed Mehboob
       startDate: 08/01/2023
-      image: /img/people/mohammed_mehboob
+      image: /img/people/mohammed_mehboob.jpg
       position: Developer
       description: After leaving the lab, Mohammed took a position as an Associate Consultant within Consulting at Adobe..
 
