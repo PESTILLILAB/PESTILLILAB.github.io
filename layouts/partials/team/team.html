@@ -31,7 +31,7 @@
     {{ end }}
 
     <!-- Sort people by the parsed date -->
-    {{ $sortedPeople := sort $peopleWithParsedDates "parsedDate" "asc" }}
+    {{ $sortedPeople := sort $peopleWithParsedDates "parsedDate" "desc" }}
 
     {{ range $sortedPeople }}
       {{ $person := .person }}

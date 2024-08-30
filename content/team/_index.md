@@ -126,7 +126,7 @@ collaborators:
       twitter: https://twitter.com/SRHeilbronner
 
     - name: Damian Eke
-      image: /img/people/damian_eke.jpg
+      image: /img/people/damian_eke.jpeg
       position: Assistant Professor, University of Nottingham, UK
 
     - name: Ricardo Chavarriaga
