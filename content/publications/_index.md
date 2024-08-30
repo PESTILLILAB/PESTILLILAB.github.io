@@ -3,7 +3,7 @@ id: publications
 draft: false
 title: Publications
 description: |
-  Scientific publications by the PESTILLI LAB have appeared in multiple journals, reaching various scientific communities, such as, neuroscience, psychology, computer science, and engineering. Papers published by the lab are relevant to understanding normative as well as clinical populations. The papers comprise both the development of methods to understand brain and behavior as well as the application of the methods.   
+  The PESTILLI LAB's scientific publications have appeared in a wide range of journals, reaching diverse scientific communities, including neuroscience, psychology, computer science, and engineering. These papers contribute to both the understanding of normative and clinical populations, encompassing the development of innovative methods to study brain and behavior, as well as the application of these methods to advance scientific knowledge.  
 
 sections:
 - intro
