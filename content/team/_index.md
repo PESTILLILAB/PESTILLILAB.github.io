@@ -126,7 +126,7 @@ collaborators:
       twitter: https://twitter.com/SRHeilbronner
 
     - name: Damian Eke
-      image: /img/people/damian_eke.png
+      image: /img/people/damian_eke.jpg
       position: Assistant Professor, University of Nottingham, UK
 
     - name: Ricardo Chavarriaga
@@ -134,7 +134,7 @@ collaborators:
       position: Professor, Zurich University of Applied Sciences (ZHAW), Switzerland
 
     - name: Fernanda Tovar Moll
-      image: /img/people/fernanda_tovarmoll.png
+      image: /img/people/fernanda_tovarmoll.jpg
       position: MD/Phd, CEO D’Or Institute of Research and Education (IDOR), Brazil
 
     - name: Amadi Ihunwo
