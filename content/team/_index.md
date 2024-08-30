@@ -126,7 +126,7 @@ collaborators:
       twitter: https://twitter.com/SRHeilbronner
 
     - name: Damian Eke
-      image: /img/people/damian_eke.jpg
+      image: /img/people/damian_eke.png
       position: Principal Investigator, University of Nottingham, UK
 
     - name: Ricardo Chavarriaga
@@ -134,7 +134,7 @@ collaborators:
       position: Principal Investigator Zurich University of Applied Sciences (ZHAW), Switzerland
 
     - name: Fernanda Tovar Moll
-      image: /img/people/fernanda_tovarmoll.jpg
+      image: /img/people/fernanda_tovarmoll.png
       position: Principal Investigator D’Or Institute of Research and Education (IDOR), Brazil
 
     - name: Amadi Ihunwo
