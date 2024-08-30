@@ -5,8 +5,8 @@ draft: false
 sections:
 - pi
 - team
-- diversity
-- inclusivity
+- community
+- engagement
 - collaborators
 - alumni
  
@@ -388,24 +388,24 @@ alumni:
       image: /img/people/steven-oriley.png
       github: https://github.com/stevengeeky
 
-diversity:
+community:
   enable: true
-  title: Diversity
+  title: Community
   partial: t-text_image
   subtitle: |
     It takes the world to understand the brain, and the world is a village rich with people of different backgrounds.
   content: |
-    A good lab can flourish, if it embraces diverse ideas, cultures, and life experiences. Our PI is originally from Italy and we have software engineers from Asia, Latin America, and North America. Our lab is a positive mix of humans working together to advance the understanding of the brain and improve the work of scientists.
+    A successful lab thrives when it embraces diverse ideas, cultures, and life experiences. Our Principal Investigator hails from Italy, and our team includes software engineers from Asia, Latin America, and North America. This positive mix of individuals working together fosters a collaborative environment that advances our understanding of the brain and enhances the work of scientists globally.
   image: "img/diversity.svg"
 
-inclusivity:
+engagement:
   enable: true
-  title: Inclusivity
+  title: Engagement
   partial: t-image_text
   subtitle: |
-    Inclusion means being open to and safe for all.
+    Inclusion and engagement mean being open and safe for all.
   content: |
-    We are committed to making educational and computational resources available to everyone interested in neuroscience, including communities that would otherwise not have access to these resources. Using data, analyses, and tutorials available on brainlife.io, we can teach neuroscience at institutions that do not have a neuroscience program. For instance, our brainlife.io has been used in smaller U.S. Colleges, Africa, and Latin America to teach Neuroscience and neuroimaging to under-resourced communities.
+    We are dedicated to engaging with all individuals interested in neuroscience, particularly those in communities that might otherwise lack access to these resources. Our lab's resources have been utilized in smaller U.S. colleges, as well as in Africa and Latin America, to teach neuroscience and neuroimaging to under-resourced communities.
   image: "img/inclusivity.svg"
 
 ---
