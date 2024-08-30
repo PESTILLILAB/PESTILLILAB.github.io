@@ -127,23 +127,23 @@ collaborators:
 
     - name: Damian Eke
       image: /img/people/damian_eke.png
-      position: Principal Investigator, University of Nottingham, UK
+      position: Assistant Professor, University of Nottingham, UK
 
     - name: Ricardo Chavarriaga
       image: /img/people/ricardo_chavarriaga.jpg
-      position: Principal Investigator Zurich University of Applied Sciences (ZHAW), Switzerland
+      position: Professor, Zurich University of Applied Sciences (ZHAW), Switzerland
 
     - name: Fernanda Tovar Moll
       image: /img/people/fernanda_tovarmoll.png
-      position: Principal Investigator D’Or Institute of Research and Education (IDOR), Brazil
+      position: MD/Phd, CEO D’Or Institute of Research and Education (IDOR), Brazil
 
     - name: Amadi Ihunwo
       image: /img/people/amadi_ihunwo.jpg
-      position: Principal Investigator University of the Witwatersrand (Wits), South Africa
+      position: Professor, University of the Witwatersrand (Wits), South Africa
 
     - name: Thomas Nichols
       image: /img/people/thomas_nichols.jpg
-      position: Principal Investigator Oxford University, UK
+      position: Professor, Oxford University, UK
 
     - name: Alexander Huth
       image: /img/people/alexander_huth.jpg
