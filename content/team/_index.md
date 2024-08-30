@@ -48,7 +48,7 @@ team:
 
     - name: Ashley Stewart
       position: Postdoctoral Researcher (NeuroImaging, Neuroinformatics)
-      image: /img/people/ashley.jpeg
+      image: /img/people/ashley_stewart.jpg
       scholar: https://scholar.google.com/citations?user=AbPtesgAAAAJ&hl=en&oi=sra
 
     - name: Gabriele Amorosino
@@ -124,6 +124,26 @@ collaborators:
       description: Together we are working on understanding the connectivity of the Parietal cortex.
       scholar: https://scholar.google.com/citations?user=xNLcH5MAAAAJ
       twitter: https://twitter.com/SRHeilbronner
+
+    - name: Damian Eke
+      image: /img/people/damian_eke.jpg
+      position: Principal Investigator, University of Nottingham, UK
+
+    - name: Ricardo Chavarriaga
+      image: /img/people/ricardo_chavarriaga.jpg
+      position: Principal Investigator Zurich University of Applied Sciences (ZHAW), Switzerland
+
+    - name: Fernanda Tovar Moll
+      image: /img/people/fernanda_tovarmoll.jpg
+      position: Principal Investigator D’Or Institute of Research and Education (IDOR), Brazil
+
+    - name: Amadi Ihunwo
+      image: /img/people/amadi_ihunwo.jpg
+      position: Principal Investigator University of the Witwatersrand (Wits), South Africa
+
+    - name: Thomas Nichols
+      image: /img/people/thomas_nichols.jpg
+      position: Principal Investigator Oxford University, UK
 
     - name: Alexander Huth
       image: /img/people/alexander_huth.jpg
