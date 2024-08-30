@@ -205,14 +205,14 @@ alumni:
       startDate: 08/01/2024
       image: /img/people/dan-levitas.png
       position: Software Developer
-      description: Dan developed components of brainlife.io/ezBIDS, after leaving our team Dan took on a Data Analyst position in North Carolina.
+      description: After leaving our team Dan took on a Data Analyst position in North Carolina.
       github: https://github.com/dlevitas
 
     - name: Mohammed Mehboob
       startDate: 08/01/2023
       image: /img/people/mohammed_mehboob.jpg
-      position: Developer
-      description: After leaving the lab, Mohammed took a position as an Associate Consultant within Consulting at Adobe..
+      position: Research Assistant
+      description: After leaving the lab, Mohammed took a position as an Associate Consultant within Consulting at Adobe.
 
     - name: Annie Mackenzie
       startDate: 03/01/2024
@@ -224,7 +224,7 @@ alumni:
       
     - name: Bradley Caron
       startDate: 02/01/2024
-      position: Postdoctoral Fellow (Vision Science, Neuroinformatics)
+      position: Postdoctoral Fellow
       image: /img/people/bradley-caron.png
       description: After graduating from the lab Brad took on a position as a Translational Imaging Data Scientist at Novartis (Boston, MA).
       twitter: https://twitter.com/bacaronIU
@@ -248,7 +248,7 @@ alumni:
 
     - name: Soichi Hayashi
       startDate: 10/01/2022
-      position: Software Engineer at Acadian Asset Management
+      position: Software Engineer
       image: https://en.gravatar.com/userimage/11088201/402ad6c44c48147d0b1c3b164fcf9618.jpg?size=200
       description: After leaving the lab Soichi took on a position as a Software Developer in a Fintech Company.
       twitter: https://twitter.com/soichih
@@ -267,8 +267,8 @@ alumni:
   
     - name: Sandra Hanekamp
       startDate: 06/01/2022
-      position: Postdoctoral Researcher (Vision Science and white matter)
-      description: After graduating from the lab, Sandra started a position at NordicNeuroLab.
+      position: Postdoctoral Fellow
+      description: After graduating from the lab, Sandra took a position at NordicNeuroLab.
       image: /img/people/sandra-hanekamp.png
       twitter: https://twitter.com/sandrahanekamp
       github: https://github.com/sandrahanekamp
@@ -284,7 +284,7 @@ alumni:
 
     - name: Brent C. McPherson
       startDate: 12/30/2021
-      position: Ph.D student
+      position: Ph.D. student
       description: After graduating from the lab, Brent took a Postdoctoral Researcher position at McGill University.
       image: /img/people/brent-mcpherson.png
       twitter: https://twitter.com/bcmcpher
@@ -293,7 +293,7 @@ alumni:
 
     - name: Daniel N. Bullock
       startDate: 05/03/2021
-      position: Ph.D student
+      position: Ph.D. student
       description: After graduating from the lab, Dan took on a position as Postdoctoral Researcher at the University of Minnesota.
       image: /img/people/daniel-bullock.png
       twitter: https://twitter.com/Is_Dan_Bull
@@ -311,8 +311,8 @@ alumni:
 
     - name: Ilaria Sani
       startDate: 05/20/2020
-      position: Visiting postdoc
-      description: Ilaria was visiting from the Laboratory of Winrich Freiwald at Rockefeller University. After visiting the lab, Ilaria took a Research Scientist position at the University of Geneva.
+      position: Ilaria was a visiting postdoc
+      description: Ilaria was visiting from the Laboratory of Winrich Freiwald at Rockefeller University. After visiting the lab, Ilaria took an Assitant Professor position at the University of Geneva.
       image: /img/people/ilaria-sani.png
       github: https://github.com/IlariaSani
       scholar: https://scholar.google.com/citations?user=yyhEfS8AAAAJ
