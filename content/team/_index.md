@@ -26,7 +26,7 @@ pi:
 team:
   partial: team/team
   title: Team
-  description: Below are the wonderful students, postdocs, staff members, and faculty colleagues who make our science possible.
+  description: The following are the exceptional students, postdocs, staff members, and faculty colleagues whose dedication and expertise make our science possible.
   people:
   
     - name: Kimberly Ray
