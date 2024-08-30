@@ -4,8 +4,7 @@ id: research
 
 title: Research
 description: |
-  The PESTILLI LAB promotes progress in psychological and brain science via the democratization of scientific research, methods, data and infrastructure.
-  We strive to advance societal good by accelerating neuroscientific discovery and education via data-science applications and innovative technology.
+ The PESTILLI LAB promotes progress in psychological and brain science by democratizing scientific research, methods, data, and infrastructure. We are committed to advancing societal well-being by accelerating neuroscientific discovery and education through the application of data science and innovative technology.
 
 sections:
 - intro
@@ -18,9 +17,9 @@ ml:
   enable: true
   title: Data Neuroscience and Machine Learning
   partial: t-image_text
-  subtitle: Advancing Scientific Understanding with both Theory and Data-Driven Methods
+  subtitle: Advancing Scientific Understanding through the Integration of Theoretical and Data-Driven Methods.
   content: |
-    It has been claimed that data is the new oil. Discovery and understanding in psychological and brain science depend on the ability to process large amounts of “good data” to extract meaningful insights. The PESTILLI LAB capitalizes on the recent opportunities for large-scale data analysis, data science and machine learning. The lab uses advanced data-driven methods to find unexplored associations between brain biomarkers and behavior, and to advance scientific theory and understanding.
+    It has been said that data are the new oil, emphasizing the value of data in driving discovery and understanding in psychological and brain science. At the PESTILLI LAB, we harness the potential of large-scale data analysis, data science, and machine learning to process vast amounts of high-quality data, extracting meaningful insights. Our lab employs advanced data-driven methods to uncover previously unexplored associations between brain biomarkers and behavior, ultimately contributing to the advancement of scientific theory and understanding.
   image: img/ml.svg
 
 open:
@@ -29,24 +28,16 @@ open:
   partial: t-text_image
   subtitle: Innovation and Technology for Better, Faster, Stronger Science
   content: |
-    We promote the application of cloud technology to support psychological and brain science science.
-    Cloud technology can help scientists address bigger scientific questions and reduce mistakes.
-    Cloud services allow error-less data analysis and management.
-    The PESTILLI LAB has developed and operates brainlife.io, an open-source, free-to-use cloud computing platform that supports thousands of students and researchers with reproducible neuroimaging data processing.
+    We advocate for the use of cloud technology to advance psychological and brain science. Cloud technology can enable scientists to tackle more significant scientific challenges and minimize errors. By facilitating error-free data analysis and management, cloud services can play a crucial role in ensuring the accuracy and reliability of scientific research. The PESTILLI LAB has developed and operates brainlife.io, an open-source, free-to-use cloud computing platform that supports thousands of students and researchers in conducting reproducible neuroimaging data processing.
   image: img/cloud.svg
 
 wm:
   enable: true
   title: Visual White Matter and Brain Networks
   partial: t-image_text
-  subtitle: Understanding vision to advance cure and improve quality of life
+  subtitle: Understanding vision is key to advancing cures and enhancing the quality of life.
   content: |
-    Vision is the primary human sense.
-    Visual function requires coordinating the activity of multiple systems, from the eyes to the brain.
-    Visual signals travel across long-range myelinated axonal pathways that form a network of neurons and brain areas.
-    As of today, we understand much about the function of individual neurons and brain areas but less about communication between brain areas.
-    The PESTILLI LAB works on understanding how neurons and brain areas connect and form networks and how these networks support human behavior.
-    The laboratory research combines multiple neuroimaging measurements to study how networks and the biological tissue support human vision during development and across the lifespan.
+    Vision is the primary human sense, relying on the intricate coordination of multiple systems, from the eyes to the brain. Visual signals traverse long-range myelinated axonal pathways, forming a complex network of neurons and brain areas. While much is known about the function of individual neurons and brain areas, our understanding of the communication between these areas remains limited. The PESTILLI LAB focuses on uncovering how neurons and brain areas connect to form networks that support human behavior. Our research combines multiple neuroimaging measurements to study how these networks and the underlying biological tissue sustain human vision during development and across the lifespan.
   image: img/network.svg
 
 grants:
@@ -80,7 +71,7 @@ grants:
   - grantor: The National Institute of Health
     startDate: 2023-10-01
     investigators: 
-    - Sarah Heilbronner, Franco Pestilli
+    - Kamil Ugurbil, Sarah Heilbronner, Franco Pestilli, Damien Fair, Christoph Lenglet, Karla Miller, and others
     title: |
       Center for Mesoscale Connectomics: A multimodal, cross-species approach
   
