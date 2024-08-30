@@ -56,7 +56,7 @@ vision:
   partial: t-image_text
   subtitle: "It takes the world to understand the brain."
   content: '
-    The PESTILLI LAB is dedicated to advancing psychological and brain science through the democratization of scientific research, methods, data, and infrastructure. Our mission is to contribute to societal well-being by accelerating neuroscientific discovery and education through the application of data science and the development of innovative technologies.
+    The PESTILLI LAB is committed to advancing the fields of psychological and brain science by democratizing access to research, methods, data, and infrastructure. Our mission is to enhance societal well-being by expediting neuroscientific discovery and education through the integration of data science and the development of cutting-edge technologies.
   '
   image: "img/science.svg"
   size: 6
@@ -65,17 +65,17 @@ humanities:
   enable: true
   title: "Humans, Science and Technology"
   partial: t-text_image
-  subtitle: "Democratizing neuroscience understanding and education via technology."
+  subtitle: "Empowering neuroscience education and understanding through innovative technology."
   content: '
-  We focus on developing standards and technologies for the management and processing of brain and health data. By simplifying how data is stored, processed, analyzed, and shared, we aim to enhance scientific understanding and education.
+     Our work centers on developing standards and technologies for the efficient management and processing of brain and health data. By streamlining the storage, processing, analysis, and sharing of data, we strive to advance scientific understanding and education.
   '
   image: "img/democratic.svg"
   size: 6
 
 map:
   enable: true
-  title: Network of collaborators
-  subtitle: We collaborate with scientists and developers across the globe.
+  title: Our Global Network of Collaborators
+  subtitle: We collaborate with scientists and developers across the globe to advance our shared mission.
   data: "data/map.toml"
   primaryColor: '#005981'
   secondaryColor: '#CCCCCC'
