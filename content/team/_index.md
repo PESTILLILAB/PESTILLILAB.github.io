@@ -118,9 +118,12 @@ collaborators:
       twitter: https://twitter.com/aina_puce
       github: https://github.com/ainapuce
 
-    - name: Anastasia Yendiki
-      image: /img/people/anastasia_yendiki.jpg
-      position: Associate Professor in Radiology, Harvard Medical School; Associate Investigator, Massachusetts General Hospital
+    - name: Sarah Heilbronner
+      image: /img/people/sarah-heilbronner.png
+      position: Assistant professor University of Minnesota
+      description: Together we are working on understanding the connectivity of the Parietal cortex.
+      scholar: https://scholar.google.com/citations?user=xNLcH5MAAAAJ
+      twitter: https://twitter.com/SRHeilbronner
 
     - name: Alexander Huth
       image: /img/people/alexander_huth.jpg
@@ -138,10 +141,6 @@ collaborators:
       image: /img/people/dan_stanzione.jpg
       position: Associate Vice President for Research Executive Director, TACC
 
-    - name: Sarah Heilbronner
-      image: /img/people/sarah_heilbronner.png
-      position: Associate Professor, Neurosurgery, Baylor College of Medicine
-
     - name: Chris Rorden
       image: /img/people/chris_rorden.jpg
       position: Professor and Endowed Chair of Neuroscience, Department of Psychology, University of South Carolina
@@ -149,7 +148,7 @@ collaborators:
     - name: Russell Poldrack
       image: /img/people/russell_poldrack.jpg
       position: Professor of Psychology, Department of Psychology, School of Humanities and Sciences, Stanford University
-
+      
     - name: Daniel J. McDonald
       image: /img/people/daniel-mcdonald.png
       position: Associate Professor, Department of Statistics, The University of British Columbia
@@ -171,13 +170,6 @@ collaborators:
       description: Together we are trying to understand brain concussion using brainlife.io.
       scholar: https://scholar.google.com/citations?user=zKUEyiUAAAAJ
 
-    - name: Sarah Heilbronner
-      image: /img/people/sarah-heilbronner.png
-      position: Assistant professor University of Minnesota
-      description: Together we are working on understanding the connectivity of the Parietal cortex.
-      scholar: https://scholar.google.com/citations?user=xNLcH5MAAAAJ
-      twitter: https://twitter.com/SRHeilbronner
-
     - name: Wei Tang
       image: /img/people/wei-tang.png
       position: Assistant Scientist, Department of Computer Science, Indiana University
@@ -185,6 +177,10 @@ collaborators:
       scholar: https://scholar.google.com/citations?user=pRhR63sAAAAJ
       twitter: https://twitter.com/anpopo
       github: https://github.com/tangwei
+   
+    - name: Anastasia Yendiki
+      image: /img/people/anastasia_yendiki.jpg
+      position: Associate Professor in Radiology, Harvard Medical School; Associate Investigator, Massachusetts General Hospital
 
     - name: Yaroslav Halchenko
       image: /img/people/yaroslav-halchenko.png
@@ -194,7 +190,7 @@ collaborators:
       twitter: https://twitter.com/yarikoptic
       github: https://github.com/yarikoptic
 
-    - name: Paolo Avesavi
+    - name: Paolo Avesani
       image: /img/people/paolo-avesavi.png
       position: Director of the Neuroinformatics Laboratory) at the Fondazione Bruno Kessler and Centro Interdipartimental Mente e Cervello of the University of Trento (ITALY).
       github: https://github.com/Paolopost
