@@ -25,7 +25,7 @@
           {{ end }}
           <span>{{ .publicationDate | dateFormat "Jan 2006" }}</span>
           {{ if .doi }}
-            <a href="https://doi.org/{{ .doi }}" class="badge bg-primary">{{ .doi }}</a>
+            <a href="https://{{ .doi }}" class="badge bg-primary">{{ .doi }}</a>
           {{ end }}
         </p>
       </div>
