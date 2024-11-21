@@ -251,6 +251,12 @@ alumni:
       github: https://github.com/bacaron
       scholar: https://scholar.google.com/citations?user=fU9K6GgAAAAJ
 
+    - name: Om Pandey
+      startDate: 08/01/2022
+      image: /img/people/om_pandey.jpg
+      position: Masters Student
+      description: After graduating with his Masters in Computer Science from UT, Om began working as a Machine Learning Engineer at the Depository Trust & Clearing Corporation(DTCC).
+
     - name: Cat Leal
       startDate: 08/01/2023
       position: Undergraduate Research Assistant (2023 Behavioral Data Science Intern)
