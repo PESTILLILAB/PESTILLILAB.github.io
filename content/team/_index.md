@@ -253,7 +253,7 @@ alumni:
 
     - name: Om Pandey
       startDate: 08/01/2022
-      image: /img/people/om_pandey.jpg
+      image: /img/people/Om_Pandey.jpg
       position: Masters Student
       description: After graduating with his Masters in Computer Science from UT, Om began working as a Machine Learning Engineer at the Depository Trust & Clearing Corporation(DTCC).
 
