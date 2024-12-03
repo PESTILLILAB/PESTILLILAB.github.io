@@ -80,6 +80,11 @@ team:
       # description: Dheeraj began as an undergraduate research assistant in 2020 and joined full-time as a software engineer in 2023.
       image: /img/people/dheeraj-bhatia.png
       github: https://github.com/bhatiadheeraj
+
+    - name: Taylor Grafft
+      position: Software Engineer   
+      image: 
+      github: https://github.com/tjgrafft
  
     - name: Nicholas Lee
       position: Software Engineer (https://brainlife.io)
