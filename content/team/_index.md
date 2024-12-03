@@ -39,6 +39,7 @@ team:
     - name: Steven G. Hershman 
       position: Associate Professor of Practice (Informatics, Data Science, Data Standards and Sharing)
       image: /img/people/steve_hershmann.jpg
+      scholar: https://scholar.google.com/citations?user=Qt6OuAkAAAAJ&hl=en
 
     - name: Melanie Collier
       position: Lab Manager (Behavioral and Cognitive Neuroscience)
