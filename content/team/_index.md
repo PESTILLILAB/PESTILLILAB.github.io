@@ -41,7 +41,7 @@ team:
       image: /img/people/steve_hershmann.jpg
 
     - name: Melanie Collier
-      position: Lab Manager
+      position: Lab Manager (Behavioral and Cognitive Neuroscience)
       image: /img/people/melanie_collier.jpg
       github: https://github.com/Mcollie127
       scholar: https://scholar.google.com/citations?user=IomAkw8AAAAJ&hl=en
@@ -54,7 +54,7 @@ team:
     - name: Gabriele Amorosino
       position: Postdoctoral Researcher (NeuroAI, Neuroimaging pipelines)
       image: /img/people/gabriele_amorosino.png
-      scholar: https://scholar.google.com/citations?user=Qt6OuAkAAAAJ&hl=en
+      scholar: https://scholar.google.com/citations?user=bFy_GTIAAAAJ&hl=en
 
     - name: Anibal S. Heinsfeld
       position: Ph.D. Student (Computer Science, Informatics, NeuroAI)
