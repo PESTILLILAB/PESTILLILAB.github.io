@@ -85,7 +85,7 @@ team:
 
     - name: Taylor Grafft
       position: Software Engineer   
-      image: /img/people/taylor-grafft.jpeg
+      image: static/img/taylor-grafft.jpeg
       github: https://github.com/tjgrafft
  
     - name: Nicholas Lee
