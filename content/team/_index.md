@@ -54,7 +54,7 @@ team:
 
     - name: Gabriele Amorosino
       position: Postdoctoral Researcher (NeuroAI, Neuroimaging pipelines)
-      image: /img/people/gabriele-amorosino.png
+      image: /img/people/gabriele_amorosino.png
       github: https://github.com/gamorosino
       scholar: https://scholar.google.com/citations?user=bFy_GTIAAAAJ&hl=en
 
