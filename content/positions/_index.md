@@ -13,9 +13,9 @@ project_manager:
     enable: true
     partial: single_text
     title: Project Manager Position
-    subtitle: We are seeking a highly motivated project manager to join the Pestilli Lab on a 5 year NIH funded project. 
+    subtitle: Join our Team 
     content: |
-         Interested candidates should apply: <a href='https://utaustin.wd1.myworkdayjobs.com/UTstaff/job/UT-MAIN-CAMPUS/Social-Sciences---Humanities-Research-Associate-IV--Pestili-Lab_R_00036841'>Here</a>.
+         We are seeking a highly motivated project manager to join the Pestilli Lab on a 5 year NIH funded project. Interested candidates should apply: <a href='https://utaustin.wd1.myworkdayjobs.com/UTstaff/job/UT-MAIN-CAMPUS/Social-Sciences---Humanities-Research-Associate-IV--Pestili-Lab_R_00036841'>Here</a>.
          
 phd_student:
     enable: true
