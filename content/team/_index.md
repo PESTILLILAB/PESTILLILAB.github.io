@@ -270,6 +270,12 @@ alumni:
       description: After graduating from the lab Cat started a Master's in Data Science at The University of Texas at Austin.
       image: /img/people/cat-leal.jpg
 
+    - name: Kunjal Shah
+      startDate: 08/01/2022
+      position: Masters Research Assistant
+      description: After graduating from the lab, Kunjal started a job as an engineer at NVIDIA.
+      image: /img/people/kunjal_shah.jpg
+
     - name: Julia Guiomar (Guio) Niso Galán
       startDate: 06/01/2023
       position: CRCNS Research Scientist (MEG, EEG, Neuroinformatics)
