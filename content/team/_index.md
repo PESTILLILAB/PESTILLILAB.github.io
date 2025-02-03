@@ -60,7 +60,7 @@ team:
 
     - name: Anibal S. Heinsfeld
       position: Ph.D. Student (Computer Science, Informatics, NeuroAI)
-      image: https://github.com/anibalsolon.png
+      image: /img/people/anibal-solon.png
       twitter: https://twitter.com/anibalsolon
       github: https://github.com/anibalsolon
       scholar: https://scholar.google.com/citations?user=gQdfws4AAAAJ
