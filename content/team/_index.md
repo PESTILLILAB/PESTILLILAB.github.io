@@ -9,7 +9,7 @@ sections:
 - engagement
 - collaborators
 - alumni
- 
+
 pi:
   partial: team/pi
   name: Franco Pestilli
@@ -28,7 +28,7 @@ team:
   title: Team
   description: The following are the exceptional students, postdocs, staff members, and faculty colleagues whose dedication and expertise make our science possible.
   people:
-  
+
     - name: Kimberly Ray
       position: Research Assistant Professor (Data Standards and Sharing, NeuroImaging, Metanalysis)
       image: /img/people/KimRay.png
@@ -36,7 +36,7 @@ team:
       github: https://github.com/kimberlylray
       scholar: https://scholar.google.com/citations?user=Qt6OuAkAAAAJ&hl=en
 
-    - name: Steven G. Hershman 
+    - name: Steven G. Hershman
       position: Associate Professor of Practice (Informatics, Data Science, Data Standards and Sharing)
       image: /img/people/steve_hershmann.jpg
       scholar: https://scholar.google.com/citations?user=Qt6OuAkAAAAJ&hl=en
@@ -46,11 +46,6 @@ team:
       image: /img/people/melanie_collier.jpg
       github: https://github.com/Mcollie127
       scholar: https://scholar.google.com/citations?user=IomAkw8AAAAJ&hl=en
-
-    - name: Ashley Stewart
-      position: Postdoctoral Researcher (NeuroImaging, Neuroinformatics)
-      image: /img/people/ashley_stewart.jpg
-      scholar: https://scholar.google.com/citations?user=AbPtesgAAAAJ&hl=en&oi=sra
 
     - name: Gabriele Amorosino
       position: Postdoctoral Researcher (NeuroAI, Neuroimaging pipelines)
@@ -64,39 +59,28 @@ team:
       twitter: https://twitter.com/anibalsolon
       github: https://github.com/anibalsolon
       scholar: https://scholar.google.com/citations?user=gQdfws4AAAAJ
-    
+
     - name: Junbeom Kwon
       position: Graduate Student (Psychology, Neuroimaging, NeuroAI)
       image: /img/people/junbeom_kim.jpg
       twitter: https://twitter.com/xxxx
       github: https://github.com/xxxx
-    
+
     - name: Sihang (Suna) Guo
       position: Ph.D. Student (Neuroscience, Machine Learning, Cognitive Neuroscience)
       image: /img/people/suna-guo.png
       github: https://github.com/SunaGuo
       scholar: https://scholar.google.com/citations?user=f572K_4AAAAJ
 
-    - name: Dheeraj Bhatia
-      position: Software Engineer (https://brainlife.io)
-      # description: Dheeraj began as an undergraduate research assistant in 2020 and joined full-time as a software engineer in 2023.
-      image: /img/people/dheeraj-bhatia.png
-      github: https://github.com/bhatiadheeraj
-
     - name: Taylor Grafft
-      position: Software Engineer   
+      position: Software Engineer
       image: /img/people/taylor-grafft.jpeg
       github: https://github.com/tjgrafft
- 
+
     - name: Nicholas Lee
-      position: Software Engineer (https://brainlife.io)
+      position: Software Engineer
       image: /img/people/nick_lee.jpeg
       github: https://github.com/nicoalee
-
-    - name: Daniela Reyes
-      position: Undergraduate Research Assistant (2024 Behavioral Data Science Intern)
-      image: /img/people/daniella_reyes.jpg
-      github: https://github.com/yreyes03
 
     - name: Alisha Flexwala
       position: Undergraduate Research Assistant (Literature Review, Deep Learning Models)
@@ -110,13 +94,13 @@ team:
     - name: Sohmee Kim
       position: Undergraduate Research Assistant (Meta-Analysis, Tractography, 2024 Women In Neuroscience Fellow)
       image: /img/people/sohmee-kim.jpg
-      
+
 collaborators:
   partial: team/team
   title: Collaborators
   description:
   people:
-  
+
     - name: Aina Puce
       image: /img/people/aina-puce.png
       position: Eleanor Cox Riggs Professor, Psychological and Brain Sciences at Indiana University
@@ -171,11 +155,11 @@ collaborators:
     - name: Chris Rorden
       image: /img/people/chris_rorden.jpg
       position: Professor and Endowed Chair of Neuroscience, Department of Psychology, University of South Carolina
-      
+
     - name: Russell Poldrack
       image: /img/people/russell_poldrack.jpg
       position: Professor of Psychology, Department of Psychology, School of Humanities and Sciences, Stanford University
-      
+
     - name: Daniel J. McDonald
       image: /img/people/daniel-mcdonald.png
       position: Associate Professor, Department of Statistics, The University of British Columbia
@@ -183,7 +167,7 @@ collaborators:
       scholar: https://scholar.google.com/citations?user=qRmkt6wAAAAJ
       twitter: https://twitter.com/dajmcdon
       github: https://github.com/dajmcdonen
-      
+
     - name: Nathalie George
       image: /img/people/nathalie-george.png
       position: Laboratory Director Paris Brain Institute
@@ -204,7 +188,7 @@ collaborators:
       scholar: https://scholar.google.com/citations?user=pRhR63sAAAAJ
       twitter: https://twitter.com/anpopo
       github: https://github.com/tangwei
-   
+
     - name: Anastasia Yendiki
       image: /img/people/anastasia_yendiki.jpg
       position: Associate Professor in Radiology, Harvard Medical School; Associate Investigator, Massachusetts General Hospital
@@ -221,12 +205,31 @@ collaborators:
       image: /img/people/paolo-avesavi.png
       position: Director of the Neuroinformatics Laboratory) at the Fondazione Bruno Kessler and Centro Interdipartimental Mente e Cervello of the University of Trento (ITALY).
       github: https://github.com/Paolopost
-      
+
 alumni:
   partial: team/team
   title: Alumni
   description:
   people:
+
+    - name: Ashley Stewart
+      startDate: 01/10/2024
+      position: Postdoctoral Researcher (NeuroImaging, Neuroinformatics)
+      image: /img/people/ashley_stewart.jpg
+      scholar: https://scholar.google.com/citations?user=AbPtesgAAAAJ&hl=en&oi=sra
+
+    - name: Dheeraj Bhatia
+      startDate: 01/01/2024
+      position: Software Engineer (https://brainlife.io)
+      # description: Dheeraj began as an undergraduate research assistant in 2020 and joined full-time as a software engineer in 2023.
+      image: /img/people/dheeraj-bhatia.png
+      github: https://github.com/bhatiadheeraj
+
+    - name: Daniela Reyes
+      startDate: 01/06/2024
+      position: Undergraduate Research Assistant (2024 Behavioral Data Science Intern)
+      image: /img/people/daniella_reyes.jpg
+      github: https://github.com/yreyes03
 
     - name: Daniel Levitas
       startDate: 08/01/2024
@@ -248,7 +251,7 @@ alumni:
       description: After leaving the lab Annie took on a position as Global Regulatory Writer.
       github: https://github.com/a1mackenzie
       scholar: https://scholar.google.com//citations?user=Un9KZyQAAAAJ&hl=en
-      
+
     - name: Bradley Caron
       startDate: 02/01/2024
       position: Postdoctoral Fellow
@@ -294,7 +297,7 @@ alumni:
       linkedin: https://www.linkedin.com/in/soichihayashi/
       resume: https://docs.google.com/document/d/17fKDYHgBalLlfEvJQfdrYhar5Er-d9D1ItTDSnG-lPs
       github: https://github.com/soichih
-      
+
     - name: Sophia Vinci-Booher
       startDate: 08/01/2022
       position: NSF SBE Postdoctoral Researcher
@@ -303,7 +306,7 @@ alumni:
       twitter: https://twitter.com/svincibo
       github: https://github.com/svincibo
       scholar: https://scholar.google.com/citations?user=xNYnb6wAAAAJ
-  
+
     - name: Sandra Hanekamp
       startDate: 06/01/2022
       position: Postdoctoral Fellow
@@ -361,9 +364,9 @@ alumni:
       position: Giulia was a Postdoctoral Fellow (Machine Learning and Sports Concussion)
       image: /img/people/giulia-berto.png
       twitter: https://twitter.com/GiuliaBert1
-      github: https://twitter.com/GiuliaBert1 
+      github: https://twitter.com/GiuliaBert1
       scholar: https://scholar.google.com/citations?user=T2CydDUAAAAJ&oi=ao
-    
+
     - name: Ricardo Fabrega
       startDate: 04/06/2019
       position: Undergraduate research assistant
@@ -372,7 +375,7 @@ alumni:
       twitter: https://twitter.com/Fabregari
       github: https://github.com/ricardofebrega
       scholar: https://scholar.google.com/citations?user=IFIa8vgAAAAJ
-      
+
     - name: Yiming Qian
       startDate: 05/30/2018
       position: Undergraduate research assistant.
