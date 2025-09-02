@@ -31,14 +31,14 @@ team:
 
     - name: Kimberly Ray
       position: Research Assistant Professor (Data Standards and Sharing, NeuroImaging, Metanalysis)
-      image: /img/people/KimRay.png
+      image: /img/people/kim_ray_new.jpg
       twitter: https://twitter.com/TheKimRay
       github: https://github.com/kimberlylray
       scholar: https://scholar.google.com/citations?user=Qt6OuAkAAAAJ&hl=en
 
     - name: Melanie Collier
       position: Lab Manager (Behavioral and Cognitive Neuroscience)
-      image: /img/people/melanie_collier.jpg
+      image: /img/people/melanie_collier_new.jpg
       github: https://github.com/Mcollie127
       scholar: https://scholar.google.com/citations?user=IomAkw8AAAAJ&hl=en
 
