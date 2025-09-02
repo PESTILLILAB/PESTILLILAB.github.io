@@ -36,11 +36,6 @@ team:
       github: https://github.com/kimberlylray
       scholar: https://scholar.google.com/citations?user=Qt6OuAkAAAAJ&hl=en
 
-    - name: Steven G. Hershman
-      position: Associate Professor of Practice (Informatics, Data Science, Data Standards and Sharing)
-      image: /img/people/steve_hershmann.jpg
-      scholar: https://scholar.google.com/citations?user=Qt6OuAkAAAAJ&hl=en
-
     - name: Melanie Collier
       position: Lab Manager (Behavioral and Cognitive Neuroscience)
       image: /img/people/melanie_collier.jpg
@@ -66,11 +61,23 @@ team:
       twitter: https://twitter.com/xxxx
       github: https://github.com/xxxx
 
-    - name: Sihang (Suna) Guo
-      position: Ph.D. Student (Neuroscience, Machine Learning, Cognitive Neuroscience)
-      image: /img/people/suna-guo.png
-      github: https://github.com/SunaGuo
-      scholar: https://scholar.google.com/citations?user=f572K_4AAAAJ
+    - name: Stephen Kiilu
+      position: Psychology Student (Psychology, Statistics, Computer Science)
+      image: /img/people/stephen_kiilu.jpg
+      linkedin: https://www.linkedin.com/in/stephen-kiilu-401000118/
+      github: https://github.com/stephenkiilu
+
+    - name: Marietjie Botes
+      position: Postdoctoral Scholar (Legal Expert, Data governance)
+      image: /img/people/marietjie-botes.jpg
+      linkedin: https://www.linkedin.com/in/dr-marietjie-botes-71151b55/
+      scholar: https://scholar.google.com/citations?user=lcmAEMYAAAAJ&hl=en
+
+    - name: Blaire Porter
+      position: NSF SBE Postdoctoral Fellow (Developmental Cognitive Neuroscience)
+      image: /img/people/blaire_porter.jpg
+      linkedin: https://www.linkedin.com/in/blairemorganporter/
+      scholar: https://scholar.google.com/citations?user=LJ8zOQIAAAAJ&hl=en  
 
     - name: Taylor Grafft
       position: Software Engineer
@@ -86,20 +93,16 @@ team:
       position: Undergraduate Research Assistant (Literature Review, Deep Learning Models)
       image: /img/people/alisha-flexwala.jpg
 
-    - name: Sangmin (Alden) Yi
-      position: Graduate Research Assistant (Computational Neuroscience, fMRI Data Analysis)
-      image: /img/people/sangmin-yi.jpeg
-      github: https://github.com/aldensyi
-
-    - name: Sohmee Kim
-      position: Undergraduate Research Assistant (Meta-Analysis, Tractography, 2024 Women In Neuroscience Fellow)
-      image: /img/people/sohmee-kim.jpg
-
 collaborators:
   partial: team/team
   title: Collaborators
   description:
   people:
+
+    - name: Steven G. Hershman
+      position: Associate Professor of Practice (Informatics, Data Science, Data Standards and Sharing)
+      image: /img/people/steve_hershmann.jpg
+      scholar: https://scholar.google.com/citations?user=Qt6OuAkAAAAJ&hl=en
 
     - name: Aina Puce
       image: /img/people/aina-puce.png
@@ -211,6 +214,21 @@ alumni:
   title: Alumni
   description:
   people:
+
+    - name: Sihang (Suna) Guo
+      position: Ph.D. Student (Neuroscience, Machine Learning, Cognitive Neuroscience)
+      image: /img/people/suna-guo.png
+      github: https://github.com/SunaGuo
+      scholar: https://scholar.google.com/citations?user=f572K_4AAAAJ
+
+    - name: Sangmin (Alden) Yi
+      position: Graduate Research Assistant (Computational Neuroscience, fMRI Data Analysis)
+      image: /img/people/sangmin-yi.jpeg
+      github: https://github.com/aldensyi
+
+    - name: Sohmee Kim
+      position: Undergraduate Research Assistant (Meta-Analysis, Tractography, 2024 Women In Neuroscience Fellow)
+      image: /img/people/sohmee-kim.jpg
 
     - name: Ashley Stewart
       startDate: 01/10/2024
