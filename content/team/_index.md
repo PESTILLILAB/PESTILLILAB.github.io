@@ -46,7 +46,7 @@ team:
       position: Postdoctoral Researcher (NeuroAI, Neuroimaging pipelines)
       image: /img/people/gabriele-amorosino.png
       github: https://github.com/gamorosino
-      scholar: https://scholar.google.com/citations?user=bFy_GTIAAAAJ&hl=en
+      scholar: https://scholar.google.com/citations?user=oRFlrk0AAAAJ&hl=en&oi=ao
 
     - name: Anibal S. Heinsfeld
       position: Ph.D. Student (Computer Science, Informatics, NeuroAI)
