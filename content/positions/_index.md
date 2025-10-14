@@ -9,18 +9,18 @@ sections:
 - phd_student
 - post_doc
 
-project_manager:
+research_assistant:
     enable: true
     partial: single_text
-    title: Project Manager Position
+    title: Research Assistant
     subtitle: Join our Team 
     content: |
-         We are seeking a highly motivated project manager to join the Pestilli Lab on a 5 year NIH funded project. Interested candidates should apply: <a href='https://utaustin.wd1.myworkdayjobs.com/UTstaff/job/UT-MAIN-CAMPUS/Social-Sciences---Humanities-Research-Associate-IV--Pestili-Lab_R_00036841'>Here</a>.
+         There are several ways to join the Pestilli lab as an RA. Unpaid RA's may first join lab meetings to learn more about ongoing projects and match with a mentor after finding a project of interest. In addition, there are several avenues to become an RA with limited funding. The following are several programs to explore for research funding opportunities: <a href='[https://utaustin.wd1.myworkdayjobs.com/UTstaff/job/UT-MAIN-CAMPUS/Social-Sciences---Humanities-Research-Associate-IV--Pestili-Lab_R_00036841](https://liberalarts.utexas.edu/research/student-research-in-cola/undergraduate-research/undergraduate-research-apprenticeship-program.html)'>Here</a>.
          
 phd_student:
     enable: true
     partial: single_text
-    title: PhD Student Position - Fall 2025 Intake
+    title: PhD Student Position - Fall 2026 Intake
     subtitle: Join our dedicated team as a PhD student and embark on a journey of exploration, innovation, and groundbreaking research.
     content: |
          Interested candidates should send their CV and cover letter to Dr. Pestilli (pestilli@utexas.edu) and Melanie Collier (mcollie@utexas.edu)
