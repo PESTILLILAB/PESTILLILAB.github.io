@@ -5,7 +5,7 @@ title: Positions
 description: "At Pestilli Lab, we are committed to pushing the boundaries of Neuroscience. Our team is a dynamic blend of seasoned experts and enthusiastic young talents, all united by our passion for discovery. We believe in fostering an inclusive, collaborative environment where every idea is valued"
 
 sections:
-- project_manager
+- research_assistant
 - phd_student
 - post_doc
 
