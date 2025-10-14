@@ -15,7 +15,7 @@ research_assistant:
     title: Research Assistant
     subtitle: Join our Team 
     content: |
-         There are several ways to join the Pestilli lab as an RA. Unpaid RA's may first join lab meetings to learn more about ongoing projects and match with a mentor after finding a project of interest. In addition, there are several avenues to become an RA with limited funding. The following are several programs to explore for research funding opportunities: <a href='[https://utaustin.wd1.myworkdayjobs.com/UTstaff/job/UT-MAIN-CAMPUS/Social-Sciences---Humanities-Research-Associate-IV--Pestili-Lab_R_00036841](https://liberalarts.utexas.edu/research/student-research-in-cola/undergraduate-research/undergraduate-research-apprenticeship-program.html)'>Here</a>.
+         There are several ways to join the Pestilli lab as an RA. Unpaid RA's may first join lab meetings to learn more about ongoing projects and match with a mentor after finding a project of interest. For more information on lab meetings, please contact the lab manager. In addition, there are several avenues to become an RA with limited funding. The following are several programs to explore for research funding opportunities: <a href='[https://utaustin.wd1.myworkdayjobs.com/UTstaff/job/UT-MAIN-CAMPUS/Social-Sciences---Humanities-Research-Associate-IV--Pestili-Lab_R_00036841](https://liberalarts.utexas.edu/research/student-research-in-cola/undergraduate-research/undergraduate-research-apprenticeship-program.html)'>Here</a>.
          
 phd_student:
     enable: true
