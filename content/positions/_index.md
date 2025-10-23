@@ -7,7 +7,7 @@ description: "At Pestilli Lab, we are committed to pushing the boundaries of Neu
 sections:
 - research_assistant
 - phd_student
-- post_doc
+- infrastructure_software_engineer
 
 research_assistant:
     enable: true
@@ -25,13 +25,12 @@ phd_student:
     content: |
          Interested candidates should send their CV and cover letter to Dr. Pestilli (pestilli@utexas.edu) and Melanie Collier (mcollie@utexas.edu)
 
-post_doc:
+infrastructure_software_engineer:
     enable: true
     partial: single_text
-    title: Post Doc
-    subtitle: Join Our Innovative Project at UT Austin!
+    title: Infrastructure Software Engineer
+    subtitle: Join Our Engineering Team!
     content: |
-        We’re seeking an enthusiastic postdoc or data scientist with expertise in neuroimaging or computer science to join the Pestilli Lab on a Wellcome Trust-funded project. The role involves developing an International Data Governance Framework (IDGF) for brain & health data and leading related scientific publications <a href='https://bridge.incf.org/'>Learn more</a>.
+        We’re seeking an enthusiastic software engineer with expertise in database management systems and cloud platforms to join the Pestilli Lab. The role involves implementing scalable and efficient database solutions to handle large volumes of neuroscience data. <a href='https://utaustin.wd1.myworkdayjobs.com/UTstaff/job/UT-MAIN-CAMPUS/Infrastructure-Software-Engineer--Pestilli-Lab_R_00035131'>Learn more</a>.
 
-        To apply, please send an email to  Dr. Pestilli (pestilli@utexas.edu) and Melanie Collier (mcollie@utexas.edu), using the subject line "International Data Governance Framework (IDGF)". Include a cover letter expressing your interest in the project, your CV, and a research statement.
 ---
