@@ -15,7 +15,7 @@ research_assistant:
     title: Research Assistant
     subtitle: Join our Team 
     content: |
-         There are several ways to join the Pestilli lab as an RA. Unpaid RA's may first join lab meetings to learn more about ongoing projects and match with a mentor after finding a project of interest. For more information on lab meetings, please contact the lab manager. In addition, there are several avenues to become an RA with limited funding. The following are several programs to explore for research funding opportunities: <a href='https://liberalarts.utexas.edu/research/student-research-in-cola/undergraduate-research/undergraduate-research-apprenticeship-program.html'>UT Research Apprenticeships</a> <a href='https://neurowomen.org/our-program/#:~:text=WiN's%20mission%20is%20to%20empower,innovation%20and%20improved%20health%20outcomes.'>Women in Neuroscience</a>.
+         There are several ways to join the Pestilli lab as an RA. Unpaid RA's may first join lab meetings to learn more about ongoing projects and match with a mentor after finding a project of interest. For more information on lab meetings, please contact the lab manager. In addition, there are several avenues to become an RA with limited funding. The following are several programs to explore for research funding opportunities: <a href='https://liberalarts.utexas.edu/research/student-research-in-cola/undergraduate-research/undergraduate-research-apprenticeship-program.html'>UT Research Apprenticeships</a> and <a href='https://neurowomen.org/our-program/#:~:text=WiN's%20mission%20is%20to%20empower,innovation%20and%20improved%20health%20outcomes.'>Women in Neuroscience</a>.
          
 phd_student:
     enable: true
