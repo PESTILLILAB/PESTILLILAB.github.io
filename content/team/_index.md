@@ -83,6 +83,7 @@ team:
       position: Software Engineer
       image: /img/people/taylor-grafft.jpeg
       github: https://github.com/tjgrafft
+      linkedin: https://www.linkedin.com/in/taylorgrafft
 
     - name: Nicholas Lee
       position: Software Engineer
