@@ -215,6 +215,16 @@ alumni:
   description:
   people:
 
+    - name: Anna Bostoganashvili
+      position: 2025 Women in Neuroscience Fellow (Intern at Icahn School of Medicine at Mt Sinai, Undergraduate in Neuroscience at Centre College)
+      image: /img/people/anna_bostoganashvili.jpeg
+      linkedin: https://www.linkedin.com/in/anna-bostoganashvili/
+
+    - name: Karen Herrera
+      position: 2025 Women in Neuroscience Intern (Undergraduate in Neuroscience at Vanderbilt University)
+      image: /img/people/karen_herrera.jpeg
+      linkedin: https://www.linkedin.com/in/karen-herrera-67a1562a2/
+
     - name: Sihang (Suna) Guo
       position: Ph.D. Student (Neuroscience, Machine Learning, Cognitive Neuroscience)
       image: /img/people/suna-guo.png

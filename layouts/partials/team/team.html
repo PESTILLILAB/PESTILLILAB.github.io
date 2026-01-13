@@ -51,11 +51,12 @@
         </h4>
         <p>{{ $person.position }}</p>
         <p>{{ $person.description }}</p>
-        {{ if or ($person.scholar) ($person.github) ($person.twitter) }}
+        {{ if or ($person.scholar) ($person.github) ($person.twitter) ($person.linkedin) }}
         <p>
           {{ if $person.scholar }}<a href="{{ $person.scholar }}"><i class="ai ai-google-scholar-square"></i></a>&nbsp;{{ end }}
           {{ if $person.github }}<a href="{{ $person.github }}"><span class="fab fa-github-square"></span></a>&nbsp;{{ end }}
           {{ if $person.twitter }}<a href="{{ $person.twitter }}"><span class="fab fa-twitter"></span></a>&nbsp;{{ end }}
+          {{ if $person.linkedin }}<a href="{{ $person.linkedin }}"><span class="fab fa-linkedin"></span></a>&nbsp;{{ end }}
         </p>
         {{ end }}
       </div>
