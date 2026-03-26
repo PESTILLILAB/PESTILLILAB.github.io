@@ -94,6 +94,19 @@ team:
       position: Undergraduate Research Assistant (Literature Review, Deep Learning Models)
       image: /img/people/alisha-flexwala.jpg
 
+    - name: Tiffany Hong
+      position: Data Scientist
+      image: /img/people/tiffany_hong.jpg
+      github: https://github.com/orange-hour
+      linkedin: https://www.linkedin.com/in/tiffanysukwonhong 
+
+    - name: Sydney Fulton
+      position: Undergraduate Research Assistant (Neuroimaging Pipelines)
+      image: /img/people/sydney_fulton.png
+      github: https://github.com/sydneyfulton
+      linkedin: https://www.linkedin.com/in/sydney-fulton/
+
+
 collaborators:
   partial: team/team
   title: Collaborators
