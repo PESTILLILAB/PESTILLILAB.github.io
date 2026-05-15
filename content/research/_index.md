@@ -126,6 +126,15 @@ grants:
     title: |
       A community-driven development of the brain imaging data standard (BIDS) to describe macroscopic brain connections
 
+  - grantor: The National Institutes of Health (Special Program for the BRAIN Initiative)
+    url: https://reporter.nih.gov/project-details/11033905#details
+    startDate: 2025-01-21
+    endDate: 2029-12-31
+    investigators: 
+    - Franco Pestilli, Anastasia Yendiki
+    title: |
+      BRAIN CONNECTS: The Axonal Projectome EXchange (APEX)
+
   - grantor: The National Science Foundation (Special Program for Big Data)
     url: https://reporter.nih.gov/search/AdIqTfzGO0G5VCC_CQXdsw/project-details/10428625
     startDate: 2021-10-01
@@ -153,7 +162,7 @@ grants:
     title: |
       CRCNS: US-France Data Sharing Proposal: Lowering the barrier of entry to network neuroscience
 
-  - grantor: The National Scienece Foundation (Special SBE Postdoctoral Fellowship)
+  - grantor: The National Science Foundation (Special SBE Postdoctoral Fellowship)
     url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2004877&HistoricalAwards=false
     startDate: 2020-09-01
     endDate: 2022-08-31
