@@ -21,7 +21,7 @@ phd_student:
     enable: true
     partial: single_text
     title: PhD Student Position - Fall 2027 Intake
-    subtitle: JWe are not currently accepting new PhD students for Fall 2027.
+    subtitle: We are not currently accepting new PhD students for Fall 2027.
     content: |
          Interested future candidates should send their CV and cover letter to Dr. Pestilli (pestilli@utexas.edu) and Melanie Collier (mcollie@utexas.edu)
 
