@@ -63,6 +63,7 @@ grants:
   - grantor: The Wellcome Trust
     url: https://liberalarts.utexas.edu/psychology/news/wellcome-trust-awards-funding-to-develop-international-governance-framework-for-neuroscience-data-sharing
     startDate: 2023-07-01
+    endDate: 2027-04-14
     investigators: 
     - Franco Pestilli, Damian Eke, Ricardo Chavarriaga, Thomas Nichols, Fernanda Tovar Moll, Amadi Ihunwo
     title: |
@@ -77,6 +78,7 @@ grants:
   
   - grantor: The National Institute of Mental Health BRAIN Initiative 
     startDate: 2023-10-01
+    endDate: 2026-07-01
     investigators: 
     - Chris Rorden, Franco Pestilli
     title: |
@@ -85,6 +87,7 @@ grants:
   - grantor: The Kavli Foundation
     url: https://kavlifoundation.org/news/connecting-neuroscience
     startDate: 2022-03-01
+    endDate: 2024-03-01
     investigators: 
     - Franco Pestilli
     title: |
