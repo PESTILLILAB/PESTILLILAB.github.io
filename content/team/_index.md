@@ -38,7 +38,7 @@ team:
 
     - name: Melanie Collier
       position: Lab Manager (Behavioral and Cognitive Neuroscience)
-      image: /img/people/melanie_collier_new.jpg
+      image: /img/people/melanie_collier_new_new.jpeg
       github: https://github.com/Mcollie127
       scholar: https://scholar.google.com/citations?user=IomAkw8AAAAJ&hl=en
 
@@ -90,10 +90,6 @@ team:
       image: /img/people/nick_lee.jpeg
       github: https://github.com/nicoalee
 
-    - name: Alisha Flexwala
-      position: Undergraduate Research Assistant (Literature Review, Deep Learning Models)
-      image: /img/people/alisha-flexwala.jpg
-
     - name: Tiffany Hong
       position: Data Scientist
       image: /img/people/tiffany_hong.jpg
@@ -112,11 +108,6 @@ collaborators:
   title: Collaborators
   description:
   people:
-
-    - name: Steven G. Hershman
-      position: Associate Professor of Practice (Informatics, Data Science, Data Standards and Sharing)
-      image: /img/people/steve_hershmann.jpg
-      scholar: https://scholar.google.com/citations?user=Qt6OuAkAAAAJ&hl=en
 
     - name: Aina Puce
       image: /img/people/aina-puce.png
@@ -253,6 +244,10 @@ alumni:
     - name: Sohmee Kim
       position: Undergraduate Research Assistant (Meta-Analysis, Tractography, 2024 Women In Neuroscience Fellow)
       image: /img/people/sohmee-kim.jpg
+
+    - name: Alisha Flexwala
+      position: Undergraduate Research Assistant (Literature Review, Deep Learning Models)
+      image: /img/people/alisha-flexwala.jpg
 
     - name: Ashley Stewart
       startDate: 01/10/2024
