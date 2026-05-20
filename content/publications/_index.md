@@ -228,6 +228,28 @@ publications:
     title: ezBIDS Guided standardization of neuroimaging data interoperable with major data archives and platforms
 
   - authors:
+    - Eberechi Wogu
+    - Patrick Filima
+    - Bradley Caron
+    - Daniel Deabler
+    - Peer Herholz
+    - Catherine Leal
+    - Mohammed F Mehboob
+    - Sohmee Kim
+    - Ananya Gosain
+    - Alisha Flexwala
+    - Soichi Hayashi
+    - Simisola Akintoye
+    - George Ogoh
+    - Tawe Godwin
+    - Damian Eke
+    - Franco Pestilli
+    doi: doi.org/10.1038/s41597-024-02959-0
+    journal: Scientific data
+    publicationDate: 2025-03-27
+    title: A labeled Clinical-MRI dataset of Nigerian brains
+
+  - authors:
     - Giulia Bertò
     - Lauren T Rooks
     - Steven P Broglio
