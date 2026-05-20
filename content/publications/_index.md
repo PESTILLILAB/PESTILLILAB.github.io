@@ -257,7 +257,7 @@ publications:
     - Conner Victory
     - Franco Pestilli
     doi: doi.org/10.3389/fninf.2025.1608900
-    journal: Scientific data
+    journal: Frontiers
     publicationDate: 2025-07-16
     title: Breaking barriers: Broadening neuroscience education via cloud platforms and course-based undergraduate research
 
