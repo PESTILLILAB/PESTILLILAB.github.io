@@ -238,23 +238,24 @@ alumni:
       scholar: https://scholar.google.com/citations?user=f572K_4AAAAJ
 
     - name: Sangmin (Alden) Yi
-      position: Graduate Research Assistant (Computational Neuroscience, fMRI Data Analysis)
+      position: Post-Bachelor Research Assistant (Computational Neuroscience, fMRI Data Analysis)
       image: /img/people/sangmin-yi.jpeg
       description: After leaving the lab, Alden began his PhD at Indiana University Bloomington.
       github: https://github.com/aldensyi
 
     - name: Sohmee Kim
-      position: Undergraduate Research Assistant (Meta-Analysis, Tractography, 2024 Women In Neuroscience Fellow)
+      position: Undergraduate Research Assistant 
       description: After leaving the lab, Sohmee started her Pharm.D at the University of Texas at Austin.
       image: /img/people/sohmee-kim.jpg
 
     - name: Alisha Flexwala
-      position: Undergraduate Research Assistant (Literature Review, Deep Learning Models)
+      position: Undergraduate Research Assistant 
       image: /img/people/alisha-flexwala.jpg
 
     - name: Ashley Stewart
       startDate: 01/10/2024
-      position: Visiting Postdoctoral Researcher (NeuroImaging, Neuroinformatics)
+      position: Visiting Postdoctoral Researcher 
+      description: Ashley visited the lab from The University of Queensland.
       image: /img/people/ashley_stewart.jpg
       scholar: https://scholar.google.com/citations?user=AbPtesgAAAAJ&hl=en&oi=sra
 
@@ -275,7 +276,7 @@ alumni:
       startDate: 08/01/2024
       image: /img/people/dan-levitas.png
       position: Software Developer
-      description: After leaving our team Dan took on a Data Analyst position in North Carolina.
+      description: After leaving our team, Dan took on a Data Analyst position in North Carolina.
       github: https://github.com/dlevitas
 
     - name: Mohammed Mehboob
@@ -286,9 +287,9 @@ alumni:
 
     - name: Annie Mackenzie
       startDate: 03/01/2024
-      position: Project Manager (International Data Governance, Lab Management)
+      position: Lab & Project Manager
       image: /img/people/annie-m-mackenzie.jpg
-      description: After leaving the lab Annie took on a position as Global Regulatory Writer.
+      description: After leaving the lab, Annie took on a position as Global Regulatory Writer.
       github: https://github.com/a1mackenzie
       scholar: https://scholar.google.com//citations?user=Un9KZyQAAAAJ&hl=en
 
@@ -296,7 +297,7 @@ alumni:
       startDate: 02/01/2024
       position: Postdoctoral Fellow
       image: /img/people/bradley-caron.png
-      description: After graduating from the lab Brad took on a position as a Translational Imaging Data Scientist at Novartis (Boston, MA).
+      description: After graduating from the lab, Brad took on a position as a Translational Imaging Data Scientist at Novartis (Boston, MA).
       twitter: https://twitter.com/bacaronIU
       github: https://github.com/bacaron
       scholar: https://scholar.google.com/citations?user=fU9K6GgAAAAJ
@@ -310,7 +311,7 @@ alumni:
     - name: Cat Leal
       startDate: 08/01/2023
       position: Undergraduate Research Assistant (2023 Behavioral Data Science Intern)
-      description: After graduating from the lab Cat started a Master's in Data Science at The University of Texas at Austin.
+      description: After graduating from the lab, Cat started a Masters in Data Science at The University of Texas at Austin.
       image: /img/people/cat-leal.jpg
 
     - name: Kunjal Shah
@@ -321,8 +322,8 @@ alumni:
 
     - name: Julia Guiomar (Guio) Niso Galán
       startDate: 06/01/2023
-      position: CRCNS Research Scientist (MEG, EEG, Neuroinformatics)
-      description: After leaving the lab Guio started his group at Cajal Institute in Madrid.
+      position: CRCNS Research Scientist
+      description: After leaving the lab, Guio started her research group at Cajal Institute in Madrid.
       image: /img/people/guiomar-niso.png
       twitter: https://twitter.com/guiomarniso
       github: https://github.com/guiomar
@@ -332,7 +333,7 @@ alumni:
       startDate: 10/01/2022
       position: Software Engineer
       image: https://en.gravatar.com/userimage/11088201/402ad6c44c48147d0b1c3b164fcf9618.jpg?size=200
-      description: After leaving the lab Soichi took on a position as a Software Developer in a Fintech Company.
+      description: After leaving the lab, Soichi took on a position as a Software Developer in a Fintech Company.
       twitter: https://twitter.com/soichih
       linkedin: https://www.linkedin.com/in/soichihayashi/
       resume: https://docs.google.com/document/d/17fKDYHgBalLlfEvJQfdrYhar5Er-d9D1ItTDSnG-lPs
@@ -384,7 +385,7 @@ alumni:
 
     - name: Josiah Leong
       startDate: 04/30/2020
-      position: Postdoc
+      position: Postdoctoral Fellow
       description: After working in the lab, Josiah started his lab and became Assistant Professor in Psychology at the University of Arkansas.
       image: /img/people/josiah-leong.png
       twitter: https://twitter.com/fullstackneuro
@@ -393,7 +394,7 @@ alumni:
 
     - name: Ilaria Sani
       startDate: 05/20/2020
-      position: Ilaria was a visiting postdoc
+      position: Visiting Postdoc
       description: Ilaria was visiting from the Laboratory of Winrich Freiwald at Rockefeller University. After visiting the lab, Ilaria took an Assitant Professor position at the University of Geneva.
       image: /img/people/ilaria-sani.png
       github: https://github.com/IlariaSani
@@ -401,7 +402,8 @@ alumni:
 
     - name: Giulia Berto
       startDate: 06/01/2020
-      position: Giulia was a Postdoctoral Fellow (Machine Learning and Sports Concussion)
+      position: Postdoctoral Fellow
+      description: After leaving the lab, Guilia took a position as a Data Scientist.
       image: /img/people/giulia-berto.png
       twitter: https://twitter.com/GiuliaBert1
       github: https://twitter.com/GiuliaBert1
@@ -409,7 +411,7 @@ alumni:
 
     - name: Ricardo Fabrega
       startDate: 04/06/2019
-      position: Undergraduate research assistant
+      position: Undergraduate Research Assistant
       description: After leaving the lab, Ricardo won a prestigious Medical Student Scholarship at the F. Edward Hébert School of Medicine of the Uniformed Services University of the Health Sciences in Bethesda, Maryland.
       image: /img/people/ricardo-fabrega.png
       twitter: https://twitter.com/Fabregari
@@ -418,7 +420,7 @@ alumni:
 
     - name: Yiming Qian
       startDate: 05/30/2018
-      position: Undergraduate research assistant.
+      position: Undergraduate Research Assistant
       description: After leaving the lab, Yiming started Graduate School at Penn State University.
       image: /img/people/yiming-qian.png
       github: https://github.com/Qian-Yiming
@@ -426,7 +428,7 @@ alumni:
 
     - name: Lindsey Kitchell
       startDate: 04/06/2018
-      position: Ph.D. student
+      position: Ph.D. Student
       description: After leaving the lab, Lindsey took on a position as Senior Professional Scientist at Johns Hopkins University's Applied Physics Laboratory.
       image: https://github.com/kitchell.png
       twitter: https://twitter.com/lindseykitchell
@@ -435,8 +437,8 @@ alumni:
 
     - name: Shiloh Echevarria-Cooper
       startDate: 04/05/2018
-      position: Undergraduate research assistant
-      description: After leaving the lab, Shiloh started Graduate School at Northwestern University.
+      position: Undergraduate Research Assistant
+      description: After leaving the lab, Shiloh started graduate school at Northwestern University.
       image: /img/people/shiloh-cooper.png
       twitter: https://mobile.twitter.com/shiloh_ec
       github: https://github.com/ricardostuck
@@ -453,7 +455,7 @@ alumni:
 
     - name: Aman Arya
       startDate: 08/20/2017
-      position: Undergraduate research assistant, NSF Summer Intern for brainlife.io
+      position: Undergraduate Research Assistant, NSF Summer Intern for brainlife.io
       description: After leaving the lab, Aman took a job at Amazon.
       image: /img/people/aman-arya.png
       github: https://github.com/aarya22
@@ -461,7 +463,7 @@ alumni:
 
     - name: Steven O’Riley
       startDate: 08/30/2016
-      position: High-school and Undergraduate research assistant
+      position: High-school and Undergraduate Research Assistant
       description: After leaving the lab, Steven took a data science job.
       image: /img/people/steven-oriley.png
       github: https://github.com/stevengeeky
