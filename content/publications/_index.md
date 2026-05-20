@@ -250,6 +250,18 @@ publications:
     title: A labeled Clinical-MRI dataset of Nigerian brains
 
   - authors:
+    - Franco Delogu
+    - Chantol Aspinall
+    - Kimberly Ray
+    - Anibal Solon Heinsfeld
+    - Conner Victory
+    - Franco Pestilli
+    doi: doi: 10.3389/fninf.2025.1608900
+    journal: Scientific data
+    publicationDate: 2025-07-16
+    title: Breaking barriers: Broadening neuroscience education via cloud platforms and course-based undergraduate research
+
+  - authors:
     - Giulia Bertò
     - Lauren T Rooks
     - Steven P Broglio
@@ -289,25 +301,6 @@ publications:
     journal: arXiv preprint arXiv 2401.00077
     publicationDate: 2023-12-29
     title: A Maturity Model for Operations in Neuroscience Research
-
-  - authors:
-    - Eberechi Wogu
-    - Patrick Filima
-    - Bradley Caron
-    - Daniel Levitas
-    - Peer Herholz
-    - Catherine Leal
-    - Mohammed F Mehboob
-    - Soichi Hayashi
-    - Simisola Akintoye
-    - George Ogoh
-    - Tawe Godwin
-    - Damian Eke
-    - Franco Pestilli
-    doi: PMID 37986723
-    journal: Arxiv
-    publicationDate: 2023-11-08
-    title: A labeled Clinical-MRI dataset of Nigerian brains
 
   - authors:
     - Chris Parker
