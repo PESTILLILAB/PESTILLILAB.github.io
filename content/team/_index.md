@@ -234,15 +234,18 @@ alumni:
       position: Ph.D. Student (Neuroscience, Machine Learning, Cognitive Neuroscience)
       image: /img/people/suna-guo.png
       github: https://github.com/SunaGuo
+      description: After leaving the lab, Suna continued her PhD at The University of California, Berkeley.
       scholar: https://scholar.google.com/citations?user=f572K_4AAAAJ
 
     - name: Sangmin (Alden) Yi
       position: Graduate Research Assistant (Computational Neuroscience, fMRI Data Analysis)
       image: /img/people/sangmin-yi.jpeg
+      description: After leaving the lab, Alden began his PhD at Indiana University Bloomington.
       github: https://github.com/aldensyi
 
     - name: Sohmee Kim
       position: Undergraduate Research Assistant (Meta-Analysis, Tractography, 2024 Women In Neuroscience Fellow)
+      description: After leaving the lab, Sohmee started her Pharm.D at the University of Texas at Austin.
       image: /img/people/sohmee-kim.jpg
 
     - name: Alisha Flexwala
@@ -251,7 +254,7 @@ alumni:
 
     - name: Ashley Stewart
       startDate: 01/10/2024
-      position: Postdoctoral Researcher (NeuroImaging, Neuroinformatics)
+      position: Visiting Postdoctoral Researcher (NeuroImaging, Neuroinformatics)
       image: /img/people/ashley_stewart.jpg
       scholar: https://scholar.google.com/citations?user=AbPtesgAAAAJ&hl=en&oi=sra
 
