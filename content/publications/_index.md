@@ -256,7 +256,7 @@ publications:
     - Anibal Solon Heinsfeld
     - Conner Victory
     - Franco Pestilli
-    doi: doi: 10.3389/fninf.2025.1608900
+    doi: doi.org/10.3389/fninf.2025.1608900
     journal: Scientific data
     publicationDate: 2025-07-16
     title: Breaking barriers: Broadening neuroscience education via cloud platforms and course-based undergraduate research
