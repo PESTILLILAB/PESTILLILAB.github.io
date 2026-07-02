@@ -228,6 +228,26 @@ publications:
     title: ezBIDS Guided standardization of neuroimaging data interoperable with major data archives and platforms
 
   - authors:
+    - Kimberly Ray
+    - Marietjie Botes
+    - Melanie Collier
+    - Alden Yi
+    - Steven Hershman
+    - Thais Monteiro
+    - Mariana Genuino
+    - JB Poline
+    - Damian Eke
+    - Ricardo Chavarriaga
+    - Amadi Ihunwo
+    - Fernanda Tovar Moll
+    - Tom Nichols
+    - Franco Pestilli
+    doi: doi.org/10.1038/s41597-024-02959-0
+    journal: Nature Neuroscience
+    publicationDate: 2026-05-28
+    title: Global brain research in the era of national data sovereignty
+
+  - authors:
     - Eberechi Wogu
     - Patrick Filima
     - Bradley Caron
