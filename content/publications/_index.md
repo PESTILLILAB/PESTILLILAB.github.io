@@ -25,6 +25,17 @@ publications:
     title: Ensemble Tractography
 
   - authors:
+    - Xueying Ren
+    - James R. Booth
+    - Gabriele Amorosino
+    - Franco Pestilli
+    - Sophia Vinci-Booher
+    doi: doi.org/10.64898/2026.06.02.729623
+    journal: biorxv
+    publicationDate: 2026-06-15
+    title: Short-Term Developmental Trajectories of Dorsal-Ventral Pathways and Their Relationships with First-Grade Learning
+
+  - authors:
     - Saori C Tanaka
     - Kiyoto Kasai
     - Yasumasa Okamoto
