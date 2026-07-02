@@ -303,6 +303,22 @@ publications:
     title: A Maturity Model for Operations in Neuroscience Research
 
   - authors:
+    - Kimberly Ray
+    - Sohmee Kim
+    - Karen Herrera
+    - Suna Guo
+    - Daniela Reyes
+    - Julio Pereza
+    - Anna Bostoganashvili
+    - Gabriele Amorosino
+    - Angela Laird
+    - Franco Pestilli
+    doi: doi.org/10.64898/2026.05.20.726546
+    journal: bioRxiv
+    publicationDate: 2026-05-21
+    title: Human white matter tracts aligned with canonical functional brain networks
+
+  - authors:
     - Sarah R Heilbronner
     - Clay Reid
     - Tanya Casta
