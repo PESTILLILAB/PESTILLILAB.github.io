@@ -228,6 +228,23 @@ publications:
     title: ezBIDS Guided standardization of neuroimaging data interoperable with major data archives and platforms
 
   - authors:
+    - Gabriele Amorosino
+    - Bradley Caron
+    - Junbeom Kwon
+    - Marisa Carrasco
+    - Clay Reid
+    - Christophe Lenglet
+    - Jan Zimmermann
+    - Essa Yacoub
+    - Kamil Ugurbil
+    - Sarah Heilbronner
+    - Franco Pestilli
+    doi: doi.org/10.64898/2026.04.03.716412
+    journal: biorxiv
+    publicationDate: 2026-05-20
+    title: A retinotopic wiring principle of the human brain
+
+  - authors:
     - Kimberly Ray
     - Marietjie Botes
     - Melanie Collier
