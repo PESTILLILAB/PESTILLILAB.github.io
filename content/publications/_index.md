@@ -307,7 +307,7 @@ publications:
     - Clay Reid
     - Tanya Casta
     - Franco Pestilli
-    doi: 10.1016/j.tins.2025.11.001
+    doi: doi.org/10.1016/j.tins.2025.11.001
     journal: Trends in Neurosciences
     publicationDate: 2026-01-01
     title: Reconstructing the human brain’s wiring diagram from axons up
@@ -335,7 +335,7 @@ publications:
     - Sophia Vinci-Booher
     - Elizabeth Berquist
     - Franco Pestilli
-    doi: doi:https://doi.org/10.1167/jov.22.14.4258
+    doi: doi.org/10.1167/jov.22.14.4258
     journal: Journal of Vision
     publicationDate: 2022-12-05
     title: White matter tracts traveling between cortical regions associated with the dorsal and ventral visual streams predict learning a perceptual-motor task
@@ -469,7 +469,7 @@ publications:
     - Franco Pestilli
     - Todd B. Parrish
     - Thorsten Kahnt
-    doi: 10.1523/JNEUROSCI.1552-21.2021
+    doi: doi.org/10.1523/JNEUROSCI.1552-21.2021
     journal: The Journal of Neuroscience
     publicationDate: 2022-01-05
     title: Mapping the Microstructure and Striae of the Human Olfactory Tract with Diffusion MRI
@@ -479,7 +479,7 @@ publications:
     - Kyriaki Mikellidou
     - Maria Concetta Morrone
     - Franco Pestilli
-    doi: 10.1007/s00429-020-02096-5
+    doi: doi.org/10.1007/s00429-020-02096-5
     journal: Brain Structure and Function
     publicationDate: 2020-07-13
     title: The visual white matter connecting human area prostriata and the thalamus is retinotopically organized
@@ -490,7 +490,7 @@ publications:
     - Ariel Rokem
     - Kendrick N Kay
     - Brian A Wandell
-    doi: 10.1038/nmeth.3098
+    doi: doi.org/10.1038/nmeth.3098
     journal: Nat Meth
     publicationDate: 2014-09-07
     title: Evaluation and statistical inference for human connectomes
@@ -508,7 +508,7 @@ publications:
     - Oliver Ruebel
     - Edda Thiels
     - Franco Pestilli
-    doi: 10.31234/osf.io/esz9b
+    doi: doi.org/10.31234/osf.io/esz9b
     publicationDate: 2021-06-01
     title: International Data Governance for Neuroscience
 
@@ -523,7 +523,7 @@ publications:
     - Tadashi Nakano
     - Yoichiro Masuda
     - Franco Pestilli
-    doi: 10.1007/s00429-018-1702-5
+    doi: doi.org/10.1007/s00429-018-1702-5
     journal: Brain Structure and Function
     publicationDate: 2018-11-27
     title: Age-related macular degeneration affects the optic radiation white matter projecting to locations of retinal damage
