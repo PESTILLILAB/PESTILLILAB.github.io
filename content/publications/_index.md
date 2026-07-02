@@ -303,6 +303,16 @@ publications:
     title: A Maturity Model for Operations in Neuroscience Research
 
   - authors:
+    - Sarah R Heilbronner
+    - Clay Reid
+    - Tanya Casta
+    - Franco Pestilli
+    doi: 10.1016/j.tins.2025.11.001
+    journal: Trends in Neurosciences
+    publicationDate: 2026-01-01
+    title: Reconstructing the human brain’s wiring diagram from axons up
+
+  - authors:
     - Chris Parker
     - Jorge Mejia
     - Franco Pestilli
