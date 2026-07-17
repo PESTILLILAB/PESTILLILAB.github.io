@@ -270,7 +270,6 @@ publications:
     - Fernanda Tovar Moll
     - Tom Nichols
     - Franco Pestilli
-    doi: doi.org/10.1038/s41597-024-02959-0
     journal: Nature Neuroscience
     publicationDate: 2026-05-28
     title: Global brain research in the era of national data sovereignty
