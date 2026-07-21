@@ -29,7 +29,7 @@ team:
   people:
 
     - name: Kimberly Ray
-      position: Research Assistant Professor (Data Standards and Sharing, NeuroImaging, Metanalysis)
+      position: Research Assistant Professor (Data Standards and Sharing, Neuroimaging, Metanalysis)
       image: /img/people/kim_ray_new.jpg
       twitter: https://twitter.com/TheKimRay
       github: https://github.com/kimberlylray
@@ -48,13 +48,13 @@ team:
       scholar: https://scholar.google.com/citations?user=lcmAEMYAAAAJ&hl=en
 
     - name: Blaire Porter
-      position: NSF SBE Postdoctoral Fellow (Developmental Cognitive Neuroscience)
+      position: NSF SBE Postdoctoral Fellow (Global Equity, Developmental Cognitive Neuroscience)
       image: /img/people/blaire_porter.jpg
       linkedin: https://www.linkedin.com/in/blairemorganporter/
       scholar: https://scholar.google.com/citations?user=LJ8zOQIAAAAJ&hl=en  
 
     - name: Anibal S. Heinsfeld
-      position: Computer Science PhD Student (Computer Science, Informatics, NeuroAI)
+      position: Computer Science PhD Student (Computer Science, Software Engineering, Agentic AI)
       image: /img/people/anibal-solon.png
       twitter: https://twitter.com/anibalsolon
       github: https://github.com/anibalsolon
@@ -66,7 +66,7 @@ team:
       github: https://github.com/Junebeomstics
 
     - name: Stephen Kiilu
-      position: Psychology PhD Student (Psychology, Aging and Dementia, Computer Science)
+      position: Psychology PhD Student (Psychology, Aging and Dementia, Agentic AI)
       image: /img/people/stephen_kiilu.jpg
       linkedin: https://www.linkedin.com/in/stephen-kiilu-401000118/
       github: https://github.com/stephenkiilu
@@ -78,18 +78,18 @@ team:
       github: https://github.com/yang2hang
 
     - name: Taylor Grafft
-      position: Software Engineer
+      position: Software Engineer (Data Engineering, Cloud Infrastructure, DevOps)
       image: /img/people/taylor-grafft.jpeg
       github: https://github.com/tjgrafft
       linkedin: https://www.linkedin.com/in/taylorgrafft
 
     - name: Nicholas Lee
-      position: Software Engineer
+      position: Software Engineer (Front End)
       image: /img/people/nick_lee.jpeg
       github: https://github.com/nicoalee
 
     - name: Tiffany Hong
-      position: Data Engineer (Research Assistant)
+      position: Data Engineer (Databases, Agentic AI)
       image: /img/people/tiffany_hong.jpg
       github: https://github.com/orange-hour
       linkedin: https://www.linkedin.com/in/tiffanysukwonhong 
