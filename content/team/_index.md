@@ -54,29 +54,28 @@ team:
       scholar: https://scholar.google.com/citations?user=LJ8zOQIAAAAJ&hl=en  
 
     - name: Anibal S. Heinsfeld
-      position: Ph.D. Student (Computer Science, Informatics, NeuroAI)
+      position: Computer Science PhD Student (Computer Science, Informatics, NeuroAI)
       image: /img/people/anibal-solon.png
       twitter: https://twitter.com/anibalsolon
       github: https://github.com/anibalsolon
       scholar: https://scholar.google.com/citations?user=gQdfws4AAAAJ
 
     - name: Junbeom Kwon
-      position: Graduate Student (Psychology, Neuroimaging, NeuroAI)
+      position: Psychology PhD Student (Psychology, Neuroimaging, NeuroAI)
       image: /img/people/junbeom_kim.jpg
-      twitter: https://twitter.com/xxxx
-      github: https://github.com/xxxx
+      github: https://github.com/Junebeomstics
 
     - name: Stephen Kiilu
-      position: Psychology Student (Psychology, Statistics, Computer Science)
+      position: Psychology PhD Student (Psychology, Aging and Dementia, Computer Science)
       image: /img/people/stephen_kiilu.jpg
       linkedin: https://www.linkedin.com/in/stephen-kiilu-401000118/
       github: https://github.com/stephenkiilu
       
-    - name: Yang Zhang Fulton
-      position: Neuroscience PhD Student (Neuroimaging Pipelines and Netowkr Neuroscience)
-      image: /img/people/yang-zhang.png
-      github: https://github.com/yangzhang
-      linkedin: https://www.linkedin.com/in/yang-zhang/
+    - name: Yang Zhang
+      position: Neuroscience PhD Student (Neuroimaging Pipelines, Aging and Dementia, Network Neuroscience)
+      image: /img/people/yang_zhang.png
+      linkedin: https://www.linkedin.com/in/yang-zhang-4761482b0/
+      github: https://github.com/yang2hang
 
     - name: Taylor Grafft
       position: Software Engineer
@@ -90,7 +89,7 @@ team:
       github: https://github.com/nicoalee
 
     - name: Tiffany Hong
-      position: Data Scientist
+      position: Data Engineer (Research Assistant)
       image: /img/people/tiffany_hong.jpg
       github: https://github.com/orange-hour
       linkedin: https://www.linkedin.com/in/tiffanysukwonhong 
