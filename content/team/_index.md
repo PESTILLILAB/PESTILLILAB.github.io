@@ -13,15 +13,24 @@ sections:
 pi:
   partial: team/pi
   name: Franco Pestilli
-  position: Associate Professor, Department of Psychology, The University of Texas at Austin
+  position: Professor, Department of Psychology, The University of Texas at Austin
   image: /img/people/franco-pestilli.png
-  twitter: https://twitter.com/furranko
   linkedin: https://www.linkedin.com/in/francopestilli/
-  resume: https://minio.la.utexas.edu/colaweb-prod/person_files/0/9023/Pestilli_CV_WEB_2021_08_25.pdf
+  resume: https://minio.la.utexas.edu/colaweb-prod/person_files/0/9023/Pestilli_CV_20260620.pdf
   github: https://github.com/francopestilli
   scholar: https://scholar.google.com/citations?user=gh_KorwAAAAJ
   bio: |
-     **Professor of Psychology and Neuroscience (by courtesy) at the University of Texas at Austin.**  Franco holds a Ph.D. from New York University and a B.A. from the University of Rome La Sapienza. He completed postdoctoral training at Columbia University and Stanford University and earned tenure at Indiana University, Bloomington. His research spans multiple disciplines, including Psychology, Computer Science, Software Engineering, and Neuroscience. Franco is an affiliated member of the [Center For Perceptual Systems](https://liberalarts.utexas.edu/cps/), [Center for Learning and Memory](https://clm.utexas.edu/) and serves on the Executive Board of the [Center for Theoretical and Computational Neuroscience](https://ctcn.utexas.edu/). Franco is [Fellow of the Association for Psychological Science](https://member.psychologicalscience.org/directories/fellows) and [Psychonomics Society](https://www.psychonomic.org/page/2017springnewfellows) and Editorial Board Member of the Springer:Nature Journals [Scientific Data](https://www.nature.com/sdata/), and [Scientific Reports](https://www.nature.com/srep/). His accolades include the [Microsoft Investigator Fellowship](https://www.microsoft.com/en-us/research/academic-program/microsoft-investigator-fellowship/fellowship-recipients/), [gifts from the Kavli Foundation](https://kavlifoundation.org/news/connecting-neuroscience) and the [APS Janet Taylor Spence Award for Transformative Early Career Contributions](https://www.psychologicalscience.org/members/awards-and-honors/spence-recipients/pestilli). Franco is the Founder and Director of [brainlife.io](https://brainlife.io/), a public platform for data management, standardization, and analysis. He also leads several international projects, including the Brain Research International Data Governance & Exchange (BRIDGE; [braindatagovernance.org](braindatagovernance.org)), which focuses on advancing data governance and sharing across countries. The [Advanced Computational Neuroscience Network](https://neurosciencenetwork.org/) promotes transdisciplinary training in Neuroscience, Psychology, Engineering, and Computer Science, while the Brain Imaging Data Structure ([BIDS](https://bids.neuroimaging.io/)) [Connectivity Project](https://pestillilab.github.io/bids-connectivity) is developing standards for brain connectivity studies. He has also led the development of ([ezBIDS](https://brainlife.io/ezbids), a significant tool for brain imaging data standardization, impacting multiple universities and currently being used by centers at the U.S. National Institutes of Health. Franco serves as Chair of the Infrastructure Committee of the [International Neuroinformatics Coordinating Facility](https://incf.org) and is the past Chair of the [International Brain Initiative](https://internationalbraininitiative.org/) Data Standards and Sharing Working Group. At The University of Texas, he teaches Data Science and Cognitive Neuroscience and has developed a Study Abroad Program in Cognitive Neuroscience in Geneva, Switzerland. In addition to teaching at UT Austin, Franco has lectured across the United States, including in Alabama, Ohio, Indiana, Michigan, Minnesota, New York, Illinois, New Jersey, and California, as well as internationally in Japan, Korea, Italy, France, the U.K., Nigeria, South Africa, the Netherlands, Canada, and Switzerland.
+     **Professor of Psychology and Neuroscience (by courtesy) at the University of Texas at Austin.**  Prof. Pestilli's research integrates neuroscience, artificial intelligence, data science and software engineering to investigate how the brain’s structural connections support perception, cognition, learning and development. His laboratory develops computational methods and digital infrastructure for mapping the human brain, analyzing large-scale neuroimaging data and accelerating scientific discovery Prof. Pestilli is an affiliated member of the [Center For Perceptual Systems](https://liberalarts.utexas.edu/cps/), and [Center for Learning and Memory](https://clm.utexas.edu/).
+
+Pestilli is the founder and director of [brainlife.io](https://brainlife.io), a cloud platform that connects neuroscience data, computational tools and analysis pipelines within a unified research environment. His group develops technologies for neuroimaging standardization, tractography, distributed computing and scientific automation, including ezBIDS, dicompare and emerging AI systems that connect datasets, models, software and research infrastructures.
+
+This work now supports major national brain-mapping programs. Pestilli is Principal Investigator of the Axonal Projectome Exchange (APEX), the data coordination centre for the US National Institutes of Health BRAIN CONNECTS program ([brain-connects.org](https://brain-connects.org)). APEX integrates large-scale imaging, microscopy and connectivity datasets with computational pipelines, data standards and interactive services for mapping the brain across spatial scales. He is Director of Data Informatics for the BRAIN CONNECTS Center for Mesoscale Connectivity, which develops technologies to acquire, integrate and analyse high-resolution multimodal data from human and non-human primate brains.
+
+Pestilli also leads BRIDGE ([braindatagovernance.org](https://braindatagovernance.org), a Wellcome Trust programme developing international frameworks and technology for brain and mental-health data sharing and governance, and has led the [BIDS](https://bids.neuroimaging.io/) [Connectivity Project](https://pestillilab.github.io/bids-connectivity) to extend neuroimaging standards to connectivity data and computational workflows. He chairs the [International Neuroinformatics Coordinating Facility](https://incf.org) and serves on the Steering Committee of the Brain Imaging Data Structure.
+
+He is [Fellow of the Association for Psychological Science](https://member.psychologicalscience.org/directories/fellows) and [Psychonomics Society](https://www.psychonomic.org/page/2017springnewfellows). His distinctions include the [Microsoft Investigator Fellowship](https://www.microsoft.com/en-us/research/academic-program/microsoft-investigator-fellowship/fellowship-recipients/), [gifts from the Kavli Foundation](https://kavlifoundation.org/news/connecting-neuroscience), and the [APS Janet Taylor Spence Award for Transformative Early Career Contributions](https://www.psychologicalscience.org/members/awards-and-honors/spence-recipients/pestilli). 
+
+Pestilli received his Laurea in Experimental Psychology, summa cum laude, from La Sapienza University of Rome and his PhD in Cognition and Perception from New York University. He completed postdoctoral training at Columbia University and Stanford University before joining Indiana University, where he earned tenure, and subsequently moving to UT Austin. At The University of Texas, he teaches Data Science and Cognitive Neuroscience and has developed a [Study Abroad Program in Cognitive Neuroscience in Geneva, Switzerland](https://utdirect.utexas.edu/apps/abroad/student/pgm_list/detail/nlogon/1763/). 
 
 team:
   partial: team/team
@@ -36,17 +45,23 @@ team:
       github: https://github.com/kimberlylray
       scholar: https://scholar.google.com/citations?user=Qt6OuAkAAAAJ&hl=en
 
-    - name: Melanie Collier
-      position: Lab Manager (Behavioral and Cognitive Neuroscience)
-      image: /img/people/melanie_collier_new_new.jpeg
-      github: https://github.com/Mcollie127
-      scholar: https://scholar.google.com/citations?user=IomAkw8AAAAJ&hl=en
-
     - name: Gabriele Amorosino
       position: Postdoctoral Researcher (NeuroAI, Neuroimaging pipelines)
       image: /img/people/gabriele-amorosino.png
       github: https://github.com/gamorosino
       scholar: https://scholar.google.com/citations?user=oRFlrk0AAAAJ&hl=en&oi=ao
+      
+    - name: Marietjie Botes
+      position: Postdoctoral Scholar (Legal Expert, Data governance)
+      image: /img/people/marietjie-botes.jpg
+      linkedin: https://www.linkedin.com/in/dr-marietjie-botes-71151b55/
+      scholar: https://scholar.google.com/citations?user=lcmAEMYAAAAJ&hl=en
+
+    - name: Blaire Porter
+      position: NSF SBE Postdoctoral Fellow (Developmental Cognitive Neuroscience)
+      image: /img/people/blaire_porter.jpg
+      linkedin: https://www.linkedin.com/in/blairemorganporter/
+      scholar: https://scholar.google.com/citations?user=LJ8zOQIAAAAJ&hl=en  
 
     - name: Anibal S. Heinsfeld
       position: Ph.D. Student (Computer Science, Informatics, NeuroAI)
@@ -66,18 +81,12 @@ team:
       image: /img/people/stephen_kiilu.jpg
       linkedin: https://www.linkedin.com/in/stephen-kiilu-401000118/
       github: https://github.com/stephenkiilu
-
-    - name: Marietjie Botes
-      position: Postdoctoral Scholar (Legal Expert, Data governance)
-      image: /img/people/marietjie-botes.jpg
-      linkedin: https://www.linkedin.com/in/dr-marietjie-botes-71151b55/
-      scholar: https://scholar.google.com/citations?user=lcmAEMYAAAAJ&hl=en
-
-    - name: Blaire Porter
-      position: NSF SBE Postdoctoral Fellow (Developmental Cognitive Neuroscience)
-      image: /img/people/blaire_porter.jpg
-      linkedin: https://www.linkedin.com/in/blairemorganporter/
-      scholar: https://scholar.google.com/citations?user=LJ8zOQIAAAAJ&hl=en  
+      
+    - name: Yang Zhang Fulton
+      position: Neuroscience PhD Student (Neuroimaging Pipelines and Netowkr Neuroscience)
+      image: /img/people/yang-zhang.png
+      github: https://github.com/yangzhang
+      linkedin: https://www.linkedin.com/in/yang-zhang/
 
     - name: Taylor Grafft
       position: Software Engineer
@@ -96,26 +105,11 @@ team:
       github: https://github.com/orange-hour
       linkedin: https://www.linkedin.com/in/tiffanysukwonhong 
 
-    - name: Sydney Fulton
-      position: Undergraduate Research Assistant (Neuroimaging Pipelines)
-      image: /img/people/sydney_fulton.png
-      github: https://github.com/sydneyfulton
-      linkedin: https://www.linkedin.com/in/sydney-fulton/
-
-
 collaborators:
   partial: team/team
   title: Collaborators
   description:
   people:
-
-    - name: Aina Puce
-      image: /img/people/aina-puce.png
-      position: Eleanor Cox Riggs Professor, Psychological and Brain Sciences at Indiana University
-      description: Together we are integrating MEG and EEG data processing streams on brainlife.io.
-      scholar: https://scholar.google.com/citations?user=F5KjJe0AAAAJ
-      twitter: https://twitter.com/aina_puce
-      github: https://github.com/ainapuce
 
     - name: Sarah Heilbronner
       image: /img/people/sarah-heilbronner.png
@@ -176,26 +170,11 @@ collaborators:
       twitter: https://twitter.com/dajmcdon
       github: https://github.com/dajmcdonen
 
-    - name: Nathalie George
-      image: /img/people/nathalie-george.png
-      position: Laboratory Director Paris Brain Institute
-      description: Together we are developing tools to lower entry barriers to processing electrophysiological data using brainlife.io.
-      scholar: https://scholar.google.com/citations?user=x5NORzMAAAAJ
-      twitter: https://twitter.com/nathgeorgeng
-
     - name: Nicholas Port
       image: /img/people/nicholas-port.png
       position: Associate Professor of Vision Science and Neuroscience at Indiana University
       description: Together we are trying to understand brain concussion using brainlife.io.
       scholar: https://scholar.google.com/citations?user=zKUEyiUAAAAJ
-
-    - name: Wei Tang
-      image: /img/people/wei-tang.png
-      position: Assistant Scientist, Department of Computer Science, Indiana University
-      description: Together we are developing approaches to tract the connectivity of the Parietal cortex using brainlife.io
-      scholar: https://scholar.google.com/citations?user=pRhR63sAAAAJ
-      twitter: https://twitter.com/anpopo
-      github: https://github.com/tangwei
 
     - name: Anastasia Yendiki
       image: /img/people/anastasia_yendiki.jpg
@@ -209,25 +188,34 @@ collaborators:
       twitter: https://twitter.com/yarikoptic
       github: https://github.com/yarikoptic
 
-    - name: Paolo Avesani
-      image: /img/people/paolo-avesavi.png
-      position: Director of the Neuroinformatics Laboratory) at the Fondazione Bruno Kessler and Centro Interdipartimental Mente e Cervello of the University of Trento (ITALY).
-      github: https://github.com/Paolopost
-
 alumni:
   partial: team/team
   title: Alumni
   description:
   people:
 
+    - name: Melanie Collier
+      position: Lab Manager (Behavioral and Cognitive Neuroscience)
+      image: /img/people/melanie_collier_new_new.jpeg
+      description: After leaving the lab, melanie started a Ph.D. in Cognitive Neuroscience at the Universtiy of California, Los Angeles.
+      scholar: https://scholar.google.com/citations?user=IomAkw8AAAAJ&hl=en
+
+    - name: Sydney Fulton
+      position: Undergraduate Research Assistant (Neuroimaging Pipelines)
+      image: /img/people/sydney_fulton.png
+      description: After leaving the lab, Sydney took a research assitant position at Texas A&M University.
+      linkedin: https://www.linkedin.com/in/sydney-fulton/
+      
     - name: Anna Bostoganashvili
       position: 2025 Women in Neuroscience Fellow (Intern at Icahn School of Medicine at Mt Sinai, Undergraduate in Neuroscience at Centre College)
       image: /img/people/anna_bostoganashvili.jpeg
+      description: After leaving the lab, Anna took a research assitant position in New York.
       linkedin: https://www.linkedin.com/in/anna-bostoganashvili/
 
     - name: Karen Herrera
       position: 2025 Women in Neuroscience Intern (Undergraduate in Neuroscience at Vanderbilt University)
       image: /img/people/karen_herrera.jpeg
+      description: After leaving the lab, Karen took a research position.
       linkedin: https://www.linkedin.com/in/karen-herrera-67a1562a2/
 
     - name: Sihang (Suna) Guo
