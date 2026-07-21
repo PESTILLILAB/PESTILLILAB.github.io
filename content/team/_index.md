@@ -73,7 +73,7 @@ team:
       
     - name: Yang Zhang
       position: Neuroscience PhD Student (Neuroimaging Pipelines, Aging and Dementia, Network Neuroscience)
-      image: /img/people/yang_zhang.png
+      image: /img/people/Yang_Zhang.png
       linkedin: https://www.linkedin.com/in/yang-zhang-4761482b0/
       github: https://github.com/yang2hang
 
