@@ -71,7 +71,9 @@ pts = [pt for p in parts for pt in prism(P0, p.rect, p.z, p.z + p.t)["poly"]]
 minx, maxx = min(p[0] for p in pts), max(p[0] for p in pts)
 miny, maxy = min(p[1] for p in pts), max(p[1] for p in pts)
 lead_w, label_w = 44, 470
-left = math.floor((1000 - (maxx - minx + lead_w + label_w)) / 2 / 4) * 4
+total_w = maxx - minx + lead_w + label_w
+vw = max(1000, math.ceil((total_w + 48) / 4) * 4)   # widen the viewBox if the labels need it
+left = math.floor((vw - total_w) / 2 / 4) * 4
 ox, oy = round((left - minx) / 4) * 4, round((40 - miny) / 4) * 4
 P = Proj(ox, oy)
 vh = math.ceil((oy + maxy + 32) / 4) * 4
@@ -209,13 +211,13 @@ for i, p in enumerate(parts):
     step = n - i  # top lifts first
     body.append(f'<g class="hs-part" data-part="{p.key}" data-step="{step}" style="--lift:{f(lift)}px">' + "".join(out) + label(p, pr["anchor"], focal) + "</g>")
 
-svg = (f'<svg class="hero-stack" viewBox="0 0 1000 {vh}" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="hs-title hs-desc">'
+svg = (f'<svg class="hero-stack" viewBox="0 0 {vw} {vh}" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="hs-title hs-desc">'
        f'<title id="hs-title">The lab\'s research stack</title>'
        f'<desc id="hs-desc">Five layers pulled apart: brain connectivity at the base, then data standards, responsible cloud technology, AI agents and models, and brain white matter on top.</desc>'
        + "\n".join(body) + "</svg>")
 
 (OUT / "img" / "hero-stack.svg").write_text(svg.replace('class="hero-stack" ', ''))
-print("viewBox height", vh, "gap", gap, "steps", n)
+print("viewBox", vw, "x", vh, "gap", gap, "steps", n)
 
 # ---- write the include used by _layouts/home.html
 inc = OUT.parent / "_includes" / "hero-stack.svg"
