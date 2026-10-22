@@ -44,5 +44,5 @@ One program asks how axonal connections and white matter support perception and 
 
 The other program builds the technology this work needs: cloud computing, data standards, provenance, AI agents, and governance for sharing brain data internationally. The tools make the experiments possible, and the experiments show us what the tools need to do next.
 
-*White matter is not static infrastructure. Its architecture before experience predicts what can be learned, and the changes it undergoes during learning reveal what has been consolidated.*
+*The wiring of the brain is not fixed. How it is organized before learning predicts what can be learned, and how it changes during learning shows what has been retained.*
 {: .muted}
