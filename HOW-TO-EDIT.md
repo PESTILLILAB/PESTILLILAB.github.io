@@ -1,5 +1,15 @@
 # How to edit this website
 
+## House rules for the text (for people and for AI assistants)
+
+* Write "we", not "I".
+* Plain, direct prose in the voice of our papers: full sentences that state a finding and what follows from it.
+  No slogans, no one-line fragments for effect, no marketing phrasing.
+* Do not cite specific papers anywhere except the Publications page (which is generated from PubMed).
+* Do not name specific tools, platforms, or projects on a page unless that page is about them
+  (Projects, Code & Data, News). Elsewhere, describe the topic, the question, or the concept.
+* When in doubt, borrow wording from the lab's own research statement or papers rather than inventing new phrasing.
+
 Everything on pestillilab.github.io is a text file in this repository. Edit a file, commit it,
 and GitHub rebuilds the site in about a minute. No software to install; everything below can be
 done in a web browser at github.com/PESTILLILAB/PESTILLILAB.github.io.
