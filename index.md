@@ -13,14 +13,14 @@ programs_eyebrow: Two research programs
 programs_title: How do connections between brain regions shape what we perceive, learn, and retain?
 
 stats:
-  - value: "6,000+"
+  - value: "5,000+"
     label: registered users of the open cloud platform we built and run for neuroimaging
   - value: "100+"
     label: peer-reviewed papers in neuroscience, psychology, computer science, statistics, and law
   - value: "93"
     label: countries whose laws on brain data we have mapped so that data can be shared responsibly
   - value: "µm → cm"
-    label: the range of scales we need to connect to map the brain's wiring
+    label: the range of scales we need to collect to map the brain's wiring
 
 areas_eyebrow: Research areas
 areas_title: What we work on
