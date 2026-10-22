@@ -50,11 +50,11 @@ class Part:
 W, D = 300, 220
 SLAB = Rect(0, 0, W, D, 10)
 parts = [
-    Part("data", "Brain data", "MICROSCOPY · MRI · BEHAVIOR", SLAB, 16, "data"),
-    Part("standards", "Standards &amp; provenance", "FORMATS · METADATA · LINEAGE", SLAB, 12, "standards"),
-    Part("compute", "Open cloud science", "PIPELINES · APPS · REPRODUCIBLE WORKFLOWS", SLAB, 14, "compute"),
-    Part("models", "Models &amp; AI agents", "DEEP LEARNING · AGENTIC SYSTEMS", SLAB, 12, "models"),
-    Part("discovery", "Discovery &amp; governance", "WIRING · LEARNING · GLOBAL DATA SHARING", SLAB, 14, "discovery"),
+    Part("data", "Brain connectivity", "MICROSCOPY · TRACING · MRI", SLAB, 16, "data"),
+    Part("standards", "Data standards", "FORMATS · METADATA · PROVENANCE", SLAB, 12, "standards"),
+    Part("compute", "Responsible cloud technology", "PLATFORMS · APPS · GOVERNANCE", SLAB, 14, "compute"),
+    Part("models", "AI agents &amp; models", "DEEP LEARNING · AGENTS · BENCHMARKS", SLAB, 12, "models"),
+    Part("discovery", "Brain white matter", "PERCEPTION · LEARNING · LIFESPAN", SLAB, 14, "discovery"),
 ]
 FOCUS = "compute"
 
@@ -70,7 +70,7 @@ P0 = Proj(0, 0)
 pts = [pt for p in parts for pt in prism(P0, p.rect, p.z, p.z + p.t)["poly"]]
 minx, maxx = min(p[0] for p in pts), max(p[0] for p in pts)
 miny, maxy = min(p[1] for p in pts), max(p[1] for p in pts)
-lead_w, label_w = 44, 400
+lead_w, label_w = 44, 470
 left = math.floor((1000 - (maxx - minx + lead_w + label_w)) / 2 / 4) * 4
 ox, oy = round((left - minx) / 4) * 4, round((40 - miny) / 4) * 4
 P = Proj(ox, oy)
@@ -211,7 +211,7 @@ for i, p in enumerate(parts):
 
 svg = (f'<svg class="hero-stack" viewBox="0 0 1000 {vh}" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="hs-title hs-desc">'
        f'<title id="hs-title">The lab\'s research stack</title>'
-       f'<desc id="hs-desc">Five layers pulled apart: brain data at the base, then standards and provenance, open cloud science, models and AI agents, and discovery and governance on top.</desc>'
+       f'<desc id="hs-desc">Five layers pulled apart: brain connectivity at the base, then data standards, responsible cloud technology, AI agents and models, and brain white matter on top.</desc>'
        + "\n".join(body) + "</svg>")
 
 (OUT / "img" / "hero-stack.svg").write_text(svg.replace('class="hero-stack" ', ''))
