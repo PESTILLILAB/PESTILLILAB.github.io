@@ -1,0 +1,26 @@
+<svg viewBox="0 0 420 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Two retinotopic maps with matching locations connected by fibres">
+              <rect width="420" height="320" fill="#0b1f2d"/>
+              <g fill="none" stroke="#eef3f6" stroke-opacity=".22">
+                <path d="M110 160 m-70 0 a70 70 0 1 1 140 0 a70 70 0 1 1 -140 0"/>
+                <path d="M110 160 m-45 0 a45 45 0 1 1 90 0 a45 45 0 1 1 -90 0"/>
+                <path d="M110 160 m-20 0 a20 20 0 1 1 40 0 a20 20 0 1 1 -40 0"/>
+                <path d="M40 160h140M110 90v140M60 110l100 100M60 210l100-100"/>
+                <path d="M310 160 m-70 0 a70 70 0 1 1 140 0 a70 70 0 1 1 -140 0"/>
+                <path d="M310 160 m-45 0 a45 45 0 1 1 90 0 a45 45 0 1 1 -90 0"/>
+                <path d="M310 160 m-20 0 a20 20 0 1 1 40 0 a20 20 0 1 1 -40 0"/>
+                <path d="M240 160h140M310 90v140M260 110l100 100M260 210l100-100"/>
+              </g>
+              <g fill="none" stroke-width="2" stroke-linecap="round">
+                <path d="M150 160 C 200 160, 220 160, 270 160" stroke="#f9c926"/>
+                <path d="M110 120 C 180 100, 240 100, 310 120" stroke="#e57536"/>
+                <path d="M110 200 C 180 222, 240 222, 310 200" stroke="#005981"/>
+                <path d="M78 128 C 160 60, 260 60, 278 128" stroke="#a9262c" stroke-opacity=".8"/>
+              </g>
+              <g fill="#f9c926"><circle cx="150" cy="160" r="4"/><circle cx="270" cy="160" r="4"/></g>
+              <g fill="#e57536"><circle cx="110" cy="120" r="4"/><circle cx="310" cy="120" r="4"/></g>
+              <g fill="#005981" stroke="#eef3f6" stroke-width=".8"><circle cx="110" cy="200" r="4"/><circle cx="310" cy="200" r="4"/></g>
+              <g font-family="Geist Mono, monospace" font-size="9" fill="#a9bac6" letter-spacing="2">
+                <text x="86" y="258">AREA V1</text><text x="286" y="258">AREA V2</text>
+                <text x="128" y="296">LIKE-TO-LIKE CONNECTIONS</text>
+              </g>
+            </svg>

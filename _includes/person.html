@@ -1,0 +1,11 @@
+{%- assign p = include.person -%}
+<article class="person">
+  {% if p.image %}<div class="photo"><img loading="lazy" src="{{ p.image | relative_url }}" alt="{{ p.name }}"></div>
+  {% else %}<div class="photo placeholder">{{ p.name | truncate: 1, "" }}</div>{% endif %}
+  <div class="info">
+    <h3>{{ p.name }}</h3>
+    <div class="pos">{{ p.position }}</div>
+    {% if p.description %}<div class="desc">{{ p.description }}</div>{% endif %}
+    <div class="links">{% include links.html person=p %}</div>
+  </div>
+</article>

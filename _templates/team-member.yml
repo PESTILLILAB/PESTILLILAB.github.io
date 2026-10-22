@@ -1,0 +1,8 @@
+# Paste under team:, collaborators: or alumni: in _data/team.yml (keep the two-space indent).
+  - name: First Last
+    position: Role (Topics)
+    image: /assets/img/people/first-last.jpg    # optional; initials shown if omitted
+    description: After leaving the lab, ...     # alumni only
+    github: https://github.com/
+    scholar: https://scholar.google.com/citations?user=
+    linkedin: https://www.linkedin.com/in/

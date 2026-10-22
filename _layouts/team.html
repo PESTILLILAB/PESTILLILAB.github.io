@@ -1,0 +1,76 @@
+---
+layout: default
+---
+    {% assign T = site.data.team %}
+    {% include page-head.html content=content %}
+
+    {% if T.group_photo %}
+    <section class="flush">
+      <div class="wrap"><figure class="group-photo"><img src="{{ T.group_photo.image | relative_url }}" alt="{{ T.group_photo.caption }}"><figcaption>{{ T.group_photo.caption }}</figcaption></figure></div>
+    </section>
+    {% endif %}
+
+    <section id="pi-section">
+      <div class="wrap">
+        <p class="eyebrow">Principal investigator</p>
+        <div class="pi">
+          <div>
+            <img src="{{ T.pi.image | relative_url }}" alt="{{ T.pi.name }}">
+            <div class="links">{% include links.html person=T.pi %}</div>
+          </div>
+          <div class="bio">
+            <h2>{{ T.pi.name }}</h2>
+            <p class="muted">{{ T.pi.position }}</p>
+            {{ T.pi.bio | markdownify }}
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="team-section">
+      <div class="wrap">
+        <div class="section-head"><p class="eyebrow">Team</p><h2>{{ page.team_title | default: "Current members" }}</h2></div>
+        <div class="people compact">{% for p in T.team %}{% include person.html person=p %}{% endfor %}</div>
+      </div>
+    </section>
+
+    <section id="collaborators-section">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Collaborators</p>
+          <h2>{{ page.collaborators_title | default: "A global network" }}</h2>
+          <p class="lede">{{ page.collaborators_lede }}</p>
+        </div>
+        <div class="roster">{% for p in T.collaborators %}{% include roster-entry.html person=p %}{% endfor %}</div>
+      </div>
+    </section>
+
+    {% if page.values %}
+    <section>
+      <div class="wrap">
+        <div class="values">
+          {% for v in page.values %}
+          <div class="value">
+            <h3>{{ v.title }}</h3>
+            <p class="sub">{{ v.sub }}</p>
+            <p>{{ v.text }}</p>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </section>
+    {% endif %}
+
+    <section id="lab-photos">
+      <div class="wrap">
+        <div class="section-head"><p class="eyebrow">Lab life</p><h2>{{ page.photos_title | default: "Around the lab" }}</h2></div>
+        {% include gallery.html folder="lab" alt="Pestilli Lab" placeholder="Photos coming soon." %}
+      </div>
+    </section>
+
+    <section id="alumni-section" class="alumni">
+      <div class="wrap">
+        <div class="section-head"><p class="eyebrow">Alumni</p><h2>{{ page.alumni_title | default: "Where they went next" }}</h2></div>
+        <div class="people compact">{% for p in T.alumni %}{% include person.html person=p %}{% endfor %}</div>
+      </div>
+    </section>

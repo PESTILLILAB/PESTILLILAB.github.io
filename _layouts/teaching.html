@@ -1,0 +1,43 @@
+---
+layout: default
+---
+    {% include page-head.html content=content %}
+    {% if page.features %}
+    <section>
+      <div class="wrap">
+        <div class="grid grid-3">
+          {% for fe in page.features %}
+          <div class="value reveal">
+            <h3>{{ fe.title }}</h3>
+            <p class="sub">{{ fe.sub }}</p>
+            <p>{{ fe.text }}</p>
+            {% if fe.url %}<p><a class="more" href="{{ fe.url | relative_url }}"{% unless fe.url contains "/teaching/" %} target="_blank" rel="noopener"{% endunless %}>{% if fe.url contains "/teaching/" %}Program page →{% else %}Open →{% endif %}</a></p>{% endif %}
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </section>
+    {% endif %}
+    <section>
+      <div class="wrap">
+        <div class="section-head"><p class="eyebrow">Courses</p><h2>What we have taught</h2></div>
+        {% for inst in site.data.teaching %}
+        <div class="res-group">
+          <h2 class="h-small">{{ inst.institution }}</h2>
+          <table class="grants">
+            <thead><tr><th scope="col">Course</th><th scope="col">Level</th><th scope="col">When</th></tr></thead>
+            <tbody>{% for c in inst.courses %}<tr><td>{% if c.url %}<a href="{{ c.url | relative_url }}"{% unless c.url contains "/teaching/" %} target="_blank" rel="noopener"{% endunless %}>{{ c.title }}</a>{% else %}{{ c.title }}{% endif %}</td><td class="src">{{ c.level }}</td><td>{{ c.when }}</td></tr>
+            {% endfor %}</tbody>
+          </table>
+        </div>
+        {% endfor %}
+      </div>
+    </section>
+    {% if page.mentoring %}
+    <section>
+      <div class="wrap">
+        <div class="section-head"><p class="eyebrow">Mentoring</p><h2>{{ page.mentoring.title }}</h2></div>
+        <div class="stats">{% for s in page.mentoring.stats %}<div class="stat"><b>{{ s.value }}</b><span>{{ s.label }}</span></div>{% endfor %}</div>
+      </div>
+    </section>
+    {% endif %}

@@ -1,0 +1,24 @@
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <a class="brand" href="{{ '/' | relative_url }}"><img src="{{ '/assets/img/logo-dark.svg' | relative_url }}" alt="{{ site.title }}"></a>
+        <p class="address">{{ site.address | join: '<br>' }}</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>{% for item in site.nav %}{% if item.url != "/" %}<li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>{% endif %}{% endfor %}</ul>
+      </div>
+      <div>
+        <h4>Code &amp; profiles</h4>
+        <ul>{% for p in site.profiles %}<li><a href="{{ p.url }}" target="_blank" rel="noopener">{{ p.name }}</a></li>{% endfor %}</ul>
+      </div>
+      <div>
+        <h4>Affiliations</h4>
+        <ul>{% for p in site.affiliations %}<li><a href="{{ p.url }}" target="_blank" rel="noopener">{{ p.name }}</a></li>{% endfor %}</ul>
+      </div>
+    </div>
+    <div class="fine"><span>© <span id="year">{{ site.time | date: "%Y" }}</span> {{ site.title }} · The University of Texas at Austin</span><span>{{ site.email }}</span></div>
+  </div>
+</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>

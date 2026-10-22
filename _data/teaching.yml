@@ -1,0 +1,17 @@
+# Courses shown on the Teaching page, grouped by institution. Keep the current institution first.
+- institution: The University of Texas at Austin
+  courses:
+    - { title: Cognitive Neuroscience, level: Undergraduate, when: "Fall, 2024–" }
+    - { title: Cognitive Neuroscience Abroad (Geneva, Switzerland), level: Undergraduate, when: "Maymester, 2025–", url: "/teaching/geneva/" }
+    - { title: Foundations of Behavioral Data Science I, level: Undergraduate, when: "Fall, 2022–2024", url: "https://github.com/psychdatascience/FDS-CourseOne" }
+    - { title: Foundations of Behavioral Data Science II, level: Undergraduate, when: "Spring, 2023–", url: "https://github.com/psychdatascience/FDS-CourseTwo" }
+    - { title: Scientific Rigor and Transparency (T32 program course), level: Graduate, when: "Fall, 2020–2025" }
+    - { title: Digital Neuroanatomy, level: Graduate, when: "Spring 2021" }
+    - { title: Lab in Cognitive and Computational Neuroscience, level: Graduate, when: "Fall, 2020–2021" }
+- institution: Indiana University
+  courses:
+    - { title: Cognitive Psychology, level: Undergraduate, when: "2017–2020" }
+    - { title: Statistics, level: Undergraduate, when: "2015–2016" }
+- institution: Stanford University
+  courses:
+    - { title: Statistics and data science for neuroimaging, level: Graduate, when: "2013–2014" }

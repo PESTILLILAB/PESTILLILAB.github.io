@@ -1,0 +1,18 @@
+---
+layout: default
+---
+    {% include page-head.html content=content %}
+    <section class="tight-top">
+      <div class="wrap">
+        <div class="pub-tools">
+          <label class="sr-only" for="pub-search">Search publications</label>
+          <input id="pub-search" type="search" placeholder="Search title, author, journal…" autocomplete="off">
+          <label class="sr-only" for="pub-year">Filter by year</label>
+          <select id="pub-year"><option value="">All years</option></select>
+          <span class="muted small">Showing <span id="pub-count">…</span></span>
+          <span class="pub-status" id="pub-status"><span class="dot"></span>Loading…</span>
+        </div>
+        <div id="pub-list" aria-live="polite" data-query="{{ site.pubmed_query }}"><p class="muted">Loading publications…</p></div>
+        <noscript><p>This page needs JavaScript to query PubMed. You can view the list directly on <a href="https://pubmed.ncbi.nlm.nih.gov/?term={{ site.pubmed_query | url_encode }}&sort=date">PubMed</a>.</p></noscript>
+      </div>
+    </section>

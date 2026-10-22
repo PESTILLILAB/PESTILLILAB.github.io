@@ -1,0 +1,103 @@
+---
+layout: default
+---
+    <section class="hero">
+      <canvas class="hero-bg" aria-hidden="true"></canvas>
+      <div class="wrap">
+        <div>
+          <p class="eyebrow">{{ page.eyebrow }}</p>
+          <h1>{{ page.headline | markdownify | remove: '<p>' | remove: '</p>' }}</h1>
+          <p class="lede">{{ page.lede }}</p>
+          <div class="actions">
+            {% for b in page.buttons %}<a class="btn{% if forloop.first %} primary{% endif %}" href="{{ b.url | relative_url }}">{{ b.label }}</a>
+            {% endfor %}
+          </div>
+        </div>
+        <figure class="hero-figure">
+          {% include hero-stack.svg %}
+          <figcaption>{{ page.hero_caption }}</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <div class="grid grid-2 two-col">
+          <div class="reveal">
+            <p class="eyebrow">{{ page.programs_eyebrow }}</p>
+            <h2>{{ page.programs_title }}</h2>
+          </div>
+          <div class="reveal">
+{{ content }}
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <div class="stats reveal">
+          {% for s in page.stats %}<div class="stat"><b>{{ s.value }}</b><span>{{ s.label }}</span></div>
+          {% endfor %}
+        </div>
+      </div>
+    </section>
+
+    {% if site.posts.size > 0 %}
+    <section>
+      <div class="wrap">
+        <div class="section-head section-head-row reveal">
+          <div><p class="eyebrow">News</p><h2>Latest</h2></div>
+          <a class="more" href="{{ '/news/' | relative_url }}">All news →</a>
+        </div>
+        <div class="grid grid-3">
+          {% for post in site.posts limit: 3 %}<div class="card reveal">{% include news-item.html post=post excerpt=true %}</div>
+          {% endfor %}
+        </div>
+      </div>
+    </section>
+    {% endif %}
+
+    <section>
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="eyebrow">{{ page.areas_eyebrow }}</p>
+          <h2>{{ page.areas_title }}</h2>
+          <p class="lede">{{ page.areas_lede | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+        </div>
+        <div class="grid grid-3">
+          {% assign areas = site.research | sort: "order" %}
+          {% for a in areas %}
+          <a class="card accent-{{ a.accent | default: 'blue' }} reveal" href="{{ '/research/' | relative_url }}#{{ a.slug }}">
+            <span class="num">{{ a.number }}</span>
+            <h3>{{ a.title }}</h3>
+            <p>{{ a.summary }}</p>
+            <ul class="chips">{% for c in a.chips %}<li>{{ c }}</li>{% endfor %}</ul>
+            <span class="more">Read more →</span>
+          </a>
+          {% endfor %}
+          <a class="card card-cta reveal" href="{{ '/projects/' | relative_url }}">
+            <h3>{{ page.projects_card_title }}</h3>
+            <span class="more">See projects →</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="eyebrow">{{ page.values_eyebrow }}</p>
+          <h2>{{ page.values_title }}</h2>
+        </div>
+        <div class="grid grid-3">
+          {% for v in page.values %}
+          <div class="card reveal">
+            <div class="card-icon">{% include icons/{{ v.icon }}.svg %}</div>
+            <h3>{{ v.title }}</h3>
+            <p>{{ v.text }}</p>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </section>

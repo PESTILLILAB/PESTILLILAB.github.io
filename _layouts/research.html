@@ -1,0 +1,25 @@
+---
+layout: default
+---
+    {% include page-head.html decor=true content=content %}
+
+    <section>
+      <div class="wrap">
+        {% assign areas = site.research | sort: "order" %}
+        {% for a in areas %}
+        <article class="area" id="{{ a.slug }}">
+          <div class="figure reveal">
+            {% if a.figure %}{% include figures/{{ a.figure }}.svg %}{% endif %}
+          </div>
+          <div>
+            <p class="eyebrow">{{ a.number }} · {{ a.eyebrow }}</p>
+            <h2>{{ a.title }}</h2>
+            <p class="lede">{{ a.lede }}</p>
+            <div class="body reveal">
+{{ a.content | markdownify }}
+            </div>
+          </div>
+        </article>
+        {% endfor %}
+      </div>
+    </section>

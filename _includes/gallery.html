@@ -1,0 +1,19 @@
+{%- comment -%}
+Auto gallery: every image in assets/img/<folder>/ is shown, newest file name last (sorted by name,
+so date-prefixed names like 2026-05-geneva-lake.jpg keep order). Optional captions come from
+_data/captions.yml keyed by file name.
+{%- endcomment -%}
+{%- assign dir = "/assets/img/" | append: include.folder | append: "/" -%}
+{%- assign imgs = site.static_files | where_exp: "f", "f.path contains dir" | sort: "path" -%}
+{%- assign shown = 0 -%}
+<div class="gallery">
+{%- for f in imgs -%}
+  {%- assign ext = f.extname | downcase -%}
+  {%- if ext == ".jpg" or ext == ".jpeg" or ext == ".png" or ext == ".webp" -%}
+  {%- assign shown = shown | plus: 1 -%}
+  {%- assign cap = site.data.captions[f.name] -%}
+  <figure><img loading="lazy" src="{{ f.path | relative_url }}" alt="{{ cap | default: include.alt | default: '' }}">{% if cap %}<figcaption>{{ cap }}</figcaption>{% endif %}</figure>
+  {%- endif -%}
+{%- endfor -%}
+</div>
+{%- if shown == 0 and include.placeholder -%}<p class="muted">{{ include.placeholder }}</p>{%- endif -%}

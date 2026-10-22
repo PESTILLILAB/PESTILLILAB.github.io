@@ -1,0 +1,9 @@
+{%- assign p = include.person -%}
+<div class="entry">
+  <div>
+    <h3>{{ p.name }}</h3>
+    <div class="pos">{{ p.position }}</div>
+    {% if p.description %}<div class="desc">{{ p.description }}</div>{% endif %}
+  </div>
+  <div class="links">{% include links.html person=p %}</div>
+</div>

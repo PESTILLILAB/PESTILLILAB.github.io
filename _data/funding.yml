@@ -1,0 +1,57 @@
+# Funding table shown on the Projects page. Roles: PI, Co-PI, Co-I.
+- title: "BRAIN CONNECTS: The Axonal Projectome Exchange (APEX)"
+  source: "NIH NINDS (BRAIN Initiative)"
+  years: "2024–2029"
+  role: PI
+- title: "Developing an international governance framework to advance global brain and mental health data equity and innovation (BRIDGE)"
+  source: "Wellcome Trust"
+  years: "2023–2027"
+  role: PI
+- title: "Center for Mesoscale Connectomics: a multimodal, cross-species approach"
+  source: "NIH BRAIN CONNECTS (UM1)"
+  years: "2023–2028"
+  role: Co-PI
+- title: "Extending ezBIDS, NiiVue and dcm2niix for user-friendly cloud-based integration and visualization"
+  source: "NIH NIMH (BRAIN Initiative)"
+  years: "2023–2026"
+  role: Co-I
+- title: "CRCNS: Dense sampling of brain function and structure to evaluate neural mechanisms of learning in early childhood"
+  source: "National Science Foundation"
+  years: "2023–2026"
+  role: Co-PI
+- title: "Risk factors for the prospective development of alcohol use disorders in young adults with bipolar disorder"
+  source: "NIH NIAAA"
+  years: "2023–2028"
+  role: Co-I
+- title: "A community-driven development of BIDS to describe macroscopic brain connections"
+  source: "NIH NIMH (BRAIN Initiative)"
+  years: "2021–2023"
+  role: PI
+- title: "A pilot study to develop international data governance for neuroscience"
+  source: "The Kavli Foundation"
+  years: "2022–2024"
+  role: PI
+- title: "Advancing science and education via human–AI cooperation on data, analyses, and publications"
+  source: "Microsoft Investigator Fellowship"
+  years: "2020–"
+  role: PI
+- title: "A personalized approach to predicting long-term neuropsychiatric outcomes in TBI"
+  source: "U.S. Department of Defense"
+  years: "2020–2024"
+  role: Co-PI
+- title: "CRCNS US-France: lowering the barrier of entry to network neuroscience via open science"
+  source: "NIH NIBIB"
+  years: "2019–2023"
+  role: Co-PI
+- title: "CRCNS US-German: DataLad — a decentralized system for digital objects of science"
+  source: "National Science Foundation"
+  years: "2019–2023"
+  role: PI
+- title: "NCS-FO: Connectome mapping algorithms with application to community services for big-data neuroscience"
+  source: "NSF (BRAIN Initiative)"
+  years: "2017–2023"
+  role: PI
+- title: "BD Spokes: Advanced Computational Neuroscience Network (ACNN)"
+  source: "NSF (Big Data)"
+  years: "2016–2022"
+  role: PI

@@ -1,0 +1,17 @@
+---
+layout: default
+---
+    <div class="page-head">
+      <div class="wrap">
+        <p class="eyebrow"><a href="{{ '/news/' | relative_url }}">News</a> · {{ page.date | date: "%B %-d, %Y" }}{% if page.type %} · {{ page.type }}{% endif %}</p>
+        <h1>{{ page.title }}</h1>
+      </div>
+    </div>
+    <section>
+      <div class="wrap">
+        <div class="prose">
+{{ content }}
+          {% if page.link %}<p><a class="btn" href="{{ page.link }}" target="_blank" rel="noopener">Read more →</a></p>{% endif %}
+        </div>
+      </div>
+    </section>

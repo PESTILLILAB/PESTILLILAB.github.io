@@ -1,0 +1,6 @@
+{%- assign n = include.post -%}
+<article class="news-item">
+  <div class="news-meta"><time datetime="{{ n.date | date_to_xmlschema }}">{{ n.date | date: "%b %-d, %Y" }}</time>{% if n.type %}<span class="news-type">{{ n.type }}</span>{% endif %}</div>
+  <h3>{% if n.link %}<a href="{{ n.link }}" target="_blank" rel="noopener">{{ n.title }}</a>{% else %}<a href="{{ n.url | relative_url }}">{{ n.title }}</a>{% endif %}</h3>
+  {% if n.excerpt and include.excerpt %}<p>{{ n.excerpt | strip_html | truncate: 220 }}</p>{% endif %}
+</article>

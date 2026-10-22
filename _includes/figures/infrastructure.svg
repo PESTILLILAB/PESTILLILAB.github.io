@@ -1,0 +1,20 @@
+<svg viewBox="0 0 420 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A provenance graph linking data, workflows, models, agent actions and claims">
+              <rect width="420" height="320" fill="#0b1f2d"/>
+              <defs><marker id="ar" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L8 4 0 8z" fill="#a9bac6"/></marker></defs>
+              <g fill="none" stroke="#a9bac6" stroke-width="1.2" marker-end="url(#ar)">
+                <path d="M96 100h40"/><path d="M196 100h40"/><path d="M296 100v32"/><path d="M296 180h-40"/><path d="M196 180h-40"/>
+                <path d="M68 128v24"/><path d="M68 180h30"/>
+              </g>
+              <g font-family="Geist, sans-serif" font-size="11" font-weight="600" fill="#eef3f6" text-anchor="middle">
+                <rect x="36" y="80" width="60" height="40" rx="5" fill="#0f2a3b" stroke="#eef3f6" stroke-opacity=".5"/><text x="66" y="104">data</text>
+                <rect x="136" y="80" width="60" height="40" rx="5" fill="#0f2a3b" stroke="#eef3f6" stroke-opacity=".5"/><text x="166" y="104">workflow</text>
+                <rect x="236" y="80" width="60" height="40" rx="5" fill="#0f2a3b" stroke="#eef3f6" stroke-opacity=".5"/><text x="266" y="104">output</text>
+                <rect x="266" y="140" width="60" height="40" rx="5" fill="#0f2a3b" stroke="#f9c926"/><text x="296" y="164">model</text>
+                <rect x="136" y="160" width="60" height="40" rx="5" fill="#0f2a3b" stroke="#f9c926"/><text x="166" y="184">agent</text>
+                <rect x="38" y="160" width="60" height="40" rx="5" fill="#0f2a3b" stroke="#eef3f6" stroke-opacity=".5"/><text x="68" y="184">review</text>
+              </g>
+              <path d="M30 230 H 390" stroke="#f9c926" stroke-width="1.2" stroke-dasharray="4 4"/>
+              <text x="30" y="250" font-family="Geist Mono, monospace" font-size="9" fill="#f9c926" letter-spacing="2">AGENTIC TRACE · EVERY STEP RECORDED</text>
+              <text x="30" y="282" font-family="Geist, sans-serif" font-size="10.5" fill="#a9bac6">provenance follows knowledge as it changes form:</text>
+              <text x="30" y="298" font-family="Geist, sans-serif" font-size="10.5" fill="#a9bac6">data → results → models → agent actions → claims</text>
+            </svg>

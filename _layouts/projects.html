@@ -1,0 +1,60 @@
+---
+layout: default
+---
+    {% include page-head.html content=content %}
+
+    <section>
+      <div class="wrap">
+        {% assign projects = site.projects | sort: "order" %}
+        {% for p in projects %}
+        <article class="project reveal" id="{{ p.slug }}">
+          <div class="mark">
+            <div class="logo" aria-hidden="true">{% if p.icon %}{% include icons/{{ p.icon }}.svg %}{% else %}{{ p.title | slice: 0, 2 }}{% endif %}</div>
+            {% if p.role %}<span class="role">{{ p.role }}</span>{% endif %}
+            {% if p.website %}<a class="site" href="{{ p.website }}" target="_blank" rel="noopener">{{ p.website | remove: 'https://' | remove: 'http://' | remove: '/' }}</a>{% endif %}
+          </div>
+          <div>
+            <h2>{{ p.title }}</h2>
+            {% if p.meta %}<p class="meta">{{ p.meta | markdownify | remove: '<p>' | remove: '</p>' }}</p>{% endif %}
+{{ p.content | markdownify }}
+          </div>
+        </article>
+        {% endfor %}
+      </div>
+    </section>
+
+    {% if site.data.funding %}
+    <section id="funding">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="eyebrow">Funding</p>
+          <h2>{{ page.funding_title | default: "Active and recent support" }}</h2>
+          <p class="lede">{{ page.funding_lede }}</p>
+        </div>
+        <div class="table-scroll reveal">
+          <table class="grants">
+            <thead><tr><th scope="col">Project</th><th scope="col">Source</th><th scope="col">Years</th><th scope="col">Role</th></tr></thead>
+            <tbody>
+              {% for g in site.data.funding %}<tr><td>{{ g.title }}</td><td class="src">{{ g.source }}</td><td>{{ g.years }}</td><td class="role">{{ g.role }}</td></tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+    {% endif %}
+
+    {% if site.data.awards %}
+    <section id="awards">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="eyebrow">Recognition</p>
+          <h2>{{ page.awards_title | default: "Awards, fellowships and honors" }}</h2>
+        </div>
+        <ul class="awards reveal">
+          {% for a in site.data.awards %}<li><b>{{ a.year }}</b><span>{{ a.text }}</span></li>
+          {% endfor %}
+        </ul>
+      </div>
+    </section>
+    {% endif %}

@@ -1,0 +1,21 @@
+<svg viewBox="0 0 420 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Nested scales from micrometres to centimetres with an axon bundle crossing them">
+              <rect width="420" height="320" fill="#0b1f2d"/>
+              <g fill="none" stroke="#eef3f6" stroke-opacity=".18">
+                <rect x="30" y="30" width="360" height="260" rx="10"/>
+                <rect x="80" y="70" width="260" height="180" rx="8"/>
+                <rect x="130" y="110" width="160" height="100" rx="6"/>
+              </g>
+              <g font-family="Geist Mono, monospace" font-size="9" fill="#a9bac6" letter-spacing="2">
+                <text x="40" y="48">CM · WHOLE BRAIN · MRI</text>
+                <text x="90" y="88">MM · MESOSCALE · OPTICAL</text>
+                <text x="140" y="128">µM · AXONS · MICROSCOPY</text>
+              </g>
+              <g fill="none" stroke-linecap="round" stroke-width="2.4">
+                <path d="M40 240 C 120 230, 150 190, 210 160 S 320 110, 380 70" stroke="#005981"/>
+                <path d="M40 252 C 120 242, 160 202, 214 170 S 324 122, 384 82" stroke="#a9262c"/>
+                <path d="M40 264 C 124 256, 168 214, 220 180 S 330 134, 390 94" stroke="#e57536"/>
+                <path d="M40 228 C 118 218, 146 180, 206 150 S 316 98, 376 58" stroke="#f9c926"/>
+              </g>
+              <g fill="#eef3f6"><circle cx="210" cy="160" r="3"/><circle cx="214" cy="170" r="3"/><circle cx="220" cy="180" r="3"/><circle cx="206" cy="150" r="3"/></g>
+              <text x="236" y="200" font-family="Geist, sans-serif" font-size="11" fill="#eef3f6">single axons, followed end to end</text>
+            </svg>

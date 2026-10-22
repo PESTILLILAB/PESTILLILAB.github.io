@@ -1,0 +1,20 @@
+---
+layout: default
+---
+    {% include page-head.html %}
+    <section>
+      <div class="wrap">
+        {% if page.positions %}
+        <div class="grid grid-3">
+          {% for pos in page.positions %}
+          <div class="position reveal">
+            <h3>{{ pos.title }}</h3>
+            {% if pos.sub %}<p class="sub">{{ pos.sub }}</p>{% endif %}
+            {{ pos.text | markdownify }}
+          </div>
+          {% endfor %}
+        </div>
+        {% endif %}
+        {% if content != "" %}<div class="prose prose-after">{{ content }}</div>{% endif %}
+      </div>
+    </section>

@@ -1,0 +1,6 @@
+# Paste under the right group's items: in _data/resources.yml.
+    - name: Tool or dataset name
+      description: One sentence saying what it is and what it is for.
+      url: https://example.org
+      repo: https://github.com/pestillilab/example   # optional
+      tag: tool                                      # platform, tool, code, dataset, atlas, benchmark, standard, course

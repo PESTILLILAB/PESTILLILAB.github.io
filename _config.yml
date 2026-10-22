@@ -1,0 +1,70 @@
+# Pestilli Lab — Jekyll configuration (GitHub Pages builds this automatically)
+title: Pestilli Lab
+description: The Pestilli Lab at The University of Texas at Austin studies how the brain's wiring supports perception and learning, and builds responsible AI and infrastructure and works on global data governance for neuroscience.
+url: "https://pestillilab.github.io"
+baseurl: ""
+email: pestilli@utexas.edu
+lang: en
+
+# Address shown in the footer
+address:
+  - Department of Psychology
+  - The University of Texas at Austin
+  - SEA 4.208, 108 E. Dean Keeton St, Stop A8000
+  - Austin, TX 78712-1043
+
+# Links shown in the footer
+profiles:
+  - { name: Lab on GitHub, url: "https://github.com/pestillilab" }
+  - { name: Franco Pestilli on GitHub, url: "https://github.com/francopestilli" }
+  - { name: Psychological Data Science (course materials), url: "https://github.com/psychdatascience" }
+  - { name: Google Scholar, url: "https://scholar.google.com/citations?user=gh_KorwAAAAJ" }
+  - { name: LinkedIn, url: "https://www.linkedin.com/in/francopestilli/" }
+affiliations:
+  - { name: Department of Psychology, url: "https://liberalarts.utexas.edu/psychology/" }
+  - { name: Department of Neuroscience, url: "https://cns.utexas.edu/neuroscience" }
+  - { name: Center for Perceptual Systems, url: "https://liberalarts.utexas.edu/cps/" }
+  - { name: Center for Learning and Memory, url: "https://clm.utexas.edu/" }
+
+# Main navigation (order matters)
+nav:
+  - { title: Research, url: /research/ }
+  - { title: Projects, url: /projects/ }
+  - { title: Code & Data, url: /resources/ }
+  - { title: Publications, url: /publications/ }
+  - { title: News, url: /news/ }
+  - { title: Team, url: /team/ }
+  - { title: Teaching, url: /teaching/ }
+  - { title: Join, url: /join/ }
+
+# PubMed author query used by the publications page
+pubmed_query: "Pestilli F[Author]"
+
+collections:
+  research:        # one Markdown file per research area in _research/
+    output: false
+    sort_by: order
+  projects:        # one Markdown file per project in _projects/
+    output: false
+    sort_by: order
+
+plugins:
+  - jekyll-sitemap   # supported by GitHub Pages; writes /sitemap.xml
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+permalink: pretty
+defaults:
+  - scope: { path: "", type: posts }
+    values: { layout: post, permalink: /news/:year/:title/ }
+
+exclude:
+  - _templates/
+  - README.md
+  - HOW-TO-EDIT.md
+  - tools/
+  - Gemfile
+  - Gemfile.lock
+  - vendor/

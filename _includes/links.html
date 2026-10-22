@@ -1,0 +1,6 @@
+{%- assign p = include.person -%}
+{%- if p.github %}<a href="{{ p.github }}" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub">{% include icons/github.svg %}</a>{% endif -%}
+{%- if p.scholar %}<a href="{{ p.scholar }}" target="_blank" rel="noopener" aria-label="Google Scholar" title="Google Scholar">{% include icons/scholar.svg %}</a>{% endif -%}
+{%- if p.linkedin %}<a href="{{ p.linkedin }}" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn">{% include icons/linkedin.svg %}</a>{% endif -%}
+{%- if p.twitter %}<a href="{{ p.twitter }}" target="_blank" rel="noopener" aria-label="X / Twitter" title="X / Twitter">{% include icons/twitter.svg %}</a>{% endif -%}
+{%- if p.cv %}<a href="{{ p.cv }}" target="_blank" rel="noopener" aria-label="CV" title="CV">{% include icons/cv.svg %}</a>{% endif -%}

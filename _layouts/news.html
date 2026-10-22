@@ -1,0 +1,27 @@
+---
+layout: default
+---
+    {% include page-head.html content=content %}
+    <section>
+      <div class="wrap">
+        {% assign posts = site.posts %}
+        {% for post in posts %}
+          {% assign y = post.date | date: "%Y" %}
+          {% if y != prev_y %}<h2 class="pub-year">{{ y }}</h2>{% endif %}
+          {% include news-item.html post=post excerpt=true %}
+          {% assign prev_y = y %}
+        {% endfor %}
+        {% if posts.size == 0 %}<p class="muted">No news yet.</p>{% endif %}
+      </div>
+    </section>
+    {% if site.data.press %}
+    <section id="press">
+      <div class="wrap">
+        <div class="section-head"><p class="eyebrow">Press</p><h2>{{ page.press_title | default: "In the news" }}</h2></div>
+        <ul class="press">
+          {% for p in site.data.press %}<li><span class="when">{{ p.date }}</span><a href="{{ p.url }}" target="_blank" rel="noopener">{{ p.title }}</a>{% if p.outlet %}<span class="outlet">{{ p.outlet }}</span>{% endif %}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </section>
+    {% endif %}

@@ -1,0 +1,22 @@
+# Publications page settings.
+#
+# extra: papers not (yet) indexed by PubMed — preprints on other servers, in-press articles, chapters.
+#        They are merged into the list and automatically hidden once the same DOI or title appears in PubMed,
+#        so entries can simply be left in place. Fields: title, authors, journal, year, doi (optional),
+#        url (optional), tag (optional label such as "Preprint" or "In press").
+extra:
+  - title: "10.5 Tesla high-resolution macaque brain MRI for in vivo and ex vivo connectivity studies"
+    authors: "Warrington S, Selim MK, Tendler BC, Moeller S, Farooq H, Wu W, Pisharady P, Adriany G, Auerbach EJ, Folloni D, Bratch A, Manea AMG, Grafft T, Jungst S, Harel N, Waks M, Pestilli F, Yacoub E, Lenglet C, Ugurbil K, Heilbronner SR, Miller KL, Jbabdi S, Zimmermann J, Sotiropoulos SN"
+    journal: bioRxiv
+    year: 2025
+    doi: "10.64898/2025.12.22.695917"
+    tag: Preprint
+  - title: "Human brain white matter lateralization across the lifespan"
+    authors: "Hanekamp S, Ray K, Caron B, Heinsfeld A, Thavornfung J, Flexwala A, Mehbood M, Pestilli F"
+    journal: Communications Biology
+    year: 2026
+    tag: In press
+
+# exclude_pmids: PubMed hits for "Pestilli F" that belong to a different author.
+exclude_pmids:
+  - "42046541"   # d'Attilio et al., Clinical and Experimental Dental Research 2026 — a different F. Pestilli

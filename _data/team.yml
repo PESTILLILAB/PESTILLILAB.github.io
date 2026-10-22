@@ -1,0 +1,355 @@
+# Team roster. Edit this file to add or remove people; the Team page is built from it.
+# Each person: name, position, image (in /assets/img/people/), description (optional, used for alumni),
+# and any of github, scholar, linkedin, twitter, cv. Omit image to show initials instead.
+# Move an entry between the team, collaborators and alumni lists to change where it appears.
+# The PI bio is Markdown: blank lines make paragraphs, **bold**, [links](url).
+# Group photo shown at the top of the Team page. Remove the block (or comment it out) to hide it.
+group_photo:
+  image: /assets/img/austin-skyline.jpg
+  caption: The Austin skyline from Lady Bird Lake
+
+pi:
+  name: Franco Pestilli
+  position: Professor, Department of Psychology, The University of Texas at Austin
+  image: /assets/img/people/franco-pestilli.jpg
+  linkedin: https://www.linkedin.com/in/francopestilli/
+  cv: https://minio.la.utexas.edu/colaweb-prod/person_files/0/9023/Pestilli_CV_20260620.pdf
+  github: https://github.com/francopestilli
+  scholar: https://scholar.google.com/citations?user=gh_KorwAAAAJ
+  bio: |
+    **Professor of Psychology and Neuroscience (by courtesy) at the University of Texas at Austin.** His research integrates neuroscience, artificial intelligence, data science and software engineering to investigate how the brain’s structural connections support perception, cognition, learning and development. His laboratory develops computational methods and digital infrastructure for mapping the human brain, analyzing large-scale neuroimaging data and accelerating scientific discovery. Prof. Pestilli is an affiliated member of the [Center For Perceptual Systems](https://liberalarts.utexas.edu/cps/), and [Center for Learning and Memory](https://clm.utexas.edu/).
+
+    Pestilli is the founder and director of [brainlife.io](https://brainlife.io), a cloud platform that connects neuroscience data, computational tools and analysis pipelines within a unified research environment. His group develops technologies for neuroimaging standardization, tractography, distributed computing and scientific automation, including ezBIDS, dicompare and emerging AI systems that connect datasets, models, software and research infrastructures. This work now supports major national brain-mapping programs.
+
+    Pestilli is Principal Investigator of the Axonal Projectome Exchange (APEX), the data coordination centre for the US National Institutes of Health BRAIN CONNECTS program ([brain-connects.org](https://brain-connects.org)). APEX integrates large-scale imaging, microscopy and connectivity datasets with computational pipelines, data standards and interactive services for mapping the brain across spatial scales. He is Director of Data Informatics for the BRAIN CONNECTS Center for Mesoscale Connectivity, which develops technologies to acquire, integrate and analyse high-resolution multimodal data from human and non-human primate brains. Pestilli also leads BRIDGE ([braindatagovernance.org](https://braindatagovernance.org), a Wellcome Trust programme developing international frameworks and technology for brain and mental-health data sharing and governance, and has led the [BIDS](https://bids.neuroimaging.io/) [Connectivity Project](https://pestillilab.github.io/bids-connectivity) to extend neuroimaging standards to connectivity data and computational workflows.
+
+    He chairs the [International Neuroinformatics Coordinating Facility](https://incf.org) and serves on the Steering Committee of the Brain Imaging Data Structure. He is [Fellow of the Association for Psychological Science](https://member.psychologicalscience.org/directories/fellows) and [Psychonomics Society](https://www.psychonomic.org/page/2017springnewfellows). His distinctions include the [Microsoft Investigator Fellowship](https://www.microsoft.com/en-us/research/academic-program/microsoft-investigator-fellowship/fellowship-recipients/), [gifts from the Kavli Foundation](https://kavlifoundation.org/news/connecting-neuroscience), and the [APS Janet Taylor Spence Award for Transformative Early Career Contributions](https://www.psychologicalscience.org/members/awards-and-honors/spence-recipients/pestilli).
+
+    Pestilli received his Laurea in Experimental Psychology, summa cum laude, from La Sapienza University of Rome and his PhD in Cognition and Perception from New York University. He completed postdoctoral training at Columbia University and Stanford University before joining Indiana University, where he earned tenure, and subsequently moving to UT Austin. At The University of Texas, he teaches Data Science and Cognitive Neuroscience and has developed a [Study Abroad Program in Cognitive Neuroscience in Geneva, Switzerland](https://utdirect.utexas.edu/apps/abroad/student/pgm_list/detail/nlogon/1763/).
+team:
+- name: Kimberly Ray
+  position: Research Assistant Professor (Data Standards and Sharing, Neuroimaging, Metanalysis)
+  image: /assets/img/people/kim_ray_new.jpg
+  github: https://github.com/kimberlylray
+  scholar: https://scholar.google.com/citations?user=Qt6OuAkAAAAJ&hl=en
+  twitter: https://twitter.com/TheKimRay
+- name: Gabriele Amorosino
+  position: Postdoctoral Researcher (NeuroAI, Neuroimaging pipelines)
+  image: /assets/img/people/gabriele-amorosino.png
+  github: https://github.com/gamorosino
+  scholar: https://scholar.google.com/citations?user=oRFlrk0AAAAJ&hl=en&oi=ao
+- name: Marietjie Botes
+  position: Postdoctoral Scholar (Legal Expert, Data governance)
+  image: /assets/img/people/marietjie-botes.jpg
+  scholar: https://scholar.google.com/citations?user=lcmAEMYAAAAJ&hl=en
+  linkedin: https://www.linkedin.com/in/dr-marietjie-botes-71151b55/
+- name: Blaire Porter
+  position: NSF SBE Postdoctoral Fellow (Global Equity, Developmental Cognitive Neuroscience)
+  image: /assets/img/people/blaire_porter.jpg
+  scholar: https://scholar.google.com/citations?user=LJ8zOQIAAAAJ&hl=en
+  linkedin: https://www.linkedin.com/in/blairemorganporter/
+- name: Anibal S. Heinsfeld
+  position: Computer Science PhD Student (Computer Science, Software Engineering, Agentic AI)
+  image: /assets/img/people/anibal-solon.png
+  github: https://github.com/anibalsolon
+  scholar: https://scholar.google.com/citations?user=gQdfws4AAAAJ
+  twitter: https://twitter.com/anibalsolon
+- name: Junbeom Kwon
+  position: Psychology PhD Student (Psychology, Neuroimaging, NeuroAI)
+  image: /assets/img/people/junbeom_kim.jpg
+  github: https://github.com/Junebeomstics
+- name: Stephen Kiilu
+  position: Psychology PhD Student (Psychology, Aging and Dementia, Agentic AI)
+  image: /assets/img/people/stephen_kiilu.jpg
+  github: https://github.com/stephenkiilu
+  linkedin: https://www.linkedin.com/in/stephen-kiilu-401000118/
+- name: Yang Zhang
+  position: Neuroscience PhD Student (Neuroimaging Pipelines, Aging and Dementia, Network Neuroscience)
+  image: /assets/img/people/Yang_Zhang.png
+  github: https://github.com/yang2hang
+  linkedin: https://www.linkedin.com/in/yang-zhang-4761482b0/
+- name: Taylor Grafft
+  position: Software Engineer (Data Engineering, Cloud Infrastructure, DevOps)
+  image: /assets/img/people/taylor-grafft.jpeg
+  github: https://github.com/tjgrafft
+  linkedin: https://www.linkedin.com/in/taylorgrafft
+- name: Nicholas Lee
+  position: Software Engineer (Front End)
+  image: /assets/img/people/nick_lee.jpeg
+  github: https://github.com/nicoalee
+- name: Tiffany Hong
+  position: Data Engineer (Databases, Agentic AI)
+  image: /assets/img/people/tiffany_hong.jpg
+  github: https://github.com/orange-hour
+  linkedin: https://www.linkedin.com/in/tiffanysukwonhong
+collaborators:
+- name: Sarah Heilbronner
+  position: Assistant professor University of Minnesota
+  image: /assets/img/people/sarah-heilbronner.png
+  description: Together we are working on understanding the connectivity of the Parietal cortex.
+  scholar: https://scholar.google.com/citations?user=xNLcH5MAAAAJ
+  twitter: https://twitter.com/SRHeilbronner
+- name: Damian Eke
+  position: Assistant Professor, University of Nottingham, UK
+  image: /assets/img/people/damian_eke.jpeg
+- name: Ricardo Chavarriaga
+  position: Professor, Zurich University of Applied Sciences (ZHAW), Switzerland
+  image: /assets/img/people/ricardo_chavarriaga.jpg
+- name: Fernanda Tovar Moll
+  position: MD/Phd, CEO D’Or Institute of Research and Education (IDOR), Brazil
+  image: /assets/img/people/fernanda_tovarmoll.jpg
+- name: Amadi Ihunwo
+  position: Professor, University of the Witwatersrand (Wits), South Africa
+  image: /assets/img/people/amadi_ihunwo.jpg
+- name: Thomas Nichols
+  position: Professor, Oxford University, UK
+  image: /assets/img/people/thomas_nichols.jpg
+- name: Alexander Huth
+  position: Assistant Professor of Neuroscience and Computer Science, University of Texas
+  image: /assets/img/people/alexander_huth.jpg
+- name: Ariel Rokem
+  position: Research Associate Professor, Department of Psychology, University of Washington
+  image: /assets/img/people/ariel_rokem.png
+- name: Elizabeth Lippard
+  position: Assistant Professor, Department of Psychiatry and Behavioral Sciences, Dell Medical Center University of Texas
+  image: /assets/img/people/elizabeth_lippard.jpg
+- name: Dan Stanzione
+  position: Associate Vice President for Research Executive Director, TACC
+  image: /assets/img/people/dan_stanzione.jpg
+- name: Chris Rorden
+  position: Professor and Endowed Chair of Neuroscience, Department of Psychology, University of South Carolina
+  image: /assets/img/people/chris_rorden.jpg
+- name: Russell Poldrack
+  position: Professor of Psychology, Department of Psychology, School of Humanities and Sciences, Stanford University
+  image: /assets/img/people/russell_poldrack.jpg
+- name: Daniel J. McDonald
+  position: Associate Professor, Department of Statistics, The University of British Columbia
+  image: /assets/img/people/daniel-mcdonald.png
+  description: Together we are developing approaches to tractography methods optimization.
+  github: https://github.com/dajmcdonen
+  scholar: https://scholar.google.com/citations?user=qRmkt6wAAAAJ
+  twitter: https://twitter.com/dajmcdon
+- name: Nicholas Port
+  position: Associate Professor of Vision Science and Neuroscience at Indiana University
+  image: /assets/img/people/nicholas-port.png
+  description: Together we are trying to understand brain concussion using brainlife.io.
+  scholar: https://scholar.google.com/citations?user=zKUEyiUAAAAJ
+- name: Anastasia Yendiki
+  position: Associate Professor in Radiology, Harvard Medical School; Associate Investigator, Massachusetts General Hospital
+  image: /assets/img/people/anastasia_yendiki.jpg
+- name: Yaroslav Halchenko
+  position: Research Assistant Professor Dartmuth College
+  image: /assets/img/people/yaroslav-halchenko.png
+  description: Together we are developing technology to connect data across the globe using DataLad.org and brainlife.io
+  github: https://github.com/yarikoptic
+  scholar: https://scholar.google.com/citations?user=EbtfZcwAAAAJ
+  twitter: https://twitter.com/yarikoptic
+alumni:
+- name: Melanie Collier
+  position: Lab Manager (Behavioral and Cognitive Neuroscience)
+  image: /assets/img/people/melanie_collier_new_new.jpeg
+  description: After leaving the lab, melanie started a Ph.D. in Cognitive Neuroscience at the Universtiy of California, Los
+    Angeles.
+  scholar: https://scholar.google.com/citations?user=IomAkw8AAAAJ&hl=en
+- name: Sydney Fulton
+  position: Undergraduate Research Assistant (Neuroimaging Pipelines)
+  image: /assets/img/people/sydney_fulton.png
+  description: After leaving the lab, Sydney took a research assitant position at Texas A&M University.
+  linkedin: https://www.linkedin.com/in/sydney-fulton/
+- name: Anna Bostoganashvili
+  position: 2025 Women in Neuroscience Fellow (Intern at Icahn School of Medicine at Mt Sinai, Undergraduate in Neuroscience
+    at Centre College)
+  image: /assets/img/people/anna_bostoganashvili.jpeg
+  description: After leaving the lab, Anna took a research assitant position in New York.
+  linkedin: https://www.linkedin.com/in/anna-bostoganashvili/
+- name: Karen Herrera
+  position: 2025 Women in Neuroscience Intern (Undergraduate in Neuroscience at Vanderbilt University)
+  image: /assets/img/people/karen_herrera.jpeg
+  description: After leaving the lab, Karen took a research position.
+  linkedin: https://www.linkedin.com/in/karen-herrera-67a1562a2/
+- name: Sihang (Suna) Guo
+  position: Ph.D. Student (Neuroscience, Machine Learning, Cognitive Neuroscience)
+  image: /assets/img/people/suna-guo.png
+  description: After leaving the lab, Suna continued her PhD at The University of California, Berkeley.
+  github: https://github.com/SunaGuo
+  scholar: https://scholar.google.com/citations?user=f572K_4AAAAJ
+- name: Sangmin (Alden) Yi
+  position: Post-Bachelor Research Assistant (Computational Neuroscience, fMRI Data Analysis)
+  image: /assets/img/people/sangmin-yi.jpeg
+  description: After leaving the lab, Alden began his PhD at Indiana University Bloomington.
+  github: https://github.com/aldensyi
+- name: Sohmee Kim
+  position: Undergraduate Research Assistant
+  image: /assets/img/people/sohmee-kim.jpg
+  description: After leaving the lab, Sohmee started her Pharm.D at the University of Texas at Austin.
+- name: Alisha Flexwala
+  position: Undergraduate Research Assistant
+  image: /assets/img/people/alisha-flexwala.jpg
+- name: Ashley Stewart
+  position: Visiting Postdoctoral Researcher
+  image: /assets/img/people/ashley_stewart.jpg
+  description: Ashley visited the lab from The University of Queensland.
+  scholar: https://scholar.google.com/citations?user=AbPtesgAAAAJ&hl=en&oi=sra
+- name: Dheeraj Bhatia
+  position: Software Engineer (https://brainlife.io)
+  image: /assets/img/people/dheeraj-bhatia.png
+  github: https://github.com/bhatiadheeraj
+- name: Daniela Reyes
+  position: Undergraduate Research Assistant (2024 Behavioral Data Science Intern)
+  image: /assets/img/people/daniella_reyes.jpg
+  github: https://github.com/yreyes03
+- name: Daniel Levitas
+  position: Software Developer
+  image: /assets/img/people/dan-levitas.png
+  description: After leaving our team, Dan took on a Data Analyst position in North Carolina.
+  github: https://github.com/dlevitas
+- name: Mohammed Mehboob
+  position: Research Assistant
+  image: /assets/img/people/mohammed_mehboob.jpg
+  description: After leaving the lab, Mohammed took a position as an Associate Consultant within Consulting at Adobe.
+- name: Annie Mackenzie
+  position: Lab & Project Manager
+  image: /assets/img/people/annie-m-mackenzie.jpg
+  description: After leaving the lab, Annie took on a position as Global Regulatory Writer.
+  github: https://github.com/a1mackenzie
+  scholar: https://scholar.google.com//citations?user=Un9KZyQAAAAJ&hl=en
+- name: Bradley Caron
+  position: Postdoctoral Fellow
+  image: /assets/img/people/bradley-caron.png
+  description: After graduating from the lab, Brad took on a position as a Translational Imaging Data Scientist at Novartis
+    (Boston, MA).
+  github: https://github.com/bacaron
+  scholar: https://scholar.google.com/citations?user=fU9K6GgAAAAJ
+  twitter: https://twitter.com/bacaronIU
+- name: Om Pandey
+  position: Masters Student
+  image: /assets/img/people/Om_Pandey.jpg
+  description: After graduating with his Masters in Computer Science from UT, Om began working as a Machine Learning Engineer
+    at the Depository Trust & Clearing Corporation(DTCC).
+- name: Cat Leal
+  position: Undergraduate Research Assistant (2023 Behavioral Data Science Intern)
+  image: /assets/img/people/cat-leal.jpg
+  description: After graduating from the lab, Cat started a Masters in Data Science at The University of Texas at Austin.
+- name: Kunjal Shah
+  position: Masters Research Assistant
+  image: /assets/img/people/kunjal_shah.jpg
+  description: After graduating from the lab, Kunjal started a job as an engineer at NVIDIA.
+- name: Julia Guiomar (Guio) Niso Galán
+  position: CRCNS Research Scientist
+  image: /assets/img/people/guiomar-niso.png
+  description: After leaving the lab, Guio started her research group at Cajal Institute in Madrid.
+  github: https://github.com/guiomar
+  scholar: https://scholar.google.com/citations?user=xqxSCSkAAAAJ
+  twitter: https://twitter.com/guiomarniso
+- name: Soichi Hayashi
+  position: Software Engineer
+  image: https://en.gravatar.com/userimage/11088201/402ad6c44c48147d0b1c3b164fcf9618.jpg?size=200
+  description: After leaving the lab, Soichi took on a position as a Software Developer in a Fintech Company.
+  github: https://github.com/soichih
+  linkedin: https://www.linkedin.com/in/soichihayashi/
+  twitter: https://twitter.com/soichih
+  resume: https://docs.google.com/document/d/17fKDYHgBalLlfEvJQfdrYhar5Er-d9D1ItTDSnG-lPs
+- name: Sophia Vinci-Booher
+  position: NSF SBE Postdoctoral Researcher
+  image: /assets/img/people/sophia-vinci-booher.png
+  description: After graduating from the lab, Sophia started her lab at Vanderbilt University.
+  github: https://github.com/svincibo
+  scholar: https://scholar.google.com/citations?user=xNYnb6wAAAAJ
+  twitter: https://twitter.com/svincibo
+- name: Sandra Hanekamp
+  position: Postdoctoral Fellow
+  image: /assets/img/people/sandra-hanekamp.png
+  description: After graduating from the lab, Sandra took a position at NordicNeuroLab.
+  github: https://github.com/sandrahanekamp
+  scholar: http://scholar.google.com/citations?user=HpFvfUsAAAAJ
+  twitter: https://twitter.com/sandrahanekamp
+- name: Antonio Fernandez
+  position: NIH Postdoctoral Fellow.
+  image: /assets/img/people/antonio-fernandez-new.png
+  description: After leaving the lab, Dr. Fernandez started working as UI/UX Researcher in the industry.
+  github: https://github.com/antoniofs23
+  scholar: https://scholar.google.com/citations?user=k9hmsb0AAAAJ&hl=en&oi=sra
+- name: Brent C. McPherson
+  position: Ph.D. student
+  image: /assets/img/people/brent-mcpherson.png
+  description: After graduating from the lab, Brent took a Postdoctoral Researcher position at McGill University.
+  github: https://github.com/bcmcpher
+  scholar: https://scholar.google.com/citations?user=UTKS08kAAAAJ
+  twitter: https://twitter.com/bcmcpher
+- name: Daniel N. Bullock
+  position: Ph.D. student
+  image: /assets/img/people/daniel-bullock.png
+  description: After graduating from the lab, Dan took on a position as Postdoctoral Researcher at the University of Minnesota.
+  github: https://github.com/DanNBullock/
+  scholar: https://scholar.google.com/citations?user=PhaFy78AAAAJ
+  twitter: https://twitter.com/Is_Dan_Bull
+- name: Josiah Leong
+  position: Postdoctoral Fellow
+  image: /assets/img/people/josiah-leong.png
+  description: After working in the lab, Josiah started his lab and became Assistant Professor in Psychology at the University
+    of Arkansas.
+  github: https://github.com/fullstackneuro
+  scholar: https://scholar.google.com/citations?user=EqjIJIUAAAAJ
+  twitter: https://twitter.com/fullstackneuro
+- name: Ilaria Sani
+  position: Visiting Postdoc
+  image: /assets/img/people/ilaria-sani.png
+  description: Ilaria was visiting from the Laboratory of Winrich Freiwald at Rockefeller University. After visiting the lab,
+    Ilaria took an Assitant Professor position at the University of Geneva.
+  github: https://github.com/IlariaSani
+  scholar: https://scholar.google.com/citations?user=yyhEfS8AAAAJ
+- name: Giulia Berto
+  position: Postdoctoral Fellow
+  image: /assets/img/people/giulia-berto.png
+  description: After leaving the lab, Guilia took a position as a Data Scientist.
+  github: https://twitter.com/GiuliaBert1
+  scholar: https://scholar.google.com/citations?user=T2CydDUAAAAJ&oi=ao
+  twitter: https://twitter.com/GiuliaBert1
+- name: Ricardo Fabrega
+  position: Undergraduate Research Assistant
+  image: /assets/img/people/ricardo-fabrega.png
+  description: After leaving the lab, Ricardo won a prestigious Medical Student Scholarship at the F. Edward Hébert School
+    of Medicine of the Uniformed Services University of the Health Sciences in Bethesda, Maryland.
+  github: https://github.com/ricardofebrega
+  scholar: https://scholar.google.com/citations?user=IFIa8vgAAAAJ
+  twitter: https://twitter.com/Fabregari
+- name: Yiming Qian
+  position: Undergraduate Research Assistant
+  image: /assets/img/people/yiming-qian.png
+  description: After leaving the lab, Yiming started Graduate School at Penn State University.
+  github: https://github.com/Qian-Yiming
+  scholar: https://scholar.google.com/citations?user=TkXtUmsAAAAJ
+- name: Lindsey Kitchell
+  position: Ph.D. Student
+  image: https://github.com/kitchell.png
+  description: After leaving the lab, Lindsey took on a position as Senior Professional Scientist at Johns Hopkins University's
+    Applied Physics Laboratory.
+  github: https://github.com/kitchell
+  scholar: https://scholar.google.com/citations?user=TvYBSEkAAAAJ
+  twitter: https://twitter.com/lindseykitchell
+- name: Shiloh Echevarria-Cooper
+  position: Undergraduate Research Assistant
+  image: /assets/img/people/shiloh-cooper.png
+  description: After leaving the lab, Shiloh started graduate school at Northwestern University.
+  github: https://github.com/ricardostuck
+  scholar: https://scholar.google.com/citations?user=YUhVZFsAAAAJ
+  twitter: https://mobile.twitter.com/shiloh_ec
+- name: Cesar F. Caiafa
+  position: Visiting scientist
+  image: /assets/img/people/cesar-caiafa.png
+  description: After working in the lab, Cesar returned to Argentina to work as at the Argentinean Radioastronomy Institute
+    (IAR) and as an Adjunct Professor at the Faculty of Engineering, University of Buenos Aires.
+  github: https://github.com/ccaiafa
+  scholar: https://scholar.google.com/citations?user=yAUJHFYAAAAJ
+  twitter: https://twitter.com/ccaiafa
+- name: Aman Arya
+  position: Undergraduate Research Assistant, NSF Summer Intern for brainlife.io
+  image: /assets/img/people/aman-arya.png
+  description: After leaving the lab, Aman took a job at Amazon.
+  github: https://github.com/aarya22
+  scholar: https://scholar.google.com/citations?user=IFIa8vgAAAAJ
+- name: Steven O’Riley
+  position: High-school and Undergraduate Research Assistant
+  image: /assets/img/people/steven-oriley.png
+  description: After leaving the lab, Steven took a data science job.
+  github: https://github.com/stevengeeky

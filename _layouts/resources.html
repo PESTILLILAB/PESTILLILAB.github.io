@@ -1,0 +1,23 @@
+---
+layout: default
+---
+    {% include page-head.html content=content %}
+    <section>
+      <div class="wrap">
+        {% for g in site.data.resources %}
+        <div class="res-group">
+          <h2>{{ g.group }}</h2>
+          <div class="grid grid-3">
+            {% for r in g.items %}
+            <div class="card reveal">
+              {% if r.tag %}<span class="num">{{ r.tag }}</span>{% endif %}
+              <h3><a href="{{ r.url }}" target="_blank" rel="noopener">{{ r.name }}</a></h3>
+              <p>{{ r.description }}</p>
+              <div class="more links-row"><a href="{{ r.url }}" target="_blank" rel="noopener">Open →</a>{% if r.repo %}<a href="{{ r.repo }}" target="_blank" rel="noopener">Code</a>{% endif %}</div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </section>

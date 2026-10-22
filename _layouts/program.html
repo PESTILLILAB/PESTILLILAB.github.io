@@ -1,0 +1,30 @@
+---
+layout: default
+---
+    {% include page-head.html content=content %}
+    <section>
+      <div class="wrap">
+        <div class="grid grid-2 two-col">
+          <div class="reveal">
+            {{ page.body_intro | markdownify }}
+            <div class="facts-box block-title">
+              <h4>At a glance</h4>
+              <ul>{% for f in page.facts %}<li><strong>{{ f.label }}:</strong> {{ f.value }}</li>{% endfor %}</ul>
+            </div>
+          </div>
+          <div class="reveal">
+            {% for b in page.blocks %}
+            <h3 class="block-title">{{ b.title }}</h3>
+            {{ b.text | markdownify }}
+            {% endfor %}
+            {% if page.apply_url %}<p class="actions block-title"><a class="btn primary" href="{{ page.apply_url }}" target="_blank" rel="noopener">{{ page.apply_label | default: "Apply" }}</a> <a class="btn" href="{{ page.info_url }}" target="_blank" rel="noopener">Program details at UT</a></p>{% endif %}
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="wrap">
+        <div class="section-head"><p class="eyebrow">Photos</p><h2>{{ page.gallery_title | default: "From the program" }}</h2></div>
+        {% include gallery.html folder=page.gallery alt=page.title placeholder="Photos coming soon." %}
+      </div>
+    </section>

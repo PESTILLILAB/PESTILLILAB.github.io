@@ -1,0 +1,9 @@
+<div class="page-head">
+  {% if include.decor %}<img class="decor" src="{{ '/assets/img/brain-full.svg' | relative_url }}" alt="" aria-hidden="true">{% endif %}
+  <div class="wrap">
+    <p class="eyebrow">{{ page.eyebrow | default: page.title }}</p>
+    <h1>{{ page.headline | default: page.title }}</h1>
+    {% if page.lede %}<p class="lede">{{ page.lede }}</p>{% endif %}
+    {% if include.content %}<div class="lede">{{ include.content }}</div>{% endif %}
+  </div>
+</div>

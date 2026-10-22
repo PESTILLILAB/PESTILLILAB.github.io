@@ -1,0 +1,23 @@
+<svg viewBox="0 0 420 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Nodes on a world grid connected by solid and dashed links, representing conditional interoperability">
+              <rect width="420" height="320" fill="#0b1f2d"/>
+              <g fill="none" stroke="#eef3f6" stroke-opacity=".12">
+                <ellipse cx="210" cy="150" rx="170" ry="110"/><ellipse cx="210" cy="150" rx="110" ry="110"/><ellipse cx="210" cy="150" rx="45" ry="110"/>
+                <path d="M40 150h340M70 95h280M70 205h280M120 55h180M120 245h180"/>
+              </g>
+              <g fill="none" stroke-width="1.8" stroke-linecap="round">
+                <path d="M120 100 L 200 120" stroke="#f9c926"/>
+                <path d="M200 120 L 280 90" stroke="#f9c926"/>
+                <path d="M200 120 L 230 200" stroke="#e57536" stroke-dasharray="5 4"/>
+                <path d="M120 100 L 110 190" stroke="#e57536" stroke-dasharray="5 4"/>
+                <path d="M110 190 L 230 200" stroke="#a9262c" stroke-dasharray="2 4"/>
+                <path d="M280 90 L 320 180" stroke="#e57536" stroke-dasharray="5 4"/>
+              </g>
+              <g stroke="#0b1f2d" stroke-width="2">
+                <circle cx="120" cy="100" r="8" fill="#005981"/><circle cx="200" cy="120" r="8" fill="#005981"/><circle cx="280" cy="90" r="8" fill="#005981"/>
+                <circle cx="110" cy="190" r="8" fill="#a9262c"/><circle cx="230" cy="200" r="8" fill="#e57536"/><circle cx="320" cy="180" r="8" fill="#f9c926"/>
+              </g>
+              <g font-family="Geist Mono, monospace" font-size="8.5" fill="#a9bac6" letter-spacing="1.5">
+                <text x="30" y="286">— PERMITTED</text><text x="130" y="286" fill="#e57536">- - CONDITIONAL</text><text x="258" y="286" fill="#a9262c">· · RESTRICTED</text>
+              </g>
+              <text x="30" y="40" font-family="Geist, sans-serif" font-size="11" fill="#eef3f6">cross-border pathways for brain data</text>
+            </svg>
