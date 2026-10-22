@@ -211,11 +211,11 @@ table.grants td.src { color: var(--muted); }
 @media (max-width: 640px) { .pub { grid-template-columns: 1fr; } .pub .links { justify-content: flex-start; } .pub-status { margin-left: 0; } }
 
 /* ---------- team ---------- */
-.pi { display: grid; grid-template-columns: 300px 1fr; gap: 48px; align-items: start; }
+.pi { display: grid; grid-template-columns: 220px 1fr; gap: 40px; align-items: start; }
 .pi img { width: 100%; border-radius: var(--radius); border: 1px solid var(--rule); }
 .pi .links { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 14px; }
 .pi .bio p { color: var(--ink); opacity: .92; font-size: 1.02rem; }
-@media (max-width: 800px) { .pi { grid-template-columns: 1fr; } .pi img { max-width: 320px; } }
+@media (max-width: 800px) { .pi { grid-template-columns: 1fr; } .pi img { max-width: 240px; } }
 .people { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 24px; }
 .person { background: var(--bg-2); border: 1px solid var(--rule); border-radius: var(--radius); overflow: hidden; display: flex; flex-direction: column; }
 .person .photo { aspect-ratio: 1 / 1; background: var(--surface); overflow: hidden; }
@@ -238,12 +238,12 @@ table.grants td.src { color: var(--muted); }
 
 
 /* compact people cards (team, alumni): small round photo beside the text */
-.people.compact { grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; }
+.people.compact { grid-template-columns: repeat(auto-fill, minmax(330px, 1fr)); gap: 16px; }
 .people.compact .person { flex-direction: row; align-items: flex-start; gap: 16px; padding: 16px; }
-.people.compact .person .photo { width: 72px; height: 72px; flex: 0 0 72px; border-radius: 50%; aspect-ratio: auto; border: 1px solid var(--rule-strong); }
-.people.compact .person .photo.placeholder { font-size: 1.5rem; }
+.people.compact .person .photo { width: 124px; height: 124px; flex: 0 0 124px; border-radius: 50%; aspect-ratio: auto; border: 1px solid var(--rule-strong); }
+.people.compact .person .photo.placeholder { font-size: 2.2rem; }
 .people.compact .person .info { padding: 0; }
-.people.compact .person h3 { font-size: 1rem; }
+.people.compact .person h3 { font-size: 1.08rem; }
 .people.compact .person .pos { font-size: .86rem; }
 .people.compact .person .links { padding-top: 6px; }
 .people.compact .person .links a { width: 28px; height: 28px; }
