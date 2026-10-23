@@ -12,6 +12,7 @@ hero_caption: From measurements to discovery
 programs_eyebrow: Two research programs
 programs_title: How do connections between brain regions shape what we perceive, learn, and retain?
 
+scales_caption: "The range of scales we need to collect to map the brain's wiring, from one nanometre to ten centimetres, and the methods that measure each."
 stats:
   - value: "5,000+"
     label: registered users of the open cloud platform we built and run for neuroimaging
@@ -19,8 +20,6 @@ stats:
     label: peer-reviewed papers in neuroscience, psychology, computer science, statistics, and law
   - value: "93"
     label: countries whose laws on brain data we have mapped so that data can be shared responsibly
-  - value: "µm → cm"
-    label: the range of scales we need to collect to map the brain's wiring
 
 areas_eyebrow: Research areas
 areas_title: What we work on

@@ -40,6 +40,12 @@ layout: default
           {% for s in page.stats %}<div class="stat"><b>{{ s.value }}</b><span>{{ s.label }}</span></div>
           {% endfor %}
         </div>
+        {% if page.scales_caption %}
+        <figure class="scales reveal">
+          <div class="scales-scroll">{% include figures/scales-ruler.svg %}</div>
+          <figcaption>{{ page.scales_caption }}</figcaption>
+        </figure>
+        {% endif %}
       </div>
     </section>
 

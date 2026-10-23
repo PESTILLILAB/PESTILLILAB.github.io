@@ -151,8 +151,12 @@ Same idea in `_projects/`. `role`, `website`, and `meta` are the lines under the
 
 ### Change the home page
 
-`index.md`. The headline, intro, button labels, the four numbers, and the "how we work" cards are at the
-top; the two paragraphs about the research programs are the body.
+`index.md`. The headline, intro, button labels, the three numbers, the caption of the scales ruler, and the
+"how we work" cards are at the top; the two paragraphs about the research programs are the body.
+
+The scales ruler under the numbers is `_includes/figures/scales-ruler.svg`; its labels are plain `<text>`
+elements you can edit. The original kit (full SVGs with the viewer rows, and the script that draws it
+from data) is kept in `tools/scales-ruler/` with its own README.
 
 ### Add photos to the Geneva page or the lab gallery
 
