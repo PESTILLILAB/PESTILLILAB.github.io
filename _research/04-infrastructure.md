@@ -6,11 +6,11 @@ eyebrow: "Infrastructure & AI"
 title: "Responsible AI and infrastructure"
 accent: yellow
 figure: infrastructure   # an SVG in _includes/figures/
-summary: "We build the cloud platforms, data standards, provenance systems, and AI agents that let neuroscience be reproduced at scale, and we run them for the community."
+summary: "Analyses that stay executable, data that stay standardized, and AI agents that leave a verifiable trace: the engineering behind reproducible neuroscience."
 chips:
   - "provenance"
   - "agentic science"
   - "benchmarks & standards"
-lede: "These programs depend on an infrastructure we began building a decade ago, and on working out what reproducibility has to mean when trained models and AI agents carry part of the scientific work."
+lede: "Reproducibility used to mean sharing data, code, and methods. When trained models and AI agents do part of the work, that is no longer enough."
 ---
-We operate an open cloud platform connecting imaging data to versioned computational applications, parameters, and outputs, used by thousands of researchers worldwide. Because every analysis remains executable, investigators can reproduce a finding or evaluate it with different models and populations, turning expensive imaging studies into reusable scientific resources. Around it we develop data standards, tools that guide the standardization of raw data, and community benchmarks; the benchmarks measure how methods generalize across scanners and ages, and show, for example, that deep-learning models trained on young adults fail on children. As data, methods, and models are reused beyond the investigations that produced them, their value depends on retaining explicit links to the measurements that generated them, the conditions under which they were validated, and the cases in which they failed. We are extending provenance to agentic systems that translate plain-language scientific questions into computational actions across federated archives, so that each reuse tightens understanding of when, and for whom, a finding holds.
+Our platform records every analysis as a graph linking data, application versions, parameters, and outputs, so a result can be re-executed or re-examined years later. We develop data standards and the tools that get raw scanner data into them, and we run community benchmarks that measure how methods generalize; one shows that deep-learning tract segmentation trained on young adults fails on children. The next step is agents that turn a research question into computations across archives while recording every dataset, tool, and decision they used, so that a result produced with AI can be audited like one produced by hand.

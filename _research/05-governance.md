@@ -6,11 +6,11 @@ eyebrow: "Governance"
 title: "Global brain-data governance"
 accent: teal
 figure: governance   # an SVG in _includes/figures/
-summary: "Countries are treating brain data as strategic assets. We work on the frameworks, legal tools, and technology that let international collaboration continue."
+summary: "Brain data are becoming a regulated, strategic resource. We study how governance works in practice and build the agreements and software that keep collaborations legal across borders."
 chips:
   - "data sovereignty"
   - "conditional interoperability"
   - "model governance"
-lede: "Reusing data and models across institutions and countries requires agreement on permitted uses and responsibility. We study how governance of brain data works in practice, and how it extends to the models derived from those data."
+lede: "Brain data can reveal mental states and identify people, so governments regulate their movement. Most collaborations do not know which rules apply to them."
 ---
-Brain data encode mental states and can, in principle, identify a person; as their value rises with AI, governments are treating them as strategic assets, and rules for cross-border transfer are tightening in ways that fall hardest on researchers in low- and middle-income countries. We mapped how 93 countries regulate neural data. Transfer is almost always permitted in principle, but every pathway carries conditions, and legal protection becomes unclear once data have been transformed into features, embeddings, or trained models. We develop decision tools and modular agreements that allow collaborations to proceed under current law rather than wait for harmonization, and governance written in a form that platforms and AI agents can read and enforce, so that analyses can be delegated to host archives without the underlying data leaving them. The work brings together lawyers, ethicists, neuroscientists, regulators, and people with lived experience from Africa, Europe, and the Americas.
+Across the jurisdictions we have surveyed, transfer of neural data is almost always permitted in principle but conditional in practice, with conditions that differ by direction, and legal protection becomes uncertain once data are turned into features, embeddings, or trained models. The burden falls hardest on researchers in low- and middle-income countries. Our work makes the rules usable: classifying a planned transfer by risk, choosing a lawful pathway, and expressing the obligations in a form that platforms and AI agents can enforce, so that a model can be trained across archives without the data leaving them.

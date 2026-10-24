@@ -6,11 +6,11 @@ eyebrow: "Learning & development"
 title: "White matter, learning and the lifespan"
 accent: red
 figure: learning   # an SVG in _includes/figures/
-summary: "White matter predicts how well a person will learn and changes as they do. We study this in children learning to read and do math, in aging, and in recovery from injury."
+summary: "Reading and arithmetic change the brain's long-range pathways. We follow children scan by scan through a school year to see which pathways change, when, and whether the change is specific to the skill."
 chips:
   - "white-matter plasticity"
   - "dense longitudinal imaging"
   - "individual trajectories"
-lede: "White matter architecture does not only constrain perception; it shapes how the brain changes with experience. Its architecture before learning predicts what can be acquired, and the changes it undergoes during learning reveal what has been consolidated."
+lede: "Group averages hide how individuals learn. We scan the same children repeatedly during the months when reading and math skills change fastest."
 ---
-Reading and mathematics coordinate visual, linguistic, mnemonic, and executive processes; changes across several white matter pathways may therefore reflect adaptation of a distributed computation. We test this by comparing changes in independently defined pathways linking task-relevant regions with appropriate control pathways, to establish whether anatomical changes are selective, and we use the timing of those changes to distinguish contributions to acquiring a skill from its retention. We found that a scan acquired before learning predicts how well participants will learn, and we are now applying dense longitudinal neuroimaging in early childhood, across a school year and the summer that follows, to track individual learning trajectories rather than group averages. The same approach extends across the lifespan, to the lateralization of white matter with age, the development of memory systems, and the prediction of recovery after traumatic brain injury.
+Learning to read or to calculate recruits visual, language, memory, and control systems at once, so several pathways may change together. We compare the pathways that link the regions a skill uses against control pathways, and use the timing of change to separate acquisition from retention, across a school year, an intervention, or the summer break. A baseline scan predicts individual learning outcomes; dense longitudinal imaging turns that single prediction into a trajectory. The same design serves questions about white-matter lateralization in aging, the development of memory systems, and recovery after traumatic brain injury.
