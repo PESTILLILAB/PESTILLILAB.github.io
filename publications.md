@@ -10,4 +10,4 @@ scripts:
   - /assets/js/pub-config.js
   - /assets/js/publications.js
 ---
-The list below is pulled from PubMed each time the page loads, so it is always current. Preprints that PubMed indexes are included and replaced by the journal version when it appears. Citation counts are on [Google Scholar](https://scholar.google.com/citations?user=gh_KorwAAAAJ).
+Our research has been published in a variety of journals and fields, spanning cognitive neuroscience, computational neuroscience, biomedical imaging, and computer science. Here is our [Google Scholar](https://scholar.google.com/citations?user=gh_KorwAAAAJ). The list below is updated automatically from PubMed.
