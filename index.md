@@ -3,7 +3,7 @@ layout: home
 title: Home
 eyebrow: The University of Texas at Austin · Psychology &amp; Neuroscience
 headline: Responsible technology to *understand the brain*.
-lede: We study how the brain's connections support perception, learning, and memory. We also build the open software and data infrastructure that neuroscientists need to do this kind of work, and we work on the rules for sharing brain data across countries.
+lede: "We study brain connections and how they implement perception, cognition, and learning, in health and disease. We combine multimodal data with computational methods to understand how brain connections are organized and how that organization relates to brain function. In parallel, we develop data-science technology that extends what can be studied with brain data. In the era of artificial intelligence, our ability to understand the brain can be greatly augmented, if it is done responsibly."
 buttons:
   - { label: Our research, url: /research/ }
   - { label: Join the lab, url: /join/ }
