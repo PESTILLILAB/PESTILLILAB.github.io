@@ -24,4 +24,4 @@ features:
 #     - { value: "12", label: "postdocs and students now in faculty positions" }
 #     - { value: "6", label: "trainees with NSF, NIH or international fellowships" }
 ---
-We teach cognitive neuroscience and data science at UT Austin. Three things matter to us in the classroom: practical skills, active learning, and enough theory that the skills transfer.
+We teach cognitive neuroscience and data science at UT Austin. Three things matter to us in the classroom: practical skills, active learning, and the theory that helps generalize and transfer the skills.
