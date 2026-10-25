@@ -3,7 +3,7 @@ layout: home
 title: Home
 eyebrow: The University of Texas at Austin · Psychology &amp; Neuroscience
 headline: Responsible technology to *understand the brain*.
-lede: "We study brain connections and how they implement perception, cognition, and learning, in health and disease. We combine multimodal data with computational methods to understand how brain connections are organized and how that organization relates to brain function. In parallel, we develop data-science technology that extends what can be studied with brain data. In the era of artificial intelligence, our ability to understand the brain can be greatly augmented, if it is done responsibly."
+lede: We study how the brain's connections support perception, learning, and memory. We also build the open software and data infrastructure that neuroscientists need to do this kind of work, and we work on the rules for sharing brain data across countries.
 buttons:
   - { label: Our research, url: /research/ }
   - { label: Join the lab, url: /join/ }
@@ -39,9 +39,7 @@ values:
     title: Education and inclusion
     text: Our platforms and courses are used to teach neuroscience and data science at smaller U.S. colleges and in Africa and Latin America, where students would otherwise have no access to this kind of computing.
 ---
-The first program asks how the physical connections of the brain, its axons and white matter, support what we perceive and what we learn, and how that relationship changes as children grow, as adults age, and when the brain is injured. Because no single instrument sees the whole picture, we follow the same connections across methods: single axons traced under the microscope in animal brains, and the long-range pathways that MRI can measure, repeatedly and safely, in living people.
-
-The second program builds what the first one needs and could not get elsewhere. Mapping connections at this scale produces data that no laboratory can store, process, or share on its own, so we have spent a decade building the computing, the standards, and the provenance that make such data usable and reusable, and more recently the AI systems that work on them and the agreements that let them cross borders. The two programs feed each other: a new measurement exposes what the infrastructure cannot yet do, and a new capability makes an experiment possible that was not before.
+We study brain connections and how they implement perception, cognition, and learning, in health and disease. We combine multimodal data with computational methods to understand how brain connections are organized and how that organization relates to brain function. In parallel, we develop data-science technology that extends what can be studied with brain data. In the era of artificial intelligence, our ability to understand the brain can be greatly augmented, if it is done responsibly.
 
 *The brain works like the internet: long-range axonal connections link neurons in distant areas, and nothing works without them. This network infrastructure is not fixed. It changes with learning, during development, and as a result of aging and disease.*
 {: .muted}
