@@ -182,7 +182,8 @@ your public profile page (`auto: true` in `_data/scholar.yml`), but Google often
 the numbers into that file now and then, with the month in `as_of`; the page shows whichever is newer. To include someone's
 citations and repositories, give them an `openalex:` ID and a `github:` link in `_data/team.yml`
 (find the ID by searching the name at api.openalex.org/authors?search=First+Last; it looks like
-A5070135653). People listed under `team:` and `alumni:` count as lab-derived impact.
+A5070135653). People listed under `team:` and `alumni:` count as lab-derived impact and appear in the graph; add
+`trainee: false` to staff or visiting scientists who should not be counted. Collaborators are never counted.
 
 The graph builds itself from the files you already edit. Papers are placed in research areas by
 keywords on their titles (`_data/graph.yml`; add a PubMed ID under `overrides:` to pin one) and

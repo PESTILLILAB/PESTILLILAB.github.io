@@ -257,15 +257,6 @@
   "github": {
    "accounts": [
     {
-     "login": "kimberlylray",
-     "name": "Kimberly Ray",
-     "followers": 13,
-     "repos": 6,
-     "stars": 2,
-     "forks": 1,
-     "active": 2
-    },
-    {
      "login": "gamorosino",
      "name": "Gabriele Amorosino",
      "followers": 1,
@@ -311,33 +302,6 @@
      "active": 2
     },
     {
-     "login": "tjgrafft",
-     "name": "Taylor Grafft",
-     "followers": 4,
-     "repos": 33,
-     "stars": 0,
-     "forks": 0,
-     "active": 3
-    },
-    {
-     "login": "nicoalee",
-     "name": "Nicholas Lee",
-     "followers": 18,
-     "repos": 13,
-     "stars": 0,
-     "forks": 0,
-     "active": 1
-    },
-    {
-     "login": "orange-hour",
-     "name": "Tiffany Hong",
-     "followers": 8,
-     "repos": 10,
-     "stars": 1,
-     "forks": 1,
-     "active": 2
-    },
-    {
      "login": "SunaGuo",
      "name": "Sihang (Suna) Guo",
      "followers": 3,
@@ -356,15 +320,6 @@
      "active": 0
     },
     {
-     "login": "bhatiadheeraj",
-     "name": "Dheeraj Bhatia",
-     "followers": 24,
-     "repos": 47,
-     "stars": 1,
-     "forks": 4,
-     "active": 2
-    },
-    {
      "login": "yreyes03",
      "name": "Daniela Reyes",
      "followers": 1,
@@ -374,24 +329,6 @@
      "active": 1
     },
     {
-     "login": "dlevitas",
-     "name": "Daniel Levitas",
-     "followers": 7,
-     "repos": 11,
-     "stars": 1,
-     "forks": 1,
-     "active": 0
-    },
-    {
-     "login": "a1mackenzie",
-     "name": "Annie Mackenzie",
-     "followers": 0,
-     "repos": 0,
-     "stars": 0,
-     "forks": 0,
-     "active": 0
-    },
-    {
      "login": "bacaron",
      "name": "Bradley Caron",
      "followers": 20,
@@ -399,24 +336,6 @@
      "stars": 6,
      "forks": 32,
      "active": 0
-    },
-    {
-     "login": "guiomar",
-     "name": "Julia Guiomar (Guio) Niso Galán",
-     "followers": 18,
-     "repos": 48,
-     "stars": 22,
-     "forks": 48,
-     "active": 5
-    },
-    {
-     "login": "soichih",
-     "name": "Soichi Hayashi",
-     "followers": 60,
-     "repos": 103,
-     "stars": 43,
-     "forks": 32,
-     "active": 3
     },
     {
      "login": "svincibo",
@@ -509,15 +428,6 @@
      "active": 0
     },
     {
-     "login": "ccaiafa",
-     "name": "Cesar F. Caiafa",
-     "followers": 13,
-     "repos": 10,
-     "stars": 13,
-     "forks": 6,
-     "active": 3
-    },
-    {
      "login": "aarya22",
      "name": "Aman Arya",
      "followers": 2,
@@ -536,50 +446,35 @@
      "active": 18
     }
    ],
-   "repos": 743,
-   "stars": 231,
-   "forks": 301,
-   "followers": 495,
-   "active": 105,
-   "people": 31
+   "people": 21,
+   "repos": 462,
+   "stars": 148,
+   "forks": 208,
+   "followers": 330,
+   "active": 84
   },
   "citations": {
-   "total": 21098,
-   "works": 1385,
-   "people": 35,
+   "total": 9830,
+   "works": 915,
+   "people": 26,
    "by_year": {
-    "2012": 120,
-    "2013": 232,
-    "2014": 370,
-    "2015": 464,
-    "2016": 592,
-    "2017": 751,
-    "2018": 803,
-    "2019": 1113,
-    "2020": 1389,
-    "2021": 1872,
-    "2022": 2063,
-    "2023": 2093,
-    "2024": 3045,
-    "2025": 3365,
-    "2026": 2599
+    "2020": 540,
+    "2021": 853,
+    "2022": 1024,
+    "2023": 1146,
+    "2024": 1769,
+    "2025": 1965,
+    "2026": 1563,
+    "2016": 90,
+    "2017": 123,
+    "2019": 303,
+    "2014": 46,
+    "2018": 190,
+    "2012": 22,
+    "2013": 29,
+    "2015": 62
    },
    "top": [
-    {
-     "name": "Kimberly Ray",
-     "cited": 4607,
-     "works": 62
-    },
-    {
-     "name": "Cesar F. Caiafa",
-     "cited": 3261,
-     "works": 147
-    },
-    {
-     "name": "Julia Guiomar (Guio) Niso Galán",
-     "cited": 2917,
-     "works": 203
-    },
     {
      "name": "Anibal S. Heinsfeld",
      "cited": 2035,
@@ -614,6 +509,21 @@
      "name": "Sophia Vinci-Booher",
      "cited": 490,
      "works": 81
+    },
+    {
+     "name": "Marietjie Botes",
+     "cited": 480,
+     "works": 92
+    },
+    {
+     "name": "Josiah Leong",
+     "cited": 477,
+     "works": 43
+    },
+    {
+     "name": "Brent C. McPherson",
+     "cited": 424,
+     "works": 82
     }
    ]
   }

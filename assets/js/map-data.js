@@ -8,7 +8,6 @@ window.MAP_DATA = {
   people: [{% assign T = site.data.team %}{ name: {{ T.pi.name | jsonify }}, role: "pi", position: {{ T.pi.position | jsonify }}, pubmed_name: {{ T.pi.pubmed_name | jsonify }}, github: {{ T.pi.github | jsonify }}, url: "{{ '/team/' | relative_url }}" },
     {% for p in T.team %}{ name: {{ p.name | jsonify }}, role: "team", position: {{ p.position | jsonify }}, pubmed_name: {{ p.pubmed_name | jsonify }}, github: {{ p.github | jsonify }}, url: "{{ '/team/' | relative_url }}" },{% endfor %}
     {% for p in T.alumni %}{ name: {{ p.name | jsonify }}, role: "alumni", position: {{ p.position | jsonify }}, pubmed_name: {{ p.pubmed_name | jsonify }}, github: {{ p.github | jsonify }}, url: "{{ '/team/' | relative_url }}#alumni" },{% endfor %}
-    {% for p in T.collaborators %}{ name: {{ p.name | jsonify }}, role: "collaborator", position: {{ p.position | jsonify }}, pubmed_name: {{ p.pubmed_name | jsonify }}, github: {{ p.github | jsonify }}, url: "{{ '/team/' | relative_url }}#collaborators" },{% endfor %}
   ],
   rules: {{ site.data.graph | jsonify }},
   stats: {{ site.data.stats | jsonify }},

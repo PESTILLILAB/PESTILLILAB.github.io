@@ -1,4 +1,4 @@
-# Team roster. Edit this file to add or remove people; the Team page is built from it.
+# Team roster. People under team: and alumni: count as trainees for the Impact page unless they have "trainee: false". Edit this file to add or remove people; the Team page is built from it.
 # Each person: name, position, image (in /assets/img/people/), description (optional, used for alumni),
 # and any of github, scholar, linkedin, twitter, cv. Omit image to show initials instead.
 # Move an entry between the team, collaborators and alumni lists to change where it appears.
@@ -25,6 +25,7 @@ pi:
     He is a Fellow of the Association for Psychological Science and of the Psychonomic Society, and has received the Microsoft Investigator Fellowship, the Kavli Foundation's support, and the APS Janet Taylor Spence Award. He trained at La Sapienza University of Rome, New York University, Columbia University, and Stanford University, and was faculty at Indiana University before joining UT Austin, where he teaches data science and cognitive neuroscience and directs a [study abroad program in Geneva](https://utdirect.utexas.edu/apps/abroad/student/pgm_list/detail/nlogon/1763/).
 team:
 - name: Kimberly Ray
+  trainee: false   # staff / visiting scientist: not counted in lab-derived impact
   openalex: A5023028814
   position: Research Assistant Professor (Data Standards and Sharing, Neuroimaging, Metanalysis)
   image: /assets/img/people/kim_ray_new.jpg
@@ -73,17 +74,20 @@ team:
   github: https://github.com/yang2hang
   linkedin: https://www.linkedin.com/in/yang-zhang-4761482b0/
 - name: Taylor Grafft
+  trainee: false   # staff / visiting scientist: not counted in lab-derived impact
   openalex: A5121142710
   position: Software Engineer (Data Engineering, Cloud Infrastructure, DevOps)
   image: /assets/img/people/taylor-grafft.jpeg
   github: https://github.com/tjgrafft
   linkedin: https://www.linkedin.com/in/taylorgrafft
 - name: Nicholas Lee
+  trainee: false   # staff / visiting scientist: not counted in lab-derived impact
   openalex: A5043651178
   position: Software Engineer (Front End)
   image: /assets/img/people/nick_lee.jpeg
   github: https://github.com/nicoalee
 - name: Tiffany Hong
+  trainee: false   # staff / visiting scientist: not counted in lab-derived impact
   position: Data Engineer (Databases, Agentic AI)
   image: /assets/img/people/tiffany_hong.jpg
   github: https://github.com/orange-hour
@@ -152,6 +156,7 @@ collaborators:
   twitter: https://twitter.com/yarikoptic
 alumni:
 - name: Melanie Collier
+  trainee: false   # staff / visiting scientist: not counted in lab-derived impact
   openalex: A5152604727
   position: Lab Manager (Behavioral and Cognitive Neuroscience)
   image: /assets/img/people/melanie_collier_new_new.jpeg
@@ -204,6 +209,7 @@ alumni:
   description: Ashley visited the lab from The University of Queensland.
   scholar: https://scholar.google.com/citations?user=AbPtesgAAAAJ&hl=en&oi=sra
 - name: Dheeraj Bhatia
+  trainee: false   # staff / visiting scientist: not counted in lab-derived impact
   openalex: A5111165914
   position: Software Engineer (https://brainlife.io)
   image: /assets/img/people/dheeraj-bhatia.png
@@ -214,6 +220,7 @@ alumni:
   image: /assets/img/people/daniella_reyes.jpg
   github: https://github.com/yreyes03
 - name: Daniel Levitas
+  trainee: false   # staff / visiting scientist: not counted in lab-derived impact
   openalex: A5059565145
   position: Software Developer
   image: /assets/img/people/dan-levitas.png
@@ -225,6 +232,7 @@ alumni:
   image: /assets/img/people/mohammed_mehboob.jpg
   description: After leaving the lab, Mohammed took a position as an Associate Consultant within Consulting at Adobe.
 - name: Annie Mackenzie
+  trainee: false   # staff / visiting scientist: not counted in lab-derived impact
   openalex: A5017990671
   position: Lab & Project Manager
   image: /assets/img/people/annie-m-mackenzie.jpg
@@ -256,6 +264,7 @@ alumni:
   image: /assets/img/people/kunjal_shah.jpg
   description: After graduating from the lab, Kunjal started a job as an engineer at NVIDIA.
 - name: Julia Guiomar (Guio) Niso Galán
+  trainee: false   # staff / visiting scientist: not counted in lab-derived impact
   openalex: A5074329470
   position: CRCNS Research Scientist
   image: /assets/img/people/guiomar-niso.png
@@ -264,6 +273,7 @@ alumni:
   scholar: https://scholar.google.com/citations?user=xqxSCSkAAAAJ
   twitter: https://twitter.com/guiomarniso
 - name: Soichi Hayashi
+  trainee: false   # staff / visiting scientist: not counted in lab-derived impact
   position: Software Engineer
   image: https://en.gravatar.com/userimage/11088201/402ad6c44c48147d0b1c3b164fcf9618.jpg?size=200
   description: After leaving the lab, Soichi took on a position as a Software Developer in a Fintech Company.
@@ -367,6 +377,7 @@ alumni:
   scholar: https://scholar.google.com/citations?user=YUhVZFsAAAAJ
   twitter: https://mobile.twitter.com/shiloh_ec
 - name: Cesar F. Caiafa
+  trainee: false   # staff / visiting scientist: not counted in lab-derived impact
   openalex: A5024870237
   position: Visiting scientist
   image: /assets/img/people/cesar-caiafa.png

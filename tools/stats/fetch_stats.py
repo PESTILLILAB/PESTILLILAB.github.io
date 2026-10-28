@@ -18,7 +18,8 @@ Two tiers:
   owned    the lab itself: PubMed papers, the PI's OpenAlex profile, repositories in the
            organizations listed in ORGS plus the PI's own account.
   derived  current and former trainees under their own names: their OpenAlex profiles
-           and their personal GitHub accounts (people listed under team: and alumni:).
+           and their personal GitHub accounts (people listed under team: and alumni: without
+           "trainee: false"; collaborators are never counted).
 Nothing is counted twice: a repository belongs to the account that owns it.
 
 If a source is unreachable the previous numbers for that source are kept, so the page
@@ -87,7 +88,8 @@ def main():
     prev = json.load(open(OUT)) if os.path.exists(OUT) else {}
     out = {"updated": datetime.date.today().isoformat(), "owned": prev.get("owned", {}), "derived": prev.get("derived", {}),
            "sources": {"github": "GitHub API", "citations": "OpenAlex", "papers": "PubMed"}}
-    people = [dict(p, tier="derived") for p in (team.get("team") or []) + (team.get("alumni") or [])]
+    # trainees = everyone under team: and alumni: unless marked "trainee: false" (staff, visiting scientists)
+    people = [dict(p, tier="derived") for p in (team.get("team") or []) + (team.get("alumni") or []) if p.get("trainee", True)]
 
     # ---------- GitHub ----------
     try:
