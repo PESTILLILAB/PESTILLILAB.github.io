@@ -1,0 +1,7 @@
+# Google Scholar numbers for the PI, copied by hand (Scholar has no API). Update a few times a year.
+# The Map page shows these as the headline citation figures; OpenAlex numbers update automatically.
+url: https://scholar.google.com/citations?user=gh_KorwAAAAJ
+as_of: 2026-10
+citations: 8129
+h_index: 44
+i10_index: 81

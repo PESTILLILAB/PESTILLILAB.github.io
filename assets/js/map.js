@@ -16,7 +16,9 @@
   var ownedEl = document.querySelector('[data-tier=owned]'), derivedEl = document.querySelector('[data-tier=derived]');
   if (ownedEl) ownedEl.innerHTML =
     stat((o.papers || {}).total, 'papers on PubMed') +
-    stat((o.citations || {}).total, 'citations to them' + ((o.citations || {}).h_index ? ' · h-index ' + o.citations.h_index : '')) +
+    (D.scholar && D.scholar.citations
+      ? stat(D.scholar.citations, 'citations · h-index ' + D.scholar.h_index + ' · <a href="' + D.scholar.url + '" target="_blank" rel="noopener">Google Scholar</a>, ' + D.scholar.as_of)
+      : stat((o.citations || {}).total, 'citations to them' + ((o.citations || {}).h_index ? ' · h-index ' + o.citations.h_index : ''))) +
     stat((o.github || {}).repos, 'public repositories') +
     stat((o.github || {}).stars, 'GitHub stars') +
     stat((o.github || {}).forks, 'forks of lab code') +
@@ -29,19 +31,27 @@
     stat(((d.github || {}).stars || 0) + ((d.github || {}).forks || 0), 'stars and forks of their code') +
     stat((d.github || {}).followers, 'followers on GitHub');
   var upd = document.getElementById('stats-updated');
-  if (upd) upd.textContent = 'Updated ' + (S.updated || '–') + '. Citations are from OpenAlex and run lower than Google Scholar, which also counts preprints and theses. Lab-derived citations cover all work by current and former trainees, not only work done here.';
+  if (upd) upd.textContent = 'Updated ' + (S.updated || '–') + '. Automatic citation counts are from OpenAlex and run lower than Google Scholar, which also counts preprints and theses; the Scholar figure is copied by hand (OpenAlex counts ' + fmt((o.citations || {}).total) + ' for the same papers). Lab-derived citations cover all work by current and former trainees, not only work done here.';
 
   function barChart(el, series, years, colors) {
-    // series: array of {year: value} maps; years: sorted list
+    // series: array of {year: value} maps; years: sorted list. Y axis with gridlines on the right; hover shows the value.
     if (!el || !years.length) return;
-    var W = 320, H = 120, padL = 4, padB = 18, n = years.length, gw = (W - padL) / n, max = 1;
+    var W = 320, H = 130, padL = 4, padR = 34, padB = 18, padT = 6, n = years.length, gw = (W - padL - padR) / n, max = 1;
     series.forEach(function (s) { years.forEach(function (y) { max = Math.max(max, s[y] || 0); }); });
-    var svg = '<svg viewBox="0 0 ' + W + ' ' + H + '" role="img">';
+    var step = Math.pow(10, Math.floor(Math.log10(max))); if (max / step < 2) step /= 2; else if (max / step > 5) step *= 2;
+    var top = Math.ceil(max / step) * step, plotH = H - padB - padT;
+    var svg = '<svg viewBox="0 0 ' + W + ' ' + H + '" role="img" class="bars">';
+    for (var v = 0; v <= top; v += step) {
+      var gy = padT + plotH - plotH * v / top;
+      svg += '<line x1="' + padL + '" x2="' + (W - padR + 4) + '" y1="' + gy + '" y2="' + gy + '" stroke="rgba(238,243,246,0.1)"/>' +
+             '<text x="' + (W - padR + 8) + '" y="' + (gy + 3) + '" font-size="9" fill="' + C.muted + '" font-family="Geist Mono, monospace">' + fmt(v) + '</text>';
+    }
     years.forEach(function (y, i) {
       var x = padL + i * gw;
       series.forEach(function (s, k) {
-        var v = s[y] || 0, h = (H - padB - 4) * v / max, bw = (gw - 3) / series.length;
-        svg += '<rect x="' + (x + k * bw) + '" y="' + (H - padB - h) + '" width="' + Math.max(bw - 1, 1) + '" height="' + h + '" fill="' + colors[k] + '" rx="1"><title>' + y + ': ' + fmt(v) + '</title></rect>';
+        var v = s[y] || 0, h = plotH * v / top, bw = (gw - 3) / series.length;
+        svg += '<g class="bar"><rect x="' + (x + k * bw) + '" y="' + (padT + plotH - h) + '" width="' + Math.max(bw - 1, 1) + '" height="' + h + '" fill="' + colors[k] + '" rx="1"/>' +
+               '<text class="val" x="' + (x + k * bw + bw / 2) + '" y="' + (padT + plotH - h - 3) + '" text-anchor="middle" font-size="9" fill="' + C.ink + '" font-family="Geist Mono, monospace">' + fmt(v) + '</text><title>' + y + ': ' + fmt(v) + '</title></g>';
       });
       if (n <= 8 || i % Math.ceil(n / 8) === 0) svg += '<text x="' + (x + gw / 2) + '" y="' + (H - 4) + '" text-anchor="middle" font-size="9" fill="' + C.muted + '" font-family="Geist Mono, monospace">' + y + '</text>';
     });

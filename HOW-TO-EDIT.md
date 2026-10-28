@@ -177,7 +177,8 @@ Upload the photo to `assets/img/`, then at the top of `_data/team.yml` remove th
 ### The Map page (numbers and graph)
 
 The numbers come from `_data/stats.json`, which the site's workflow refreshes every Monday from GitHub,
-OpenAlex, and PubMed (`tools/stats/fetch_stats.py`); you never edit that file. To include someone's
+OpenAlex, and PubMed (`tools/stats/fetch_stats.py`); you never edit that file. The Google Scholar figures (citations, h-index) are the one manual part: copy them
+into `_data/scholar.yml` now and then, with the month in `as_of`. To include someone's
 citations and repositories, give them an `openalex:` ID and a `github:` link in `_data/team.yml`
 (find the ID by searching the name at api.openalex.org/authors?search=First+Last; it looks like
 A5070135653). People listed under `team:` and `alumni:` count as lab-derived impact.

@@ -354,6 +354,9 @@ section.flush { padding: 0 0 8px; border: 0; }
 .chart figcaption { font-weight: 600; font-size: .95rem; margin-bottom: 10px; display: flex; justify-content: space-between; align-items: baseline; }
 .chart .src { font-family: var(--font-mono); font-size: .66rem; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
 .chart svg { width: 100%; height: auto; display: block; }
+.chart .bar .val { opacity: 0; transition: opacity .12s; pointer-events: none; }
+.chart .bar:hover .val { opacity: 1; }
+.chart .bar:hover rect { filter: brightness(1.25); }
 .chart .legend { margin: 8px 0 0; font-size: .78rem; color: var(--muted); }
 .chart .legend .k { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin: 0 6px 0 10px; vertical-align: middle; }
 .chart .legend .k-owned { background: #f9c926; } .chart .legend .k-derived { background: #3b9fd0; }

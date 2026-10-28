@@ -10,7 +10,7 @@ scripts:
   - /assets/js/map-data.js
   - /assets/js/map.js
 owned_title: Lab-owned
-owned_text: What the lab itself has produced. Papers from PubMed, citations to them from OpenAlex, and the repositories in the lab's GitHub organizations and the PI's account.
+owned_text: What the lab itself has produced. Papers from PubMed, citations to them from Google Scholar, and the repositories in the lab's GitHub organizations and the PI's account.
 derived_title: Lab-derived
 derived_text: What people who trained here have gone on to produce under their own names. Citations to the work of current and former trainees, all of it, via OpenAlex, and the stars, forks, and followers of their personal GitHub accounts. Nothing is counted in both tiers.
 graph_title: One graph

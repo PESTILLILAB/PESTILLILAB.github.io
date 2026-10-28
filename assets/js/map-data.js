@@ -12,5 +12,6 @@ window.MAP_DATA = {
   ],
   rules: {{ site.data.graph | jsonify }},
   stats: {{ site.data.stats | jsonify }},
+  scholar: {{ site.data.scholar | jsonify }},
   excludePmids: {{ site.data.publications.exclude_pmids | jsonify }}
 };
