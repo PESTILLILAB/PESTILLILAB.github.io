@@ -4,6 +4,7 @@ slug: bridge
 title: "BRIDGE · Brain Research International Data Governance Exchange"
 role: "Principal Investigator"
 website: https://bridge.incf.org
+areas: [governance]   # research areas (slugs) this project belongs to, for the Map page
 icon: bridge   # an SVG in _includes/icons/
 meta: "Wellcome Trust · 2023–2027 · Co-Is: Damian Eke (Nottingham), Thomas Nichols (Oxford), Ricardo Chavarriaga (ZHAW Zurich), Amadi Ihunwo (Witwatersrand), Fernanda Tovar Moll (D'Or Institute) · powered by INCF"
 ---

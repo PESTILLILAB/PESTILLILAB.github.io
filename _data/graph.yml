@@ -1,0 +1,79 @@
+# Rules that place each paper on the Map page in a research area.
+# A paper's title is scored against the keyword lists below (case-insensitive substring match);
+# it joins the area(s) with the highest score. Papers matching nothing go to "other".
+# To pin a paper by hand, add its PubMed ID under overrides.
+keywords:
+  wiring:
+    - tractograph
+    - connectom
+    - white matter
+    - white-matter
+    - tract
+    - fascicle
+    - diffusion
+    - streamline
+    - projectome
+    - mesoscale
+    - structural connectivity
+    - fiber
+    - axon
+  vision:
+    - visual
+    - retinotop
+    - attention
+    - perception
+    - contrast
+    - optic
+    - chiasm
+    - albinism
+    - cortex v1
+    - psychophysic
+    - eye
+  learning:
+    - learning
+    - reading
+    - child
+    - development
+    - lifespan
+    - aging
+    - concussion
+    - memory
+    - hippocamp
+    - math
+    - literacy
+    - education
+    - plasticity
+  infrastructure:
+    - platform
+    - cloud
+    - reproducib
+    - bids
+    - brain imaging data structure
+    - open science
+    - fair
+    - deep learning
+    - benchmark
+    - machine learning
+    - pipeline
+    - software
+    - artificial intelligence
+    - agent
+    - infrastructure
+    - provenance
+    - standard
+    - dataset
+  governance:
+    - governance
+    - sovereignty
+    - legal
+    - ethic
+    - law
+    - policy
+    - global
+    - africa
+    - data sharing
+    - regulat
+    - privacy
+    - consent
+overrides: {}
+  # 12345678: governance

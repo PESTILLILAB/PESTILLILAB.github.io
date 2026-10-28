@@ -4,6 +4,7 @@ slug: cmc
 title: "Center for Mesoscale Connectomics"
 role: "Director of Data Technologies"
 website: https://mesoscale-connectivity.org
+areas: [wiring]   # research areas (slugs) this project belongs to, for the Map page
 icon: cmc   # an SVG in _includes/icons/
 meta: "NIH BRAIN CONNECTS UM1 · 2023–2028 · PI: Kamil Ugurbil (University of Minnesota) · a multimodal, cross-species approach"
 ---

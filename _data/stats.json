@@ -1,0 +1,626 @@
+{
+ "updated": "2026-10-28",
+ "owned": {
+  "github": {
+   "accounts": [
+    {
+     "login": "pestillilab",
+     "kind": "org",
+     "followers": 10,
+     "repos": 11,
+     "stars": 5,
+     "forks": 17,
+     "active": 2,
+     "top": [
+      {
+       "name": "tacademia.hugo",
+       "stars": 2,
+       "forks": 4,
+       "issues": 14,
+       "language": "JavaScript",
+       "pushed": "2022-05-02",
+       "archived": false
+      },
+      {
+       "name": "PESTILLILAB.github.io",
+       "stars": 2,
+       "forks": 10,
+       "issues": 1,
+       "language": "JavaScript",
+       "pushed": "2026-10-25",
+       "archived": false
+      },
+      {
+       "name": "bids-connectivity",
+       "stars": 1,
+       "forks": 3,
+       "issues": 1,
+       "language": "HTML",
+       "pushed": "2023-12-19",
+       "archived": false
+      },
+      {
+       "name": "Linkedin-Auth-Node",
+       "stars": 0,
+       "forks": 0,
+       "issues": 0,
+       "language": "EJS",
+       "pushed": "2021-03-19",
+       "archived": false
+      },
+      {
+       "name": "deleteme",
+       "stars": 0,
+       "forks": 0,
+       "issues": 0,
+       "language": null,
+       "pushed": "2021-11-04",
+       "archived": false
+      }
+     ]
+    },
+    {
+     "login": "brainlife",
+     "kind": "org",
+     "followers": 108,
+     "repos": 270,
+     "stars": 266,
+     "forks": 339,
+     "active": 28,
+     "top": [
+      {
+       "name": "ezbids",
+       "stars": 32,
+       "forks": 21,
+       "issues": 30,
+       "language": "Vue",
+       "pushed": "2026-05-20",
+       "archived": false
+      },
+      {
+       "name": "BCT",
+       "stars": 31,
+       "forks": 12,
+       "issues": 5,
+       "language": "MATLAB",
+       "pushed": "2020-12-16",
+       "archived": false
+      },
+      {
+       "name": "docs",
+       "stars": 19,
+       "forks": 29,
+       "issues": 22,
+       "language": "HTML",
+       "pushed": "2026-07-09",
+       "archived": false
+      },
+      {
+       "name": "warehouse",
+       "stars": 15,
+       "forks": 13,
+       "issues": 25,
+       "language": "CSS",
+       "pushed": "2026-08-10",
+       "archived": false
+      },
+      {
+       "name": "abcd-spec",
+       "stars": 12,
+       "forks": 8,
+       "issues": 6,
+       "language": "Python",
+       "pushed": "2026-10-08",
+       "archived": false
+      }
+     ]
+    },
+    {
+     "login": "psychdatascience",
+     "kind": "org",
+     "followers": 10,
+     "repos": 2,
+     "stars": 19,
+     "forks": 27,
+     "active": 1,
+     "top": [
+      {
+       "name": "FDS-CourseOne",
+       "stars": 17,
+       "forks": 24,
+       "issues": 0,
+       "language": "Jupyter Notebook",
+       "pushed": "2025-02-26",
+       "archived": false
+      },
+      {
+       "name": "FDS-CourseTwo",
+       "stars": 2,
+       "forks": 3,
+       "issues": 0,
+       "language": "Jupyter Notebook",
+       "pushed": "2026-04-07",
+       "archived": false
+      }
+     ]
+    },
+    {
+     "login": "francopestilli",
+     "kind": "user",
+     "followers": 101,
+     "repos": 29,
+     "stars": 63,
+     "forks": 58,
+     "active": 2,
+     "top": [
+      {
+       "name": "life",
+       "stars": 39,
+       "forks": 15,
+       "issues": 9,
+       "language": "Matlab",
+       "pushed": "2017-09-29",
+       "archived": false
+      },
+      {
+       "name": "mba",
+       "stars": 7,
+       "forks": 12,
+       "issues": 4,
+       "language": "MATLAB",
+       "pushed": "2021-04-29",
+       "archived": false
+      },
+      {
+       "name": "mpi",
+       "stars": 5,
+       "forks": 0,
+       "issues": 2,
+       "language": "Matlab",
+       "pushed": "2017-05-09",
+       "archived": false
+      },
+      {
+       "name": "MyFirstRepo",
+       "stars": 3,
+       "forks": 5,
+       "issues": 1,
+       "language": null,
+       "pushed": "2022-08-30",
+       "archived": false
+      },
+      {
+       "name": "pestilli-teaching-2017",
+       "stars": 3,
+       "forks": 1,
+       "issues": 0,
+       "language": "Python",
+       "pushed": "2017-05-15",
+       "archived": false
+      }
+     ]
+    }
+   ],
+   "repos": 312,
+   "stars": 353,
+   "forks": 441,
+   "followers": 229,
+   "active": 33
+  },
+  "papers": {
+   "total": 108,
+   "by_year": {
+    "2026": 13,
+    "2025": 10,
+    "2024": 11,
+    "2023": 6,
+    "2022": 9,
+    "2021": 9,
+    "2020": 6,
+    "2019": 8,
+    "2018": 4,
+    "2017": 6,
+    "2016": 4,
+    "2015": 9,
+    "2014": 6,
+    "2011": 1,
+    "2009": 2,
+    "2008": 1,
+    "2007": 1,
+    "2005": 2
+   }
+  },
+  "citations": {
+   "total": 5895,
+   "works": 445,
+   "by_year": {
+    "2012": 73,
+    "2013": 63,
+    "2014": 84,
+    "2015": 140,
+    "2016": 175,
+    "2017": 254,
+    "2018": 268,
+    "2019": 338,
+    "2020": 383,
+    "2021": 554,
+    "2022": 510,
+    "2023": 516,
+    "2024": 724,
+    "2025": 869,
+    "2026": 697
+   },
+   "h_index": 42
+  }
+ },
+ "derived": {
+  "github": {
+   "accounts": [
+    {
+     "login": "kimberlylray",
+     "name": "Kimberly Ray",
+     "followers": 13,
+     "repos": 6,
+     "stars": 2,
+     "forks": 1,
+     "active": 2
+    },
+    {
+     "login": "gamorosino",
+     "name": "Gabriele Amorosino",
+     "followers": 1,
+     "repos": 63,
+     "stars": 2,
+     "forks": 8,
+     "active": 48
+    },
+    {
+     "login": "anibalsolon",
+     "name": "Anibal S. Heinsfeld",
+     "followers": 206,
+     "repos": 35,
+     "stars": 59,
+     "forks": 23,
+     "active": 2
+    },
+    {
+     "login": "Junebeomstics",
+     "name": "Junbeom Kwon",
+     "followers": 7,
+     "repos": 6,
+     "stars": 1,
+     "forks": 1,
+     "active": 4
+    },
+    {
+     "login": "stephenkiilu",
+     "name": "Stephen Kiilu",
+     "followers": 3,
+     "repos": 39,
+     "stars": 4,
+     "forks": 1,
+     "active": 2
+    },
+    {
+     "login": "yang2hang",
+     "name": "Yang Zhang",
+     "followers": 0,
+     "repos": 5,
+     "stars": 0,
+     "forks": 1,
+     "active": 2
+    },
+    {
+     "login": "tjgrafft",
+     "name": "Taylor Grafft",
+     "followers": 4,
+     "repos": 33,
+     "stars": 0,
+     "forks": 0,
+     "active": 3
+    },
+    {
+     "login": "nicoalee",
+     "name": "Nicholas Lee",
+     "followers": 18,
+     "repos": 13,
+     "stars": 0,
+     "forks": 0,
+     "active": 1
+    },
+    {
+     "login": "orange-hour",
+     "name": "Tiffany Hong",
+     "followers": 8,
+     "repos": 10,
+     "stars": 1,
+     "forks": 1,
+     "active": 2
+    },
+    {
+     "login": "SunaGuo",
+     "name": "Sihang (Suna) Guo",
+     "followers": 3,
+     "repos": 2,
+     "stars": 0,
+     "forks": 2,
+     "active": 0
+    },
+    {
+     "login": "aldensyi",
+     "name": "Sangmin (Alden) Yi",
+     "followers": 0,
+     "repos": 4,
+     "stars": 1,
+     "forks": 1,
+     "active": 0
+    },
+    {
+     "login": "bhatiadheeraj",
+     "name": "Dheeraj Bhatia",
+     "followers": 24,
+     "repos": 47,
+     "stars": 1,
+     "forks": 4,
+     "active": 2
+    },
+    {
+     "login": "yreyes03",
+     "name": "Daniela Reyes",
+     "followers": 1,
+     "repos": 13,
+     "stars": 0,
+     "forks": 0,
+     "active": 1
+    },
+    {
+     "login": "dlevitas",
+     "name": "Daniel Levitas",
+     "followers": 7,
+     "repos": 11,
+     "stars": 1,
+     "forks": 1,
+     "active": 0
+    },
+    {
+     "login": "a1mackenzie",
+     "name": "Annie Mackenzie",
+     "followers": 0,
+     "repos": 0,
+     "stars": 0,
+     "forks": 0,
+     "active": 0
+    },
+    {
+     "login": "bacaron",
+     "name": "Bradley Caron",
+     "followers": 20,
+     "repos": 56,
+     "stars": 6,
+     "forks": 32,
+     "active": 0
+    },
+    {
+     "login": "guiomar",
+     "name": "Julia Guiomar (Guio) Niso Galán",
+     "followers": 18,
+     "repos": 48,
+     "stars": 22,
+     "forks": 48,
+     "active": 5
+    },
+    {
+     "login": "soichih",
+     "name": "Soichi Hayashi",
+     "followers": 60,
+     "repos": 103,
+     "stars": 43,
+     "forks": 32,
+     "active": 3
+    },
+    {
+     "login": "svincibo",
+     "name": "Sophia Vinci-Booher",
+     "followers": 3,
+     "repos": 29,
+     "stars": 3,
+     "forks": 8,
+     "active": 0
+    },
+    {
+     "login": "sandrahanekamp",
+     "name": "Sandra Hanekamp",
+     "followers": 3,
+     "repos": 3,
+     "stars": 0,
+     "forks": 0,
+     "active": 0
+    },
+    {
+     "login": "antoniofs23",
+     "name": "Antonio Fernandez",
+     "followers": 9,
+     "repos": 17,
+     "stars": 7,
+     "forks": 0,
+     "active": 0
+    },
+    {
+     "login": "bcmcpher",
+     "name": "Brent C. McPherson",
+     "followers": 12,
+     "repos": 18,
+     "stars": 4,
+     "forks": 10,
+     "active": 4
+    },
+    {
+     "login": "DanNBullock",
+     "name": "Daniel N. Bullock",
+     "followers": 32,
+     "repos": 44,
+     "stars": 23,
+     "forks": 28,
+     "active": 1
+    },
+    {
+     "login": "fullstackneuro",
+     "name": "Josiah Leong",
+     "followers": 3,
+     "repos": 2,
+     "stars": 0,
+     "forks": 0,
+     "active": 0
+    },
+    {
+     "login": "IlariaSani",
+     "name": "Ilaria Sani",
+     "followers": 0,
+     "repos": 2,
+     "stars": 0,
+     "forks": 0,
+     "active": 0
+    },
+    {
+     "login": "ricardofebrega",
+     "name": "Ricardo Fabrega",
+     "followers": 2,
+     "repos": 0,
+     "stars": 0,
+     "forks": 0,
+     "active": 0
+    },
+    {
+     "login": "Qian-Yiming",
+     "name": "Yiming Qian",
+     "followers": 0,
+     "repos": 6,
+     "stars": 0,
+     "forks": 0,
+     "active": 2
+    },
+    {
+     "login": "kitchell",
+     "name": "Lindsey Kitchell",
+     "followers": 17,
+     "repos": 58,
+     "stars": 11,
+     "forks": 64,
+     "active": 0
+    },
+    {
+     "login": "ccaiafa",
+     "name": "Cesar F. Caiafa",
+     "followers": 13,
+     "repos": 10,
+     "stars": 13,
+     "forks": 6,
+     "active": 3
+    },
+    {
+     "login": "aarya22",
+     "name": "Aman Arya",
+     "followers": 2,
+     "repos": 25,
+     "stars": 5,
+     "forks": 12,
+     "active": 0
+    },
+    {
+     "login": "stevengeeky",
+     "name": "Steven O’Riley",
+     "followers": 6,
+     "repos": 35,
+     "stars": 22,
+     "forks": 17,
+     "active": 18
+    }
+   ],
+   "repos": 743,
+   "stars": 231,
+   "forks": 301,
+   "followers": 495,
+   "active": 105,
+   "people": 31
+  },
+  "citations": {
+   "total": 21098,
+   "works": 1385,
+   "people": 35,
+   "by_year": {
+    "2012": 120,
+    "2013": 232,
+    "2014": 370,
+    "2015": 464,
+    "2016": 592,
+    "2017": 751,
+    "2018": 803,
+    "2019": 1113,
+    "2020": 1389,
+    "2021": 1872,
+    "2022": 2063,
+    "2023": 2093,
+    "2024": 3045,
+    "2025": 3365,
+    "2026": 2599
+   },
+   "top": [
+    {
+     "name": "Kimberly Ray",
+     "cited": 4607,
+     "works": 62
+    },
+    {
+     "name": "Cesar F. Caiafa",
+     "cited": 3261,
+     "works": 147
+    },
+    {
+     "name": "Julia Guiomar (Guio) Niso Galán",
+     "cited": 2917,
+     "works": 203
+    },
+    {
+     "name": "Anibal S. Heinsfeld",
+     "cited": 2035,
+     "works": 34
+    },
+    {
+     "name": "Bradley Caron",
+     "cited": 1014,
+     "works": 73
+    },
+    {
+     "name": "Yiming Qian",
+     "cited": 925,
+     "works": 57
+    },
+    {
+     "name": "Daniel N. Bullock",
+     "cited": 849,
+     "works": 75
+    },
+    {
+     "name": "Lindsey Kitchell",
+     "cited": 773,
+     "works": 77
+    },
+    {
+     "name": "Ilaria Sani",
+     "cited": 672,
+     "works": 57
+    },
+    {
+     "name": "Sophia Vinci-Booher",
+     "cited": 490,
+     "works": 81
+    }
+   ]
+  }
+ },
+ "sources": {
+  "github": "GitHub API",
+  "citations": "OpenAlex",
+  "papers": "PubMed"
+ }
+}

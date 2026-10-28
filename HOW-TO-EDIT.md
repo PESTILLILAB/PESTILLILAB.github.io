@@ -43,6 +43,7 @@ quotes and commit again.
 | Change open positions | `join.md` |
 | Change the menu, footer address, or links | `_config.yml` |
 | Add a photo | upload to `assets/img/people/` (people) or `assets/img/` (other) |
+| Put someone's citations/GitHub on the Map page | `openalex:` and `github:` lines in `_data/team.yml` |
 
 ## Recipes
 
@@ -172,6 +173,20 @@ The Geneva page's text, dates and deadline are in `geneva.md`.
 
 Upload the photo to `assets/img/`, then at the top of `_data/team.yml` remove the `#` from the three
 `group_photo` lines and set the file name and caption.
+
+### The Map page (numbers and graph)
+
+The numbers come from `_data/stats.json`, which the site's workflow refreshes every Monday from GitHub,
+OpenAlex, and PubMed (`tools/stats/fetch_stats.py`); you never edit that file. To include someone's
+citations and repositories, give them an `openalex:` ID and a `github:` link in `_data/team.yml`
+(find the ID by searching the name at api.openalex.org/authors?search=First+Last; it looks like
+A5070135653). People listed under `team:` and `alumni:` count as lab-derived impact.
+
+The graph builds itself from the files you already edit. Papers are placed in research areas by
+keywords on their titles (`_data/graph.yml`; add a PubMed ID under `overrides:` to pin one) and
+linked to people by author name (add `pubmed_name: Surname I` to a person if the automatic match
+fails). Software and datasets join the graph when their entry in `_data/resources.yml` has an `area:`
+line, optionally a `project:` and a list of `pmids:`. Projects link to areas through `areas:` in their file.
 
 ### Hide a PubMed hit that is not ours
 

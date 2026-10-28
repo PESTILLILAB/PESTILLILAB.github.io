@@ -1,27 +1,36 @@
 # Code & Data page. Each group has a title and a list of items.
 # Item fields: name, description (one sentence), url, repo (optional GitHub link), tag (optional: platform, tool, dataset, atlas, benchmark, standard, code)
+# For the Map page (optional): area (slug of a research area in _research/), project (slug of a project in _projects/), pmids (list of PubMed IDs of papers about this item)
 - group: Platforms and tools
   items:
     - name: brainlife.io
+      area: infrastructure
+      project: brainlife
       description: Open cloud platform that connects neuroimaging data, versioned apps, and outputs with full provenance; runs on cloud and HPC.
       url: https://brainlife.io
       repo: https://github.com/brainlife
       tag: platform
     - name: ezBIDS
+      area: infrastructure
+      project: standards
       description: Guided conversion of raw scanner data into the Brain Imaging Data Structure, interoperable with the major archives.
       url: https://brainlife.io/ezbids
       repo: https://github.com/brainlife/ezbids
       tag: tool
     - name: dicompare
+      area: infrastructure
+      project: brainlife
       description: Validates and compares MRI acquisition protocols from DICOM metadata, so that sessions from different sites and scanners can be checked against a reference or a shared schema. Python package and web app.
       url: https://brainlife.io/dicompare
       repo: https://github.com/brainlife/dicompare
       tag: tool
     - name: VISCONN
+      area: vision
       description: Toolbox for measuring white-matter connectivity between retinotopically matched regions of visual cortex; distributed as brainlife.io apps.
       url: https://visconn.github.io/
       tag: tool
     - name: LiFE and ENCODE
+      area: wiring
       description: Linear fascicle evaluation and the multidimensional encoding of connectomes, for evaluating and comparing tractography.
       url: https://francopestilli.github.io/life
       repo: https://github.com/brain-life/encode
@@ -29,41 +38,55 @@
 - group: Datasets, atlases and benchmarks
   items:
     - name: White Matter Tract Termination Atlas (WMTTA)
+      area: wiring
       description: Where 61 major tracts terminate on the cortical surface, from 1,062 Human Connectome Project participants, with functional profiles.
       url: https://brainlife.io
       tag: atlas
     - name: Tract segmentation generalizability benchmark
+      area: infrastructure
       description: 1,455 subjects across children, young adults, and aging adults with 61 labeled tracts, for testing deep-learning tract segmentation across datasets.
       url: https://doi.org/10.64898/2026.07.30.741597
       repo: https://github.com/Junebeomstics/TractSegBench
       tag: benchmark
     - name: Center for Mesoscale Connectomics data
+      area: wiring
+      project: cmc
       description: Macaque brains imaged at 10.5 T in vivo and ex vivo, with whole-brain PS-OCT and processing pipelines.
       url: https://brainlife.io/pub/CMC
       tag: dataset
     - name: A taxonomy of the brain's white matter
+      area: wiring
       description: Twenty-one major tracts defined and named for the 21st century, with reproducible segmentation.
       url: https://doi.org/10.1093/cercor/bhab500
       tag: atlas
     - name: Open diffusion data derivatives (O3D)
+      area: infrastructure
+      project: brainlife
       description: Upcycled diffusion MRI derivatives from public datasets, processed with integrated, reproducible pipelines.
       url: https://doi.org/10.1038/s41597-019-0073-y
       tag: dataset
     - name: CHIASM
+      area: vision
       description: The human brain albinism and achiasma MRI dataset.
       url: https://doi.org/10.1038/s41597-021-00806-0
       tag: dataset
     - name: A labeled clinical-MRI dataset of Nigerian brains
+      area: governance
+      project: bridge
       description: Clinical MRI scans from Nigeria, labeled and shared to broaden the populations represented in neuroimaging.
       url: https://doi.org/10.1038/s41597-025-04743-0
       tag: dataset
 - group: Standards and governance
   items:
     - name: BIDS Connectivity
+      area: infrastructure
+      project: standards
       description: The community extension of the Brain Imaging Data Structure for macroscopic brain connections and the workflows that produce them.
       url: https://pestillilab.github.io/bids-connectivity
       tag: standard
     - name: Neurodata governance toolkit
+      area: governance
+      project: governance
       description: Legal map of 93 countries, decision tools, and a modular neurodata transfer and access agreement, from the BRIDGE program.
       url: https://braindatagovernance.org
       repo: https://github.com/francopestilli/data-governance-access-matrix
