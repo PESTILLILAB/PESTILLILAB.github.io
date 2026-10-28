@@ -58,7 +58,7 @@ jobs:
 
   deploy:
     # runs after any successful build (the stats job above may legitimately be skipped)
-    if: needs.build.result == 'success'
+    if: always() && needs.build.result == 'success'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
