@@ -61,7 +61,8 @@
   }
   var yrs = function (maps, from) { var set = {}; maps.forEach(function (m) { Object.keys(m || {}).forEach(function (y) { if (+y >= from) set[y] = 1; }); }); return Object.keys(set).sort(); };
   var thisYear = new Date().getFullYear();
-  var pby = (o.papers || {}).by_year || {}, cby = (o.citations || {}).by_year || {}, dby = (d.citations || {}).by_year || {};
+  var pby = (o.papers || {}).by_year || {}, cby = (sch.by_year && Object.keys(sch.by_year).length ? sch.by_year : (o.citations || {}).by_year) || {}, dby = (d.citations || {}).by_year || {};
+  var citSrc = document.querySelector('[data-chart=citations]'); if (citSrc && sch.by_year && Object.keys(sch.by_year).length) { var srcEl = citSrc.parentNode.querySelector('.src'); if (srcEl) srcEl.textContent = 'Sources: Google Scholar (lab-owned), OpenAlex (lab-derived)'; }
   barChart(document.querySelector('[data-chart=papers]'), [pby], yrs([pby], 2008), [C.yellow], true);
   barChart(document.querySelector('[data-chart=citations]'), [cby, dby], yrs([cby, dby], thisYear - 11), [C.yellow, C.blue]);
   var gh = document.querySelector('[data-chart=github]');

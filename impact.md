@@ -20,8 +20,8 @@ strips:
     source: PubMed
   - chart: citations
     title: Citations, year by year
-    text: How often our work is cited each year. Yellow is citations to the lab's own papers; blue is citations to everything our current and former trainees have published, under their own names.
-    source: OpenAlex
+    text: How often our work is cited each year. Yellow is citations to the lab's own papers, as Google Scholar counts them; blue is citations to everything our current and former trainees have published, under their own names, as OpenAlex counts them.
+    source: Google Scholar, OpenAlex
   - chart: github
     title: Where our code lives, and how much it is used
     text: Public repositories in the lab's GitHub organizations and in my account, the stars other people have given them, and how many times they have been forked into someone else's account.
@@ -33,4 +33,4 @@ strips:
 graph_title: One graph
 graph_text: Our research areas, projects, software and data, people, and papers, connected by what links them in our own files. We place papers in areas by their titles and link them to people by authorship. Click a node to see its neighbors; double-click to open it.
 ---
-I keep two sets of numbers for the lab: what we have produced ourselves, and what the people who trained with us have gone on to do. Both update every week from public sources, named next to each figure. Below them is everything we have made, drawn as one graph.
+I keep two sets of numbers for the lab: what we have produced ourselves, and what the people who trained with us have gone on to do. Both update every week from public sources, named next to each figure. Between them and the charts is everything we have made, drawn as one graph.

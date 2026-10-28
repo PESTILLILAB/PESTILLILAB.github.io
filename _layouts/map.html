@@ -16,18 +16,6 @@ layout: default
       </div>
     </section>
 
-    <section class="flush">
-      <div class="wrap">
-        {% for st in page.strips %}
-        <div class="strip reveal">
-          <div class="strip-head"><h3>{{ st.title }}</h3><p class="muted">{{ st.text }} <span class="src">Source: {{ st.source }}</span></p></div>
-          <div class="strip-chart" data-chart="{{ st.chart }}"></div>
-        </div>
-        {% endfor %}
-        <p class="small muted" id="stats-updated"></p>
-      </div>
-    </section>
-
     <section>
       <div class="wrap">
         <div class="section-head reveal">
@@ -44,5 +32,17 @@ layout: default
           <aside class="map-panel" id="map-panel"><p class="muted">Click a node.</p></aside>
         </div>
         <noscript><p>The map needs JavaScript. The same information is on the Research, Projects, Code &amp; Data, Team and Publications pages.</p></noscript>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        {% for st in page.strips %}
+        <div class="strip reveal">
+          <div class="strip-head"><h3>{{ st.title }}</h3><p class="muted">{{ st.text }} <span class="src">Source: {{ st.source }}</span></p></div>
+          <div class="strip-chart" data-chart="{{ st.chart }}"></div>
+        </div>
+        {% endfor %}
+        <p class="small muted" id="stats-updated"></p>
       </div>
     </section>

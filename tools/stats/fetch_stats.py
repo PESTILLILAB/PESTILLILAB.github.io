@@ -186,7 +186,9 @@ def main():
         with urllib.request.urlopen(req, timeout=40) as r: page = r.read().decode("utf-8", "ignore")
         nums = [int(n) for n in re.findall(r'class="gsc_rsb_std">(\d+)<', page)]
         if len(nums) < 6: raise RuntimeError("profile table not found (blocked?)")
-        out["owned"]["scholar"] = {"citations": nums[0], "h_index": nums[2], "i10_index": nums[4], "as_of": datetime.date.today().isoformat()[:7], "url": sch.get("url")}
+        yrs = re.findall(r'class="gsc_g_t"[^>]*>(\d{4})<', page); cnt = re.findall(r'class="gsc_g_al"[^>]*>(\d+)<', page)
+        by_year = {y: int(c) for y, c in zip(yrs, cnt)} if len(yrs) == len(cnt) and yrs else {}
+        out["owned"]["scholar"] = {"citations": nums[0], "h_index": nums[2], "i10_index": nums[4], "as_of": datetime.date.today().isoformat()[:7], "url": sch.get("url"), "by_year": by_year}
         print("scholar:", nums[0], "citations")
     except Exception as e:
         print("scholar:", e, file=sys.stderr)
