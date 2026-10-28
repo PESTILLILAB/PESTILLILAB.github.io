@@ -57,6 +57,8 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
 
   deploy:
+    # runs after any successful build (the stats job above may legitimately be skipped)
+    if: needs.build.result == 'success'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
