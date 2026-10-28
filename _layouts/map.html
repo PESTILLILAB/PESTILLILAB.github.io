@@ -18,22 +18,12 @@ layout: default
 
     <section class="flush">
       <div class="wrap">
+        {% for st in page.strips %}
         <div class="strip reveal">
-          <div class="strip-head"><h3>Papers, year by year</h3><p class="muted">Peer-reviewed articles and indexed preprints with a lab author, by year of publication. <span class="src">Source: PubMed</span></p></div>
-          <div class="strip-chart" data-chart="papers"></div>
+          <div class="strip-head"><h3>{{ st.title }}</h3><p class="muted">{{ st.text }} <span class="src">Source: {{ st.source }}</span></p></div>
+          <div class="strip-chart" data-chart="{{ st.chart }}"></div>
         </div>
-        <div class="strip reveal">
-          <div class="strip-head"><h3>Citations, year by year</h3><p class="muted">How often the work is cited each year. The yellow bars are citations to the lab's own papers; the blue bars are citations to everything published by people who trained here, under their own names. <span class="src">Source: OpenAlex</span></p></div>
-          <div class="strip-chart" data-chart="citations"></div>
-        </div>
-        <div class="strip reveal">
-          <div class="strip-head"><h3>Code: where it lives and how much it is used</h3><p class="muted">Public repositories in the lab's GitHub organizations and the PI's account, with the stars others have given them and the number of times they have been copied (forked) into someone else's account. <span class="src">Source: GitHub</span></p></div>
-          <div class="strip-chart" data-chart="github"></div>
-        </div>
-        <div class="strip reveal">
-          <div class="strip-head"><h3>Most-starred repositories</h3><p class="muted">The lab's code that other people have marked as useful most often.</p></div>
-          <div class="strip-chart" data-chart="toprepos"></div>
-        </div>
+        {% endfor %}
         <p class="small muted" id="stats-updated"></p>
       </div>
     </section>

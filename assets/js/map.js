@@ -13,11 +13,13 @@
   /* ---------------- statistics ---------------- */
   function stat(v, label) { return '<div class="figure"><b>' + fmt(v) + '</b><span>' + label + '</span></div>'; }
   var o = S.owned || {}, d = S.derived || {};
+  var sch = D.scholar || {};
+  if (o.scholar && o.scholar.citations && (!sch.as_of || String(o.scholar.as_of) >= String(sch.as_of))) sch = Object.assign({}, sch, o.scholar);
   var ownedEl = document.querySelector('[data-tier=owned]'), derivedEl = document.querySelector('[data-tier=derived]');
   if (ownedEl) ownedEl.innerHTML =
     stat((o.papers || {}).total, 'papers on PubMed') +
-    (D.scholar && D.scholar.citations
-      ? stat(D.scholar.citations, 'citations · h-index ' + D.scholar.h_index + ' · <a href="' + D.scholar.url + '" target="_blank" rel="noopener">Google Scholar</a>, ' + D.scholar.as_of)
+    (sch && sch.citations
+      ? stat(sch.citations, 'citations · h-index ' + sch.h_index + ' · <a href="' + sch.url + '" target="_blank" rel="noopener">Google Scholar</a>, ' + sch.as_of)
       : stat((o.citations || {}).total, 'citations to them' + ((o.citations || {}).h_index ? ' · h-index ' + o.citations.h_index : ''))) +
     stat((o.github || {}).repos, 'public repositories') +
     stat((o.github || {}).stars, 'GitHub stars') +
@@ -31,7 +33,7 @@
     stat(((d.github || {}).stars || 0) + ((d.github || {}).forks || 0), 'stars and forks of their code') +
     stat((d.github || {}).followers, 'followers on GitHub');
   var upd = document.getElementById('stats-updated');
-  if (upd) upd.textContent = 'Updated ' + (S.updated || '–') + '. Automatic citation counts are from OpenAlex and run lower than Google Scholar, which also counts preprints and theses; the Scholar figure is copied by hand (OpenAlex counts ' + fmt((o.citations || {}).total) + ' for the same papers). Lab-derived citations cover all work by current and former trainees, not only work done here.';
+  if (upd) upd.textContent = 'Updated ' + (S.updated || '–') + '. The automatic citation counts come from OpenAlex and run lower than Google Scholar, which also counts preprints and theses; ' + (S.owned && S.owned.scholar ? 'the Scholar figures are read from my profile page' : 'I copy the Scholar figures from my profile by hand') + ' (OpenAlex counts ' + fmt((o.citations || {}).total) + ' for the same papers). Lab-derived citations cover all work by our current and former trainees, not only the work they did here.';
 
   function barChart(el, series, years, colors, tall) {
     // series: array of {year: value} maps; years: sorted list. Y axis with gridlines on the right; hover shows the value.

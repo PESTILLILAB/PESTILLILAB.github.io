@@ -9,6 +9,10 @@ Sources (all public, no keys needed; GITHUB_TOKEN raises the GitHub rate limit w
            person in _data/team.yml who has a github: link.
   OpenAlex citations and works for every person in _data/team.yml who has an openalex: id.
   PubMed   papers per year for the query in _config.yml (pubmed_query).
+  Scholar  optional, best effort: if _data/scholar.yml has "auto: true", the PI's public Scholar
+           profile page is read and its Citations / h-index / i10-index table parsed. Google has no
+           API and often refuses automated requests; when that happens the hand-copied numbers in
+           scholar.yml stay in use. Nothing else on the page depends on it.
 
 Two tiers:
   owned    the lab itself: PubMed papers, the PI's OpenAlex profile, repositories in the
@@ -170,6 +174,22 @@ def main():
                 m = re.match(r"(\d{4})", it.get("pubdate", ""))
                 if m: by_year[m.group(1)] = by_year.get(m.group(1), 0) + 1
             out["owned"]["papers"] = {"total": len(items), "by_year": by_year, "note": "from snapshot"}
+
+    # ---------- Google Scholar (optional) ----------
+    try:
+        sch_path = os.path.join(ROOT, "_data", "scholar.yml")
+        sch = load_yaml(sch_path) if os.path.exists(sch_path) else {}
+        if not (sch or {}).get("auto"): raise RuntimeError("skipped (set auto: true in _data/scholar.yml to try)")
+        import html as _html
+        url = sch.get("url", "").replace("citations?", "citations?hl=en&")
+        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36", "Accept-Language": "en-US,en;q=0.9"})
+        with urllib.request.urlopen(req, timeout=40) as r: page = r.read().decode("utf-8", "ignore")
+        nums = [int(n) for n in re.findall(r'class="gsc_rsb_std">(\d+)<', page)]
+        if len(nums) < 6: raise RuntimeError("profile table not found (blocked?)")
+        out["owned"]["scholar"] = {"citations": nums[0], "h_index": nums[2], "i10_index": nums[4], "as_of": datetime.date.today().isoformat()[:7], "url": sch.get("url")}
+        print("scholar:", nums[0], "citations")
+    except Exception as e:
+        print("scholar:", e, file=sys.stderr)
 
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     json.dump(out, open(OUT, "w", encoding="utf-8"), indent=1, ensure_ascii=False)
