@@ -360,7 +360,9 @@ section.flush { padding: 0 0 8px; border: 0; }
 .strip-chart .bar .val { opacity: 0; transition: opacity .12s; pointer-events: none; }
 .strip-chart .bar:hover .val, .strip-chart .show-values .bar .val { opacity: 1; }
 .strip-chart .bar:hover rect { filter: brightness(1.25); }
-.legend { margin: 8px 0 0; font-size: .8rem; color: var(--muted); }
+.legend { margin: 8px 0 0; font-size: .82rem; color: var(--muted); }
+.legend .k { display: inline-block; width: 11px; height: 11px; border-radius: 2px; margin: 0 7px 0 14px; vertical-align: middle; }
+.legend .k:first-child { margin-left: 0; }
 .hbars { display: flex; flex-direction: column; gap: 18px; }
 .hrow { display: grid; grid-template-columns: 200px 1fr; gap: 18px; align-items: center; }
 .hlabel a { font-weight: 600; color: var(--ink); display: block; }

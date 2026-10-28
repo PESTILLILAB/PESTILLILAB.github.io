@@ -65,6 +65,8 @@
   var citSrc = document.querySelector('[data-chart=citations]'); if (citSrc && sch.by_year && Object.keys(sch.by_year).length) { var srcEl = citSrc.parentNode.querySelector('.src'); if (srcEl) srcEl.textContent = 'Sources: Google Scholar (lab-owned), OpenAlex (lab-derived)'; }
   barChart(document.querySelector('[data-chart=papers]'), [pby], yrs([pby], 2008), [C.yellow], true);
   barChart(document.querySelector('[data-chart=citations]'), [cby, dby], yrs([cby, dby], thisYear - 11), [C.yellow, C.blue]);
+  var citEl = document.querySelector('[data-chart=citations]');
+  if (citEl && citEl.innerHTML) citEl.insertAdjacentHTML('beforeend', '<p class="legend"><i class="k" style="background:' + C.yellow + '"></i>lab-owned: citations to our papers <i class="k" style="background:' + C.blue + '"></i>lab-derived: citations to our trainees\' work</p>');
   var gh = document.querySelector('[data-chart=github]');
   if (gh && o.github && o.github.accounts) {
     var rows = o.github.accounts.slice().sort(function (a, b) { return b.repos - a.repos; });
