@@ -5,22 +5,34 @@ layout: default
 
     <section class="tight-top">
       <div class="wrap">
-        <div class="grid grid-2 tiers">
-          <div class="tier reveal" id="tier-owned">
-            <p class="eyebrow">{{ page.owned_title }}</p>
-            <div class="stats stats-3" data-tier="owned"></div>
-            <p class="small muted">{{ page.owned_text }}</p>
-          </div>
-          <div class="tier reveal" id="tier-derived">
-            <p class="eyebrow">{{ page.derived_title }}</p>
-            <div class="stats stats-3" data-tier="derived"></div>
-            <p class="small muted">{{ page.derived_text }}</p>
-          </div>
+        <div class="tier reveal" id="tier-owned">
+          <div class="tier-head"><p class="eyebrow">{{ page.owned_title }}</p><p class="tier-text">{{ page.owned_text }}</p></div>
+          <div class="figures" data-tier="owned"></div>
         </div>
-        <div class="grid grid-3 charts reveal">
-          <figure class="chart"><figcaption>Papers per year <span class="src">PubMed</span></figcaption><div data-chart="papers"></div></figure>
-          <figure class="chart"><figcaption>Citations per year <span class="src">OpenAlex</span></figcaption><div data-chart="citations"></div><p class="legend"><i class="k k-owned"></i>lab-owned <i class="k k-derived"></i>lab-derived</p></figure>
-          <figure class="chart"><figcaption>Repositories, stars and forks by account <span class="src">GitHub</span></figcaption><div data-chart="github"></div></figure>
+        <div class="tier reveal" id="tier-derived">
+          <div class="tier-head"><p class="eyebrow">{{ page.derived_title }}</p><p class="tier-text">{{ page.derived_text }}</p></div>
+          <div class="figures" data-tier="derived"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="flush">
+      <div class="wrap">
+        <div class="strip reveal">
+          <div class="strip-head"><h3>Papers, year by year</h3><p class="muted">Peer-reviewed articles and indexed preprints with a lab author, by year of publication. <span class="src">Source: PubMed</span></p></div>
+          <div class="strip-chart" data-chart="papers"></div>
+        </div>
+        <div class="strip reveal">
+          <div class="strip-head"><h3>Citations, year by year</h3><p class="muted">How often the work is cited each year. The yellow bars are citations to the lab's own papers; the blue bars are citations to everything published by people who trained here, under their own names. <span class="src">Source: OpenAlex</span></p></div>
+          <div class="strip-chart" data-chart="citations"></div>
+        </div>
+        <div class="strip reveal">
+          <div class="strip-head"><h3>Code: where it lives and how much it is used</h3><p class="muted">Public repositories in the lab's GitHub organizations and the PI's account, with the stars others have given them and the number of times they have been copied (forked) into someone else's account. <span class="src">Source: GitHub</span></p></div>
+          <div class="strip-chart" data-chart="github"></div>
+        </div>
+        <div class="strip reveal">
+          <div class="strip-head"><h3>Most-starred repositories</h3><p class="muted">The lab's code that other people have marked as useful most often.</p></div>
+          <div class="strip-chart" data-chart="toprepos"></div>
         </div>
         <p class="small muted" id="stats-updated"></p>
       </div>

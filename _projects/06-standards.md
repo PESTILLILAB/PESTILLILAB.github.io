@@ -4,7 +4,7 @@ slug: standards
 title: "Data standards and community infrastructure"
 role: "Standards & community"
 website: https://bids.neuroimaging.io
-areas: [infrastructure]   # research areas (slugs) this project belongs to, for the Map page
+areas: [infrastructure]   # research areas (slugs) this project belongs to, for the Impact page
 icon: standards   # an SVG in _includes/icons/
 meta: "Brain Imaging Data Structure (BIDS) Steering Committee · INCF Infrastructure Committee chair · International Brain Initiative data-sharing working group"
 ---

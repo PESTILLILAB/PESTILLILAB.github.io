@@ -43,7 +43,7 @@ quotes and commit again.
 | Change open positions | `join.md` |
 | Change the menu, footer address, or links | `_config.yml` |
 | Add a photo | upload to `assets/img/people/` (people) or `assets/img/` (other) |
-| Put someone's citations/GitHub on the Map page | `openalex:` and `github:` lines in `_data/team.yml` |
+| Put someone's citations/GitHub on the Impact page | `openalex:` and `github:` lines in `_data/team.yml` |
 
 ## Recipes
 
@@ -174,7 +174,7 @@ The Geneva page's text, dates and deadline are in `geneva.md`.
 Upload the photo to `assets/img/`, then at the top of `_data/team.yml` remove the `#` from the three
 `group_photo` lines and set the file name and caption.
 
-### The Map page (numbers and graph)
+### The Impact page (numbers and graph)
 
 The numbers come from `_data/stats.json`, which the site's workflow refreshes every Monday from GitHub,
 OpenAlex, and PubMed (`tools/stats/fetch_stats.py`); you never edit that file. The Google Scholar figures (citations, h-index) are the one manual part: copy them

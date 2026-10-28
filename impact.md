@@ -1,10 +1,10 @@
 ---
 layout: map
-title: Map
-eyebrow: Map
-headline: The lab in numbers, and as a graph
+title: Impact
+eyebrow: Impact
+headline: What the lab has produced, and where it has gone
 description: Output and impact of the Pestilli Lab, and a navigable map connecting its research areas, projects, software, people, and papers.
-permalink: /map/
+permalink: /impact/
 scripts:
   - /assets/js/pubmed-snapshot.js
   - /assets/js/map-data.js
@@ -16,4 +16,4 @@ derived_text: What people who trained here have gone on to produce under their o
 graph_title: One graph
 graph_text: Research areas, projects, software and data, people, and papers, connected by what links them in the lab's own files. Papers are placed in areas by their titles and linked to people by authorship. Click a node to see its neighbors; double-click to open it.
 ---
-Two tiers of the same numbers, updated weekly, with their sources named. Below them, everything the lab has made, as one connected graph.
+Two tiers of the same numbers, updated weekly, each with its source named. Below them, everything the lab has made, as one connected graph.

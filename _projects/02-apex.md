@@ -4,7 +4,7 @@ slug: apex
 title: "BRAIN CONNECTS · Axonal Projectome Exchange (APEX)"
 role: "Principal Investigator"
 website: https://brain-connects.org
-areas: [wiring, infrastructure]   # research areas (slugs) this project belongs to, for the Map page
+areas: [wiring, infrastructure]   # research areas (slugs) this project belongs to, for the Impact page
 icon: apex   # an SVG in _includes/icons/
 meta: "NIH BRAIN Initiative Data Coordination Center · NINDS U24 · 2024–2029 · MPI: Anastasia Yendiki (MGH / Harvard) · Co-Is at the University of Minnesota and the Allen Institute"
 ---

@@ -1,4 +1,4 @@
-/* Map page: statistics band + navigable graph. No external libraries.
+/* Impact page: statistics band + navigable graph. No external libraries.
    Data comes from map-data.js (built by Jekyll from _data and the collections)
    and pubmed-snapshot.js (papers). Nothing here needs editing to add content. */
 (function () {
@@ -11,7 +11,7 @@
   var fmt = function (n) { return n == null ? '–' : (n >= 10000 ? (n / 1000).toFixed(1) + 'k' : String(n).replace(/\B(?=(\d{3})+(?!\d))/g, ',')); };
 
   /* ---------------- statistics ---------------- */
-  function stat(v, label) { return '<div class="stat"><b>' + fmt(v) + '</b><span>' + label + '</span></div>'; }
+  function stat(v, label) { return '<div class="figure"><b>' + fmt(v) + '</b><span>' + label + '</span></div>'; }
   var o = S.owned || {}, d = S.derived || {};
   var ownedEl = document.querySelector('[data-tier=owned]'), derivedEl = document.querySelector('[data-tier=derived]');
   if (ownedEl) ownedEl.innerHTML =
@@ -33,18 +33,18 @@
   var upd = document.getElementById('stats-updated');
   if (upd) upd.textContent = 'Updated ' + (S.updated || '–') + '. Automatic citation counts are from OpenAlex and run lower than Google Scholar, which also counts preprints and theses; the Scholar figure is copied by hand (OpenAlex counts ' + fmt((o.citations || {}).total) + ' for the same papers). Lab-derived citations cover all work by current and former trainees, not only work done here.';
 
-  function barChart(el, series, years, colors) {
+  function barChart(el, series, years, colors, tall) {
     // series: array of {year: value} maps; years: sorted list. Y axis with gridlines on the right; hover shows the value.
     if (!el || !years.length) return;
-    var W = 320, H = 130, padL = 4, padR = 34, padB = 18, padT = 6, n = years.length, gw = (W - padL - padR) / n, max = 1;
+    var W = 760, H = tall ? 200 : 170, padL = 4, padR = 44, padB = 20, padT = 10, n = years.length, gw = (W - padL - padR) / n, max = 1;
     series.forEach(function (s) { years.forEach(function (y) { max = Math.max(max, s[y] || 0); }); });
     var step = Math.pow(10, Math.floor(Math.log10(max))); if (max / step < 2) step /= 2; else if (max / step > 5) step *= 2;
     var top = Math.ceil(max / step) * step, plotH = H - padB - padT;
-    var svg = '<svg viewBox="0 0 ' + W + ' ' + H + '" role="img" class="bars">';
+    var svg = '<svg viewBox="0 0 ' + W + ' ' + H + '" role="img" class="bars' + (tall ? ' show-values' : '') + '">';
     for (var v = 0; v <= top; v += step) {
       var gy = padT + plotH - plotH * v / top;
       svg += '<line x1="' + padL + '" x2="' + (W - padR + 4) + '" y1="' + gy + '" y2="' + gy + '" stroke="rgba(238,243,246,0.1)"/>' +
-             '<text x="' + (W - padR + 8) + '" y="' + (gy + 3) + '" font-size="9" fill="' + C.muted + '" font-family="Geist Mono, monospace">' + fmt(v) + '</text>';
+             '<text x="' + (W - padR + 8) + '" y="' + (gy + 3) + '" font-size="10" fill="' + C.muted + '" font-family="Geist Mono, monospace">' + fmt(v) + '</text>';
     }
     years.forEach(function (y, i) {
       var x = padL + i * gw;
@@ -53,24 +53,34 @@
         svg += '<g class="bar"><rect x="' + (x + k * bw) + '" y="' + (padT + plotH - h) + '" width="' + Math.max(bw - 1, 1) + '" height="' + h + '" fill="' + colors[k] + '" rx="1"/>' +
                '<text class="val" x="' + (x + k * bw + bw / 2) + '" y="' + (padT + plotH - h - 3) + '" text-anchor="middle" font-size="9" fill="' + C.ink + '" font-family="Geist Mono, monospace">' + fmt(v) + '</text><title>' + y + ': ' + fmt(v) + '</title></g>';
       });
-      if (n <= 8 || i % Math.ceil(n / 8) === 0) svg += '<text x="' + (x + gw / 2) + '" y="' + (H - 4) + '" text-anchor="middle" font-size="9" fill="' + C.muted + '" font-family="Geist Mono, monospace">' + y + '</text>';
+      if (n <= 20 || i % Math.ceil(n / 20) === 0) svg += '<text x="' + (x + gw / 2) + '" y="' + (H - 4) + '" text-anchor="middle" font-size="10" fill="' + C.muted + '" font-family="Geist Mono, monospace">' + y + '</text>';
     });
     el.innerHTML = svg + '</svg>';
   }
   var yrs = function (maps, from) { var set = {}; maps.forEach(function (m) { Object.keys(m || {}).forEach(function (y) { if (+y >= from) set[y] = 1; }); }); return Object.keys(set).sort(); };
   var thisYear = new Date().getFullYear();
   var pby = (o.papers || {}).by_year || {}, cby = (o.citations || {}).by_year || {}, dby = (d.citations || {}).by_year || {};
-  barChart(document.querySelector('[data-chart=papers]'), [pby], yrs([pby], 2008), [C.yellow]);
+  barChart(document.querySelector('[data-chart=papers]'), [pby], yrs([pby], 2008), [C.yellow], true);
   barChart(document.querySelector('[data-chart=citations]'), [cby, dby], yrs([cby, dby], thisYear - 11), [C.yellow, C.blue]);
   var gh = document.querySelector('[data-chart=github]');
   if (gh && o.github && o.github.accounts) {
     var rows = o.github.accounts.slice().sort(function (a, b) { return b.repos - a.repos; });
     var maxv = Math.max.apply(null, rows.map(function (a) { return Math.max(a.repos, a.stars, a.forks); })) || 1;
-    gh.innerHTML = '<table class="mini">' + rows.map(function (a) {
-      var bar = function (v, c) { return '<span class="bar" style="width:' + (100 * v / maxv) + '%;background:' + c + '"></span>'; };
-      return '<tr><th><a href="https://github.com/' + a.login + '" target="_blank" rel="noopener">' + a.login + '</a></th>' +
-        '<td>' + bar(a.repos, C.muted) + '<i>' + a.repos + ' repos</i></td><td>' + bar(a.stars, C.yellow) + '<i>' + a.stars + ' stars</i></td><td>' + bar(a.forks, C.blue) + '<i>' + a.forks + ' forks</i></td></tr>';
-    }).join('') + '</table>';
+    var metrics = [['repos', 'repositories', C.muted], ['stars', 'stars', C.yellow], ['forks', 'forks', C.blue]];
+    gh.innerHTML = '<div class="hbars">' + rows.map(function (a) {
+      return '<div class="hrow"><div class="hlabel"><a href="https://github.com/' + a.login + '" target="_blank" rel="noopener">' + a.login + '</a><span class="muted small">' + (a.kind === 'org' ? 'organization' : 'personal account') + ' · ' + fmt(a.followers) + ' followers</span></div><div class="hset">' +
+        metrics.map(function (m) { var v = a[m[0]] || 0; return '<div class="hbar"><i style="width:' + Math.max(1, 100 * v / maxv) + '%;background:' + m[2] + '"></i><b>' + fmt(v) + '</b><span>' + m[1] + '</span></div>'; }).join('') + '</div></div>';
+    }).join('') + '</div>';
+  }
+  var tr = document.querySelector('[data-chart=toprepos]');
+  if (tr && o.github && o.github.accounts) {
+    var all = [];
+    o.github.accounts.forEach(function (a) { (a.top || []).forEach(function (r) { all.push({ owner: a.login, name: r.name, stars: r.stars, forks: r.forks, language: r.language, pushed: r.pushed }); }); });
+    all.sort(function (a, b) { return b.stars - a.stars; });
+    var maxs = all.length ? all[0].stars : 1;
+    tr.innerHTML = '<ol class="toprepos">' + all.slice(0, 8).map(function (r) {
+      return '<li><a href="https://github.com/' + r.owner + '/' + r.name + '" target="_blank" rel="noopener"><span class="rname">' + r.owner + '/<b>' + r.name + '</b></span></a><i style="width:' + (100 * r.stars / maxs) + '%"></i><span class="rnum">' + fmt(r.stars) + ' stars · ' + fmt(r.forks) + ' forks' + (r.language ? ' · ' + r.language : '') + '</span></li>';
+    }).join('') + '</ol>';
   }
 
   /* ---------------- graph data ---------------- */
@@ -259,6 +269,6 @@
   }
   var search = document.getElementById('map-search');
   if (search) search.addEventListener('input', function () { query = search.value.trim().toLowerCase(); });
-  // deep link: /map/#node=person:Name or #node=paper:PMID
+  // deep link: /impact/#node=person:Name or #node=paper:PMID
   var m = /node=([^&]+)/.exec(location.hash); if (m) { var target = byId[decodeURIComponent(m[1])]; if (target) { setTimeout(function () { select(target); centerOn(target); }, 1200); } }
 })();

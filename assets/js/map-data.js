@@ -1,5 +1,5 @@
 ---
-# Built by Jekyll: gathers the site's data files into one object for the Map page.
+# Built by Jekyll: gathers the site's data files into one object for the Impact page.
 ---
 window.MAP_DATA = {
   areas: [{% for a in site.research %}{ slug: {{ a.slug | jsonify }}, title: {{ a.title | jsonify }}, number: {{ a.number | jsonify }}, accent: {{ a.accent | default: 'blue' | jsonify }}, summary: {{ a.summary | jsonify }}, url: "{{ '/research/' | relative_url }}#{{ a.slug }}" }{% unless forloop.last %},{% endunless %}{% endfor %}],

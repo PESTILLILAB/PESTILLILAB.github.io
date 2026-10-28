@@ -1,4 +1,4 @@
-# Rules that place each paper on the Map page in a research area.
+# Rules that place each paper on the Impact page in a research area.
 # A paper's title is scored against the keyword lists below (case-insensitive substring match);
 # it joins the area(s) with the highest score. Papers matching nothing go to "other".
 # To pin a paper by hand, add its PubMed ID under overrides.

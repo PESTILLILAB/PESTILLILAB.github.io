@@ -4,7 +4,7 @@ slug: governance
 title: "Global Brain Governance"
 role: "Lead"
 website: https://braindatagovernance.org
-areas: [governance]   # research areas (slugs) this project belongs to, for the Map page
+areas: [governance]   # research areas (slugs) this project belongs to, for the Impact page
 icon: governance   # an SVG in _includes/icons/
 meta: "An open ecosystem of tools for sharing brain data across borders · maintained by the lab · funded by Wellcome"
 ---

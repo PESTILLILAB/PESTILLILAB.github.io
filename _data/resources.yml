@@ -1,6 +1,6 @@
 # Code & Data page. Each group has a title and a list of items.
 # Item fields: name, description (one sentence), url, repo (optional GitHub link), tag (optional: platform, tool, dataset, atlas, benchmark, standard, code)
-# For the Map page (optional): area (slug of a research area in _research/), project (slug of a project in _projects/), pmids (list of PubMed IDs of papers about this item)
+# For the Impact page (optional): area (slug of a research area in _research/), project (slug of a project in _projects/), pmids (list of PubMed IDs of papers about this item)
 - group: Platforms and tools
   items:
     - name: brainlife.io

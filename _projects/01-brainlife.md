@@ -4,7 +4,7 @@ slug: brainlife
 title: "brainlife.io"
 role: "Founder & Director"
 website: https://brainlife.io
-areas: [infrastructure]   # research areas (slugs) this project belongs to, for the Map page
+areas: [infrastructure]   # research areas (slugs) this project belongs to, for the Impact page
 icon: brainlife   # an SVG in _includes/icons/
 meta: "Open, free cloud platform for neuroscience · 5,000+ registered users · [github.com/brainlife](https://github.com/brainlife)"
 ---

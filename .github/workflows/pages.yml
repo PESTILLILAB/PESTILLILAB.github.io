@@ -1,5 +1,5 @@
 # Builds the Jekyll site and publishes it to GitHub Pages on every push to main.
-# Once a week (and on manual runs) it first refreshes _data/stats.json for the Map page.
+# Once a week (and on manual runs) it first refreshes _data/stats.json for the Impact page.
 # Nothing to configure: the repository's Pages source is "GitHub Actions".
 name: Deploy site
 
@@ -21,7 +21,7 @@ concurrency:
 
 jobs:
   stats:
-    # Weekly numbers for the Map page (GitHub, OpenAlex, PubMed). Skipped on ordinary pushes.
+    # Weekly numbers for the Impact page (GitHub, OpenAlex, PubMed). Skipped on ordinary pushes.
     if: github.event_name != 'push'
     runs-on: ubuntu-latest
     steps:
