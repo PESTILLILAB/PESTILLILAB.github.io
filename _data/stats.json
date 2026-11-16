@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09",
+ "updated": "2026-11-16",
  "owned": {
   "github": {
    "accounts": [
@@ -27,7 +27,7 @@
        "forks": 10,
        "issues": 0,
        "language": "JavaScript",
-       "pushed": "2026-11-03",
+       "pushed": "2026-11-09",
        "archived": false
       },
       {
@@ -66,7 +66,7 @@
      "repos": 270,
      "stars": 266,
      "forks": 339,
-     "active": 28,
+     "active": 27,
      "top": [
       {
        "name": "ezbids",
@@ -148,10 +148,10 @@
      "login": "francopestilli",
      "kind": "user",
      "followers": 101,
-     "repos": 30,
+     "repos": 31,
      "stars": 62,
      "forks": 58,
-     "active": 3,
+     "active": 4,
      "top": [
       {
        "name": "life",
@@ -201,7 +201,7 @@
      ]
     }
    ],
-   "repos": 313,
+   "repos": 314,
    "stars": 352,
    "forks": 441,
    "followers": 229,
@@ -231,10 +231,9 @@
    }
   },
   "citations": {
-   "total": 6243,
-   "works": 430,
+   "total": 6424,
+   "works": 432,
    "by_year": {
-    "1982": 0,
     "1999": 0,
     "2004": 0,
     "2005": 0,
@@ -246,18 +245,18 @@
     "2012": 65,
     "2013": 62,
     "2014": 84,
-    "2015": 140,
+    "2015": 144,
     "2016": 178,
-    "2017": 258,
-    "2018": 275,
-    "2019": 349,
+    "2017": 259,
+    "2018": 276,
+    "2019": 347,
     "2020": 383,
-    "2021": 560,
-    "2022": 499,
-    "2023": 527,
-    "2024": 738,
-    "2025": 945,
-    "2026": 934
+    "2021": 564,
+    "2022": 514,
+    "2023": 543,
+    "2024": 763,
+    "2025": 973,
+    "2026": 1020
    },
    "h_index": 42
   }
@@ -269,15 +268,15 @@
      "login": "gamorosino",
      "name": "Gabriele Amorosino",
      "followers": 1,
-     "repos": 64,
+     "repos": 69,
      "stars": 2,
      "forks": 8,
-     "active": 49
+     "active": 54
     },
     {
      "login": "anibalsolon",
      "name": "Anibal S. Heinsfeld",
-     "followers": 205,
+     "followers": 207,
      "repos": 35,
      "stars": 59,
      "forks": 23,
@@ -455,35 +454,35 @@
      "active": 18
     }
    ],
-   "repos": 463,
+   "repos": 468,
    "stars": 148,
    "forks": 209,
-   "followers": 327,
-   "active": 86,
+   "followers": 329,
+   "active": 91,
    "people": 21
   },
   "citations": {
-   "total": 18698,
-   "works": 1237,
+   "total": 19322,
+   "works": 1239,
    "people": 27,
    "by_year": {
-    "2017": 439,
-    "2019": 739,
-    "2020": 1195,
-    "2021": 1544,
-    "2022": 1734,
-    "2023": 1977,
-    "2024": 2736,
-    "2025": 3045,
-    "2026": 2648,
+    "2017": 440,
+    "2019": 737,
+    "2020": 1202,
+    "2021": 1564,
+    "2022": 1786,
+    "2023": 2043,
+    "2024": 2862,
+    "2025": 3148,
+    "2026": 2888,
     "1998": 0,
     "2011": 0,
     "2012": 135,
     "2013": 223,
     "2015": 331,
-    "2016": 360,
-    "2018": 552,
-    "2014": 238,
+    "2016": 361,
+    "2018": 556,
+    "2014": 239,
     "1973": 0,
     "1974": 0,
     "1976": 0,
@@ -519,52 +518,52 @@
    "top": [
     {
      "name": "Om Pandey",
-     "cited": 7948,
-     "works": 348
+     "cited": 7994,
+     "works": 349
     },
     {
      "name": "Anibal S. Heinsfeld",
-     "cited": 2333,
+     "cited": 2437,
      "works": 33
     },
     {
      "name": "Bradley Caron",
-     "cited": 1124,
+     "cited": 1161,
      "works": 71
     },
     {
+     "name": "Lindsey Kitchell",
+     "cited": 998,
+     "works": 75
+    },
+    {
      "name": "Yiming Qian",
-     "cited": 942,
+     "cited": 964,
      "works": 55
     },
     {
      "name": "Daniel N. Bullock",
-     "cited": 900,
+     "cited": 941,
      "works": 73
     },
     {
-     "name": "Lindsey Kitchell",
-     "cited": 825,
-     "works": 75
-    },
-    {
      "name": "Ilaria Sani",
-     "cited": 684,
-     "works": 58
+     "cited": 691,
+     "works": 59
     },
     {
      "name": "Marietjie Botes",
-     "cited": 645,
+     "cited": 672,
      "works": 91
     },
     {
      "name": "Sophia Vinci-Booher",
-     "cited": 529,
+     "cited": 562,
      "works": 77
     },
     {
      "name": "Josiah Leong",
-     "cited": 493,
+     "cited": 514,
      "works": 39
     }
    ]
